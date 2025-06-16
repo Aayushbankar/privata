@@ -1,0 +1,17 @@
+# Core AI & NLP stack
+langchain>=0.1.14
+langchain-community>=0.0.19
+langchain-chroma>=0.0.13
+sentence-transformers>=2.2.2
+unstructured[pdf]>=0.10.10
+
+# Gemini (Google LLM)
+google-generativeai>=0.3.0
+
+# UX / IO
+tqdm>=4.66.1
+rich>=13.7.1
+requests>=2.31.0
+
+# Optional: env var loading
+python-dotenv>=1.0.0

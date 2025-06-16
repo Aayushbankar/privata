@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local virtual environments
+venv/
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor metadata
+.vscode/
+.idea/
+*.swp
+
+# Chroma vector DB output
+db/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Python cache
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter notebook checkpoints (if ever used)
+.ipynb_checkpoints/
