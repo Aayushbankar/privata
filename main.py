@@ -26,7 +26,7 @@ def run_menu():
         else:
             print("Invalid choice. Please try again.")
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     try:
         ensure_ollama_running()
         run_menu()
