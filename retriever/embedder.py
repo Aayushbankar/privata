@@ -24,4 +24,3 @@ def embed_query(query: str) -> List[float]:
     Embeds a single user query.
     """
     return _embedder.embed_query(query)
-# ks="AIzaSyAAE2yhNVeOBZiZW3D0XslLPJbJZMF2F3o" 
