@@ -1,17 +1,22 @@
-# Core AI & NLP stack
+# RAG Core
 langchain>=0.1.14
 langchain-community>=0.0.19
 langchain-chroma>=0.0.13
 sentence-transformers>=2.2.2
 unstructured[pdf]>=0.10.10
 
-# Gemini (Google LLM)
+# Gemini API
 google-generativeai>=0.3.0
 
-# UX / IO
+# System I/O
 tqdm>=4.66.1
 rich>=13.7.1
 requests>=2.31.0
-
-# Optional: env var loading
 python-dotenv>=1.0.0
+
+# Compatibility Fixes for Python 3.13
+numpy<2.0.0
+scikit-learn>=1.4.2
+scipy>=1.12.0
+pybind11>=2.12
+transformers>=4.41.1

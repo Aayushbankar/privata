@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 
 # Local virtual environments
+.venv/
 venv/
 .env
 .env.*
@@ -33,3 +34,10 @@ build/
 
 # Jupyter notebook checkpoints (if ever used)
 .ipynb_checkpoints/
+
+
+__pycache__/
+db/
+.venv/
+.env
+*.lock.txt
