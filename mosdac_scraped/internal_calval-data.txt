@@ -1,9 +1,0 @@
-URL: https://mosdac.gov.in/internal/calval-data
-
-English
-Hindi (हिन्दी)
-MOSDAC Single-Sign-On(SSO)
-Forgot Password?
-मॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित
-मॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित
-Owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.

@@ -1,43 +1,43 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*.pyo
+# # Byte-compiled / optimized / DLL files
+# __pycache__/
+# *.py[cod]
+# *.pyo
 
-# Local virtual environments
-.venv/
-venv/
-.env
-.env.*
+# # Local virtual environments
+# .venv/
+# venv/
+# .env
+# .env.*
 
-# OS-specific files
-.DS_Store
-Thumbs.db
+# # OS-specific files
+# .DS_Store
+# Thumbs.db
 
-# IDE/editor metadata
-.vscode/
-.idea/
-*.swp
+# # IDE/editor metadata
+# .vscode/
+# .idea/
+# *.swp
 
-# Chroma vector DB output
-db/
+# # Chroma vector DB output
+# db/
 
-# Logs and temporary files
-*.log
-*.tmp
-*.bak
+# # Logs and temporary files
+# *.log
+# *.tmp
+# *.bak
 
-# Python cache
-*.egg-info/
-dist/
-build/
-.eggs/
+# # Python cache
+# *.egg-info/
+# dist/
+# build/
+# .eggs/
 
-# Jupyter notebook checkpoints (if ever used)
-.ipynb_checkpoints/
+# # Jupyter notebook checkpoints (if ever used)
+# .ipynb_checkpoints/
 
 
-__pycache__/
-db/
-.venv/
-.env
-*.lock.txt
+# __pycache__/
+# db/
+# .venv/
+# .env
+# *.lock.txt
