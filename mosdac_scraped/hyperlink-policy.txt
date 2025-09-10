@@ -1,0 +1,92 @@
+URL: https://mosdac.gov.in/hyperlink-policy
+
+Skip to main Content
+A
+A
+Secondary menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Home
+MissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+OCEANSAT-2
+OCEANSAT-3
+INSAT-3DS
+SCATSAT-1
+CatalogSatelliteInsitu (AWS)RADAR
+Satellite
+Insitu (AWS)
+RADAR
+GalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean Current
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data AccessOrder DataAPI based AccessOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS Feeds
+Order Data
+API based Access
+Open DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable Energy
+AtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud Properties
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil Moisture
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+OceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable Energy
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+ReportsCalibrationInsituRelativeValidationData QualityWeather
+CalibrationInsituRelative
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Sitemap
+Help
+You are here
+Hyperlink Policy
+Links to external websites/portals
+At many places in this Portal, you shall find links to other websites/portals. This links have been placed for your convenience. MOSDAC is not responsible for the contents and reliability of the linked websites and does not necessarily endorse the views expressed in them. Mere presence of the link or its listing on this Portal should not be assumed as endorsement of any kind. We can not guarantee that these links will work all the time and we have no control over availability of linked pages.
+Links to MOSDAC Portal by other websites
+We do not object to you linking directly to the information that is hosted on this Portal and no prior permission is required for the same. However, we would like you to inform us about any links provided to this Portal so that you can be informed of any changes or updations therein. Also, we do not permit our pages to be loaded into frames on your site. The pages belonging to this Portal must load into a newly opened browser window of the User.
+हिन्दी
+Search
+Follow Us
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+"Ver 3.0; Last reviewed and updated on
+09 Sep, 2025& Served By:
+Web-Srv-Pri

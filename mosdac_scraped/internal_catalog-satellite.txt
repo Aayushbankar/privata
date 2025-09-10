@@ -1,0 +1,24 @@
+URL: https://mosdac.gov.in/internal/catalog-satellite
+
+A-
+A
+A+
+{{$index + 1}}
+{{allproduct.name}}
+{{allproduct.description}}
+{{allproduct.processlevel}}
+{{allproduct.frequency | uppercase}}
+{{allproduct.startdate}}
+{{allproduct.enddate}}
+{{allproduct.actv}}
+{{allproduct.actv}}
+{{allproduct.techdoc}}
+{{$index + 1}}
+{{allversion.version}}
+{{allversion.desc}}
+--
+{{allversion.stdate}}
+{{allversion.enddate}}
+1
+Default Version
+Initial Version

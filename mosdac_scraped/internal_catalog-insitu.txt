@@ -1,0 +1,17 @@
+URL: https://mosdac.gov.in/internal/catalog-insitu
+
+A-
+A
+A+
+{{$index + 1}}
+{{allproduct.name}}
+{{allproduct.state}}
+{{allproduct.id}}
+{{allproduct.key}}
+{{allproduct.latres}}
+{{allproduct.longres}}
+{{allproduct.startdate}}
+{{allproduct.enddate}}
+{{allproduct.actv}}
+{{allproduct.actv}}
+{{allproduct.frequency}}

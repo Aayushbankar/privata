@@ -1,0 +1,206 @@
+URL: https://mosdac.gov.in/gsmap-isro-rain
+
+Skip to main Content
+A
+A
+Secondary menu
+SignUp
+Login
+Logout
+Meteorological & Oceanographic Satellite Data Archival Centre
+Home
+MissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1
+INSAT-3DR
+INSAT-3D
+KALPANA-1
+INSAT-3A
+MeghaTropiques
+SARAL-AltiKa
+OCEANSAT-2
+OCEANSAT-3
+INSAT-3DS
+SCATSAT-1
+CatalogSatelliteInsitu (AWS)RADAR
+Satellite
+Insitu (AWS)
+RADAR
+GalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean Current
+Satellite Products
+Weather Forecast
+Ocean Forecast
+RADAR (DWR)
+Global Ocean Current
+Data AccessOrder DataAPI based AccessOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS Feeds
+Order Data
+API based Access
+Open DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable Energy
+AtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud Properties
+Bayesian based MT-SAPHIR rainfall
+GPS derived Integrated water vapour
+GSMap ISRO Rain
+METEOSAT8 Cloud Properties
+Land3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil Moisture
+3D Volumetric TERLS DWRproduct
+Inland Water Height
+River Discharge
+Soil Moisture
+OceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable Energy
+Global Ocean Surface Current
+High Resolution Sea Surface Salinity
+Indian Mainland Coastal Product
+Ocean Subsurface
+Oceanic Eddies Detection
+Sea Ice Occurrence Probability
+Wave based Renewable Energy
+Cal-Val
+Forecast
+RSS Feeds
+ReportsCalibrationInsituRelativeValidationData QualityWeather
+CalibrationInsituRelative
+Insitu
+Relative
+Validation
+Data Quality
+Weather
+Atlases
+Tools
+Sitemap
+Help
+You are here
+GSMap ISRO Rain
+Data Access
+Data Access
+Data Version
+Data Version
+Version 1.0 (beta)
+Data Sources
+Data Sources
+GSMaP_MVK product, NOAA Climate Prediction Center (CPC) rainfall analysis, CPC Infrared brightness temperature, IMD gridded rain (0.25 degree), etc.
+Processing Steps
+Processing Steps
+-For gauge adjustment, the software used was JAXA MCD_V05.02, based upon Mega et al. (2019). -Merging NOAA CPC and Indian gauges was accomplished using Matlab software. -The algorithms pertaining to GSMaP_ISRO are provided in Kumar et al. (2022) in detail.
+References
+References
+Kubota, T., Aonashi, K., Ushio, T., Shige, S., Takayabu, Y. N., Kachi, M., and Oki, R. (2020). Global Satellite Mapping of Precipitation (GSMaP) products in the GPM era. Satellite Precipitation Measurement: Volume 1, 355-373. Kumar, P., Gairola, R., Kubota, T., and Kishtawal, C. (2021). Hybrid assimilation of satellite rainfall product with high density gauge network to improve daily estimation: A case of Karnataka, India. Journal of the Meteorological Society of Japan. Ser. II, 99(3), 741-763. Kumar, P., Varma, A. K., Kubota, T., Yamaji, M., Tashima, T., Mega, T., and Ushio, T. (2022). Long-Term High-Resolution Gauge Adjusted Satellite Rainfall Product Over India. Earth and Space Science, 9(12), e2022EA002595. Mega, T., Ushio, T., Matsuda, T., Kubota, T., Kachi, M., and Oki, R. (2019) Gauge-Adjusted Global Satellite Mapping of Precipitation, IEEE Trans. Geosci. Remote Sens, 57, 4, 1928-1935.
+Kumar, P., Srivastava, S.S., Jivani, N., Varma, A.K., Yokoyama, C. & Kubota, T. (2024) Long-term assessment of ERA5 reanalysis rainfall for lightning events over India observed by Tropical Rainfall Measurement Mission Lightning Imaging Sensor. Quarterly Journal of the Royal Meteorological Society, 150(761), 2472â€“2488. Available from:https://doi.org/10.1002/qj.4719
+Derivation Techniques and Algorithm
+Derivation Techniques and Algorithm
+The manuscript titled "Long-Term High-Resolution Gauge Adjusted Satellite Rainfall Product Over India" provides a description.
+Limitations
+Limitations
+The number of gauge stations within a NOAA CPC pixel of 0.5 degree impacts the accuracy of the gauge-adjusted rainfall.
+Known problems with data
+Known problems with data
+No known issues at this time.
+File Naming Convention
+File Naming Convention
+MetaData
+MetaData
+Sr. No
+Core Metadata Elements
+Definition
+1
+Metadata language
+English
+2
+Metadata Contact
+MOSDAC
+3
+Metadata date
+November, 2023
+4
+Data Lineage or Quality
+IMD gauge adjusted GSMaP_ISRO Rain
+5
+Title
+GSMaP_ISRO Rain
+6
+Abstract
+The GSMaP_ISRO rain data has been derived through the IMD gauge based gridded rain & NOAA CPC gauge analysis adjustment of the GSMaP_MVK rain product. It offers high-quality rainfall information with excellent spatiotemporal resolution, covering a range spanning from March 2000 Onwards. It has been developed through the ISRO-JAXA Implementation of Agreement (IA). This product provides a lat/long grid with a 0.1° X 0.1° horizontal resolution, along with hourly temporal resolution.
+6a
+Developer
+Prashant Kumar, Atul K. Varma, Takuji Kubota, Moeka Yamaji, Tomoko Tashima, Tomoaki Mega, Tomoo Ushio
+7
+Dataset Contact
+Dr. Prashant Kumar, ASD/AOSG/EPSA Space Applications Centre, ISRO Ahmedabad-380015prashant22@sac.isro.gov.in
+8
+Update Frequency
+23 years of global GSMaP_ISRO rain. Further data will be added intermittently.
+9
+Access Rights or Restriction
+Open Access
+10
+Spatial Resolution
+0.1 degree
+11
+Language
+English
+12
+Topic Category
+Gauge adjusted satellite rainfall
+13
+Keywords
+GSMaP_MVK, NOAA CPC rainfall analysis, CPC Infrared brightness temperature, IMD gridded rain (0.25 degree).
+14
+Date or period
+March 2000 Onwards
+15
+Responsible Party
+Dr. Prashant Kumar, ASD/AOSG/EPSA, Space Applications Centre, ISRO Ahmedabad-380015, India
+16
+Organization
+Space Applications Centre (ISRO), Ahmedabad, India
+16a
+Org. role
+Development of high spatio-temporal resolution gauge adjusted satellite rainfall
+16b
+Individual name
+Dr. Prashant Kumar, ASD/AOSG/EPSA, Space Applications Centre, ISRO Ahmedabad-380015, India Email:prashant22@sac.isro.gov.in
+Dr. Prashant Kumar, ASD/AOSG/EPSA, Space Applications Centre, ISRO Ahmedabad-380015, India Email:prashant22@sac.isro.gov.in
+16c
+Position
+Scientist/Engineer - SF
+17
+Geographic Extent
+Global
+18
+Geographic name, geographic Identifier
+Global
+19
+Bounding box
+lat_min: -90 , lat_max: 90, lon_min: 0, lon_max: 360
+20
+Temporal Extent
+March 2000 Onwards
+21
+Access Rights or Restrictions
+Open Access
+22
+Distribution Information
+Online download of data files in HDF5 format
+23
+Processing Level
+Level 3 (Gauge adjusted satellite rainfall product)
+24
+Reference System
+Datum: WGS84
+Tags:
+Opendata
+Atmosphere
+Search
+Follow Us
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+Feedback
+About Us
+Contact Us
+Copyright Policy
+Data Access Policy
+Hyperlink Policy
+Privacy Policy
+Website Policies
+Terms & Conditions
+FAQs
+"Ver 3.0; Last reviewed and updated on
+09 Sep, 2025& Served By:
+Web-Srv-Pri
