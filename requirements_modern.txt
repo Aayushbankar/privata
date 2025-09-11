@@ -1,0 +1,30 @@
+# Additional requirements for modern RAG system
+
+# ChromaDB (direct usage, not through LangChain)
+chromadb>=0.4.22
+
+# Sentence Transformers for embeddings
+sentence-transformers>=2.2.2
+
+# Cross-encoder for reranking
+sentence-transformers[cross-encoder]>=2.2.2
+
+# HTML parsing and processing
+beautifulsoup4>=4.12.2
+html2text>=2020.1.16
+
+# Additional text processing
+numpy>=1.24.3
+scikit-learn>=1.3.0
+
+# For structured data extraction
+python-dateutil>=2.8.2
+
+# For enhanced metadata extraction
+pandas>=2.0.3
+
+# For modern vector DB operations
+uuid>=1.30
+
+# Note: Many of these may already be installed via the existing requirements.txt
+# This file lists the additional specific dependencies for the modern components
