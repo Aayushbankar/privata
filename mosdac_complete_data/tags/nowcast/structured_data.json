@@ -1,0 +1,105 @@
+{
+  "url": "http://mosdac.gov.in/tags/nowcast",
+  "title": "Nowcast | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "http://mosdac.gov.in/tags/nowcast",
+    "domain": "mosdac.gov.in",
+    "path": "/tags/nowcast",
+    "description": "",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/tags/nowcast",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Nowcast",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Cloud Burst",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 5,
+      "level": 2,
+      "text": "Heavy Rain",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 6,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 7,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 8,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6300000000000001,
+  "extracted_at": "2025-09-13T04:44:11.152489",
+  "content_length": 8446,
+  "rag_optimized": true
+}

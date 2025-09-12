@@ -1,0 +1,102 @@
+{
+  "url": "https://mosdac.gov.in/data-access-policy",
+  "title": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/data-access-policy",
+    "domain": "mosdac.gov.in",
+    "path": "/data-access-policy",
+    "description": "Access ProfileDatasetsLatencyRegistered General UsersAccess to limitedLatency of 3 daysRegistered Privileged UsersAccess to all dataNRT AccessAnonymous UsersAccess to metadata/image and Open DataNRT AccessData access will be provided as per above policies (all that applies).Data Access Guidelines (Bilingual; Size:415KB Format:PDF Tool:PDFViewer) /(English; Size:323KB",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/data-access-policy",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Access Profile",
+        "Datasets",
+        "Latency"
+      ],
+      "rows": [
+        [
+          "Registered General Users",
+          "Access to limited",
+          "Latency of 3 days"
+        ],
+        [
+          "Registered Privileged Users",
+          "Access to all data",
+          "NRT Access"
+        ],
+        [
+          "Anonymous Users",
+          "Access to metadata/image and Open Data",
+          "NRT Access"
+        ]
+      ],
+      "row_count": 3,
+      "col_count": 3
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Data Access Policy",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T04:49:28.708195",
+  "content_length": 8278,
+  "rag_optimized": true
+}

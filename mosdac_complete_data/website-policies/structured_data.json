@@ -1,0 +1,73 @@
+{
+  "url": "http://mosdac.gov.in/website-policies",
+  "title": "Website Policies | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "http://mosdac.gov.in/website-policies",
+    "domain": "mosdac.gov.in",
+    "path": "/website-policies",
+    "description": "Content Archival Policy The content components are created with metadata, source and validity date. There would be some content which is permanent in nature and for such content it is assumed that the content would be reviewed in every ten years unless it is edited / deleted based on requirement. The content shall not be displayed on the Website after the validity date.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/website-policies",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Website Policies",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:50:06.184523",
+  "content_length": 15437,
+  "rag_optimized": true
+}

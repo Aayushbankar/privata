@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/scatsat-1-references",
+  "title": "SCATSAT-1 References | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/scatsat-1-references",
+    "domain": "mosdac.gov.in",
+    "path": "/scatsat-1-references",
+    "description": "SCATSAT Level4 Products (Size:968 KB Format:PDF Tool:PDFViewer)",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/scatsat-1-references",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "SCATSAT-1 References",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:50:03.113995",
+  "content_length": 8325,
+  "rag_optimized": true
+}

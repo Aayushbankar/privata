@@ -1,0 +1,185 @@
+{
+  "url": "https://mosdac.gov.in/tags/ocean",
+  "title": "Ocean | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/tags/ocean",
+    "domain": "mosdac.gov.in",
+    "path": "/tags/ocean",
+    "description": "",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/tags/ocean",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Ocean",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "High Resolution Sea Surface Salinity",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 5,
+      "level": 2,
+      "text": "Ocean Subsurface",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 6,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 7,
+      "level": 2,
+      "text": "Oceanic Eddies Detection",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 8,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 9,
+      "level": 2,
+      "text": "Indian Mainland Coastal Product",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 10,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 11,
+      "level": 2,
+      "text": "Sea Ice Occurrence Probability",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 12,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 13,
+      "level": 2,
+      "text": "Global Ocean Surface Current",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 14,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 15,
+      "level": 2,
+      "text": "Wave based Renewable Energy",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 16,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 17,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 18,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6500000000000001,
+  "extracted_at": "2025-09-13T04:49:49.255612",
+  "content_length": 11312,
+  "rag_optimized": true
+}

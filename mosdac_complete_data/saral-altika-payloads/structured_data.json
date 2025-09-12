@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/saral-altika-payloads",
+  "title": "SARAL-AltiKa Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/saral-altika-payloads",
+    "domain": "mosdac.gov.in",
+    "path": "/saral-altika-payloads",
+    "description": "SARAL carries the following four payloads:Ka-band altimeter with enhanced bandwidthIonospheric effects are negligibleBetter vertical resolution (0.3m)Ka-band (35 GHz) authorizes a compact, lightweight instrument easier to accommodate on a wide range of satellite buses.Dual-frequency radiometer (24/37 GHz)Required for tropospheric correctionDerived from Madras (Megha-Tropiques)",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/saral-altika-payloads",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "SARAL-AltiKa Payloads",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:46:48.348665",
+  "content_length": 8928,
+  "rag_optimized": true
+}

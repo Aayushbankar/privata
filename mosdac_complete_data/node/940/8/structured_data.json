@@ -1,0 +1,124 @@
+{
+  "url": "https://mosdac.gov.in/node/940/8",
+  "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/940/8",
+    "domain": "mosdac.gov.in",
+    "path": "/node/940/8",
+    "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/940/8",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "",
+        "Display name",
+        "size",
+        "modified"
+      ],
+      "rows": [
+        [
+          "",
+          "Go up",
+          "",
+          "Fri, 2025-04-11 14:38"
+        ],
+        [
+          "",
+          "Radiometric calibration stability assessment for the RISAT-1 SAR sensor.pdf(link is external)",
+          "4.06 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Indian_distributed_target_sites_report_18apr17_2.pdf(link is external)",
+          "1.11 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Optical and radiative properties of aerosols over Desalpar.pdf(link is external)",
+          "3.65 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Aerosol characterization and radiative properties over Kavaratti.pdf(link is external)",
+          "4.35 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "INSAT-3D&3DR-Cal-Report-final.pdf(link is external)",
+          "2.28 MB",
+          "Tue, 2020-10-27 14:29"
+        ]
+      ],
+      "row_count": 6,
+      "col_count": 4
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Insitu",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T04:43:52.209874",
+  "content_length": 9492,
+  "rag_optimized": true
+}

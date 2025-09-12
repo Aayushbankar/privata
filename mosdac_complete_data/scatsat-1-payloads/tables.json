@@ -1,0 +1,54 @@
+[
+  {
+    "index": 0,
+    "caption": "",
+    "headers": [
+      "Parameter",
+      "Inner beam",
+      "Outer beam"
+    ],
+    "rows": [
+      [
+        "Orbital altitude",
+        "720 km"
+      ],
+      [
+        "Instrument frequency",
+        "13.515 GHz (Ku-band)"
+      ],
+      [
+        "Wind speed range",
+        "3-30 m/s, accuracy of 1.8 m/s (rms) or 10%"
+      ],
+      [
+        "Wind direction",
+        "00 to 3600, accuracy of 200 rms"
+      ],
+      [
+        "Wind vector cell size (resolution)",
+        "25 km x 25 km grid"
+      ],
+      [
+        "Polarization",
+        "HH",
+        "VV"
+      ],
+      [
+        "Swath width",
+        "1400 km",
+        "1840 km"
+      ],
+      [
+        "Scanning circle radius",
+        "700 km",
+        "920 km"
+      ],
+      [
+        "Scanning rate",
+        "20.5 rpm"
+      ]
+    ],
+    "row_count": 9,
+    "col_count": 3
+  }
+]

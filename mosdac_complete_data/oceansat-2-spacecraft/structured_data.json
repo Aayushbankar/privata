@@ -1,0 +1,134 @@
+{
+  "url": "https://mosdac.gov.in/oceansat-2-spacecraft",
+  "title": "Oceansat-2 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/oceansat-2-spacecraft",
+    "domain": "mosdac.gov.in",
+    "path": "/oceansat-2-spacecraft",
+    "description": "Oceansat-2 is envisaged to provide continuity of operational services of Oceansat-1(IRS-P4) with enhanced application potential.Launch date:Sept 23, 2009Launch site:SHAR, SriharikotaLaunch vehicle;PSLV - C14Orbit:Polar Sun SynchronousAltitude:720 kmInclination:98.28°Period:99.31 minutesRepetitivity:2 daysPayloads:OCM, SCAT and ROSALocal time of Eq. crossing:12 noon ± 10",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/oceansat-2-spacecraft",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Launch date:",
+        "Sept 23, 2009"
+      ],
+      "rows": [
+        [
+          "Launch site:",
+          "SHAR, Sriharikota"
+        ],
+        [
+          "Launch vehicle;",
+          "PSLV - C14"
+        ],
+        [
+          "Orbit:",
+          "Polar Sun Synchronous"
+        ],
+        [
+          "Altitude:",
+          "720 km"
+        ],
+        [
+          "Inclination:",
+          "98.28°"
+        ],
+        [
+          "Period:",
+          "99.31 minutes"
+        ],
+        [
+          "Repetitivity:",
+          "2 days"
+        ],
+        [
+          "Payloads:",
+          "OCM, SCAT and ROSA"
+        ],
+        [
+          "Local time of Eq. crossing:",
+          "12 noon ± 10 minutes"
+        ],
+        [
+          "Mass at lift off:",
+          "960 Kg"
+        ],
+        [
+          "Power:",
+          "15 Sq.m Solar panels generating 1360W, Two 24 Ah Ni-Cd Battries"
+        ],
+        [
+          "Mission Life:",
+          "5 years"
+        ]
+      ],
+      "row_count": 12,
+      "col_count": 2
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Oceansat-2 SpaceCraft",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T04:44:33.154690",
+  "content_length": 8795,
+  "rag_optimized": true
+}

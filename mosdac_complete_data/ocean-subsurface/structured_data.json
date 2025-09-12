@@ -1,0 +1,306 @@
+{
+  "url": "https://mosdac.gov.in/ocean-subsurface#top",
+  "title": "Ocean Subsurface | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/ocean-subsurface#top",
+    "domain": "mosdac.gov.in",
+    "path": "/ocean-subsurface",
+    "description": "Satellite data has been used to reconstruct ocean interior density and velocity anomalies in the Bay of Bengal through the “interior + surface Quasigeostrophic” (isQG) method.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/ocean-subsurface",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Sr. No",
+        "Core Metadata Elements",
+        "Definition"
+      ],
+      "rows": [
+        [
+          "1",
+          "Metadata language",
+          "English"
+        ],
+        [
+          "2",
+          "Metadata Contact",
+          "MOSDAC"
+        ],
+        [
+          "3",
+          "Metadata date",
+          "May, 2018"
+        ],
+        [
+          "4",
+          "Data Lineage or Quality",
+          "Sea surface height anomaly, Sea surface density anomaly in Bay of Bengal using isQG methodology."
+        ],
+        [
+          "5",
+          "Title",
+          "Reconstruction of Ocean interior density and horizontal velocity anomaly ﬁelds using Satellite data in Bay of Bengal"
+        ],
+        [
+          "6",
+          "Abstract",
+          "Satellite data has been used to reconstruct ocean interior density and velocity anomalies in the Bay of Bengal through the “interior + surface Quasigeostrophic” (isQG) method. The inputs are sea surface height anomaly (AVISO), sea surface density anomaly; which is calculated using GHRSST sea surface temperature and SMAP sea surface salinity. One more input is the Brunt-Vaisala frequency, calculated from in-situ analysis system (ISAS) climatological data. The results show that isQG retrieved subsurface density anomalies are very promising compared to RAMA buoy data in the cold season when EKE is minimum. Validation of retrieved density has also been performed using ARGO data which reveals that isQG is more promising when the stratification is weak ."
+        ],
+        [
+          "7",
+          "Dataset Contact",
+          "Anup Kumar Mandal, OSD/AOSG/EPSA, Space Applications Centre (ISRO), Ahmedabad, 380015, anupmandal@sac.isro.gov.in"
+        ],
+        [
+          "8",
+          "Update Frequency",
+          "Six months."
+        ],
+        [
+          "9",
+          "Access Rights or Restriction",
+          "Open Access"
+        ],
+        [
+          "10",
+          "Spatial Resolution",
+          "Spatial resolution is 25 km, while vertical resolution is 10m"
+        ],
+        [
+          "11",
+          "Language",
+          "English"
+        ],
+        [
+          "12",
+          "Topic Category",
+          "Ocean subsurface product (SAMUDRA Project) using satellite data."
+        ],
+        [
+          "13",
+          "Keywords",
+          "Density anomaly, Velocity anomaly, subsurface fields, 3D-Ocean fields"
+        ],
+        [
+          "14",
+          "Date or period",
+          "January 2017 - till date"
+        ],
+        [
+          "15",
+          "Responsible Party",
+          "Anup Kumar Mandal,OSD/AOGG/ EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India"
+        ],
+        [
+          "16",
+          "Organization",
+          "Space Applications Centre (ISRO), Ahmedabad, India"
+        ],
+        [
+          "16a",
+          "Org. role",
+          "Geophysical parameters from satellite data in the Bay of Bengal region."
+        ],
+        [
+          "16b",
+          "Individual name",
+          "Anup Kumar Mandal, OSD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6117. Email: anupmandal@sac.isro.gov.in"
+        ],
+        [
+          "16c",
+          "Position",
+          "Scientist/Engineer, OSD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015"
+        ],
+        [
+          "16d",
+          "Vertical Extent (minimumValue, maximumValue, unitOfMeasure, vertical datum)",
+          "Lat_min : 05N Lat_max : 25 N Lon_min: 75E Lon_max: 95 E"
+        ],
+        [
+          "17",
+          "Geographic Extent",
+          "Indian Landmass"
+        ],
+        [
+          "18",
+          "Geographic name, geographic Identifier",
+          "Bay of Bengal"
+        ],
+        [
+          "19",
+          "Bounding box",
+          "Lat_min : 05N Lat_max : 25 N Lon_min: 75E Lon_max: 95 E"
+        ],
+        [
+          "20",
+          "Temporal Extent",
+          "January 2017 till date"
+        ],
+        [
+          "21",
+          "Access Rights or Restrictions",
+          "Open Access"
+        ],
+        [
+          "22",
+          "Distribution Information",
+          "Online download of data files in netCDF format"
+        ],
+        [
+          "23",
+          "Processing Level",
+          "Level 4"
+        ],
+        [
+          "4",
+          "Reference System",
+          "Datum: WGS84"
+        ]
+      ],
+      "row_count": 28,
+      "col_count": 3
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Ocean Subsurface",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 3,
+      "text": "Data Access",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 3,
+      "text": "Data Version",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 5,
+      "level": 3,
+      "text": "Data Sources",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 6,
+      "level": 3,
+      "text": "Processing Steps",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 7,
+      "level": 3,
+      "text": "References",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 8,
+      "level": 3,
+      "text": "Derivation Techniques and Algorithm",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 9,
+      "level": 3,
+      "text": "Limitations",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 10,
+      "level": 3,
+      "text": "Known problems with data",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 11,
+      "level": 3,
+      "text": "File Naming Convention",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 12,
+      "level": 3,
+      "text": "MetaData",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 13,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 14,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 15,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.75,
+  "extracted_at": "2025-09-13T04:46:43.082745",
+  "content_length": 15098,
+  "rag_optimized": true
+}

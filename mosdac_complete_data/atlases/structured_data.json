@@ -1,0 +1,183 @@
+{
+  "url": "https://mosdac.gov.in/atlases?sort=asc&order=size",
+  "title": "Atlases | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/atlases?sort=asc&order=size",
+    "domain": "mosdac.gov.in",
+    "path": "/atlases",
+    "description": "",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/atlases",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "",
+        "Display name",
+        "size",
+        "modified"
+      ],
+      "rows": [
+        [
+          "",
+          "viewing_ocean_from_space.pdf(link is external)",
+          "10.01 MB",
+          "Mon, 2020-01-27 10:00"
+        ],
+        [
+          "",
+          "Spectrum_of_India_AVIRIS-NG.pdf(link is external)",
+          "27.64 MB",
+          "Thu, 2016-12-22 10:00"
+        ],
+        [
+          "",
+          "Glimspes_of_India_by_RISAT-1.pdf(link is external)",
+          "88.53 MB",
+          "Mon, 2015-08-31 10:00"
+        ],
+        [
+          "",
+          "Eyes_on_Waves_from_Space.pdf(link is external)",
+          "6.24 MB",
+          "Thu, 2018-05-03 10:00"
+        ],
+        [
+          "",
+          "Exploring_the_Antarctic.pdf(link is external)",
+          "35.11 MB",
+          "Wed, 2020-02-19 10:00"
+        ],
+        [
+          "",
+          "Images_of_Moon_From_Chandrayan-1.pdf(link is external)",
+          "388.48 MB",
+          "Thu, 2010-12-23 10:00"
+        ],
+        [
+          "",
+          "Chandrayan-1_Lunar_Science_Atlas.pdf(link is external)",
+          "69.87 MB",
+          "Thu, 2015-04-30 10:00"
+        ],
+        [
+          "",
+          "Coral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf(link is external)",
+          "72.11 MB",
+          "Thu, 2018-05-03 10:00"
+        ],
+        [
+          "",
+          "Atlas_of_Sea_Ice_Trends.pdf(link is external)",
+          "2.83 MB",
+          "Thu, 2012-03-01 10:00"
+        ],
+        [
+          "",
+          "Mars-atlas.pdf(link is external)",
+          "35.13 MB",
+          "Mon, 2015-08-31 10:00"
+        ]
+      ],
+      "row_count": 10,
+      "col_count": 4
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Atlases",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 3,
+      "text": "Download PDF",
+      "id": "ui-accordion-quickset-atlases_qt-header-0",
+      "class": [
+        "ui-accordion-header",
+        "ui-helper-reset",
+        "ui-state-default",
+        "ui-corner-all",
+        "ui-accordion-icons"
+      ]
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 5,
+      "level": 3,
+      "text": "Read Online",
+      "id": "ui-accordion-quickset-atlases_qt-header-1",
+      "class": [
+        "ui-accordion-header",
+        "ui-helper-reset",
+        "ui-state-default",
+        "ui-accordion-header-active",
+        "ui-state-active",
+        "ui-corner-top",
+        "ui-accordion-icons"
+      ]
+    },
+    {
+      "index": 6,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 7,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.66,
+  "extracted_at": "2025-09-13T04:49:47.747210",
+  "content_length": 12945,
+  "rag_optimized": true
+}

@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/insat-3a-introduction",
+  "title": "INSAT-3A Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/insat-3a-introduction",
+    "domain": "mosdac.gov.in",
+    "path": "/insat-3a-introduction",
+    "description": "INSAT-3A, a multipurpose satellite built by ISRO was launched by Ariane in April 2003. It is located at 93.5 degree East longitude. It is third satellite in INSAT-3 series after INSAT-3B & INSAT-3C. It provides communication, weather and search & rescue services.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/insat-3a-introduction",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "INSAT-3A Introduction",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:50:23.705047",
+  "content_length": 8342,
+  "rag_optimized": true
+}

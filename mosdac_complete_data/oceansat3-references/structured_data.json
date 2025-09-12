@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/oceansat3-references",
+  "title": "OCEANSAT-3 References | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/oceansat3-references",
+    "domain": "mosdac.gov.in",
+    "path": "/oceansat3-references",
+    "description": "OCM_AOD_ATBD (Size:2.67MB Format:PDF Tool:PDFViewer) OCM_AnalysedCHL_GlobalOcean_ATBD (Size:2.5MB Format:PDF Tool:PDFViewer) OCM_IOPS_ATBD (Size:1.2MB Format:PDF Tool:PDFViewer)",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/oceansat3-references",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "OCEANSAT-3 References",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:47:07.604079",
+  "content_length": 8710,
+  "rag_optimized": true
+}

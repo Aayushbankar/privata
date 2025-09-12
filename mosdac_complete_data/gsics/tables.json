@@ -1,0 +1,52 @@
+[
+  {
+    "index": 0,
+    "caption": "",
+    "headers": [
+      "Monitored satellite/instrument",
+      "Reference satellite/instrument",
+      "Status",
+      "GSICS Product",
+      "Documentation"
+    ],
+    "rows": [
+      [
+        "INSAT 3D/Imager",
+        "METOP / IASI",
+        "Demo",
+        "Near real-time correction\nRe-analysis correction\nBias monitoring",
+        "ATBD\nReadme\nPublications"
+      ],
+      [
+        "INSAT 3D/Sounder",
+        "METOP / IASI",
+        "Demo",
+        "Near real-time correction\nRe-analysis correction\nBias monitoring",
+        "ATBD \nReadme\nPublications"
+      ],
+      [
+        "INSAT 3R/Imager",
+        "METOP / IASI",
+        "Demo",
+        "Near real-time correction\nRe-analysis correction\nBias monitoring",
+        "ATBD\nReadme\nPublication"
+      ],
+      [
+        "KALPANA 1/VHRR",
+        "METOP-A / IASI",
+        "Under Development",
+        "-",
+        "-"
+      ],
+      [
+        "INSAT 3A/VHRR",
+        "METOP-A / IASI",
+        "Under Development",
+        "-",
+        "-"
+      ]
+    ],
+    "row_count": 5,
+    "col_count": 5
+  }
+]

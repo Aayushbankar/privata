@@ -1,0 +1,43 @@
+{
+  "url": "https://mosdac.gov.in/internal/afs-seac",
+  "title": "Alerts & Forewarning",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/afs-seac",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/afs-seac",
+    "description": "Alert and Forewarning Portal - public.index.html",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Base Layers",
+      "id": "",
+      "class": [
+        "accordion-header"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "Thematic Layers",
+      "id": "",
+      "class": [
+        "accordion-header"
+      ]
+    }
+  ],
+  "quality_score": 0.49,
+  "extracted_at": "2025-09-13T04:44:17.269555",
+  "content_length": 7861,
+  "rag_optimized": true
+}

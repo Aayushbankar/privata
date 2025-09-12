@@ -1,0 +1,141 @@
+{
+  "url": "https://mosdac.gov.in/help",
+  "title": "Help | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/help",
+    "domain": "mosdac.gov.in",
+    "path": "/help",
+    "description": "AccessibilityKnow about the accessibility statement, accessibility features, and accessibility options. We are committed to ensure that the SAC website is accessible to all users irrespective of device in use, technology or ability. It has been built, with an aim,to provide maximum accessibility and usability to its visitors.We have put in our best efforts to ensure that all",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/help",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Document Type",
+        "Download"
+      ],
+      "rows": [
+        [
+          "Portable Document Format (PDF) files",
+          "Adobe Acrobat Reader(link is external)"
+        ],
+        [
+          "MP4 files",
+          "Windows Media Player(link is external) / VLC Media Player(link is external)"
+        ]
+      ],
+      "row_count": 2,
+      "col_count": 2
+    },
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "Screen Reader",
+        "Website",
+        "Free / Commercial"
+      ],
+      "rows": [
+        [
+          "Non Visual Desktop Access (NVDA)",
+          "http://www.nvda-project.org (link is external)",
+          "Free"
+        ],
+        [
+          "Hal",
+          "http://www.yourdolphin.co.uk/productdetail.asp?id=5 (link is external)",
+          "Commercial"
+        ],
+        [
+          "JAWS",
+          "http://www.freedomscientific.com/jaws-hq.asp (link is external)",
+          "Commercial"
+        ],
+        [
+          "Supernova",
+          "http://www.yourdolphin.co.uk/productdetail.asp?id=1 (link is external)",
+          "Commercial"
+        ]
+      ],
+      "row_count": 4,
+      "col_count": 3
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Help",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 3,
+      "text": "AccessibilityKnow about the accessibility statement, accessibility features, and accessibility options. We are committed to ensure that the SAC website is accessible to all users irrespective of device in use, technology or ability. It has been built, with an aim,to provide maximum accessibility and usability to its visitors.We have put in our best efforts to ensure that all information on this Portal is accessible to people with disabilities. For example, a user with visual disability can access this Portal using assistive technologies, such as screen readers and magnifiers.We also aim to be standards compliant and follow principles of usability and universal design, which should help all visitors of this Portal.This Portal is designed using XHTML 1.0 Transitional and meets priority 1 (level A) of the Web Content Accessibility Guidelines (WCAG) 2.0 laid down by the World Wide Web Consortium (W3C). Part of the information in the Portal is also made available through links to external Web sites. External Web sites are maintained by the respective departments who are responsible for making these sites accessible.",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 3,
+      "text": "Viewing different file types",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 5,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 6,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.74,
+  "extracted_at": "2025-09-13T04:50:24.628808",
+  "content_length": 10738,
+  "rag_optimized": true
+}

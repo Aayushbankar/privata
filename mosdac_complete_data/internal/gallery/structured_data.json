@@ -1,0 +1,36 @@
+{
+  "url": "https://mosdac.gov.in/internal/gallery",
+  "title": "MOSDAC Gallery",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/gallery",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/gallery",
+    "description": "MOSDAC Gallery",
+    "keywords": [
+      "MOSDAC Gallery",
+      "INSAT-3D",
+      "INSAT-3DR",
+      "INSAT-3DS",
+      "EOS-06",
+      "EOS-07",
+      "Megha-Tropiques",
+      "SARAL",
+      "Kalpana-1",
+      "INSAT-3A",
+      "OCEANSAT-2"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [],
+  "quality_score": 0.5,
+  "extracted_at": "2025-09-13T04:45:39.421972",
+  "content_length": 1093,
+  "rag_optimized": true
+}

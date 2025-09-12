@@ -1,0 +1,24 @@
+{
+  "url": "https://mosdac.gov.in/internal/soil-wetness",
+  "title": "Soil Wetness Index/Soil Moisture",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/soil-wetness",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/soil-wetness",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "https://localhost/lightning",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [],
+  "quality_score": 0.30000000000000004,
+  "extracted_at": "2025-09-13T04:44:09.079906",
+  "content_length": 809,
+  "rag_optimized": true
+}

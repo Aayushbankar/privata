@@ -1,0 +1,64 @@
+[
+  {
+    "index": 0,
+    "caption": "",
+    "headers": [
+      "Acronym",
+      "INSAT-3A"
+    ],
+    "rows": [
+      [
+        "Full name",
+        "Indian National Satellite - 3A"
+      ],
+      [
+        "Satellite Description",
+        "4th flight unit of the INSAT-3 series.\nMissions: operational meteorology and telecommunication"
+      ],
+      [
+        "Mass at launch",
+        "2950 kg",
+        "Dry mass/td>",
+        "1348 kg"
+      ],
+      [
+        "Power",
+        "3100 W"
+      ],
+      [
+        "Orbit",
+        "Geostationary orbit",
+        "Altitude",
+        "35786 km"
+      ],
+      [
+        "Longitude",
+        "93.5° E"
+      ]
+    ],
+    "row_count": 6,
+    "col_count": 2
+  },
+  {
+    "index": 1,
+    "caption": "",
+    "headers": [
+      "Status",
+      "Operational"
+    ],
+    "rows": [
+      [
+        "Details on Status (as available)",
+        "Nominal operations."
+      ],
+      [
+        "Launch",
+        "2003-04-10",
+        "EOL",
+        ">2015"
+      ]
+    ],
+    "row_count": 2,
+    "col_count": 2
+  }
+]

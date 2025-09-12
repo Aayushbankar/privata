@@ -1,0 +1,154 @@
+{
+  "url": "https://mosdac.gov.in/node/940/10",
+  "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/940/10",
+    "domain": "mosdac.gov.in",
+    "path": "/node/940/10",
+    "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/940/10",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "",
+        "Display name",
+        "size",
+        "modified"
+      ],
+      "rows": [
+        [
+          "",
+          "Go up",
+          "",
+          "Fri, 2025-04-11 14:38"
+        ],
+        [
+          "",
+          "airborneSAR_calibration_L-band_full-pol_December2019_Final_4.pdf(link is external)",
+          "10.46 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Optimal estimation of spectral surface reflectance.pdf(link is external)",
+          "2.93 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "MTNovYr2019-Sun Photometer Calibration using high altitude site.pdf(link is external)",
+          "1.41 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "INSAT-3D&3DR Report-Nov2019.pdf(link is external)",
+          "2.59 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "HySIS-Cal-Report-April2019.pdf(link is external)",
+          "698.27 KB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Canadian_Boreal_final_report -dec19.pdf(link is external)",
+          "1.13 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Antarctica_report_14jan2020_Final.pdf(link is external)",
+          "4.58 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Amazon_rainforest_final_report_dec19.pdf(link is external)",
+          "892.03 KB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "AVIRIS-Babu-CalVal-CurrentScience.pdf(link is external)",
+          "1.09 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Amazon_rainforest_final_Dec2019_1.pdf(link is external)",
+          "875.35 KB",
+          "Tue, 2020-10-27 14:29"
+        ]
+      ],
+      "row_count": 11,
+      "col_count": 4
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Insitu",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T04:47:14.104446",
+  "content_length": 10664,
+  "rag_optimized": true
+}

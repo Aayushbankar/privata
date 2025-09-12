@@ -1,0 +1,73 @@
+{
+  "url": "http://mosdac.gov.in/tags/visualisation",
+  "title": "Visualisation | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "http://mosdac.gov.in/tags/visualisation",
+    "domain": "mosdac.gov.in",
+    "path": "/tags/visualisation",
+    "description": "",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/tags/visualisation",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Visualisation",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.55,
+  "extracted_at": "2025-09-13T04:44:37.248922",
+  "content_length": 7610,
+  "rag_optimized": true
+}

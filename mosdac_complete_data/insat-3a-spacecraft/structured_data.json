@@ -1,0 +1,136 @@
+{
+  "url": "https://mosdac.gov.in/insat-3a-spacecraft",
+  "title": "INSAT-3A SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/insat-3a-spacecraft",
+    "domain": "mosdac.gov.in",
+    "path": "/insat-3a-spacecraft",
+    "description": "Satellite detailsAcronymINSAT-3AFull nameIndian National Satellite - 3ASatellite Description4th flight unit of the INSAT-3 series.Missions: operational meteorology and telecommunicationMass at launch2950 kgDry mass/td>1348 kgPower3100 WOrbitGeostationary orbitAltitude35786 kmLongitude93.5° E StatusOperationalDetails on Status (as available)Nominal",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/insat-3a-spacecraft",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Acronym",
+        "INSAT-3A"
+      ],
+      "rows": [
+        [
+          "Full name",
+          "Indian National Satellite - 3A"
+        ],
+        [
+          "Satellite Description",
+          "4th flight unit of the INSAT-3 series.\nMissions: operational meteorology and telecommunication"
+        ],
+        [
+          "Mass at launch",
+          "2950 kg",
+          "Dry mass/td>",
+          "1348 kg"
+        ],
+        [
+          "Power",
+          "3100 W"
+        ],
+        [
+          "Orbit",
+          "Geostationary orbit",
+          "Altitude",
+          "35786 km"
+        ],
+        [
+          "Longitude",
+          "93.5° E"
+        ]
+      ],
+      "row_count": 6,
+      "col_count": 2
+    },
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "Status",
+        "Operational"
+      ],
+      "rows": [
+        [
+          "Details on Status (as available)",
+          "Nominal operations."
+        ],
+        [
+          "Launch",
+          "2003-04-10",
+          "EOL",
+          ">2015"
+        ]
+      ],
+      "row_count": 2,
+      "col_count": 2
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "INSAT-3A SpaceCraft",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.7,
+  "extracted_at": "2025-09-13T04:49:35.393153",
+  "content_length": 8528,
+  "rag_optimized": true
+}

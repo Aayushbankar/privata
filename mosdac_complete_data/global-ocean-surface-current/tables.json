@@ -1,0 +1,287 @@
+[
+  {
+    "index": 0,
+    "caption": "",
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "ifU = - (1/ρm) ∇ p + AUz",
+        "(1a)"
+      ],
+      [
+        "(1/ρm) pz = -g + ∇θ",
+        "(1b)"
+      ],
+      [
+        "∇θ = g χT ∇SST ,",
+        "(1c)"
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "row_count": 4,
+    "col_count": 2
+  },
+  {
+    "index": 1,
+    "caption": "",
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "Uz (z=0) = τ / A",
+        "(2a)"
+      ],
+      [
+        "Uz (z = -H) = 0",
+        "(2b)"
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "row_count": 3,
+    "col_count": 2
+  },
+  {
+    "index": 2,
+    "caption": "",
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "Uz - (if/A) Uz = (1/A)∇θ",
+        "(3)"
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "row_count": 2,
+    "col_count": 2
+  },
+  {
+    "index": 3,
+    "caption": "",
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "ifU0= -g ∇ζ + (1/H ) q(H/he)τ + ((H/2)/q(H/2he))∇θ",
+        "(4)"
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "row_count": 2,
+    "col_count": 2
+  },
+  {
+    "index": 4,
+    "caption": "",
+    "headers": [
+      "Sr. No",
+      "Core Metadata Elements",
+      "Definition"
+    ],
+    "rows": [
+      [
+        "1",
+        "Metadata language",
+        "English"
+      ],
+      [
+        "2",
+        "Metadata Contact",
+        "Dr. Rajesh Sikhakolli, GRD/AOSG/EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India. Email: srajesh@sac.isro.gov.in"
+      ],
+      [
+        "3",
+        "Metadata date",
+        "September 15, 2015"
+      ],
+      [
+        "4",
+        "Data Lineage or Quality",
+        "Daily ocean surface currents derived from satellite data",
+        ""
+      ],
+      [
+        "5",
+        "Title",
+        "Zonal and Meridional components of Ocean Surface Current (m/s)"
+      ],
+      [
+        "6",
+        "Abstract",
+        "Daily ocean surface currents(m/s) derived from the synergistic use of satellite derived Sea Level, Ocean surface vector winds and Sea surface temperature data."
+      ],
+      [
+        "7",
+        "Dataset Contact",
+        "Dr. Rajesh Sikhakolli, GRD/AOSG/EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India. Email: srajesh@sac.isro.gov.in"
+      ],
+      [
+        "8",
+        "Update frequency",
+        "Daily"
+      ],
+      [
+        "9",
+        "Access Rights or Restriction",
+        "Open Access"
+      ],
+      [
+        "10",
+        "Spatial Resolution",
+        "0.25° deg (or) ~25km"
+      ],
+      [
+        "11",
+        "Language",
+        "English"
+      ],
+      [
+        "12",
+        "Topic Category",
+        "Physical Oceanography"
+      ],
+      [
+        "13",
+        "Keywords",
+        "Ocean Currents, Ocean Circulation"
+      ],
+      [
+        "14",
+        "Date or period",
+        "Daily"
+      ],
+      [
+        "15",
+        "Responsible Party",
+        "Dr. Rajesh Sikhakolli, GRD/AOSG/EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India. Email: srajesh@sac.isro.gov.in"
+      ],
+      [
+        "16",
+        "Organization",
+        "Space Applications Centre (ISRO), Ahmedabad, India"
+      ],
+      [
+        "16a",
+        "Org. role",
+        "Calculated Ocean Surface currents (m/s) for each day using daily map of absolute dynamic topography (MADT) data from AVISO (SSALTO/DUACS user hand book-2009), gridded wind data from ASCAT (Bentamy et al., 2011) and SST data from AVHRR (Reynolds et al., 2007)"
+      ],
+      [
+        "16b",
+        "Individual Name",
+        "Dr. Rajesh Sikhakolli, GRD/AOSG/EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India. Email: srajesh@sac.isro.gov.in"
+      ],
+      [
+        "16c",
+        "Position",
+        "Scientist/Engineer, GRD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6052. Email: srajesh@sac.isro.gov.in"
+      ],
+      [
+        "17",
+        "Vertical Extent (minimumValue, maximumValue, unitOfMeasure, vertical datum)",
+        "Average ocean surface current for 0 to 30 m vertical layer in m/s"
+      ],
+      [
+        "18",
+        "Geographic Extent",
+        "Latitude Range: -90 to 90 deg\n\n\nLongitude Range: 0 to 360 deg",
+        "Latitude Range: -90 to 90 deg",
+        "Longitude Range: 0 to 360 deg"
+      ],
+      [
+        "Latitude Range: -90 to 90 deg"
+      ],
+      [
+        "Longitude Range: 0 to 360 deg"
+      ],
+      [
+        "19",
+        "Geographic Name, Geographic Identifier",
+        "Global Ocean"
+      ],
+      [
+        "20",
+        "Bounding box",
+        "Latitude Range: -90 to 90 deg\n\n\nLongitude Range: 0 to 360 deg",
+        "Latitude Range: -90 to 90 deg",
+        "Longitude Range: 0 to 360 deg"
+      ],
+      [
+        "Latitude Range: -90 to 90 deg"
+      ],
+      [
+        "Longitude Range: 0 to 360 deg"
+      ],
+      [
+        "21",
+        "Temporal Extent",
+        "Daily"
+      ],
+      [
+        "22",
+        "Distribution Information",
+        "Online download of data files in NetCDF format and images in GIF format"
+      ],
+      [
+        "23",
+        "Processing Level",
+        "Level 4"
+      ],
+      [
+        "24",
+        "Reference System",
+        "Projection - Cartesian Co-ordinate System"
+      ]
+    ],
+    "row_count": 31,
+    "col_count": 3
+  },
+  {
+    "index": 5,
+    "caption": "",
+    "headers": [
+      "Latitude Range: -90 to 90 deg"
+    ],
+    "rows": [
+      [
+        "Longitude Range: 0 to 360 deg"
+      ]
+    ],
+    "row_count": 1,
+    "col_count": 1
+  },
+  {
+    "index": 6,
+    "caption": "",
+    "headers": [
+      "Latitude Range: -90 to 90 deg"
+    ],
+    "rows": [
+      [
+        "Longitude Range: 0 to 360 deg"
+      ]
+    ],
+    "row_count": 1,
+    "col_count": 1
+  }
+]

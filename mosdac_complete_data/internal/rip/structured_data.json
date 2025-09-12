@@ -1,0 +1,32 @@
+{
+  "url": "https://mosdac.gov.in/internal/rip",
+  "title": "Beach Forecasting System",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/rip",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/rip",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 4,
+      "text": "Rip current Risk",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.42000000000000004,
+  "extracted_at": "2025-09-13T04:46:24.051880",
+  "content_length": 20026,
+  "rag_optimized": true
+}

@@ -1,0 +1,148 @@
+{
+  "url": "https://mosdac.gov.in/node/940/7",
+  "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/940/7",
+    "domain": "mosdac.gov.in",
+    "path": "/node/940/7",
+    "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/940/7",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "",
+        "Display name",
+        "size",
+        "modified"
+      ],
+      "rows": [
+        [
+          "",
+          "Go up",
+          "",
+          "Fri, 2025-04-11 14:38"
+        ],
+        [
+          "",
+          "Temperature-and-humidity-profile-validation-INSAT-3D+3DR-Kavaratti-Dec-2016.pdf(link is external)",
+          "5.08 MB",
+          "Tue, 2018-02-20 15:10"
+        ],
+        [
+          "",
+          "Post earthquake land deformation mapping of eastern Nepal 2016.pdf(link is external)",
+          "3.94 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Radiometric calibration of Cartosat-2 panchromatic sensor-2016.pdf(link is external)",
+          "1.01 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Validation and assessment of INSAT-3D and MODIS SST-2016.pdf(link is external)",
+          "2.49 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "INSAT-3DR vicarious calibration-2016.pdf(link is external)",
+          "932.04 KB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Absolute calibration and image quality assessment of RISAT_1 FRS and MRS mode data-2016.pdf(link is external)",
+          "7.7 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "INSAT-3D site characterisation and calibration-2016.pdf(link is external)",
+          "2.66 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Absolute Vicarious calibration of Landsat-8 OLI and Resourcesat-2.pdf(link is external)",
+          "1013.47 KB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Cartosat-2_Artificialtargets_V1.0.pdf(link is external)",
+          "1.01 MB",
+          "Tue, 2020-10-27 14:29"
+        ]
+      ],
+      "row_count": 10,
+      "col_count": 4
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Insitu",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T04:50:10.777873",
+  "content_length": 10560,
+  "rag_optimized": true
+}

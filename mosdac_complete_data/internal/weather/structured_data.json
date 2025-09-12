@@ -1,0 +1,24 @@
+{
+  "url": "https://mosdac.gov.in/internal/weather",
+  "title": "Weather Forecast",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/weather",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/weather",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [],
+  "quality_score": 0.1,
+  "extracted_at": "2025-09-13T04:48:10.938435",
+  "content_length": 1,
+  "rag_optimized": true
+}

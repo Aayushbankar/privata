@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/insat-3s-introduction",
+  "title": "INSAT-3DS Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/insat-3s-introduction",
+    "domain": "mosdac.gov.in",
+    "path": "/insat-3s-introduction",
+    "description": "INSAT-3DS is a dedicated meteorological spacecraft designed for enhanced meteorological observation and monitoring of land and ocean surfaces of weather forecasting and disaster warning. INSAT-3DS is configured on I-2K bus with Sounder, Imager and Data Relay Transponder (DRT) and Satellite Aided Search & Rescue (SAS&R) Payloads. INSAT-3DS was flown on February 17, 2024 with a",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/insat-3s-introduction",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "INSAT-3DS Introduction",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:47:36.905085",
+  "content_length": 9585,
+  "rag_optimized": true
+}

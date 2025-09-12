@@ -1,0 +1,32 @@
+[
+  {
+    "index": 0,
+    "caption": "",
+    "headers": [
+      "Sr.No",
+      "Product /Acq Calendar",
+      "Product Description",
+      "Processing Level",
+      "Temporal Resolution",
+      "Start Date",
+      "End Date",
+      "Processing Status",
+      "DOI"
+    ],
+    "rows": [
+      [
+        "1",
+        "RSCHR_L2B_STD",
+        "DWR Data for Cheerapunji",
+        "L2B",
+        "10 MINUTES",
+        "2016-05-20",
+        "2022-11-05",
+        "Active",
+        ""
+      ]
+    ],
+    "row_count": 1,
+    "col_count": 9
+  }
+]

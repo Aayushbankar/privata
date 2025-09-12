@@ -1,0 +1,54 @@
+{
+  "url": "https://mosdac.gov.in/internal/nowcast-cloudburst",
+  "title": "CloudBurst Alerts over Western Himalayan Region",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/nowcast-cloudburst",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/nowcast-cloudburst",
+    "description": "Author: Mosdac, Illustrator: Satellite Images, Category: Scientific Spatial Data",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "https://localhost/cloudburst",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        ""
+      ],
+      "rows": [
+        [
+          "CloudBurst Alerts over Western Himalayan Region\n\nCurrent Forecast: 2025-09-13 13:45 IST",
+          ""
+        ]
+      ],
+      "row_count": 1,
+      "col_count": 1
+    },
+    {
+      "index": 4,
+      "caption": "",
+      "headers": [
+        ""
+      ],
+      "rows": [
+        [
+          ""
+        ]
+      ],
+      "row_count": 1,
+      "col_count": 1
+    }
+  ],
+  "headings": [],
+  "quality_score": 0.55,
+  "extracted_at": "2025-09-13T04:46:51.000526",
+  "content_length": 3865,
+  "rag_optimized": true
+}

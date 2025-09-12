@@ -1,243 +1,164 @@
+# MOSDAC AI Help Bot
 
-# PRIVATA
+An AI-powered help bot for information retrieval from web content, specifically designed for the MOSDAC (Meteorological and Oceanographic Satellite Data Archival Centre) website.
 
-Privata is a lightweight, offline-first document ingestion and querying tool that uses local embeddings and cloud-based LLMs (Google Gemini) to answer questions from your private files — with no server, no browser, and no GPU required.
+## 🎯 Project Overview
 
-It follows the RAG (Retrieval-Augmented Generation) architecture and runs entirely via CLI. Users can ingest PDFs, markdown, and text files, then interact with them using AI-powered semantic search.
+This project implements a comprehensive RAG (Retrieval-Augmented Generation) system that:
+- **Scrapes** website content using intelligent crawling
+- **Processes** and **indexes** content for optimal retrieval
+- **Provides** natural language chat interface for information retrieval
+- **Maintains** context and learns from interactions
 
----
+## 📁 Project Structure
 
-## ✅ Core Features
-
-- 📁 Ingest local `.pdf`, `.txt`, and `.md` files
-- 🧩 Auto-chunks and embeds content using HuggingFace models
-- 🔍 Stores vectors in lightweight `ChromaDB`
-- 🔄 Retrieves relevant context using vector similarity
-- 🤖 Sends context + query to Google Gemini (`gemini-1.5-flash`)
-- 🧠 Returns accurate, grounded answers — even for technical PDFs
-- 🖥️ Fully CLI-based (no browser or web server needed)
-- ⚙️ Configurable via single `config.py` file
-
----
-
-## 🧠 Architecture (High-Level)
-
-```plaintext
-           +------------+         +-------------------+
-           |   PDFs     |         |   .txt / .md      |
-           +------------+         +-------------------+
-                   │
-                   ▼
-          [ Unstructured Loaders ]
-                   │
-                   ▼
-         [ LangChain Text Splitter ]
-                   │
-                   ▼
-         [ Sentence Transformers ]
-                   │
-                   ▼
-             [ ChromaDB Store ]
-                   │
-                   ▼
-   +--------- User Query (CLI Input) --------+
-   |                                         |
-   ▼                                         ▼
-[ Embed Query ]                     [ Retrieve Top-K Chunks ]
-            \______________________/ 
-                       │
-                       ▼
-        [ Gemini Prompt Construction ]
-                       │
-                       ▼
-        [ Google Gemini API (gemini-1.5-flash) ]
-                       │
-                       ▼
-              [ Final Response Output ]
+### Core Files
 ```
-
----
-
-## ✨ Key Features
-
-- **Offline Ingestion** – Parse and embed your local `.pdf`, `.txt`, and `.md` files entirely offline.
-- **RAG Pipeline** – Combines vector similarity search with LLM generation for grounded, context-aware answers.
-- **Local Vector DB** – Uses `ChromaDB` for lightweight, persistent local document storage.
-- **Cloud LLM (Gemini)** – Uses `gemini-1.5-flash` via Google's `google-generativeai` SDK for high-speed, accurate generation.
-- **Modular Architecture** – Cleanly separated modules for ingestion, embeddings, vector DB, and LLM API.
-- **CLI Interface** – Run everything from a terminal — no server, browser, or UI required.
-- **Configurable** – Customize chunk sizes, models, prompts, and retrieval depth via `config.py`.
-
----
-
-## 🧭 Use Case Example
-
-You can load 100s of pages of PDF textbooks or technical docs, then ask:
-
-- _"What is Unit 4 in Java?"_
-- _"What is the difference between stacks and queues?"_
-- _"Summarize the networking protocols chapter."_
-
-Gemini will ground its answer in your actual documents, not public internet.
-
----
-
-## 🗂️ Project Structure
-
-```plaintext
 privata/
-├── main.py                # CLI menu entry point
-├── ingest.py              # Document ingestion + chunking pipeline
-├── chat.py                # Chat loop: query → retrieve → respond
-├── config.py              # Central config for models, chunking, prompts
-├── requirements.txt       # Dependency list
-│
-├── models/
-│   └── llm_loader.py      # Gemini API integration
-│
-├── retriever/
-│   ├── embedder.py        # HuggingFace embedding logic (MiniLM)
-│   └── vectordb.py        # ChromaDB interface for storing & retrieving
-│
-├── utils/
-│   └── doc_loader.py      # Loads & parses PDF, text, markdown files
-│
-├── db/                    # (Auto-generated) stores vector data
-│
-├── .env.example           # Sample structure for GEMINI_API_KEY
-├── .gitignore             # Ignores pycache, env, vector DB, temp files
-└── README.md              # This documentation file
+├── mosdac_bot.py          # 🎮 Master control file - Main entry point
+├── main.py                # 🚀 Alternative entry point
+├── chat.py                # 💬 Chat system implementation
+├── ingest.py              # 📥 Data ingestion pipeline
+├── crawl4ai_mosdac.py     # 🕷️ Website crawler
+├── config.py              # ⚙️ Configuration management
+├── config.json            # 📋 Configuration file
+└── requirements.txt       # 📦 Dependencies
 ```
 
----
+### Core Modules
+```
+models/
+└── llm_loader.py          # 🤖 LLM integration
 
-## ⚙️ Setup Instructions
+retriever/
+├── modern_vectordb.py     # 🗄️ Vector database operations
+├── multi_modal_embedder.py # 🔤 Text embedding
+└── reranker.py            # 🎯 Result reranking
 
-### 1. Clone the repository and install dependencies
+utils/
+├── enhanced_chunker.py    # ✂️ Document chunking
+├── enhanced_doc_loader.py # 📄 Document loading
+└── structured_extractor.py # 🔍 Data extraction
+```
 
+### Data Directory
+```
+crawl4ai_output_enhanced/  # 📊 Scraped website data
+├── home/                  # Individual page directories
+├── about-us/
+├── contact-us/
+└── crawling_summary.json  # Scraping statistics
+```
+
+## 🚀 Quick Start
+
+### 1. Install Dependencies
 ```bash
-git clone  https://github.com/Aayushbankar/privata.git
-cd privata
-python -m venv venv
-source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Configure your Gemini API Key
-
-Obtain your API key from https://ai.google.dev.
-
-Then either:
-
-**Option A: Create a `.env` file**
-
+### 2. Run the Master Bot
 ```bash
-cp .env.example .env
+python mosdac_bot.py
 ```
 
-Inside `.env`, add:
+### 3. Choose Your Operation
+- **Option 1**: Scrape data only
+- **Option 2**: Ingest data only  
+- **Option 3**: Complete workflow (scrape + ingest)
+- **Option 4**: Chat with the bot
+- **Option 5**: Check data status
+- **Option 6**: Remove all data
+- **Option 7**: Re-scrape and re-ingest
+- **Option 8**: Exit
 
-```env
-GEMINI_API_KEY=your_actual_key_here
-```
+## 🔧 Features
 
-**Option B: Export key manually in terminal**
+### 🕷️ Intelligent Web Crawling
+- **Sitemap Discovery**: Automatically discovers all URLs from sitemap.xml
+- **Structured Data Extraction**: Extracts tables, metadata, and structured content
+- **Quality Scoring**: Rates content quality for better RAG performance
+- **Parallel Processing**: Efficient concurrent crawling
 
-```bash
-export GEMINI_API_KEY=your_actual_key_here
-```
+### 📥 Advanced Data Ingestion
+- **Semantic Chunking**: Intelligent document segmentation
+- **Multi-modal Embeddings**: Rich content representation
+- **Deduplication**: Removes duplicate content
+- **Quality Filtering**: Keeps only high-quality content
 
----
+### 💬 Smart Chat System
+- **Context-Aware**: Maintains conversation context
+- **Source Citations**: Provides source references
+- **Reranking**: Optimizes result relevance
+- **Natural Language**: Intuitive user interaction
 
-## 📥 Ingesting Documents
+### 🗄️ Vector Database
+- **ChromaDB Integration**: Efficient similarity search
+- **Persistent Storage**: Data survives restarts
+- **Metadata Rich**: Comprehensive content indexing
+- **Performance Optimized**: Fast retrieval
 
-```bash
-python main.py
-```
+## ⚙️ Configuration
 
-Then:
+Edit `config.json` to customize:
+- **Chunking parameters**: Size, overlap, strategy
+- **Embedding model**: Text embedding configuration
+- **Vector database**: Collection settings
+- **Chat system**: Prompt templates and behavior
 
-1. Select `[1] Ingest Documents]`
-2. Enter path to a folder containing `.pdf`, `.txt`, or `.md` files
-3. Wait while the system loads, chunks, embeds, and stores documents locally into `./db/`
+## 📊 Data Flow
 
----
+1. **Crawling** → Website content extraction
+2. **Processing** → Content cleaning and structuring
+3. **Chunking** → Semantic document segmentation
+4. **Embedding** → Vector representation creation
+5. **Storage** → Vector database indexing
+6. **Retrieval** → Similarity-based content search
+7. **Generation** → LLM-powered response creation
 
-## 💬 Starting the Chat
+## 🎯 Use Cases
 
-```bash
-python main.py
-```
+- **Information Retrieval**: Find specific information quickly
+- **FAQ System**: Answer common questions
+- **Documentation Search**: Navigate complex documentation
+- **Research Assistant**: Help with research tasks
+- **Customer Support**: Provide automated support
 
-Then:
+## 🔍 Technical Details
 
-1. Select `[2] Start Chatbot`
-2. Ask questions related to the documents you ingested
+### RAG Pipeline
+- **Retrieval**: Semantic similarity search
+- **Augmentation**: Context enrichment
+- **Generation**: LLM response creation
 
-Example prompts:
+### Chunking Strategies
+- **Semantic Similarity**: Content-based segmentation
+- **Heading-Based**: Structure-aware splitting
+- **Table Integrity**: Preserve table structure
+- **Hybrid Approach**: Multiple strategies combined
 
-- "What is Unit 2 in Java?"
-- "List all topics covered in Python basics."
-- "Summarize the syllabus for Data Structures."
+### Embedding Models
+- **Sentence Transformers**: High-quality text embeddings
+- **Multi-modal**: Content, title, metadata integration
+- **Context-Aware**: Relationship-aware representations
 
----
+## 🚨 Requirements
 
-## 🔧 Configuration
+- Python 3.8+
+- ChromaDB
+- Sentence Transformers
+- BeautifulSoup4
+- LangChain
+- Crawl4AI (for web crawling)
 
-All settings are in `config.py`:
+## 📝 License
 
-```python
-chat = {
-    "llm_model": "gemini-1.5-flash",
-    "top_k": 5,
-    "streaming": False,
-    "temperature": 0.3,
-    "prompt_template": """You are a helpful assistant. Use the following context to answer:
+This project is part of the MOSDAC AI Help Bot system.
 
-{context}
+## 🤝 Contributing
 
-Question: {query}
-Answer:"""
-}
-
-ingest = {
-    "chunk_size": 500,
-    "chunk_overlap": 50
-}
-```
-
----
-
-## 🧯 Troubleshooting
-
-- **Gemini API Error 404**  
-  → You're using the wrong model name or version. Use `"models/gemini-1.5-flash"`
-
-- **No answer or poor results**  
-  → Check if you ingested the correct folder. Also try raising `top_k` in config.
-
-- **High memory usage during ingestion**  
-  → PDFs with scanned pages or massive length can cause slow embedding. Try ingesting a smaller folder first.
-
-- **FontBBox warnings**  
-  → These are non-fatal parsing issues from `pdfminer`. Safe to ignore.
-
----
-
-## 🚀 Future Improvements
-
-- Add web-based UI (FastAPI or Streamlit)
-- Use async streaming Gemini responses
-- Replace Chroma with Faiss or Weaviate for scale
-- GPU-backed embedding for large corpus
-- Docker containerization and hosted inference
-
----
-
-## 📄 License
-
-MIT License. See `LICENSE` file for details.
+This is a specialized system for MOSDAC website content. For modifications or improvements, please refer to the project documentation.
 
 ---
 
-Built with ❤️ for working locally, thinking deeply, and querying privately.
+**Note**: This system is optimized for the MOSDAC website structure but can be adapted for other websites by modifying the crawler configuration.

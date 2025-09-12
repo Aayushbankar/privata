@@ -1,0 +1,30 @@
+[
+  {
+    "index": 0,
+    "caption": "",
+    "headers": [
+      "Access Profile",
+      "Datasets",
+      "Latency"
+    ],
+    "rows": [
+      [
+        "Registered General Users",
+        "Access to limited",
+        "Latency of 3 days"
+      ],
+      [
+        "Registered Privileged Users",
+        "Access to all data",
+        "NRT Access"
+      ],
+      [
+        "Anonymous Users",
+        "Access to metadata/image and Open Data",
+        "NRT Access"
+      ]
+    ],
+    "row_count": 3,
+    "col_count": 3
+  }
+]

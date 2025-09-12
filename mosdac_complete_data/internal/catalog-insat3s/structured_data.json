@@ -1,0 +1,164 @@
+{
+  "url": "https://mosdac.gov.in/internal/catalog-insat3s",
+  "title": "Satellite Catalog",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/catalog-insat3s",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/catalog-insat3s",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Sr.No",
+        "Product\n\t\t\t\t\t\t\t\t\t/Acq Calendar/Version",
+        "Product Description",
+        "Processing Level",
+        "Temporal Resolution",
+        "Start Date",
+        "End Date",
+        "Processing Status",
+        "DOI"
+      ],
+      "rows": [
+        [
+          "1",
+          "3SIMG_L1B_STD",
+          "Level1 data for Imager 6 channels at half hour interval",
+          "L1B",
+          "HALF HOURLY",
+          "2024-05-17",
+          "2025-09-13",
+          "Active",
+          ""
+        ],
+        [
+          "2",
+          "3SIMG_L1C_ASIA_MER",
+          "IMAGER- 6 channel Level1 data in Mercator projection for Asian Sector",
+          "L1C",
+          "HALF HOURLY",
+          "2024-05-17",
+          "2025-09-13",
+          "Active",
+          ""
+        ],
+        [
+          "3",
+          "3SIMG_L1C_SGP",
+          "Level1 IMAGER 6 channel  data of TIR1, TIR2, WV, VIS, SWIR, MIR Bands in Mercator projection",
+          "L1C",
+          "HALF HOURLY",
+          "2024-05-17",
+          "2025-09-13",
+          "Active",
+          ""
+        ],
+        [
+          "4",
+          "3SIMG_L2B_CMK",
+          "INSAT-3S VHRR measures radiances in one visible and one SWIR band at 1 km spatial resolution, one MIR and two TIR bands at 4 km resolution, and one WV band at 8 km resolution. Radiances from 3 IR spectral bands TIR-1 , TIR-2 and MIR which are of same resolution of 4km are used in the INSAT cloud mask algorithm to estimate whether a given view of the earth surface is unobstructed by clouds",
+          "L2B",
+          "HALF HOURLY",
+          "2024-06-11",
+          "2025-09-13",
+          "Active",
+          ""
+        ],
+        [
+          "5",
+          "3SIMG_L2B_CTP",
+          "Cloud top properties derived using INSAT3S IMAGER",
+          "L2B",
+          "HALF HOURLY",
+          "2024-07-13",
+          "2025-09-13",
+          "Active",
+          ""
+        ],
+        [
+          "6",
+          "3SIMG_L2B_HEM",
+          "This product is derived on the basis of Hydro-Estimator method. It measures precipitation over Indian Region encompassing area between longitudes 30ÃÂÃÂ°E -to130ÃÂÃÂ°E and latitudes 50ÃÂÃÂ°N- 50ÃÂÃÂ°S.",
+          "L2B",
+          "HALF HOURLY",
+          "2024-05-17",
+          "2025-09-13",
+          "Active",
+          ""
+        ],
+        [
+          "7",
+          "3SIMG_L2B_IMC",
+          "INSAT multispectral Rainfall Algorithm Technique (IMSRA) is one of the main operational rainfall retrieval algorithms for INSAT-3S. This algorithm estimates precipitation based on non-linear power law relationship established between infrared (IR) brightness temperatures (Tbs, 10.7 ÃÂÃÂµm observations) and TRMM-PR surface rain rate.  Based on a number of case studies and research works carried out, a further refinement of the algorithm was made.",
+          "L2B",
+          "HALF HOURLY",
+          "2024-05-17",
+          "2025-09-13",
+          "Active",
+          ""
+        ],
+        [
+          "8",
+          "3SIMG_L2B_LST",
+          "Land surface temperature (LST) is a key parameter in the land surface processes. LST is very useful input to various models related to agrometeorology, ecology, hydrology and climate.",
+          "L2B",
+          "HALF HOURLY",
+          "2024-06-11",
+          "2025-09-13",
+          "Active",
+          ""
+        ],
+        [
+          "9",
+          "3SIMG_L2B_OLR",
+          "Total outgoing longwave radiation (OLR) flux, thermally emitted from earth atmosphere system, is estimated by applying regression equation relating OLR flux with INSAT-3S Imager observed WV (6.7&#956;m) and thermal infrared (TIR-1 10.5 &#956;m and TIR-2 11.5 &#956;m) radiances. The coefficients of the regression equations are determined from results of the Radiative Transfer Model simulation with various atmospheric conditions",
+          "L2B",
+          "HALF HOURLY",
+          "2024-05-17",
+          "2025-09-13",
+          "Active",
+          ""
+        ],
+        [
+          "10",
+          "3SIMG_L2B_SST",
+          "Sea surface temperature is derived from split thermal window channels (TIR1, TIR2) during daytime and using additional mid IR window channel (MIR) during night time over cloud free oceanic regions. The most important part of the SST retrieval from IR observations is the atmospheric correction, especially over tropics. This correction is determined through a suitable characterization of tropical atmospheres in radiative transfer model to simulate the brightness temperatures of INSAT-3S channels a",
+          "L2B",
+          "HALF HOURLY",
+          "2024-05-17",
+          "2025-09-13",
+          "Active",
+          ""
+        ]
+      ],
+      "row_count": 10,
+      "col_count": 9
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 3,
+      "text": "Loading...",
+      "id": "",
+      "class": [
+        "dt-loading"
+      ]
+    }
+  ],
+  "quality_score": 0.47000000000000003,
+  "extracted_at": "2025-09-13T04:48:44.306831",
+  "content_length": 5525,
+  "rag_optimized": true
+}

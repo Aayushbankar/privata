@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/insat-3dr-introduction",
+  "title": "INSAT-3DR Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/insat-3dr-introduction",
+    "domain": "mosdac.gov.in",
+    "path": "/insat-3dr-introduction",
+    "description": "INSAT-3DR is a dedicated meteorological spacecraft designed for enhanced meteorological observations and monitoring of land and ocean surfaces for weather forecasting and disaster warning. INSAT-3DR is configured on I-2K bus with Sounder, Imager and Data Relay Transponder (DRT) and Satellite Aided Search & Rescue (SAS&R) Payloads. INSAT-3DR with a lift of mass of about 2211 kg",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/insat-3dr-introduction",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "INSAT-3DR Introduction",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:48:00.054194",
+  "content_length": 9572,
+  "rag_optimized": true
+}

@@ -1,0 +1,130 @@
+{
+  "url": "https://mosdac.gov.in/node/940/9",
+  "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/940/9",
+    "domain": "mosdac.gov.in",
+    "path": "/node/940/9",
+    "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/940/9",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "",
+        "Display name",
+        "size",
+        "modified"
+      ],
+      "rows": [
+        [
+          "",
+          "Go up",
+          "",
+          "Fri, 2025-04-11 14:38"
+        ],
+        [
+          "",
+          "Validation of Resourcesat 2A LISS 3.pdf(link is external)",
+          "975.36 KB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Phase-2 Calibration field campaign for AVIRIS-NG sensor.pdf(link is external)",
+          "407.05 KB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "INSAT 3D and MODIS retrieved sea surface temperature validation and assessment over waters surrounding the Indian subcontinent.pdf(link is external)",
+          "2.55 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "OCM2 vicarious calibration over cal-val sites Little Rann of Kuchchh and Kavaratti.pdf(link is external)",
+          "1.26 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Day-1 INSAT-3DR Vicarious Calibration Using Reflectance-Based Approach Over Great Rann of Kutch.pdf(link is external)",
+          "3.51 MB",
+          "Tue, 2020-10-27 14:29"
+        ],
+        [
+          "",
+          "Image quality characterization of fine resolution RISAT 1 data using impulse response function.pdf(link is external)",
+          "3.28 MB",
+          "Tue, 2020-10-27 14:29"
+        ]
+      ],
+      "row_count": 7,
+      "col_count": 4
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Insitu",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T04:45:13.280801",
+  "content_length": 9915,
+  "rag_optimized": true
+}

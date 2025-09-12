@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/node/74?language=hi",
+  "title": "इन्सैट-3ए | मौसम विज्ञान एवं समुद्र विज्ञानीय उपग्रह डेटा पुरालेखी केंद्र",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/74?language=hi",
+    "domain": "mosdac.gov.in",
+    "path": "/node/74",
+    "description": "इनसैट-3ए दूरसंचार, टेलीविजन प्रसारण, मौसम विज्ञान और खोज एवं बचाव सेवाएं प्रदान करने के लिए एक बहुउद्देशीय उपग्रह है। इसमें चौबीस प्रेषानुकर हैं - बारह सामान्य सी-बैंड आवृत्ति में कार्यरत हैं, छह विस्तारित सी-बैंड में और छह केयू-बैंड में। बारह सामान्य सी-बैंड प्रेषानुकर में से नौ विस्तारित कवरेज प्रदान करते हैं और शेष तीन में भारत कवरेज बीम है। सभी विस्तारित सी-बैंड के साथ-साथ",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/74?language=hi",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "द्वितीयक उपागम",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "आप यहाँ हैं",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "इन्सैट-3ए",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "खोज",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "हमारा अनुसरण करें",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:45:33.200986",
+  "content_length": 10479,
+  "rag_optimized": true
+}

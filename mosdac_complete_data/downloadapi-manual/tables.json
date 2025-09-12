@@ -1,0 +1,113 @@
+[
+  {
+    "index": 0,
+    "caption": "",
+    "headers": [
+      "Field",
+      "Description",
+      "Required"
+    ],
+    "rows": [
+      [
+        "username",
+        "Your username for MOSDAC login (*)",
+        "Yes"
+      ],
+      [
+        "password",
+        "Your password for MOSDAC login (*)",
+        "Yes"
+      ]
+    ],
+    "row_count": 2,
+    "col_count": 3
+  },
+  {
+    "index": 1,
+    "caption": "",
+    "headers": [
+      "Field",
+      "Description",
+      "Required",
+      "Notes"
+    ],
+    "rows": [
+      [
+        "datasetId",
+        "The dataset that you want to download",
+        "Yes",
+        "Example: \"3SIMG_L1B_STD\""
+      ],
+      [
+        "startTime",
+        "he start date from which data should be downloaded.",
+        "No",
+        "Format: \"YYYY-MM-DD\"\nExample: \"2024-09-25\""
+      ],
+      [
+        "endTime",
+        "The end date up to which data should be downloaded.",
+        "No",
+        "Format: \"YYYY-MM-DD\"\nExample: \"2024-10-25\""
+      ],
+      [
+        "count",
+        "Maximum number of records you want to download.",
+        "No",
+        "Max value: 100"
+      ],
+      [
+        "boundingBox",
+        "Area-wise filter your selected â€˜datasetIdâ€™.",
+        "No",
+        "Format: \"minLon,minLat,maxLon,maxLat\"\nExample: \"70.0,8.0,90.0,28.0\""
+      ],
+      [
+        "gId",
+        "Granule ID (specific ID if only one file is to be downloaded.)",
+        "No",
+        "Must be exact. Example: \"15039367\""
+      ]
+    ],
+    "row_count": 6,
+    "col_count": 4
+  },
+  {
+    "index": 2,
+    "caption": "",
+    "headers": [
+      "Field",
+      "Description",
+      "Example"
+    ],
+    "rows": [
+      [
+        "download_path",
+        "Directory path to store downloaded files",
+        "\"/home/user/downloads\""
+      ],
+      [
+        "organize_by_date",
+        "Automatically organize downloaded data into subfolders (by year & date)",
+        "true or false"
+      ],
+      [
+        "skip_user_prompt",
+        "Whether to skip the \"yes/no\" prompt before download",
+        "true (skip) or false (ask)"
+      ],
+      [
+        "generate_error_log",
+        "Enables detailed error logs",
+        "true or false"
+      ],
+      [
+        "error_log_path",
+        "Custom directory for log storage (optional)",
+        "\"/home/user/logs\""
+      ]
+    ],
+    "row_count": 5,
+    "col_count": 3
+  }
+]

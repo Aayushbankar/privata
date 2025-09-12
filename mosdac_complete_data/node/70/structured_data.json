@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/node/70?language=hi",
+  "title": "कल्पना-1 | मौसम विज्ञान एवं समुद्र विज्ञानीय उपग्रह डेटा पुरालेखी केंद्र",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/70?language=hi",
+    "domain": "mosdac.gov.in",
+    "path": "/node/70",
+    "description": "मेटसैट भू-तुल्यकालिक कक्षा में इसरो का मौसम संबंधी विशेष उपग्रह है। यह उपग्रह कार्बन फाइबर पुन:सुदृढ़ीकृत प्लास्टिक से बनी हल्के वजन वाली एक छोटी आई-1000 बस संरचना, 18एएच एनआई-सीडी बैटरी वाली एक यूनी पावर बस और 640 वाट बिजली उत्पन्न करने वाले एकल जीएएएस/जीई सौर पैनल से विकसित किया गया है। मेटसैट सौर विकिरण दबाव प्रतिकार के लिए उपयुक्त रैखिक रूप से नियंत्रित चुंबकीय टॉर्कों के",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/70?language=hi",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "द्वितीयक उपागम",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "आप यहाँ हैं",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "कल्पना-1",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "खोज",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "हमारा अनुसरण करें",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:44:15.531294",
+  "content_length": 10281,
+  "rag_optimized": true
+}

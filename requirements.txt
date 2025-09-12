@@ -1,27 +1,30 @@
-# RAG Core
-langchain>=0.1.14
-langchain-community>=0.0.19
-langchain-chroma>=0.0.13
+# Additional requirements for modern RAG system
+
+# ChromaDB (direct usage, not through LangChain)
+chromadb>=0.4.22
+
+# Sentence Transformers for embeddings
 sentence-transformers>=2.2.2
-unstructured[pdf]>=0.10.10
 
-# Gemini API
-google-generativeai>=0.3.0
+# Cross-encoder for reranking
+sentence-transformers[cross-encoder]>=2.2.2
 
-# System I/O
-tqdm>=4.66.1
-rich>=13.7.1
-requests>=2.31.0
-python-dotenv>=1.0.0
+# HTML parsing and processing
+beautifulsoup4>=4.12.2
+html2text>=2020.1.16
 
-# Compatibility Fixes for Python 3.13
-numpy>=2.0.0
-scikit-learn>=1.4.2
-scipy>=1.12.0
-pybind11>=2.12
-transformers>=4.41.1
+# Additional text processing
+numpy>=1.24.3
+scikit-learn>=1.3.0
 
-# --- CPU-only torch ecosystem (no 3 GB CUDA wheels) ---
---extra-index-url https://download.pytorch.org/whl/cpu
-torch>=2.0.0
-torchvision>=0.15.0
+# For structured data extraction
+python-dateutil>=2.8.2
+
+# For enhanced metadata extraction
+pandas>=2.0.3
+
+# For modern vector DB operations
+uuid>=1.30
+
+# Note: Many of these may already be installed via the existing requirements.txt
+# This file lists the additional specific dependencies for the modern components

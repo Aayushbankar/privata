@@ -1,0 +1,55 @@
+[
+  {
+    "index": 0,
+    "caption": "",
+    "headers": [
+      "Document Type",
+      "Download"
+    ],
+    "rows": [
+      [
+        "Portable Document Format (PDF) files",
+        "Adobe Acrobat Reader(link is external)"
+      ],
+      [
+        "MP4 files",
+        "Windows Media Player(link is external) / VLC Media Player(link is external)"
+      ]
+    ],
+    "row_count": 2,
+    "col_count": 2
+  },
+  {
+    "index": 1,
+    "caption": "",
+    "headers": [
+      "Screen Reader",
+      "Website",
+      "Free / Commercial"
+    ],
+    "rows": [
+      [
+        "Non Visual Desktop Access (NVDA)",
+        "http://www.nvda-project.org (link is external)",
+        "Free"
+      ],
+      [
+        "Hal",
+        "http://www.yourdolphin.co.uk/productdetail.asp?id=5 (link is external)",
+        "Commercial"
+      ],
+      [
+        "JAWS",
+        "http://www.freedomscientific.com/jaws-hq.asp (link is external)",
+        "Commercial"
+      ],
+      [
+        "Supernova",
+        "http://www.yourdolphin.co.uk/productdetail.asp?id=1 (link is external)",
+        "Commercial"
+      ]
+    ],
+    "row_count": 4,
+    "col_count": 3
+  }
+]

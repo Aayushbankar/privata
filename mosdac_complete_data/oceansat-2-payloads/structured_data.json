@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/oceansat-2-payloads",
+  "title": "Oceansat-2 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/oceansat-2-payloads",
+    "domain": "mosdac.gov.in",
+    "path": "/oceansat-2-payloads",
+    "description": "The scientific payload contains three instruments. Two are Indian and one is from the Italian Space Agency.Ocean Colour Monitor (OCM)Scanning Scatterometer (SCAT)Radio Occultation Sounder for Atmospheric Studies (ROSA)Ocean Colour Monitor (OCM)OCM is an 8-band multi-spectral camera operating in the Visible and Near IR spectral range. This camera provides an instantaneous",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/oceansat-2-payloads",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Oceansat-2 Payloads",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:45:38.745726",
+  "content_length": 10479,
+  "rag_optimized": true
+}

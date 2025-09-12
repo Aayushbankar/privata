@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/insat-3dr-references",
+  "title": "INSAT-3DR References | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/insat-3dr-references",
+    "domain": "mosdac.gov.in",
+    "path": "/insat-3dr-references",
+    "description": "Product Format Compatability with COTS package (Size:796 KB Format:PDF Tool:PDFViewer)ATBD Document (Size:9.8 MB Format:PDF Tool:PDFViewer)Revised ATBD Document for SST (Size:1.4 MB Format:PDF Tool:PDFViewer)Incremental ATBD Document (Size:5.2 MB Format:PDF Tool:PDFViewer)Format Document (Size:903 KB Format:PDF Tool:PDFViewer)Product Catalogue (Size:229 KB Format:PDF",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/insat-3dr-references",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "INSAT-3DR References",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:45:52.420543",
+  "content_length": 9731,
+  "rag_optimized": true
+}

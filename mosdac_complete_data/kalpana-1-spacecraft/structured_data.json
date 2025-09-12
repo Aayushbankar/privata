@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/kalpana-1-spacecraft",
+  "title": "KALPANA-1 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/kalpana-1-spacecraft",
+    "domain": "mosdac.gov.in",
+    "path": "/kalpana-1-spacecraft",
+    "description": "The MetSat-1 spacecraft was developed by ISAC (ISRO Satellite Center), Bangalore. MetSat has been designed using a new spacecraft bus (I-1000 bus) employing lightweight structural elements like CFRP (Carbon Fibre Reinforced Plastic).",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/kalpana-1-spacecraft",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "KALPANA-1 SpaceCraft",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:43:19.673931",
+  "content_length": 10249,
+  "rag_optimized": true
+}

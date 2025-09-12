@@ -1,0 +1,960 @@
+<!DOCTYPE html><html><head>
+      <style type="text/css">
+         @media only screen and (max-width: 500px) {
+         .turn-page-wrapper{
+         top: 102px !important;
+         }
+         }
+      </style>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--  <meta name="viewport" content="width = 1050" /> -->
+      <link rel="stylesheet" href="../flip.css">
+      <script type="text/javascript" src="../doScroll.js"></script>
+      <script type="text/javascript" src="../jquery.min.js"></script>
+      <script type="text/javascript" src="../turn.js"></script>
+   </head>
+   <body class="hide-overflow">
+      <div id="thumb_img" style="bottom: 0px; background-color: rgba(199, 221, 235, 0.8); box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px 1px; display: none;">
+         <div id="mdiv">
+            <div class="mdiv">
+               <div class="md"></div>
+            </div>
+         </div>
+         <div id="img-frame" class="even1">
+            <img data-id="1" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-001.jpg"> 
+            <div>
+               <span class="data-id">1</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="2" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-002.jpg">
+            <img data-id="3" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-003.jpg">
+            <div>
+               <span class="data-id">2</span>
+               <span class="even data-id">3</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="4" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-004.jpg">
+            <img data-id="5" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-005.jpg">
+            <div>
+               <span class="data-id">4</span>
+               <span class="even data-id">5</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="6" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-006.jpg">
+            <img data-id="7" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-007.jpg">
+            <div>
+               <span class="data-id">6</span>
+               <span class="even data-id">7</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="8" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-008.jpg">
+            <img data-id="9" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-009.jpg">
+            <div>
+               <span class="data-id">8</span>
+               <span class="even data-id">9<!--/span-->
+            </span></div>
+         </div>
+         <div id="img-frame">
+            <img data-id="10" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-010.jpg">
+            <img data-id="11" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-011.jpg">
+            <div>
+               <span class="data-id">10</span>
+               <span class="even data-id">11</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="12" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-012.jpg">
+            <img data-id="13" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-013.jpg">
+            <div>
+               <span class="data-id">12</span>
+               <span class="even data-id">13</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="14" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-014.jpg">
+            <img data-id="15" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-015.jpg">
+            <div>
+               <span class="data-id">14</span>
+               <span class="even data-id">15</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="16" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-016.jpg">
+            <img data-id="17" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-017.jpg">
+            <div>
+               <span class="data-id">16</span>
+               <span class="even data-id">17</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="18" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-018.jpg">
+            <img data-id="19" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-019.jpg">
+            <div>
+               <span class="data-id">18</span>
+               <span class="even data-id">19</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="20" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-020.jpg">
+            <img data-id="21" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-021.jpg">
+            <div>
+               <span class="data-id">20</span>
+               <span class="even data-id">21</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="22" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-022.jpg">
+            <img data-id="23" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-023.jpg">
+            <div>
+               <span class="data-id">22</span>
+               <span class="even data-id">23</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="24" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-024.jpg">
+            <img data-id="25" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-025.jpg">
+            <div>
+               <span class="data-id">24</span>
+               <span class="even data-id">25</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="26" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-026.jpg">
+            <img data-id="27" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-027.jpg">
+            <div>
+               <span class="data-id">26</span>
+               <span class="even data-id">27</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="28" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-028.jpg">
+            <img data-id="29" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-029.jpg">
+            <div>
+               <span class="data-id">28</span>
+               <span class="even data-id">29</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="30" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-030.jpg">
+            <img data-id="31" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-031.jpg">
+            <div>
+               <span class="data-id">30</span>
+               <span class="even data-id">31</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="32" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-032.jpg">
+            <img data-id="33" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-033.jpg">
+            <div>
+               <span class="data-id">32</span>
+               <span class="even data-id">33</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="34" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-034.jpg">
+            <img data-id="35" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-035.jpg">
+            <div>
+               <span class="data-id">34</span>
+               <span class="even data-id">35</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="36" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-036.jpg">
+            <img data-id="37" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-037.jpg">
+            <div>
+               <span class="data-id">36</span>
+               <span class="even data-id">37</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="38" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-038.jpg">
+            <img data-id="39" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-039.jpg">
+            <div>
+               <span class="data-id">38</span>
+               <span class="even data-id">39</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="40" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-040.jpg">
+            <img data-id="41" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-041.jpg">
+            <div>
+               <span class="data-id">40</span>
+               <span class="even data-id">41</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="42" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-042.jpg">
+            <img data-id="43" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-043.jpg">
+            <div>
+               <span class="data-id">42</span>
+               <span class="even data-id">43</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="44" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-044.jpg">
+            <img data-id="45" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-045.jpg">
+            <div>
+               <span class="data-id">44</span>
+               <span class="even data-id">45</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="46" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-046.jpg">
+            <img data-id="47" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-047.jpg">
+            <div>
+               <span class="data-id">46</span>
+               <span class="even data-id">47</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="48" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-048.jpg">
+            <img data-id="49" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-049.jpg">
+            <div>
+               <span class="data-id">48</span>
+               <span class="even data-id">49</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="50" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-050.jpg">
+            <img data-id="51" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-051.jpg">
+            <div>
+               <span class="data-id">50</span>
+               <span class="even data-id">51</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="52" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-052.jpg">
+            <img data-id="53" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-053.jpg">
+            <div>
+               <span class="data-id">52</span>
+               <span class="even data-id">53</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="54" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-054.jpg">
+            <img data-id="55" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-055.jpg">
+            <div>
+               <span class="data-id">54</span>
+               <span class="even data-id">55</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="56" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-056.jpg">
+            <img data-id="57" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-057.jpg">
+            <div>
+               <span class="data-id">56</span>
+               <span class="even data-id">57</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="58" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-058.jpg"> 
+            <img data-id="59" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-059.jpg">
+            <div>
+               <span class="data-id">58</span>
+               <span class="data-id">59</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="60" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-060.jpg">
+            <img data-id="61" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-061.jpg">
+            <div>
+               <span class="data-id">60</span>
+               <span class="even data-id">61</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="62" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-062.jpg">
+            <img data-id="63" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-063.jpg">
+            <div>
+               <span class="data-id">62</span>
+               <span class="even data-id">63</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="64" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-064.jpg">
+            <img data-id="65" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-065.jpg">
+            <div>
+               <span class="data-id">64</span>
+               <span class="even data-id">65</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="66" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-066.jpg">
+            <img data-id="67" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-067.jpg">
+            <div>
+               <span class="data-id">66</span>
+               <span class="even data-id">67</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="68" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-068.jpg">
+            <img data-id="69" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-069.jpg">
+            <div>
+               <span class="data-id">68</span>
+               <span class="even data-id">69</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="70" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-070.jpg">
+            <img data-id="71" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-071.jpg">
+            <div>
+               <span class="data-id">70</span>
+               <span class="even data-id">71</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="72" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-072.jpg">
+            <img data-id="73" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-073.jpg">
+            <div>
+               <span class="data-id">72</span>
+               <span class="even data-id">73</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="74" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-074.jpg">
+            <img data-id="75" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-075.jpg">
+            <div>
+               <span class="data-id">74</span>
+               <span class="even data-id">75</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="76" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-076.jpg">
+            <img data-id="77" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-077.jpg">
+            <div>
+               <span class="data-id">76</span>
+               <span class="even data-id">77</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="78" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-078.jpg">
+            <img data-id="79" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-079.jpg">
+            <div>
+               <span class="data-id">78</span>
+               <span class="even data-id">79</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="80" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-080.jpg">
+            <img data-id="81" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-081.jpg">
+            <div>
+               <span class="data-id">80</span>
+               <span class="even data-id">81</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="82" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-082.jpg">
+            <img data-id="83" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-083.jpg">
+            <div>
+               <span class="data-id">82</span>
+               <span class="even data-id">83</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="84" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-084.jpg">
+            <img data-id="85" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-085.jpg">
+            <div>
+               <span class="data-id">84</span>
+               <span class="even data-id">85</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="86" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-086.jpg">
+            <img data-id="87" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-087.jpg">
+            <div>
+               <span class="data-id">86</span>
+               <span class="even data-id">87</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="88" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-088.jpg">
+            <img data-id="89" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-089.jpg">
+            <div>
+               <span class="data-id">88</span>
+               <span class="even data-id">89</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="90" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-090.jpg">
+            <img data-id="91" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-091.jpg">
+            <div>
+               <span class="data-id">90</span>
+               <span class="even data-id">91</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="92" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-092.jpg">
+            <img data-id="93" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-093.jpg">
+            <div>
+               <span class="data-id">92</span>
+               <span class="even data-id">93</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="94" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-094.jpg">
+            <img data-id="95" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-095.jpg">
+            <div>
+               <span class="data-id">94</span>
+               <span class="even data-id">95</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="96" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-096.jpg">
+            <img data-id="97" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-097.jpg">
+            <div>
+               <span class="data-id">96</span>
+               <span class="even data-id">97</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="98" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-098.jpg">
+            <img data-id="99" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-099.jpg">
+            <div>
+               <span class="data-id">98</span>
+               <span class="even data-id">99</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="100" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-100.jpg">
+            <img data-id="101" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-101.jpg">
+            <div>
+               <span class="data-id">100</span>
+               <span class="even data-id">101</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="102" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-102.jpg">
+            <img data-id="103" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-103.jpg">
+            <div>
+               <span class="data-id">102</span>
+               <span class="even data-id">103</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="104" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-104.jpg">
+            <img data-id="105" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-105.jpg">
+            <div>
+               <span class="data-id">104</span>
+               <span class="even data-id">105</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="106" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-106.jpg">
+            <img data-id="107" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-107.jpg">
+            <div>
+               <span class="data-id">106</span>
+               <span class="even data-id">107</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="108" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-108.jpg">
+            <img data-id="109" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-109.jpg">
+            <div>
+               <span class="data-id">108</span>
+               <span class="even data-id">109</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="110" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-110.jpg">
+            <img data-id="111" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-111.jpg">
+            <div>
+               <span class="data-id">110</span>
+               <span class="even data-id">111</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="112" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-112.jpg">
+            <img data-id="113" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-113.jpg">
+            <div>
+               <span class="data-id">112</span>
+               <span class="even data-id">113</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="114" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-114.jpg">
+            <img data-id="115" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-115.jpg">
+            <div>
+               <span class="data-id">114</span>
+               <span class="even data-id">115</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="116" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-116.jpg"> 
+            <img data-id="117" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-117.jpg">
+            <div>
+               <span class="data-id">116</span>
+               <span class="data-id">117</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="118" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-118.jpg">
+            <img data-id="119" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-119.jpg">
+            <div>
+               <span class="data-id">118</span>
+               <span class="even data-id">119</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="120" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-120.jpg">
+            <img data-id="121" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-121.jpg">
+            <div>
+               <span class="data-id">120</span>
+               <span class="even data-id">121</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="122" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-122.jpg">
+            <img data-id="123" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-123.jpg">
+            <div>
+               <span class="data-id">122</span>
+               <span class="even data-id">123</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="124" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-124.jpg">
+            <img data-id="125" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-125.jpg">
+            <div>
+               <span class="data-id">124</span>
+               <span class="even data-id">125</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="126" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-126.jpg">
+            <img data-id="127" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-127.jpg">
+            <div>
+               <span class="data-id">126</span>
+               <span class="even data-id">127</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="128" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-128.jpg">
+            <img data-id="129" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-129.jpg">
+            <div>
+               <span class="data-id">128</span>
+               <span class="even data-id">129</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="130" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-130.jpg">
+            <img data-id="131" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-131.jpg">
+            <div>
+               <span class="data-id">130</span>
+               <span class="even data-id">131</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="132" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-132.jpg">
+            <img data-id="133" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-133.jpg">
+            <div>
+               <span class="data-id">132</span>
+               <span class="even data-id">133</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="134" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-134.jpg">
+            <img data-id="135" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-135.jpg">
+            <div>
+               <span class="data-id">134</span>
+               <span class="even data-id">135</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="136" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-136.jpg">
+            <img data-id="137" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-137.jpg">
+            <div>
+               <span class="data-id">136</span>
+               <span class="even data-id">137</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="138" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-138.jpg">
+            <img data-id="139" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-139.jpg">
+            <div>
+               <span class="data-id">138</span>
+               <span class="even data-id">139</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="140" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-140.jpg">
+            <img data-id="141" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-141.jpg">
+            <div>
+               <span class="data-id">140</span>
+               <span class="even data-id">141</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="142" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-142.jpg">
+            <img data-id="143" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-143.jpg">
+            <div>
+               <span class="data-id">142</span>
+               <span class="even data-id">143</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="144" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-144.jpg">
+            <img data-id="145" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-145.jpg">
+            <div>
+               <span class="data-id">144</span>
+               <span class="even data-id">145</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="146" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-146.jpg">
+            <img data-id="147" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-147.jpg">
+            <div>
+               <span class="data-id">146</span>
+               <span class="even data-id">147</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="148" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-148.jpg">
+            <img data-id="149" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-149.jpg">
+            <div>
+               <span class="data-id">148</span>
+               <span class="even data-id">149</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="150" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-150.jpg">
+            <img data-id="151" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-151.jpg">
+            <div>
+               <span class="data-id">150</span>
+               <span class="even data-id">151</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="152" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-152.jpg">
+            <img data-id="153" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-153.jpg">
+            <div>
+               <span class="data-id">152</span>
+               <span class="even data-id">153</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="154" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-154.jpg">
+            <img data-id="155" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-155.jpg">
+            <div>
+               <span class="data-id">154</span>
+               <span class="even data-id">155</span>
+            </div>
+         </div>
+         <div id="img-frame">
+            <img data-id="156" src="Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-156.jpg">
+            
+            <div>
+               <span class="data-id">156</span>
+              
+            </div>
+         </div>
+      </div>
+      <!-- <div id="loading" style="display: none;"   ><img src="image/Round.gif"/></div> -->
+      <div class="container" id="container">
+         <div id="prv" style="opacity: 0;"><a id="prev" href="#" onclick="prev();">«</a></div>
+         <div class="book-content">
+            <div id="book" class="workspace workspace-content" style="width: 1029.59px; height: 381px; position: absolute; transform: translate3d(0px, 0px, 0px);">
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+           
+            <div class="turn-page-wrapper" page="1" style="position: absolute; overflow: hidden; width: 514.795px; height: 381px; inset: 0px 0px auto auto; z-index: 156;"><div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: auto; width: 640px; height: 640px;"><div id="xy" class="turn-page p1 page1" style="width: 514.795px; height: 381px; position: absolute; inset: 0px auto auto 0px;"><img src="Exploring_the_Antarctic/Exploring_the_Antarctic-001.jpg" title="page-1"></div></div><div style="top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 514.781px; height: 381px;"></div></div><div style="pointer-events: none; display: none; position: absolute; top: -109.5px; left: -25.2031px; overflow: visible; z-index: auto;"><div style="position: absolute; top: 109.5px; left: 540.016px; overflow: hidden; z-index: 156; display: none; width: 640px; height: 640px;"><div style="position: absolute; top: 0px; left: 0px; overflow: visible; z-index: auto; width: 514.781px; height: 381px;"><div style="cursor: default; width: 381px; height: 514.781px;"><div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 381px; height: 514.781px;"></div></div></div></div></div><div class="turn-page-wrapper" page="2" style="position: absolute; overflow: hidden; width: 514.795px; height: 381px; inset: 0px auto auto 0px; z-index: 0; display: none;"><div id="xy" class="turn-page p2 page2" style="width: 514.795px; height: 381px;"><img src="Exploring_the_Antarctic/Exploring_the_Antarctic-002.jpg" title="page-2"></div></div><div class="turn-page-wrapper" page="3" style="position: absolute; overflow: hidden; width: 514.795px; height: 381px; inset: 0px 0px auto auto; z-index: 155;"><div id="xy" class="turn-page p3 page3" style="width: 514.795px; height: 381px;"><img src="Exploring_the_Antarctic/Exploring_the_Antarctic-003.jpg" title="page-3"></div></div><div class="turn-page-wrapper" page="4" style="position: absolute; overflow: hidden; width: 514.795px; height: 381px; inset: 0px auto auto 0px; z-index: 0; display: none;"><div id="xy" class="turn-page p4 page4" style="width: 514.795px; height: 381px;"><img src="Exploring_the_Antarctic/Exploring_the_Antarctic-004.jpg" title="page-4"></div></div><div class="turn-page-wrapper" page="5" style="position: absolute; overflow: hidden; width: 514.795px; height: 381px; inset: 0px 0px auto auto; z-index: 0; display: none;"><div id="xy" class="turn-page p5 page5" style="width: 514.795px; height: 381px;"><img src="Exploring_the_Antarctic/Exploring_the_Antarctic-005.jpg" title="page-5"></div></div><div class="turn-page-wrapper" page="6" style="position: absolute; overflow: hidden; width: 514.795px; height: 381px; inset: 0px auto auto 0px; z-index: 0; display: none;"><div id="xy" class="turn-page p6 page6" style="width: 514.795px; height: 381px;"><img src="Exploring_the_Antarctic/Exploring_the_Antarctic-006.jpg" title="page-6"></div></div></div>
+         </div>
+         <div id="nxt"><a onclick="next();" id="next" href="#">»</a></div>
+      </div>
+      <div class="footer" id="footer">
+         <img id="thumbicon" src="ocean/icons8-microsoft-30.png">
+         <div id="pagecount" style="background-color: #cde8f9;">Page:0-1/156</div>
+      </div>
+      <div id="gallery"></div>
+      <script type="text/javascript">
+         (function () {
+          'use strict';
+          var module = {
+              ratio: 2.7,
+              init: function (id) {
+                  var me = this;
+                  // if older browser then don't run javascript
+                  if (document.addEventListener) {
+                      this.el = document.getElementById(id);
+                      this.resize();
+                      this.plugins();
+         
+                      // on window resize, update the plugin size
+                      window.addEventListener('resize', function (e) {
+                          var size = me.resize();
+                          $(me.el).turn('size', size.width, size.height);
+                      });
+                  }
+              },
+              resize: function () {
+                  // reset the width and height to the css defaults
+                  this.el.style.width = '';
+                  this.el.style.height = '';
+         
+                  var width = this.el.clientWidth,
+                      height = Math.round(width / this.ratio),
+                      padded = Math.round(document.body.clientHeight * 0.9);
+                 console.log( width+'width')
+                  console.log( document.body.clientHeight+'height')
+                  // if the height is too big for the window, constrain it
+                  if (height > padded) {
+                      height = padded;
+                      width = Math.round(height * this.ratio);
+                  }
+         
+                  // set the width and height matching the aspect ratio
+                  this.el.style.width = width + 'px';
+                  this.el.style.height = height + 'px';
+         
+                  return {
+                      width: width,
+                      height: height
+                  };
+              },
+              plugins: function () {
+               var  page1;
+               $("img").on("click", function(page1){
+                 page1 = $(this).attr("data-id");
+                   
+                   $("#book").turn("page", page1);
+                   //alert('page'+page)
+               });
+                  // run the plugin
+                  $(this.el).turn({
+                      gradients: true,
+                      acceleration: true,
+                      display: 'double',
+                      acceleration: true,
+                      gradients: !$.isTouch,
+                      elevation:50,
+                      autoCenter: true,
+                       next:true,
+               when: {
+               turned: function(e, page, view) {
+                        var num_arr = view;
+                        var arr_len = num_arr.length;
+                        var num_str = '';
+                        for(var i=0;i< arr_len; i++){ 
+                         num_str += num_arr[i];
+                         if(i < (arr_len-1) ){
+                         num_str += ',';
+                        }
+                       }
+                     if (screen.width<500) {
+                          $('#book').turn('display', 'single');
+                       }else{
+                          $('#book').turn('display', 'double');
+                       }
+                      $(window).resize(function(){
+                        var win = $(this); //this = window
+                        if (win.width() >= 500) { $('#book').turn('display','double');}
+                      else {
+                        $('#book').turn('display','single');
+                      }
+                      });
+                       var pagecount = num_str.replace(",", "-");
+                       console.log( pagecount );
+                       var tatalpage = $('#book').turn('pages'); 
+                      document.getElementById('pagecount').innerHTML='Page:'+pagecount+'/'+tatalpage+'';   
+                     //alert(page) 
+                     if(page == 1){
+                         document.getElementById('prv').style.opacity="0";
+                     }else{
+                         document.getElementById('prv').style.opacity="1";
+                     }
+               }
+               
+                 },
+                 });
+                  // hide the body overflow
+                  document.body.className = 'hide-overflow';
+              }
+         
+          };
+         
+          module.init('book');
+         }());
+         
+          $('#book').on('mousewheel', function(e){
+         wheel(e.originalEvent, this);  
+         })
+         
+          document.getElementById('thumb_img').style.display="none";
+              $("#thumb_img").css("display", "none");
+           $("#mdiv").click(function(){
+               $("#thumb_img").css("display", "none");
+               });
+               $("#magazine").click(function(){
+               $("#thumb_img").css("display", "none");
+               });
+               $("#thumbicon").click(function(){
+               $("#thumb_img").css("display", "block");
+               });
+               $("#book").click(function(){
+               $("#thumb_img").css("display", "none");
+               });
+              $("#thumb_img").click(function(){
+               $("#thumb_img").css("display", "none");
+               });
+         
+      </script>
+   
+
+</body></html>

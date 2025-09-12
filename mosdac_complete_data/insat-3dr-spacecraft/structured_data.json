@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/insat-3dr-spacecraft",
+  "title": "INSAT-3DR SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/insat-3dr-spacecraft",
+    "domain": "mosdac.gov.in",
+    "path": "/insat-3dr-spacecraft",
+    "description": "The INSAT-3DR is a momentum-biased 3-axis stabilized spacecraft using star trackers for precise pointing control. The spacecraft has a launch mass of 2211 kg with a dry mass of 907 kg. It is in Geostationary orbit, altitude of ~35, 786 km, location at 74° East. The three-axis stabilized geostationary satellite carries two meteorological instruments: a six channel Imager and an",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/insat-3dr-spacecraft",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "INSAT-3DR SpaceCraft",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:48:53.793105",
+  "content_length": 9498,
+  "rag_optimized": true
+}

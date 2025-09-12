@@ -1,0 +1,122 @@
+{
+  "url": "https://mosdac.gov.in/oceansat-3-spacecraft",
+  "title": "OCEANSAT-3 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/oceansat-3-spacecraft",
+    "domain": "mosdac.gov.in",
+    "path": "/oceansat-3-spacecraft",
+    "description": "Launch date:26 November 2022Launch site:SHAR, SriharikotaLaunch vehicle;PSLV – C54Orbit:Polar Sun SynchronousAltitude:740 kmInclination: Repetitivity:2 daysPayloads:OCM, SCAT , SSTM and ARGOSLocal time of Eq. crossing:12 noonMass at lift off:",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/oceansat-3-spacecraft",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Launch date:",
+        "26 November 2022"
+      ],
+      "rows": [
+        [
+          "Launch site:",
+          "SHAR, Sriharikota"
+        ],
+        [
+          "Launch vehicle;",
+          "PSLV – C54"
+        ],
+        [
+          "Orbit:",
+          "Polar Sun Synchronous"
+        ],
+        [
+          "Altitude:",
+          "740 km"
+        ],
+        [
+          "Inclination:",
+          ""
+        ],
+        [
+          "Repetitivity:",
+          "2 days"
+        ],
+        [
+          "Payloads:",
+          "OCM, SCAT , SSTM and ARGOS"
+        ],
+        [
+          "Local time of Eq. crossing:",
+          "12 noon"
+        ],
+        [
+          "Mass at lift off:",
+          ""
+        ]
+      ],
+      "row_count": 9,
+      "col_count": 2
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "OCEANSAT-3 SpaceCraft",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T04:49:54.336694",
+  "content_length": 8540,
+  "rag_optimized": true
+}

@@ -1,0 +1,97 @@
+{
+  "url": "https://mosdac.gov.in/validation-reports?sort=asc&order=modified",
+  "title": "Validation | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/validation-reports?sort=asc&order=modified",
+    "domain": "mosdac.gov.in",
+    "path": "/validation-reports",
+    "description": "",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/validation-reports",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "",
+        "Display name",
+        "modified"
+      ],
+      "rows": [
+        [
+          "",
+          "Satellite",
+          "Thu, 2018-02-08 10:35"
+        ],
+        [
+          "",
+          "Forecast",
+          "Wed, 2017-01-04 09:46"
+        ]
+      ],
+      "row_count": 2,
+      "col_count": 3
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Validation",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6000000000000001,
+  "extracted_at": "2025-09-13T04:49:54.614676",
+  "content_length": 8932,
+  "rag_optimized": true
+}

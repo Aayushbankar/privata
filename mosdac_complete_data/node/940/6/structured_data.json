@@ -1,0 +1,130 @@
+{
+  "url": "https://mosdac.gov.in/node/940/6",
+  "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/940/6",
+    "domain": "mosdac.gov.in",
+    "path": "/node/940/6",
+    "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/940/6",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "",
+        "Display name",
+        "size",
+        "modified"
+      ],
+      "rows": [
+        [
+          "",
+          "Go up",
+          "",
+          "Fri, 2025-04-11 14:38"
+        ],
+        [
+          "",
+          "Reflectance based vicarious calibration of INSAT-3D, 2015.pdf(link is external)",
+          "2.33 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Land displacement mapping-Nepal earthquake-2015.pdf(link is external)",
+          "5.21 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Final Validation Report on SST from INSAT-3D_11Aug2015.pdf(link is external)",
+          "6 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Calibration of Ka-band Alitmiter (altika)-2015.pdf(link is external)",
+          "3.73 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Absolute calibration and image quality assessment of RISAT-1 FRS and MRS mode data-2015.pdf(link is external)",
+          "1.64 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Calibration and validation site characterisation for INSAT-3D, 2015.pdf(link is external)",
+          "1.54 MB",
+          "Fri, 2017-11-24 11:20"
+        ]
+      ],
+      "row_count": 7,
+      "col_count": 4
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Insitu",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T04:44:31.465444",
+  "content_length": 9779,
+  "rag_optimized": true
+}

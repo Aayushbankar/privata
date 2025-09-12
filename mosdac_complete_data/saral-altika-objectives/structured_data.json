@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/saral-altika-objectives",
+  "title": "SARAL-AltiKa Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/saral-altika-objectives",
+    "domain": "mosdac.gov.in",
+    "path": "/saral-altika-objectives",
+    "description": "SARAL/AltiKa main scientific objective is to provide data products to oceanographic research user community in studies leading to improve our knowledge of the ocean meso-scale variability, thanks to the improvement in spatial and vertical resolution brought by SARAL/AltiKa.Ocean meso-scale variability is defined as a class of high-energy processes, with wave lengths within a",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/saral-altika-objectives",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "SARAL-AltiKa Objectives",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T04:46:45.805742",
+  "content_length": 10324,
+  "rag_optimized": true
+}
