@@ -4,7 +4,7 @@ from typing import List, Dict, Any
 import numpy as np
 from sentence_transformers import CrossEncoder
 from retriever.multi_modal_embedder import multi_modal_embedder
-
+from typing import Any , List, Dict
 class Reranker:
     """Reranking system with MMR and cross-encoder capabilities"""
     

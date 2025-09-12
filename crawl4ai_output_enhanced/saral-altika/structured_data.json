@@ -1,0 +1,43 @@
+{
+  "url": "https://mosdac.gov.in/saral-altika",
+  "extracted_at": "2025-09-11T17:17:31.331005",
+  "mission_info": {
+    "url": "https://mosdac.gov.in/saral-altika",
+    "extracted_at": "2025-09-11T17:17:31.313282",
+    "mission_name": [
+      "INSAT-3DR",
+      "INSAT-3D",
+      "KALPANA-1",
+      "MeghaTropiques",
+      "SARAL-AltiKa",
+      "OCEANSAT-2",
+      "OCEANSAT-3",
+      "INSAT-3DS",
+      "SCATSAT-1"
+    ],
+    "launch_dates": [],
+    "satellite_type": [],
+    "instrumentation": [],
+    "orbit_type": [],
+    "mission_status": [
+      "operational",
+      "operational"
+    ]
+  },
+  "technical_specs": {
+    "orbit_parameters": [],
+    "sensor_types": [],
+    "frequency_bands": [
+      "35.75 GHz",
+      "500MHz"
+    ],
+    "resolution": [],
+    "coverage": [],
+    "data_products": []
+  },
+  "metadata": {
+    "content_length": 10574,
+    "html_length": 49761,
+    "has_tables": false
+  }
+}

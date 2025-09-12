@@ -3,6 +3,7 @@
 import os
 import google.generativeai as genai
 from config import Config
+from typing import Any , List, Dict
 
 API_KEY = os.getenv("GEMINI_API_KEY")
 if not API_KEY:
@@ -11,7 +12,7 @@ if not API_KEY:
 genai.configure(api_key=API_KEY)
 
 # Gemini 1.5 Flash (fast, chat-optimized)
-model = genai.GenerativeModel("models/gemini-1.5-flash")
+model = genai.GenerativeModel("models/gemini-2.5-flash")
 
 def ensure_ollama_running():
     pass  # No local check required for Gemini

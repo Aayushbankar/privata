@@ -7,129 +7,91 @@ from retriever.reranker import reranker
 from models.llm_loader import run_llm
 import json
 from datetime import datetime
+from typing import Any, List, Dict
 
 class ModernChatSystem:
-    """Modern chat system with enhanced retrieval, reranking, and citation-aware responses"""
-    
+    """Hybrid RAG + Augmented LLM chat system"""
+
     def __init__(self):
-        self.top_k = Config.chat["top_k"]
+        self.top_k = 15  # increase retrieval depth
+        self.chunk_max_length = 3000
+        self.augmentation_threshold = 0.05
+        self.max_extra_tokens = 400
         self.prompt_template = Config.chat["prompt_template"]
-        
+
+        self.session_memory: Dict[str, List[Dict[str, str]]] = {}
+
     def retrieve_relevant_docs(self, query: str) -> List[Dict[str, Any]]:
-        """Retrieve relevant documents with enhanced retrieval"""
-        # Embed query
         query_embedding = multi_modal_embedder.embed_query(query)
-        
-        # Get initial results from vector DB
         initial_results = vector_db.query_similar_docs(query_embedding, top_k=self.top_k * 3)
-        
-        # Rerank with MMR and cross-encoder
-        reranked_results = reranker.hybrid_rerank(
-            query, query_embedding, initial_results, top_k=self.top_k
-        )
-        
-        # Remove duplicates
+        reranked_results = reranker.hybrid_rerank(query, query_embedding, initial_results, top_k=self.top_k)
         final_results = reranker.remove_duplicates(reranked_results)
-        
         print(f"[CHAT] Retrieved {len(final_results)} relevant documents")
         return final_results
-    
+
     def format_context_with_citations(self, results: List[Dict[str, Any]]) -> str:
-        """Format context with proper citations and source information"""
         context_parts = []
-        
         for i, result in enumerate(results):
-            content = result.get("content", "")[:1000]  # Limit length
+            content = result.get("content", "")[:self.chunk_max_length]
             metadata = result.get("metadata", {})
-            
-            # Build citation information
             source_file = metadata.get("source_file", "Unknown source")
             section_title = metadata.get("section_title", "")
             chunk_info = f"Chunk {metadata.get('chunk_index', 0)}/{metadata.get('total_chunks', 1)}"
-            
             citation = f"[Source: {source_file}"
             if section_title:
                 citation += f", Section: {section_title}"
             citation += f", {chunk_info}]"
-            
-            # Add score information if available
             score = result.get("score")
             if score is not None:
                 citation += f" (Relevance: {score:.3f})"
-            
             context_parts.append(f"{content}\n{citation}")
-        
         return "\n---\n".join(context_parts)
-    
-    def build_grounded_prompt(self, query: str, context: str) -> str:
-        """Build prompt with grounding instructions and citation requirements"""
-        grounded_template = """Based on the following context information, provide a comprehensive and accurate answer to the user's question. 
 
-IMPORTANT INSTRUCTIONS:
-1. ONLY use information from the provided context - do not use external knowledge
-2. If the context doesn't contain enough information to answer fully, say so
-3. Cite your sources using the provided citation format
-4. Be specific and factual - avoid generalizations
-5. If discussing missions, dates, or technical details, be precise
+    def _should_augment(self, results: List[Dict[str, Any]]) -> bool:
+        if not results:
+            return False
+        avg_score = sum(r.get("score", 0) for r in results) / len(results)
+        return avg_score >= self.augmentation_threshold
+
+    def build_grounded_prompt(self, query: str, context: str, augment: bool = False) -> str:
+        instructions = """Based on the provided context, provide a detailed answer.
+IMPORTANT:
+1. Use information from context primarily.
+2. Cite all sources as shown.
+3. If context is insufficient, indicate it clearly.
+4. Provide factual, precise answers.
+"""
+        if augment:
+            instructions += f"\n5. You may supplement the answer with general knowledge only if necessary, but limit extra content to {self.max_extra_tokens} tokens."
+
+        template = f"""{instructions}
 
 CONTEXT:
 {context}
 
 USER QUESTION: {query}
 
-Please provide a well-structured response with clear citations:"""
-        
-        return grounded_template.format(context=context, query=query)
-    
-    def generate_response(self, query: str, context: str) -> str:
-        """Generate response with proper grounding and citations"""
-        prompt = self.build_grounded_prompt(query, context)
-        
+Please respond with clear citations:"""
+        return template
+
+    def generate_response(self, query: str, context: str, augment: bool) -> str:
+        prompt = self.build_grounded_prompt(query, context, augment)
         try:
             response = run_llm(prompt)
-            
-            # Post-process response to ensure citations are properly formatted
-            response = self._ensure_citation_formatting(response)
-            
+            if "[Source:" not in response:
+                response += "\n\n*Response generated based on retrieved MOSDAC documentation*"
             return response
-            
         except Exception as e:
-            return f"I apologize, but I encountered an error while generating a response: {str(e)}"
-    
-    def _ensure_citation_formatting(self, response: str) -> str:
-        """Ensure citations are properly formatted in the response"""
-        # Basic check for citation formatting
-        if "[Source:" not in response:
-            # Add a general citation note if none found
-            response += "\n\n*Response generated based on retrieved documentation from MOSDAC sources*"
-        
-        return response
-    
-    def get_response_quality_metrics(self, query: str, response: str, 
-                                  context_results: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Calculate response quality metrics"""
-        metrics = {
-            "query_length": len(query),
-            "response_length": len(response),
-            "sources_used": len(context_results),
-            "average_source_score": 0,
-            "citation_count": response.count("[Source:"),
-            "timestamp": datetime.now().isoformat()
-        }
-        
-        # Calculate average source score
-        if context_results:
-            scores = [r.get("score", 0) for r in context_results if "score" in r]
-            if scores:
-                metrics["average_source_score"] = sum(scores) / len(scores)
-        
-        return metrics
-    
-    def handle_session_context(self, user_id: str, query: str, response: str,
-                             context_results: List[Dict[str, Any]]) -> None:
-        """Handle session context and history (placeholder for future implementation)"""
-        # This would implement proper session management
-        # For now, just log the interaction
+            return f"I encountered an error while generating a response: {str(e)}"
+
+    def handle_session(self, user_id: str, query: str, response: str, context_results: List[Dict[str, Any]]) -> None:
+        if user_id not in self.session_memory:
+            self.session_memory[user_id] = []
+        self.session_memory[user_id].append({
+            "query": query,
+            "response": response,
+            "sources": [r.get("metadata", {}).get("source_file", "unknown") for r in context_results]
+        })
         interaction_data = {
             "user_id": user_id,
             "timestamp": datetime.now().isoformat(),
@@ -138,54 +100,56 @@ Please provide a well-structured response with clear citations:"""
             "sources_count": len(context_results),
             "sources": [r.get("metadata", {}).get("source_file", "unknown") for r in context_results]
         }
-        
         print(f"[SESSION] Interaction logged: {json.dumps(interaction_data, indent=2)}")
-    
+
+    def get_response_quality_metrics(self, query: str, response: str, context_results: List[Dict[str, Any]]) -> Dict[str, Any]:
+        metrics = {
+            "query_length": len(query),
+            "response_length": len(response),
+            "sources_used": len(context_results),
+            "average_source_score": 0,
+            "citation_count": response.count("[Source:"),
+            "timestamp": datetime.now().isoformat()
+        }
+        if context_results:
+            scores = [r.get("score", 0) for r in context_results if "score" in r]
+            if scores:
+                metrics["average_source_score"] = sum(scores) / len(scores)
+        return metrics
+
     def start_chat_loop(self, user_id: str = "default_user"):
-        """Run the interactive modern chat loop"""
         print("\n[CHAT] Modern chat system ready. Type your question or 'exit' to quit.\n")
-        
         while True:
             try:
                 query = input("🧠 You: ").strip()
                 if not query or query.lower() == "exit":
                     print("[CHAT] Exiting.")
                     break
-                
-                # Retrieve relevant documents
+
                 context_results = self.retrieve_relevant_docs(query)
-                
                 if not context_results:
-                    print("\n🤖 AI: I couldn't find relevant information to answer your question.")
-                    print("Please try rephrasing or ask about something else.\n")
+                    print("\n🤖 AI: No relevant information found.")
                     continue
-                
-                # Format context with citations
+
                 context = self.format_context_with_citations(context_results)
-                
-                # Generate response
-                response = self.generate_response(query, context)
-                
-                # Display response
+                augment = self._should_augment(context_results)
+                response = self.generate_response(query, context, augment)
+
                 print(f"\n🤖 AI: {response}\n")
-                
-                # Log interaction and metrics
                 metrics = self.get_response_quality_metrics(query, response, context_results)
                 print(f"[METRICS] {json.dumps(metrics, indent=2)}")
-                
-                # Handle session context
-                self.handle_session_context(user_id, query, response, context_results)
-                
+                self.handle_session(user_id, query, response, context_results)
+
             except KeyboardInterrupt:
                 print("\n[CHAT] Interrupted. Goodbye.")
                 break
             except Exception as e:
-                print(f"[ERROR] Chat error: {e}")
-                print("\n🤖 AI: I'm sorry, I encountered an error. Please try again.\n")
+                print(f"[ERROR] {e}")
+                print("\n🤖 AI: Encountered an error, please try again.\n")
 
-# Global instance for easy access
+
+# Global instance
 modern_chat = ModernChatSystem()
 
 def start_modern_chat():
-    """Start the modern chat system"""
     modern_chat.start_chat_loop()

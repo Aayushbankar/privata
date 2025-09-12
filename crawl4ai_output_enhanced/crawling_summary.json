@@ -1,0 +1,166 @@
+{
+  "total_pages_crawled": 20,
+  "crawled_at": "2025-09-11T17:17:54.636330",
+  "pages": [
+    {
+      "url": "https://mosdac.gov.in/insat-3dr",
+      "content_length": 9372,
+      "html_length": 49072,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": true
+    },
+    {
+      "url": "https://mosdac.gov.in/insat-3d",
+      "content_length": 9224,
+      "html_length": 48556,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": true
+    },
+    {
+      "url": "https://mosdac.gov.in/",
+      "content_length": 14885,
+      "html_length": 76338,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": true
+    },
+    {
+      "url": "https://mosdac.gov.in/kalpana-1",
+      "content_length": 9330,
+      "html_length": 48589,
+      "has_tables": true,
+      "mission_info_found": true,
+      "tech_specs_found": true
+    },
+    {
+      "url": "https://mosdac.gov.in/insat-3a",
+      "content_length": 9558,
+      "html_length": 48838,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": true
+    },
+    {
+      "url": "https://mosdac.gov.in/megha-tropiques",
+      "content_length": 9107,
+      "html_length": 48286,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    },
+    {
+      "url": "https://mosdac.gov.in/saral-altika",
+      "content_length": 10574,
+      "html_length": 49761,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": true
+    },
+    {
+      "url": "https://mosdac.gov.in/oceansat-3",
+      "content_length": 8774,
+      "html_length": 48593,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    },
+    {
+      "url": "https://mosdac.gov.in/oceansat-2",
+      "content_length": 8489,
+      "html_length": 47735,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": true
+    },
+    {
+      "url": "https://mosdac.gov.in/insat-3ds",
+      "content_length": 9325,
+      "html_length": 48725,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": true
+    },
+    {
+      "url": "https://mosdac.gov.in/scatsat-1",
+      "content_length": 8127,
+      "html_length": 47208,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    },
+    {
+      "url": "https://mosdac.gov.in/about-us",
+      "content_length": 8118,
+      "html_length": 46359,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    },
+    {
+      "url": "https://mosdac.gov.in/contact-us",
+      "content_length": 8548,
+      "html_length": 51187,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    },
+    {
+      "url": "https://mosdac.gov.in/data-access-policy",
+      "content_length": 8278,
+      "html_length": 47025,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    },
+    {
+      "url": "https://mosdac.gov.in/privacy-policy",
+      "content_length": 8627,
+      "html_length": 47032,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    },
+    {
+      "url": "https://mosdac.gov.in/terms-conditions",
+      "content_length": 9183,
+      "html_length": 47637,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    },
+    {
+      "url": "https://mosdac.gov.in/faq-page",
+      "content_length": 12578,
+      "html_length": 607277,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    },
+    {
+      "url": "https://mosdac.gov.in/tools",
+      "content_length": 8602,
+      "html_length": 54081,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": true
+    },
+    {
+      "url": "https://mosdac.gov.in/sitemap",
+      "content_length": 11607,
+      "html_length": 51452,
+      "has_tables": false,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    },
+    {
+      "url": "https://mosdac.gov.in/help",
+      "content_length": 10738,
+      "html_length": 76595,
+      "has_tables": true,
+      "mission_info_found": true,
+      "tech_specs_found": false
+    }
+  ]
+}

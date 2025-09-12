@@ -8,7 +8,7 @@ from chromadb.utils import embedding_functions
 from config import Config
 import uuid
 from datetime import datetime
-
+from typing import Any , List, Dict
 class ModernVectorDB:
     """Modern vector database implementation using ChromaDB directly"""
     
@@ -18,13 +18,15 @@ class ModernVectorDB:
         self.embedding_model = Config.ingest["embedding_model"]
         
         # Create Chroma client with proper settings
-        self.client = chromadb.Client(
-            Settings(
-                persist_directory=self.persist_dir,
-                chroma_db_impl="duckdb+parquet",
-                anonymized_telemetry=False
-            )
-        )
+        # self.client = chromadb.Client(
+        #     Settings(
+        #         persist_directory=self.persist_dir,
+        #         chroma_db_impl="duckdb+parquet",
+        #         anonymized_telemetry=False
+        #     )
+        # )
+        # NEW
+        self.client = chromadb.PersistentClient(path="./chroma_db")
         
         # Initialize embedding function
         self.embedding_function = embedding_functions.SentenceTransformerEmbeddingFunction(
@@ -57,20 +59,14 @@ class ModernVectorDB:
         if not documents:
             print("[INFO] No documents to add")
             return
-        
-        # Prepare data for Chroma
-        ids = []
-        embeddings = []
-        metadatas = []
-        contents = []
-        
+
+        ids, embeddings, metadatas, contents = [], [], [], []
+
         for doc in documents:
             doc_id = str(uuid.uuid4())
             ids.append(doc_id)
             contents.append(doc["content"])
             embeddings.append(doc["embedding"])
-            
-            # Enhanced metadata
             metadata = doc.get("metadata", {}).copy()
             metadata.update({
                 "ingestion_id": doc_id,
@@ -80,18 +76,16 @@ class ModernVectorDB:
                 "total_chunks": metadata.get("total_chunks", 1)
             })
             metadatas.append(metadata)
-        
-        # Add to collection
+
         self.collection.add(
             ids=ids,
             embeddings=embeddings,
             metadatas=metadatas,
             documents=contents
         )
-        
-        # Persist changes
-        self.client.persist()
+
         print(f"[INFO] Added {len(documents)} documents to collection")
+
     
     def query_similar_docs(self, query_embedding: List[float], top_k: int = 5, 
                           filters: Dict[str, Any] = None) -> List[Dict[str, Any]]:
@@ -203,8 +197,8 @@ class ModernVectorDB:
     
     def close(self) -> None:
         """Close the client connection"""
-        self.client.persist()
         print("[INFO] Vector database connection closed")
+
 
 # Global instance for easy access
 vector_db = ModernVectorDB()

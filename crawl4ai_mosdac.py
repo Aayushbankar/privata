@@ -10,9 +10,9 @@ import os
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Any
-from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, BrowserConfig, CacheMode
+from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
 from crawl4ai.extraction_strategy import NoExtractionStrategy
-from crawl4ai.markdown_generation_strategy import MarkdownGenerationStrategy
+from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
 import html2text
 
 class MOSDACCrawler:
@@ -39,24 +39,28 @@ class MOSDACCrawler:
         
         # Crawler configuration
         self.crawler_config = CrawlerRunConfig(
-            browser_config=BrowserConfig(
-                headless=True,
-                enable_stealth=True,
-                viewport_width=1920,
-                viewport_height=1080,
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-            ),
             cache_mode=CacheMode.BYPASS,
-            wait_for_page_idle_timeout=5000,
-            wait_for_network_idle_timeout=3000,
             extraction_strategy=NoExtractionStrategy(),
-            markdown_generation_strategy=MarkdownGenerationStrategy(
-                include_images=False,
-                include_links=True,
-                include_tables=True,
-                table_format="grid"
+            markdown_generator=DefaultMarkdownGenerator(
+                options={
+                    "include_images": False,
+                    "include_links": True,
+                    "include_tables": True,
+                    "table_format": "grid"
+                }
             )
         )
+        
+        # Browser settings to pass as kwargs
+        self.browser_kwargs = {
+            "headless": True,
+            "enable_stealth": True,
+            "viewport_width": 1920,
+            "viewport_height": 1080,
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "wait_for_page_idle_timeout": 5000,
+            "wait_for_network_idle_timeout": 3000
+        }
     
     def extract_mission_info(self, content: str, url: str) -> Dict[str, Any]:
         """Extract structured mission information from content"""
@@ -187,7 +191,8 @@ class MOSDACCrawler:
                 
                 result = await crawler.arun(
                     url=url,
-                    config=self.crawler_config
+                    config=self.crawler_config,
+                    **self.browser_kwargs
                 )
                 
                 if result.success:
@@ -223,7 +228,6 @@ class MOSDACCrawler:
             tasks.append(self.crawl_page(url))
         
         # Run with limited concurrency to avoid overwhelming the server
-        import asyncio
         semaphore = asyncio.Semaphore(3)  # Limit to 3 concurrent requests
         
         async def limited_crawl(url):
@@ -235,6 +239,50 @@ class MOSDACCrawler:
                              [f"{self.mosdac_base_url}{page}" for page in self.important_pages]])
         
         print("Crawling completed!")
+        
+        # Generate summary report
+        self.generate_summary_report()
+        
+    def generate_summary_report(self) -> None:
+        """Generate a summary report of the crawling process"""
+        import json
+        from pathlib import Path
+        
+        summary = {
+            "total_pages_crawled": len(self.important_pages),
+            "crawled_at": datetime.now().isoformat(),
+            "pages": []
+        }
+        
+        for page_dir in self.output_dir.iterdir():
+            if page_dir.is_dir():
+                json_file = page_dir / "structured_data.json"
+                if json_file.exists():
+                    with open(json_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                        summary["pages"].append({
+                            "url": data["url"],
+                            "content_length": data["metadata"]["content_length"],
+                            "html_length": data["metadata"]["html_length"],
+                            "has_tables": data["metadata"]["has_tables"],
+                            "mission_info_found": len(data["mission_info"]["mission_name"]) > 0,
+                            "tech_specs_found": any(len(specs) > 0 for specs in data["technical_specs"].values())
+                        })
+        
+        # Save summary report
+        summary_path = self.output_dir / "crawling_summary.json"
+        with open(summary_path, 'w', encoding='utf-8') as f:
+            json.dump(summary, f, indent=2, ensure_ascii=False)
+        
+        print(f"Summary report saved to {summary_path}")
+        
+        # Print quick stats
+        successful_crawls = len([p for p in summary["pages"] if p["content_length"] > 0])
+        print(f"\nCrawling Summary:")
+        print(f"- Total pages attempted: {summary['total_pages_crawled']}")
+        print(f"- Successfully crawled: {successful_crawls}")
+        print(f"- Mission info extracted: {len([p for p in summary['pages'] if p['mission_info_found']])}")
+        print(f"- Technical specs found: {len([p for p in summary['pages'] if p['tech_specs_found']])}")
 
     def clean_old_data(self) -> None:
         """Clean up old crawled data"""

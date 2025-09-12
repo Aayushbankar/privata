@@ -4,7 +4,7 @@ from typing import List, Dict, Any
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from config import Config
-
+from typing import Any , List, Dict
 class MultiModalEmbedder:
     """Multi-modal embedding system with specialized embeddings for different content types"""
     

@@ -25,7 +25,7 @@ URLS = [
     "https://mosdac.gov.in/internal/gallery/weather",
     "https://mosdac.gov.in/internal/gallery/ocean",
     "https://mosdac.gov.in/internal/gallery/dwr",
-    "https://mosdac.gov.in/internal/gallery/current",
+    "https://mosdac.govm.in/internal/gallery/current",
     "https://mosdac.gov.in/internal/uops",
     "https://mosdac.gov.in/user-manual-mosdac-data-download-api",
     "https://mosdac.gov.in/bayesian-based-mt-saphir-rainfall",

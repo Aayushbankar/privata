@@ -5,6 +5,7 @@ from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import re
 from bs4 import BeautifulSoup
+from typing import Any , List, Dict
 
 class SemanticChunker:
     """Enhanced chunking strategy that respects document structure and semantics"""

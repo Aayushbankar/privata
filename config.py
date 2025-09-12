@@ -10,15 +10,17 @@ class Config:
     }
 
     chat = {
-        "top_k": 5,
-        "prompt_template": (
-            "[CONTEXT START]\n{context}\n[CONTEXT END]\n\n"
-            "Question: {query}\nAnswer:"
-        ),
-        "llm_model": "llama3",
-        "temperature": 0.7,
-        "streaming": False
-    }
+    "top_k": 15,                      # Increase retrieval depth
+    "prompt_template": "...",
+    "llm_model": "gemini-2.5-flash",
+    "temperature": 0.3,               # Lower for factual accuracy
+    "streaming": False,
+    "hybrid_rag_enabled": True,
+    "similarity_threshold": 0.05,     # Use for deciding augmentation
+    "max_augmentation_tokens": 400    # Allow more tokens for completeness
+}
+
+
 
     system = {
         "use_gpu": False,
