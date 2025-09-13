@@ -1,36 +1,21 @@
-# privata/main.py
+#!/usr/bin/env python3
+"""
+MOSDAC AI Help Bot - Main Entry Point
+=====================================
 
-from models.llm_loader import ensure_ollama_running
-from ingest import run_modern_ingestion
-from chat import start_modern_chat
+This is the main entry point for the MOSDAC AI Help Bot.
+It imports and runs the core bot functionality.
+"""
 
-def show_menu():
-    print("\n==== PRIVATA MENU ====")
-    print("[1] Ingest Documents")
-    print("[2] Start Chatbot")
-    print("[3] Exit")
+import sys
+import asyncio
+from pathlib import Path
 
-def run_menu():
-    while True:
-        show_menu()
-        choice = input("Select an option (1-3): ").strip()
+# Add src to Python path
+sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-        if choice == "1":
-            path = input("Enter path to documents: ").strip()
-            run_modern_ingestion(path)
-        elif choice == "2":
-            start_modern_chat()
-        elif choice == "3":
-            print("Goodbye.")
-            break
-        else:
-            print("Invalid choice. Please try again.")
+# Import and run the bot
+from core.mosdac_bot import main
 
-if __name__ == "__main__": 
-    try:
-        ensure_ollama_running()
-        run_menu()
-    except KeyboardInterrupt:
-        print("\nInterrupted. Exiting.")
-    except Exception as e:
-        print(f"[ERROR] {e}")
+if __name__ == "__main__":
+    asyncio.run(main())

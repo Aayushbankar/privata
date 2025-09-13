@@ -1,0 +1,24 @@
+[
+  {
+    "index": 0,
+    "caption": "",
+    "headers": [
+      "Sr.No",
+      "Product\n\t\t\t\t\t\t\t\t\t/Acq Calendar/Version",
+      "Product Description",
+      "Processing Level",
+      "Temporal Resolution",
+      "Start Date",
+      "End Date",
+      "Processing Status",
+      "DOI"
+    ],
+    "rows": [
+      [
+        "No data available in table"
+      ]
+    ],
+    "row_count": 1,
+    "col_count": 9
+  }
+]

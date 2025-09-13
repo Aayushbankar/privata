@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/insat-3d-spacecraft",
+  "title": "INSAT-3D SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/insat-3d-spacecraft",
+    "domain": "mosdac.gov.in",
+    "path": "/insat-3d-spacecraft",
+    "description": "The INSAT-3D is a momentum-biased 3-axis stabilized spacecraft using star trackers for precise pointing control. The spacecraft has a launch mass of 2000 kg with a dry mass of 907 kg. The nominal design life is 7.7 years. It is in Geostationary orbit, altitude of ~35, 786 km, location at 82° East. The three-axis stabilized geostationary satellite carries two meteorological",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/insat-3d-spacecraft",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "INSAT-3D SpaceCraft",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T05:59:24.121594",
+  "content_length": 9498,
+  "rag_optimized": true
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://mosdac.gov.in/internal/lightning",
+  "title": "Lightning",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/lightning",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/lightning",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "https://localhost/lightning",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [],
+  "quality_score": 0.2,
+  "extracted_at": "2025-09-13T05:55:47.159437",
+  "content_length": 222,
+  "rag_optimized": true
+}

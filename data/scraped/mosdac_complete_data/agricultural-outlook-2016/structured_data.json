@@ -1,0 +1,82 @@
+{
+  "url": "http://mosdac.gov.in/agricultural-outlook-2016",
+  "title": "Agricultural Outlook 2016 | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "http://mosdac.gov.in/agricultural-outlook-2016",
+    "domain": "mosdac.gov.in",
+    "path": "/agricultural-outlook-2016",
+    "description": "",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/agricultural-outlook-2016",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Agricultural Outlook 2016",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 5,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.5700000000000001,
+  "extracted_at": "2025-09-13T05:57:01.450179",
+  "content_length": 7785,
+  "rag_optimized": true
+}

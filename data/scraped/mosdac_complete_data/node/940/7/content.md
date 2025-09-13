@@ -1,0 +1,134 @@
+# Meteorological & Oceanographic Satellite Data Archival Centre
+
+**URL:** https://mosdac.gov.in/node/940/7
+**Extracted:** 2025-09-13T06:00:35.172713
+**Quality Score:** 0.650
+
+[Skip to main Content](https://mosdac.gov.in/node/940/7#main-content "Skip to main Content")
+[-A](javascript:;) [A](javascript:;) [+A](javascript:;)
+[A](javascript:drupalHighContrast.enableStyles\(\))[A](javascript:drupalHighContrast.disableStyles\(\))
+हिन्दी English
+## Secondary menu
+  * [SignUp](https://mosdac.gov.in/internal/registration)
+  * [Login](https://mosdac.gov.in/internal/uops)
+  * [Logout](https://mosdac.gov.in/internal/logout)
+
+[ ![Home](https://mosdac.gov.in/sites/default/files/mosdac_small.png) ](https://mosdac.gov.in/ "Home")
+**[ Meteorological & Oceanographic Satellite Data Archival Centre](https://mosdac.gov.in/ "Home") **
+Space Applications Centre, ISRO 
+  * [Home](https://mosdac.gov.in/)
+  * [Missions »](https://mosdac.gov.in/node/940/7)
+    * [INSAT-3DR](https://mosdac.gov.in/insat-3dr)
+    * [INSAT-3D](https://mosdac.gov.in/insat-3d)
+    * [KALPANA-1](https://mosdac.gov.in/kalpana-1)
+    * [INSAT-3A](https://mosdac.gov.in/insat-3a)
+    * [MeghaTropiques](https://mosdac.gov.in/megha-tropiques)
+    * [SARAL-AltiKa](https://mosdac.gov.in/saral-altika)
+    * [OCEANSAT-2](https://mosdac.gov.in/oceansat-2)
+    * [OCEANSAT-3](https://mosdac.gov.in/oceansat-3)
+    * [INSAT-3DS](https://mosdac.gov.in/insat-3ds)
+    * [SCATSAT-1](https://mosdac.gov.in/scatsat-1)
+  * [Catalog »](https://mosdac.gov.in/node/940/7)
+    * [Satellite](https://mosdac.gov.in/internal/catalog-satellite)
+    * [Insitu (AWS)](https://mosdac.gov.in/internal/catalog-insitu)
+    * [RADAR](https://mosdac.gov.in/internal/catalog-radar)
+  * [Galleries »](https://mosdac.gov.in/node/940/7)
+    * [Satellite Products](https://mosdac.gov.in/internal/gallery)
+    * [Weather Forecast](https://mosdac.gov.in/internal/gallery/weather)
+    * [Ocean Forecast](https://mosdac.gov.in/internal/gallery/ocean)
+    * [RADAR (DWR)](https://mosdac.gov.in/internal/gallery/dwr)
+    * [Global Ocean Current](https://mosdac.gov.in/internal/gallery/current)
+  * [Data Access »](https://mosdac.gov.in/node/940/7)
+    * [Order Data](https://mosdac.gov.in/internal/uops)
+    * [API based Access](https://mosdac.gov.in/downloadapi-manual)
+    * [Open Data »](https://mosdac.gov.in/node/940/7)
+      * [Atmosphere »](https://mosdac.gov.in/node/940/7)
+        * [Bayesian based MT-SAPHIR rainfall](https://mosdac.gov.in/bayesian-based-mt-saphir-rainfall)
+        * [GPS derived Integrated water vapour](https://mosdac.gov.in/gps-derived-integrated-water-vapour)
+        * [GSMap ISRO Rain](https://mosdac.gov.in/gsmap-isro-rain)
+        * [METEOSAT8 Cloud Properties](https://mosdac.gov.in/meteosat8-cloud-properties)
+      * [Land »](https://mosdac.gov.in/node/940/7)
+        * [3D Volumetric TERLS DWRproduct](https://mosdac.gov.in/3d-volumetric-terls-dwrproduct)
+        * [Inland Water Height](https://mosdac.gov.in/inland-water-height)
+        * [River Discharge](https://mosdac.gov.in/river-discharge)
+        * [Soil Moisture](https://mosdac.gov.in/soil-moisture-0)
+      * [Ocean »](https://mosdac.gov.in/node/940/7)
+        * [Global Ocean Surface Current](https://mosdac.gov.in/global-ocean-surface-current)
+        * [High Resolution Sea Surface Salinity](https://mosdac.gov.in/high-resolution-sea-surface-salinity)
+        * [Indian Mainland Coastal Product](https://mosdac.gov.in/indian-mainland-coastal-product)
+        * [Ocean Subsurface](https://mosdac.gov.in/ocean-subsurface)
+        * [Oceanic Eddies Detection](https://mosdac.gov.in/oceanic-eddies-detection)
+        * [Sea Ice Occurrence Probability](https://mosdac.gov.in/sea-ice-occurrence-probability)
+        * [Wave based Renewable Energy](https://mosdac.gov.in/wave-based-renewable-energy)
+    * [Cal-Val](https://mosdac.gov.in/internal/calval-data)
+    * [Forecast](https://mosdac.gov.in/internal/forecast-menu)
+    * [RSS Feeds](https://mosdac.gov.in/rss-feed "ISROCast")
+  * [Reports »](https://mosdac.gov.in/node/940/7)
+    * [Calibration »](https://mosdac.gov.in/node/940/7)
+      * [Insitu](https://mosdac.gov.in/insitu)
+      * [Relative](https://mosdac.gov.in/calibration-reports)
+    * [Validation](https://mosdac.gov.in/validation-reports)
+    * [Data Quality](https://mosdac.gov.in/data-quality)
+    * [Weather](https://mosdac.gov.in/weather-reports)
+  * [Atlases](https://mosdac.gov.in/atlases)
+  * [Tools](https://mosdac.gov.in/tools)
+  * [Sitemap](https://mosdac.gov.in/sitemap)
+  * [Help](https://mosdac.gov.in/help)
+
+
+## You are here
+[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2016
+# Insitu
+| [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/7?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/7?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/7?sort=asc&order=modified "sort by modified")  
+---|---|---|---  
+| [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/7?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/7?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/7?sort=asc&order=modified "sort by modified")  
+---|---|---|---  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder-parent.png) | [Go up](https://mosdac.gov.in/insitu) |  | Fri, 2025-04-11 14:38  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Temperature-and-humidity-profile-validation-INSAT-3D+3DR-Kavaratti-Dec-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/667) | 5.08 MB | Tue, 2018-02-20 15:10  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Post earthquake land deformation mapping of eastern Nepal 2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/666) | 3.94 MB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Radiometric calibration of Cartosat-2 panchromatic sensor-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/665) | 1.01 MB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Validation and assessment of INSAT-3D and MODIS SST-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/664) | 2.49 MB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [INSAT-3DR vicarious calibration-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/663) | 932.04 KB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Absolute calibration and image quality assessment of RISAT_1 FRS and MRS mode data-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/662) | 7.7 MB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [INSAT-3D site characterisation and calibration-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/661) | 2.66 MB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Absolute Vicarious calibration of Landsat-8 OLI and Resourcesat-2.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/660) | 1013.47 KB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Cartosat-2_Artificialtargets_V1.0.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/659) | 1.01 MB | Tue, 2020-10-27 14:29  
+1 folder - 9 files - 25.8 MB
+## Search
+Search 
+## Follow Us
+  * [![Facebook icon](https://mosdac.gov.in/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/facebook.png)](https://www.facebook.com/mosdac.sac.isro "Facebook")
+  * [![Youtube \(Channel\) icon](https://mosdac.gov.in/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/youtube.png)](http://www.youtube.com/channel/UCDVkai9WIgY2ZgrlF_08Yeg "Youtube \(Channel\)")
+  * [![RSS icon](https://mosdac.gov.in/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/rss.png)](https://mosdac.gov.in/rss.xml "RSS")
+
+
+Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA.
+  * [![CQW LOGO](https://mosdac.gov.in/docs/cqw_logo.gif)](https://mosdac.gov.in/docs/STQC.pdf "Quality Certificate")
+
+
+  * [Feedback](https://mosdac.gov.in/mosdac-feedback)
+  * [About Us](https://mosdac.gov.in/about-us)
+  * [Contact Us](https://mosdac.gov.in/contact-us)
+  * [Copyright Policy](https://mosdac.gov.in/copyright-policy)
+  * [Data Access Policy](https://mosdac.gov.in/data-access-policy)
+  * [Hyperlink Policy](https://mosdac.gov.in/hyperlink-policy)
+  * [Privacy Policy](https://mosdac.gov.in/privacy-policy)
+  * [Website Policies](https://mosdac.gov.in/website-policies)
+  * [Terms & Conditions](https://mosdac.gov.in/terms-conditions)
+  * [FAQs](https://mosdac.gov.in/faq-page)
+
+
+  * [![ISRO](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/logo-transparent.png?itok=IUS20l-w)](http://www.isro.gov.in)
+  * [![Space Applications Center](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/saclogo.png?itok=_Jv4AuIn)](http://www.sac.gov.in)
+  * [![NationalPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/india-gov_0.png?itok=yssAPH3m)](http://www.india.gov.in)
+  * [![MyGov](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/mygov_0.png?itok=Po-dzdT3)](http://mygov.in/)
+  * [![DigitalIndia](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/digital-india_0.png?itok=ntlP7atE)](http://www.digitalindia.gov.in/)
+  * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
+
+
+"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+[](https://mosdac.gov.in/node/940/7 "Previous")[](https://mosdac.gov.in/node/940/7 "Next")
+[](https://mosdac.gov.in/node/940/7)
+[](https://mosdac.gov.in/node/940/7 "Previous")[](https://mosdac.gov.in/node/940/7 "Next")
+[](https://mosdac.gov.in/node/940/7 "Close")[](https://mosdac.gov.in/node/940/7)[](https://mosdac.gov.in/node/940/7)[](https://mosdac.gov.in/node/940/7 "Pause Slideshow")[](https://mosdac.gov.in/node/940/7 "Play Slideshow")
+[Back to top](https://mosdac.gov.in/node/940/7#top)

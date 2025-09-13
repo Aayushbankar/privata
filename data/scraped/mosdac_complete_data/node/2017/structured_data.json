@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/node/2017?language=hi",
+  "title": "ओशनसैट-3 | मौसम विज्ञान एवं समुद्र विज्ञानीय उपग्रह डेटा पुरालेखी केंद्र",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/2017?language=hi",
+    "domain": "mosdac.gov.in",
+    "path": "/node/2017",
+    "description": "ओशनसैट -3 को अर्थऑब्जर्विंग सैटेलाइट (EOS-06) के रूप में भी जाना जाता है, 26 नवंबर 2022 को सतीशधवन अंतरिक्ष केंद्र, श्रीहरिकोटा से PSLV-C54 द्वारा लॉन्च किया गया था।ओशनसैट -3 को एक साथ भौतिक, जैविक मापने के लिए एकअनूठा अवसर प्रदान करने केलिए विकसित किया गया है।और तीन उपकरणों से पहलीबार वायुमंडलीय पैरामीटर, (i) 13-बैंड एडवांस्ड ओशनकलर मॉनिटर (OCM-3), (ii) Ku-बैंड स्कैटरोमीटर",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/2017?language=hi",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "द्वितीयक उपागम",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "आप यहाँ हैं",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "ओशनसैट-3",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "खोज",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "हमारा अनुसरण करें",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T05:54:53.797729",
+  "content_length": 9766,
+  "rag_optimized": true
+}

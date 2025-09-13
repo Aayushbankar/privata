@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/node/348?language=hi",
+  "title": "स्कैटसैट-1 | मौसम विज्ञान एवं समुद्र विज्ञानीय उपग्रह डेटा पुरालेखी केंद्र",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/348?language=hi",
+    "domain": "mosdac.gov.in",
+    "path": "/node/348",
+    "description": "26 सितंबर 2016 को सतीश धवन अंतरिक्ष केंद्र, श्रीहरिकोटा से पीएसएलवी-सी35 द्वारा स्कैटसैट-1 का प्रमोचन किया गया। इसमें सैक-इसरो द्वारा विकसित केयू-बैंड पेंसिल बीम स्कैटरोमीटर (स्कैट) नीतभार है।",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/348?language=hi",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "द्वितीयक उपागम",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "आप यहाँ हैं",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "स्कैटसैट-1",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "खोज",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "हमारा अनुसरण करें",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T05:58:16.001409",
+  "content_length": 9207,
+  "rag_optimized": true
+}

@@ -1,0 +1,96 @@
+{
+  "url": "https://mosdac.gov.in/internal/monsoon",
+  "title": "Monsoon Prediction 2024",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/monsoon",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/monsoon",
+    "description": "Author: Mosdac, Illustrator: Satellite Images, Category: Scientific Spatial Data",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "https://localhost:81/monsoon/",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        ""
+      ],
+      "rows": [
+        [
+          "Monsoon Prediction 2024",
+          ""
+        ]
+      ],
+      "row_count": 1,
+      "col_count": 1
+    },
+    {
+      "index": 5,
+      "caption": "",
+      "headers": [
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "row_count": 1,
+      "col_count": 2
+    },
+    {
+      "index": 6,
+      "caption": "",
+      "headers": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "row_count": 2,
+      "col_count": 14
+    }
+  ],
+  "headings": [],
+  "quality_score": 0.6000000000000001,
+  "extracted_at": "2025-09-13T05:57:34.225325",
+  "content_length": 4774,
+  "rag_optimized": true
+}

@@ -1,0 +1,102 @@
+{
+  "url": "https://mosdac.gov.in/megha-tropiques-objectives",
+  "title": "Megha Tropiques Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/megha-tropiques-objectives",
+    "domain": "mosdac.gov.in",
+    "path": "/megha-tropiques-objectives",
+    "description": "The main objective of the Megha-Tropiques mission is to study the convective systems that influence the tropical weather and climate.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/megha-tropiques-objectives",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Altitude:",
+        "867 km, circular"
+      ],
+      "rows": [
+        [
+          "Inclination:",
+          "20°"
+        ],
+        [
+          "Period:",
+          "102.16 minutes"
+        ],
+        [
+          "Repetitivity:",
+          "97 orbits in 7 days"
+        ],
+        [
+          "No. of Orbits Per day:",
+          "14 (approx.)"
+        ]
+      ],
+      "row_count": 4,
+      "col_count": 2
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Megha Tropiques Objectives",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T05:54:54.655824",
+  "content_length": 9673,
+  "rag_optimized": true
+}

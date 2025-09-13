@@ -1,0 +1,137 @@
+{
+  "url": "http://mosdac.gov.in/tags/land",
+  "title": "Land | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "http://mosdac.gov.in/tags/land",
+    "domain": "mosdac.gov.in",
+    "path": "/tags/land",
+    "description": "",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/tags/land",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Land",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "3D Volumetric TERLS DWRproduct",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 5,
+      "level": 2,
+      "text": "Soil Moisture",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 6,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 7,
+      "level": 2,
+      "text": "River Discharge",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 8,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 9,
+      "level": 2,
+      "text": "Inland Water Height",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 10,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 11,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 12,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6500000000000001,
+  "extracted_at": "2025-09-13T05:55:36.838811",
+  "content_length": 9224,
+  "rag_optimized": true
+}

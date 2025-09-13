@@ -1,0 +1,278 @@
+{
+  "url": "https://mosdac.gov.in/wave-based-renewable-energy",
+  "title": "Wave based Renewable Energy | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/wave-based-renewable-energy",
+    "domain": "mosdac.gov.in",
+    "path": "/wave-based-renewable-energy",
+    "description": "AWARE demonstrates potential renewable energy resource available from ocean waves over Indian Ocean region.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/wave-based-renewable-energy",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Sr. No",
+        "Core Metadata Elements",
+        "Definition"
+      ],
+      "rows": [
+        [
+          "1",
+          "Metadata language",
+          "English"
+        ],
+        [
+          "2",
+          "Metadata Contact",
+          "MOSDAC"
+        ],
+        [
+          "3",
+          "Metadata date",
+          "August 3rd ,2015"
+        ],
+        [
+          "4",
+          "Data Lineage",
+          "Wave power in Kilowatt/meter from Altimeters over Indian Ocean Region"
+        ],
+        [
+          "5",
+          "Title",
+          "Altimeters for Wave based Renewable Energy (AWARE)"
+        ],
+        [
+          "6",
+          "Abstract",
+          "The wave power is computed from the altimeters (Jason-2 and SARAL/AltiKa) for a period of 2008-2014 at a monthly basis for individual years. Climatology is also prepared in this regard for the Indian Ocean Region."
+        ],
+        [
+          "7",
+          "Dataset Contact",
+          "Dr Suchandra A. Bhowmick,Space Applications Centre, ISRO, Ahmedabad-380058,INDIA\n\n\nEmail: suchandra@sac.isro.gov.in\n\n\n\nn",
+          "Dr Suchandra A. Bhowmick,Space Applications Centre, ISRO, Ahmedabad-380058,INDIA",
+          "Email: suchandra@sac.isro.gov.in"
+        ],
+        [
+          "Dr Suchandra A. Bhowmick,Space Applications Centre, ISRO, Ahmedabad-380058,INDIA"
+        ],
+        [
+          "Email: suchandra@sac.isro.gov.in"
+        ],
+        [
+          "8",
+          "Update frequency",
+          "Yearly Once"
+        ],
+        [
+          "9",
+          "Access Rights or Restriction",
+          "Open Access"
+        ],
+        [
+          "10",
+          "Spatial Resolution",
+          "NA"
+        ],
+        [
+          "11",
+          "Language",
+          "English"
+        ],
+        [
+          "12",
+          "Topic Category",
+          "Water power estimates"
+        ],
+        [
+          "13",
+          "Keywords",
+          "Wave power, non-conventional energy, wave period and Significant Wave Height"
+        ],
+        [
+          "14",
+          "Data period",
+          "2008-2014"
+        ],
+        [
+          "15",
+          "Responsible Party",
+          "Dr. Suchandra A. Bhowmick,Space Applications Centre, ISRO, Ahmedabad-380058,INDIA"
+        ],
+        [
+          "16",
+          "Organization",
+          "Space Applications Centre (ISRO), Ahmedabad, India"
+        ],
+        [
+          "16a",
+          "Org. role",
+          "Estimation of non-conventional wave energy using active microwave remote sensing instruments"
+        ],
+        [
+          "16b",
+          "Unit",
+          "Kilowatt/meter"
+        ]
+      ],
+      "row_count": 20,
+      "col_count": 3
+    },
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "Dr Suchandra A. Bhowmick,Space Applications Centre, ISRO, Ahmedabad-380058,INDIA"
+      ],
+      "rows": [
+        [
+          "Email: suchandra@sac.isro.gov.in"
+        ]
+      ],
+      "row_count": 1,
+      "col_count": 1
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Wave based Renewable Energy",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 3,
+      "text": "Data Access",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 3,
+      "text": "Data Version",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 5,
+      "level": 3,
+      "text": "Data Sources",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 6,
+      "level": 3,
+      "text": "Processing Steps",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 7,
+      "level": 3,
+      "text": "References",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 8,
+      "level": 3,
+      "text": "Derivation Techniques and Algorithm",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 9,
+      "level": 3,
+      "text": "Limitations",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 10,
+      "level": 3,
+      "text": "Known problems with data",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 11,
+      "level": 3,
+      "text": "File Naming Convention",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 12,
+      "level": 3,
+      "text": "MetaData",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 13,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 14,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 15,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.7999999999999999,
+  "extracted_at": "2025-09-13T06:00:23.189020",
+  "content_length": 12635,
+  "rag_optimized": true
+}

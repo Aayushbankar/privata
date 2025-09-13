@@ -1,0 +1,24 @@
+{
+  "url": "https://mosdac.gov.in/internal/logout",
+  "title": "MOSDAC SSO Logout",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/logout",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/logout",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [],
+  "quality_score": 0.2,
+  "extracted_at": "2025-09-13T05:55:05.732158",
+  "content_length": 340,
+  "rag_optimized": true
+}

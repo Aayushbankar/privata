@@ -1,0 +1,65 @@
+{
+  "url": "https://mosdac.gov.in/internal/catalog-radar",
+  "title": "Radar Catalog",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/catalog-radar",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/catalog-radar",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Sr.No",
+        "Product /Acq Calendar",
+        "Product Description",
+        "Processing Level",
+        "Temporal Resolution",
+        "Start Date",
+        "End Date",
+        "Processing Status",
+        "DOI"
+      ],
+      "rows": [
+        [
+          "1",
+          "RSCHR_L2B_STD",
+          "DWR Data for Cheerapunji",
+          "L2B",
+          "10 MINUTES",
+          "2016-05-20",
+          "2022-11-05",
+          "Active",
+          ""
+        ]
+      ],
+      "row_count": 1,
+      "col_count": 9
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 3,
+      "text": "Loading...",
+      "id": "",
+      "class": [
+        "dt-loading"
+      ]
+    }
+  ],
+  "quality_score": 0.47000000000000003,
+  "extracted_at": "2025-09-13T05:54:34.867824",
+  "content_length": 2071,
+  "rag_optimized": true
+}

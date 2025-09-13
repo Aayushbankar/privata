@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/oceansat-3-introduction",
+  "title": "Oceansat-3 Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/oceansat-3-introduction",
+    "domain": "mosdac.gov.in",
+    "path": "/oceansat-3-introduction",
+    "description": "ISRO has launched the EOS-06(Oceansat-3) satellite on 26 Nov 2022 in a polar sun-synchronous orbit at 740km altitude. EOS-06(Oceansat-3) is the third-generation satellite in the Oceansat series. This is to provide continuity services of Oceansat-2 spacecraft with enhanced payload specifications as well as application areas. EOS-06(Oceansat-3) has three main instruments,",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/oceansat-3-introduction",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Oceansat-3 Introduction",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T05:57:57.627612",
+  "content_length": 10094,
+  "rag_optimized": true
+}

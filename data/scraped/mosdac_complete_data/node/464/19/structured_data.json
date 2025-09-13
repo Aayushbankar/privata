@@ -1,0 +1,117 @@
+{
+  "url": "https://mosdac.gov.in/node/464/19",
+  "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/464/19",
+    "domain": "mosdac.gov.in",
+    "path": "/node/464/19",
+    "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/464/19",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "",
+        "Display name",
+        "modified"
+      ],
+      "rows": [
+        [
+          "",
+          "SCATSAT1",
+          "Tue, 2021-11-23 10:33"
+        ],
+        [
+          "",
+          "OSCAT",
+          "Wed, 2017-01-04 09:46"
+        ],
+        [
+          "",
+          "KALPANA 1 Winds",
+          "Wed, 2017-04-12 10:57"
+        ],
+        [
+          "",
+          "INSAT-3D_Sounder_Cloud_Mask",
+          "Fri, 2019-03-01 11:00"
+        ],
+        [
+          "",
+          "INSAT-3D-Winds",
+          "Wed, 2017-04-12 10:58"
+        ],
+        [
+          "",
+          "Go up",
+          "Wed, 2018-06-13 10:08"
+        ]
+      ],
+      "row_count": 6,
+      "col_count": 3
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Validation",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T05:57:37.445810",
+  "content_length": 8890,
+  "rag_optimized": true
+}

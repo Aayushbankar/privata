@@ -1,0 +1,294 @@
+{
+  "url": "https://mosdac.gov.in/3d-volumetric-terls-dwrproduct#top",
+  "title": "3D Volumetric TERLS DWRproduct | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/3d-volumetric-terls-dwrproduct#top",
+    "domain": "mosdac.gov.in",
+    "path": "/3d-volumetric-terls-dwrproduct",
+    "description": "These products contain the 3D volumetric gridded de-cluttered radar reflectivity and de-aliased radial velocity generated from the C-Band Thumba Equatorial Rocket Launching Station (TERLS) DWR Volumet",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/3d-volumetric-terls-dwrproduct",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Sr. No",
+        "Core Metadata Elements",
+        "Definition"
+      ],
+      "rows": [
+        [
+          "1",
+          "Metadata language",
+          "English"
+        ],
+        [
+          "2",
+          "Metadata Contact",
+          "MOSDAC"
+        ],
+        [
+          "3",
+          "Metadata date",
+          "May, 2018"
+        ],
+        [
+          "4",
+          "Data Lineage or Quality",
+          "3D volumetric gridded radar reflectivity and radial velocity from TERLS DWR"
+        ],
+        [
+          "5",
+          "Title",
+          "Post processing of TERLS DWR data and Volumetric Gridding"
+        ],
+        [
+          "6",
+          "Abstract",
+          "The TERLS DWR data has been processed to correct for clutter and velocity folding prior to their application in hydrological and numerical weather prediction models. The radar reflectivity has been corrected for clutter using a combination of a spatial continuity filter and a fuzzy-logic based echo classification algorithm. The velocity folded regions are dealiased using a 2D multipass velocity dealiasing algorithm. The corrected reflectivity and radial velocity are then gridded into 1 km x 1 km x 250 m 3D volumetric grid which can be used by scientists for further meteorological applications. This data was prepared under the TDP/R&D project “Storm Tracking and Prediction using Doppler Weather Radar"
+        ],
+        [
+          "7",
+          "Dataset Contact",
+          "Sambit Kumar Panda, EPSA, Space Applications Centre (ISRO), Ahmedabad-380015"
+        ],
+        [
+          "8",
+          "Update frequency",
+          "3 months"
+        ],
+        [
+          "9",
+          "Access Rights or Restriction",
+          "Open Access"
+        ],
+        [
+          "10",
+          "Spatial Resolution",
+          "Spatial resolution is 1 km, while vertical resolution is 250 m."
+        ],
+        [
+          "11",
+          "Language",
+          "English"
+        ],
+        [
+          "12",
+          "Topic Category",
+          "Doppler Weather Radar Data application"
+        ],
+        [
+          "13",
+          "Keywords",
+          "Doppler Weather Radar, Reflectivity, Radial Velocity, Decluttering, Dealiasing"
+        ],
+        [
+          "14",
+          "Date or period",
+          "May 1-31, 2018."
+        ],
+        [
+          "15",
+          "Responsible Party",
+          "Sambit Kumar Panda, Bipasha Paul Shukla, ASD/AOSG/ EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India"
+        ],
+        [
+          "16",
+          "Organization",
+          "Space Applications Centre (ISRO), Ahmedabad, India"
+        ],
+        [
+          "16a",
+          "Org. role",
+          "Post processing of Doppler Weather Radar data and its application for Hydrological and Numerical Weather Prediction Models"
+        ],
+        [
+          "16b",
+          "Individual name",
+          "Sambit Kumar Panda, ASD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6117/6104. Email: sambit@sac.isro.gov.in"
+        ],
+        [
+          "16c",
+          "Position",
+          "Scientist/Engineer-SC, ASD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 792691 6117/6104. Email: sambit@sac.isro.gov.in"
+        ],
+        [
+          "17",
+          "Geographic Extent",
+          "lat_min: 06N lat_max: 11N lon_min: 74E lon_max: 79E"
+        ],
+        [
+          "18",
+          "Geographic name, geographic Identifier",
+          "TERLS, Trivandrum."
+        ],
+        [
+          "19",
+          "Bounding box",
+          "lat_min: 06N lat_max: 11N lon_min: 74E lon_max: 79E"
+        ],
+        [
+          "20",
+          "Temporal Extent",
+          "May1-31, 2018."
+        ],
+        [
+          "21",
+          "Access Rights or Restrictions",
+          "Open Access"
+        ],
+        [
+          "22",
+          "Distribution Information",
+          "Online download in netcdf format and png files of daily archived data (“.tar.gz” compressed files)."
+        ],
+        [
+          "23",
+          "Processing Level",
+          "Level 2"
+        ],
+        [
+          "24",
+          "Reference System",
+          "Datum: WGS84"
+        ]
+      ],
+      "row_count": 27,
+      "col_count": 3
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "3D Volumetric TERLS DWRproduct",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 3,
+      "text": "These products contain the 3D volumetric gridded de-cluttered radar reflectivity and de-aliased radial velocity generated from the C-Band Thumba Equatorial Rocket Launching Station (TERLS) DWR Volumetric PPI Scan data. The data grid has dimensions of (81x481x481) with a horizontal resolution of (1 km x 1 km) and vertical resolution of (250 m). The maximum altitude considered in while gridding is 20.0 km. This product can be used for various hydrological and numerical weather prediction applications.",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 3,
+      "text": "Data Access",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 5,
+      "level": 3,
+      "text": "Data Version",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 6,
+      "level": 3,
+      "text": "Data Sources",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 7,
+      "level": 3,
+      "text": "Processing Steps",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 8,
+      "level": 3,
+      "text": "Derivation Techniques and Algorithm",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 9,
+      "level": 3,
+      "text": "Reference",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 10,
+      "level": 3,
+      "text": "File Naming Convention",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 11,
+      "level": 3,
+      "text": "MetaData",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 12,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 13,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 14,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.75,
+  "extracted_at": "2025-09-13T05:59:48.306764",
+  "content_length": 13855,
+  "rag_optimized": true
+}

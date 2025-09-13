@@ -1,0 +1,24 @@
+{
+  "url": "https://mosdac.gov.in/internal/coldwave",
+  "title": "Cold Wave Forecast",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/coldwave",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/coldwave",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "https://localhost/lightning",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [],
+  "quality_score": 0.30000000000000004,
+  "extracted_at": "2025-09-13T05:57:05.515486",
+  "content_length": 847,
+  "rag_optimized": true
+}

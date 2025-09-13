@@ -1,0 +1,4519 @@
+{
+  "metadata": {
+    "base_url": "https://mosdac.gov.in",
+    "domain": "mosdac.gov.in",
+    "scraping_session": {
+      "started_at": "2025-09-13T05:53:04.868289",
+      "completed_at": null,
+      "total_duration": null
+    },
+    "scraper_version": "1.0",
+    "output_directory": "mosdac_complete_data",
+    "rag_optimized": true
+  },
+  "statistics": {
+    "urls_discovered": 475,
+    "urls_processed": 443,
+    "urls_failed": 1,
+    "total_content_length": 4112123,
+    "tables_extracted": 270,
+    "average_quality_score": 0.6331724137931031
+  },
+  "urls": {
+    "https://mosdac.gov.in/meteosat8-cloud-properties": {
+      "title": "METEOSAT8 Cloud Properties | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 15,
+      "extracted_at": "2025-09-13T05:57:50.174329",
+      "directory": "mosdac_complete_data/meteosat8-cloud-properties"
+    },
+    "http://mosdac.gov.in/hyperlink-policy": {
+      "title": "Hyperlink Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:18.347411",
+      "directory": "mosdac_complete_data/hyperlink-policy"
+    },
+    "https://mosdac.gov.in/node?qt-latest_products=4#qt-latest_products": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.7000000000000001,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 33,
+      "extracted_at": "2025-09-13T05:59:06.519366",
+      "directory": "mosdac_complete_data/node"
+    },
+    "https://mosdac.gov.in/saral-altika#top": {
+      "title": "SARAL-AltiKa | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:24.781081",
+      "directory": "mosdac_complete_data/saral-altika"
+    },
+    "https://mosdac.gov.in/insitu#top": {
+      "title": "Insitu | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6000000000000001,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:10.023202",
+      "directory": "mosdac_complete_data/insitu"
+    },
+    "https://mosdac.gov.in/3d-volumetric-terls-dwrproduct#top": {
+      "title": "3D Volumetric TERLS DWRproduct | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 15,
+      "extracted_at": "2025-09-13T05:59:48.306764",
+      "directory": "mosdac_complete_data/3d-volumetric-terls-dwrproduct"
+    },
+    "http://mosdac.gov.in/twin-cyclones-jan-2015": {
+      "title": "Twin Cyclones, Jan 2015 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.5700000000000001,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:53:50.836220",
+      "directory": "mosdac_complete_data/twin-cyclones-jan-2015"
+    },
+    "https://mosdac.gov.in/validation-reports#main-content": {
+      "title": "Validation | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6000000000000001,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:52.149862",
+      "directory": "mosdac_complete_data/validation-reports"
+    },
+    "https://mosdac.gov.in/high-resolution-sea-surface-salinity": {
+      "title": "High Resolution Sea Surface Salinity | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 16,
+      "extracted_at": "2025-09-13T05:57:16.398622",
+      "directory": "mosdac_complete_data/high-resolution-sea-surface-salinity"
+    },
+    "https://mosdac.gov.in/megha-tropiques": {
+      "title": "Megha Tropiques | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:39.042560",
+      "directory": "mosdac_complete_data/megha-tropiques"
+    },
+    "https://mosdac.gov.in/insat-3s-references": {
+      "title": "INSAT-3DS References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:00.402821",
+      "directory": "mosdac_complete_data/insat-3s-references"
+    },
+    "https://mosdac.gov.in/#main-content": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.7000000000000001,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 33,
+      "extracted_at": "2025-09-13T06:00:34.818902",
+      "directory": "mosdac_complete_data/index"
+    },
+    "http://mosdac.gov.in/global-ocean-surface-current": {
+      "title": "Global Ocean Surface Current | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.9,
+      "content_length": 0,
+      "tables_count": 7,
+      "headings_count": 18,
+      "extracted_at": "2025-09-13T05:58:21.059373",
+      "directory": "mosdac_complete_data/global-ocean-surface-current"
+    },
+    "https://mosdac.gov.in/calibration-reports#main-content": {
+      "title": "Relative | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6000000000000001,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:15.818230",
+      "directory": "mosdac_complete_data/calibration-reports"
+    },
+    "https://mosdac.gov.in/insat-3d": {
+      "title": "INSAT-3D | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:57.769480",
+      "directory": "mosdac_complete_data/insat-3d"
+    },
+    "https://mosdac.gov.in/privacy-policy": {
+      "title": "Privacy Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:56:10.667663",
+      "directory": "mosdac_complete_data/privacy-policy"
+    },
+    "https://mosdac.gov.in/atlases?sort=asc&order=modified": {
+      "title": "Atlases | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.66,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 8,
+      "extracted_at": "2025-09-13T06:00:28.504046",
+      "directory": "mosdac_complete_data/atlases"
+    },
+    "http://mosdac.gov.in/rss-feed": {
+      "title": "RSS Feed | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:58.390943",
+      "directory": "mosdac_complete_data/rss-feed"
+    },
+    "https://mosdac.gov.in/weather-reports#main-content": {
+      "title": "Weather | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6000000000000001,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:25.480189",
+      "directory": "mosdac_complete_data/weather-reports"
+    },
+    "https://mosdac.gov.in/imageshow": {
+      "title": "Imageshow | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.55,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:19.184903",
+      "directory": "mosdac_complete_data/imageshow"
+    },
+    "https://mosdac.gov.in/megha-tropiques-payloads": {
+      "title": "Megha Tropiques Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.8,
+      "content_length": 0,
+      "tables_count": 4,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:20.476554",
+      "directory": "mosdac_complete_data/megha-tropiques-payloads"
+    },
+    "https://mosdac.gov.in/gps-derived-integrated-water-vapour#main-content": {
+      "title": "GPS derived Integrated water vapour | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 16,
+      "extracted_at": "2025-09-13T05:59:00.092512",
+      "directory": "mosdac_complete_data/gps-derived-integrated-water-vapour"
+    },
+    "https://mosdac.gov.in/saral-altika-payloads": {
+      "title": "SARAL-AltiKa Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:22.352246",
+      "directory": "mosdac_complete_data/saral-altika-payloads"
+    },
+    "http://mosdac.gov.in/<nolink>": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:23.833889",
+      "directory": "mosdac_complete_data/_nolink_"
+    },
+    "https://mosdac.gov.in/oceanic-eddies-detection#main-content": {
+      "title": "Oceanic Eddies Detection | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 17,
+      "extracted_at": "2025-09-13T05:58:12.532527",
+      "directory": "mosdac_complete_data/oceanic-eddies-detection"
+    },
+    "https://mosdac.gov.in/megha-tropiques-references": {
+      "title": "Megha Tropiques References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:26.155927",
+      "directory": "mosdac_complete_data/megha-tropiques-references"
+    },
+    "https://mosdac.gov.in/faq-page": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:34.166448",
+      "directory": "mosdac_complete_data/faq-page"
+    },
+    "https://mosdac.gov.in/oceansat-3-objectives": {
+      "title": "OCEANSAT-3 Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:28.943094",
+      "directory": "mosdac_complete_data/oceansat-3-objectives"
+    },
+    "https://mosdac.gov.in/kalpana-1-spacecraft": {
+      "title": "KALPANA-1 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:29.786819",
+      "directory": "mosdac_complete_data/kalpana-1-spacecraft"
+    },
+    "https://mosdac.gov.in/downloadapi-manual#mdda-sd": {
+      "title": "User Manual for MOSDAC Data Download API | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.85,
+      "content_length": 0,
+      "tables_count": 3,
+      "headings_count": 25,
+      "extracted_at": "2025-09-13T05:59:33.707878",
+      "directory": "mosdac_complete_data/downloadapi-manual"
+    },
+    "http://mosdac.gov.in/safe-beach": {
+      "title": "Safe Beach | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:54:35.072272",
+      "directory": "mosdac_complete_data/safe-beach"
+    },
+    "https://mosdac.gov.in/saral-altika-introduction": {
+      "title": "SARAL-AltiKa Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:35.431195",
+      "directory": "mosdac_complete_data/saral-altika-introduction"
+    },
+    "http://mosdac.gov.in/mosdac-feedback": {
+      "title": "MOSDAC Feedback | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.55,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:49.031456",
+      "directory": "mosdac_complete_data/mosdac-feedback"
+    },
+    "https://mosdac.gov.in/oceansat-2-spacecraft": {
+      "title": "Oceansat-2 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.65,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:39.433179",
+      "directory": "mosdac_complete_data/oceansat-2-spacecraft"
+    },
+    "https://mosdac.gov.in/sea-ice-occurrence-probability": {
+      "title": "Sea Ice Occurrence Probability | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 17,
+      "extracted_at": "2025-09-13T05:58:42.637966",
+      "directory": "mosdac_complete_data/sea-ice-occurrence-probability"
+    },
+    "http://mosdac.gov.in/soil-moisture-0": {
+      "title": "Soil Moisture | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 13,
+      "extracted_at": "2025-09-13T06:00:01.148514",
+      "directory": "mosdac_complete_data/soil-moisture-0"
+    },
+    "https://mosdac.gov.in/gsmap-isro-rain#top": {
+      "title": "GSMap ISRO Rain | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 16,
+      "extracted_at": "2025-09-13T05:59:10.584808",
+      "directory": "mosdac_complete_data/gsmap-isro-rain"
+    },
+    "https://mosdac.gov.in/insat-3d-objectives": {
+      "title": "INSAT-3D Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:45.996109",
+      "directory": "mosdac_complete_data/insat-3d-objectives"
+    },
+    "http://mosdac.gov.in/website-policies": {
+      "title": "Website Policies | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:41.610680",
+      "directory": "mosdac_complete_data/website-policies"
+    },
+    "https://mosdac.gov.in/insat-3d-introduction": {
+      "title": "INSAT-3D Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:51.081518",
+      "directory": "mosdac_complete_data/insat-3d-introduction"
+    },
+    "https://mosdac.gov.in/megha-tropiques-objectives": {
+      "title": "Megha Tropiques Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.65,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:54.655824",
+      "directory": "mosdac_complete_data/megha-tropiques-objectives"
+    },
+    "http://mosdac.gov.in/ocean-subsurface-fields": {
+      "title": "Ocean Subsurface Fields | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:54:56.026962",
+      "directory": "mosdac_complete_data/ocean-subsurface-fields"
+    },
+    "https://mosdac.gov.in/insat-3a#top": {
+      "title": "INSAT-3A | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:26.004874",
+      "directory": "mosdac_complete_data/insat-3a"
+    },
+    "https://mosdac.gov.in/scatsat-1-objectives": {
+      "title": "SCATSAT-1 Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:54:59.070756",
+      "directory": "mosdac_complete_data/scatsat-1-objectives"
+    },
+    "https://mosdac.gov.in/scatsat-1#main-content": {
+      "title": "SCATSAT-1 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:47.034552",
+      "directory": "mosdac_complete_data/scatsat-1"
+    },
+    "https://mosdac.gov.in/tools": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.65,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:03.687990",
+      "directory": "mosdac_complete_data/tools"
+    },
+    "https://mosdac.gov.in/announcements": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:55:09.892149",
+      "directory": "mosdac_complete_data/announcements"
+    },
+    "http://mosdac.gov.in/city-weather": {
+      "title": "City Weather | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:55:10.731546",
+      "directory": "mosdac_complete_data/city-weather"
+    },
+    "https://mosdac.gov.in/data-quality?sort=asc&order=modified": {
+      "title": "Data Quality | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6000000000000001,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:40.174940",
+      "directory": "mosdac_complete_data/data-quality"
+    },
+    "http://mosdac.gov.in/heat-waves": {
+      "title": "Heat Waves | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:55:15.087166",
+      "directory": "mosdac_complete_data/heat-waves"
+    },
+    "https://mosdac.gov.in/insat-3dr": {
+      "title": "INSAT-3DR | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:14.759292",
+      "directory": "mosdac_complete_data/insat-3dr"
+    },
+    "https://mosdac.gov.in/saral-altika-objectives": {
+      "title": "SARAL-AltiKa Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:55:19.648122",
+      "directory": "mosdac_complete_data/saral-altika-objectives"
+    },
+    "https://mosdac.gov.in/insat-3a-introduction": {
+      "title": "INSAT-3A Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:55:21.102364",
+      "directory": "mosdac_complete_data/insat-3a-introduction"
+    },
+    "http://mosdac.gov.in/lightning-0": {
+      "title": "Lightning | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:55:23.360645",
+      "directory": "mosdac_complete_data/lightning-0"
+    },
+    "https://mosdac.gov.in/inland-water-height#main-content": {
+      "title": "Inland Water Height | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 17,
+      "extracted_at": "2025-09-13T05:59:39.960804",
+      "directory": "mosdac_complete_data/inland-water-height"
+    },
+    "https://mosdac.gov.in/sitemap": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:30.621134",
+      "directory": "mosdac_complete_data/sitemap"
+    },
+    "https://mosdac.gov.in/insat-3a-payloads": {
+      "title": "INSAT-3A Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:55:26.555002",
+      "directory": "mosdac_complete_data/insat-3a-payloads"
+    },
+    "https://mosdac.gov.in/wave-based-renewable-energy": {
+      "title": "Wave based Renewable Energy | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.7999999999999999,
+      "content_length": 0,
+      "tables_count": 2,
+      "headings_count": 16,
+      "extracted_at": "2025-09-13T06:00:23.189020",
+      "directory": "mosdac_complete_data/wave-based-renewable-energy"
+    },
+    "https://mosdac.gov.in/indian-mainland-coastal-product#top": {
+      "title": "Indian Mainland Coastal Product | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 16,
+      "extracted_at": "2025-09-13T06:00:18.842215",
+      "directory": "mosdac_complete_data/indian-mainland-coastal-product"
+    },
+    "https://mosdac.gov.in/data-access-policy": {
+      "title": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.65,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:09.836872",
+      "directory": "mosdac_complete_data/data-access-policy"
+    },
+    "https://mosdac.gov.in/oceansat-3-spacecraft": {
+      "title": "OCEANSAT-3 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.65,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:55:35.672702",
+      "directory": "mosdac_complete_data/oceansat-3-spacecraft"
+    },
+    "http://mosdac.gov.in/urja": {
+      "title": "Urja | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:55:37.989660",
+      "directory": "mosdac_complete_data/urja"
+    },
+    "https://mosdac.gov.in/bayesian-based-mt-saphir-rainfall": {
+      "title": "Bayesian based MT-SAPHIR rainfall | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 16,
+      "extracted_at": "2025-09-13T06:00:18.377220",
+      "directory": "mosdac_complete_data/bayesian-based-mt-saphir-rainfall"
+    },
+    "https://mosdac.gov.in/river-discharge#main-content": {
+      "title": "River Discharge | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.85,
+      "content_length": 0,
+      "tables_count": 3,
+      "headings_count": 17,
+      "extracted_at": "2025-09-13T06:00:30.665582",
+      "directory": "mosdac_complete_data/river-discharge"
+    },
+    "http://mosdac.gov.in/contact-us": {
+      "title": "Contact | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:56:06.895709",
+      "directory": "mosdac_complete_data/contact-us"
+    },
+    "http://mosdac.gov.in/ocean-subsurface": {
+      "title": "Ocean Subsurface | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 16,
+      "extracted_at": "2025-09-13T06:00:29.814683",
+      "directory": "mosdac_complete_data/ocean-subsurface"
+    },
+    "http://mosdac.gov.in/alert-dashboard-beta": {
+      "title": "Alert-Dashboard-Beta | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:55:50.189321",
+      "directory": "mosdac_complete_data/alert-dashboard-beta"
+    },
+    "http://mosdac.gov.in/aws-time-series": {
+      "title": "AWS Time Series | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:55:51.699164",
+      "directory": "mosdac_complete_data/aws-time-series"
+    },
+    "http://mosdac.gov.in/oceansat-2": {
+      "title": "Oceansat-2 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:44.159250",
+      "directory": "mosdac_complete_data/oceansat-2"
+    },
+    "https://mosdac.gov.in/kalpana-1": {
+      "title": "KALPANA-1 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:43.528349",
+      "directory": "mosdac_complete_data/kalpana-1"
+    },
+    "https://mosdac.gov.in/copyright-policy": {
+      "title": "Copyright Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:21.393526",
+      "directory": "mosdac_complete_data/copyright-policy"
+    },
+    "http://mosdac.gov.in/about-us": {
+      "title": "About Us | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:21.368299",
+      "directory": "mosdac_complete_data/about-us"
+    },
+    "https://mosdac.gov.in/oceansat-3#main-content": {
+      "title": "OCEANSAT-3 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:06.027770",
+      "directory": "mosdac_complete_data/oceansat-3"
+    },
+    "https://mosdac.gov.in/saral-altika-spacecraft": {
+      "title": "SARAL-AltiKa SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:56:14.896434",
+      "directory": "mosdac_complete_data/saral-altika-spacecraft"
+    },
+    "https://mosdac.gov.in/insat-3ds": {
+      "title": "INSAT-3DS | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:05.110954",
+      "directory": "mosdac_complete_data/insat-3ds"
+    },
+    "http://mosdac.gov.in/help": {
+      "title": "Help | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.74,
+      "content_length": 0,
+      "tables_count": 2,
+      "headings_count": 7,
+      "extracted_at": "2025-09-13T05:58:05.691913",
+      "directory": "mosdac_complete_data/help"
+    },
+    "http://mosdac.gov.in/oil-spill": {
+      "title": "OIL SPILL | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:56:38.168503",
+      "directory": "mosdac_complete_data/oil-spill"
+    },
+    "https://mosdac.gov.in/oceansat-2-objectives": {
+      "title": "Oceansat-2 Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:56:41.774229",
+      "directory": "mosdac_complete_data/oceansat-2-objectives"
+    },
+    "http://mosdac.gov.in/monsoon-0": {
+      "title": "Monsoon | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:56:44.555922",
+      "directory": "mosdac_complete_data/monsoon-0"
+    },
+    "https://mosdac.gov.in/insat-3dr-introduction": {
+      "title": "INSAT-3DR Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:56:51.908780",
+      "directory": "mosdac_complete_data/insat-3dr-introduction"
+    },
+    "http://mosdac.gov.in/downloads": {
+      "title": "Downloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.55,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:56:53.883630",
+      "directory": "mosdac_complete_data/downloads"
+    },
+    "http://mosdac.gov.in/ocean-eye": {
+      "title": "Ocean-Eye | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:56:56.862201",
+      "directory": "mosdac_complete_data/ocean-eye"
+    },
+    "http://mosdac.gov.in/insat-3d-imager": {
+      "title": "INSAT-3D Imager | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.55,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:56:57.907513",
+      "directory": "mosdac_complete_data/insat-3d-imager"
+    },
+    "http://mosdac.gov.in/agricultural-outlook-2016": {
+      "title": "Agricultural Outlook 2016 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.5700000000000001,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:57:01.450179",
+      "directory": "mosdac_complete_data/agricultural-outlook-2016"
+    },
+    "https://mosdac.gov.in/terms-conditions": {
+      "title": "Terms & Conditions | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:06.847694",
+      "directory": "mosdac_complete_data/terms-conditions"
+    },
+    "https://mosdac.gov.in/atlas": {
+      "title": "Atlas | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6000000000000001,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:08.454217",
+      "directory": "mosdac_complete_data/atlas"
+    },
+    "http://mosdac.gov.in/heavy-rain-0": {
+      "title": "Heavy Rain | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:57:10.799503",
+      "directory": "mosdac_complete_data/heavy-rain-0"
+    },
+    "https://mosdac.gov.in/signup/": {
+      "title": "Welcome to MOSDAC",
+      "quality_score": 0.5,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 0,
+      "extracted_at": "2025-09-13T05:57:12.422098",
+      "directory": "mosdac_complete_data/signup"
+    },
+    "http://mosdac.gov.in/user-manual-mosdac-data-download-api": {
+      "title": "User Manual for MOSDAC Data Download API | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.85,
+      "content_length": 0,
+      "tables_count": 3,
+      "headings_count": 25,
+      "extracted_at": "2025-09-13T05:57:13.970148",
+      "directory": "mosdac_complete_data/user-manual-mosdac-data-download-api"
+    },
+    "https://mosdac.gov.in/kalpana-1-payloads": {
+      "title": "KALPANA-1 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 3,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:15.102758",
+      "directory": "mosdac_complete_data/kalpana-1-payloads"
+    },
+    "https://mosdac.gov.in/insat-3dr-objectives": {
+      "title": "INSAT-3DR Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:19.939900",
+      "directory": "mosdac_complete_data/insat-3dr-objectives"
+    },
+    "http://mosdac.gov.in/scatsat-1-mission": {
+      "title": "SCATSAT-1 Mission | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.55,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:28.005438",
+      "directory": "mosdac_complete_data/scatsat-1-mission"
+    },
+    "http://mosdac.gov.in/scorpio-0": {
+      "title": "SCORPIO | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:57:33.669494",
+      "directory": "mosdac_complete_data/scorpio-0"
+    },
+    "https://mosdac.gov.in/insat-3a-spacecraft": {
+      "title": "INSAT-3A SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.7,
+      "content_length": 0,
+      "tables_count": 2,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:38.838944",
+      "directory": "mosdac_complete_data/insat-3a-spacecraft"
+    },
+    "http://mosdac.gov.in/risat-ocean-observations": {
+      "title": "RISAT Ocean Observations | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:57:39.303382",
+      "directory": "mosdac_complete_data/risat-ocean-observations"
+    },
+    "http://mosdac.gov.in/cloud-burst": {
+      "title": "Cloud Burst | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:57:43.834923",
+      "directory": "mosdac_complete_data/cloud-burst"
+    },
+    "http://mosdac.gov.in/gsics": {
+      "title": "GSICS",
+      "quality_score": 0.45,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 0,
+      "extracted_at": "2025-09-13T05:57:44.718622",
+      "directory": "mosdac_complete_data/gsics"
+    },
+    "http://mosdac.gov.in/sea-state": {
+      "title": "Sea State | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:57:48.529610",
+      "directory": "mosdac_complete_data/sea-state"
+    },
+    "https://mosdac.gov.in/kalpana-1-introduction": {
+      "title": "KALPANA-1 Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:51.604495",
+      "directory": "mosdac_complete_data/kalpana-1-introduction"
+    },
+    "https://mosdac.gov.in/oceansat-3-introduction": {
+      "title": "Oceansat-3 Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:57:57.627612",
+      "directory": "mosdac_complete_data/oceansat-3-introduction"
+    },
+    "http://mosdac.gov.in/agricultural-outlook-2015": {
+      "title": "Agricultural Outlook 2015 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:57:59.480467",
+      "directory": "mosdac_complete_data/agricultural-outlook-2015"
+    },
+    "https://mosdac.gov.in/oceansat-3-payloads": {
+      "title": "OCEANSAT-3 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:01.254342",
+      "directory": "mosdac_complete_data/oceansat-3-payloads"
+    },
+    "http://mosdac.gov.in/indian-state-portal": {
+      "title": "Indian State Portal | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:58:06.083543",
+      "directory": "mosdac_complete_data/indian-state-portal"
+    },
+    "https://mosdac.gov.in/scatsat-1-spacecraft": {
+      "title": "SCATSAT-1 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.65,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:06.839407",
+      "directory": "mosdac_complete_data/scatsat-1-spacecraft"
+    },
+    "https://mosdac.gov.in/megha-tropiques-introduction": {
+      "title": "Megha Tropiques Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:07.737385",
+      "directory": "mosdac_complete_data/megha-tropiques-introduction"
+    },
+    "https://mosdac.gov.in/scatsat-1-introduction": {
+      "title": "SCATSAT-1 Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:10.369250",
+      "directory": "mosdac_complete_data/scatsat-1-introduction"
+    },
+    "http://mosdac.gov.in/weekly-rainfall-distribution-past": {
+      "title": "Weekly Rainfall Distribution (Past) | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:58:24.198638",
+      "directory": "mosdac_complete_data/weekly-rainfall-distribution-past"
+    },
+    "https://mosdac.gov.in/insat-3s-objectives": {
+      "title": "INSAT-3DS Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:29.122145",
+      "directory": "mosdac_complete_data/insat-3s-objectives"
+    },
+    "https://mosdac.gov.in/insat-3s-spacecraft": {
+      "title": "INSAT-3DS SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:29.580877",
+      "directory": "mosdac_complete_data/insat-3s-spacecraft"
+    },
+    "https://mosdac.gov.in/oceansat-2-payloads": {
+      "title": "Oceansat-2 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:32.459463",
+      "directory": "mosdac_complete_data/oceansat-2-payloads"
+    },
+    "http://mosdac.gov.in/heavy-rain-1": {
+      "title": "Heavy Rain | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:58:33.664945",
+      "directory": "mosdac_complete_data/heavy-rain-1"
+    },
+    "http://mosdac.gov.in/eddy-currents": {
+      "title": "Eddy Currents | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:58:38.379702",
+      "directory": "mosdac_complete_data/eddy-currents"
+    },
+    "http://mosdac.gov.in/cyclone": {
+      "title": "Cyclone | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:58:42.762720",
+      "directory": "mosdac_complete_data/cyclone"
+    },
+    "http://mosdac.gov.in/heavy-rain-nowcast": {
+      "title": "Heavy Rain (Nowcast) | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.55,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:43.709046",
+      "directory": "mosdac_complete_data/heavy-rain-nowcast"
+    },
+    "http://mosdac.gov.in/varsha": {
+      "title": "VARSHA | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:58:44.504160",
+      "directory": "mosdac_complete_data/varsha"
+    },
+    "https://mosdac.gov.in/scatsat-1-references": {
+      "title": "SCATSAT-1 References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:51.426809",
+      "directory": "mosdac_complete_data/scatsat-1-references"
+    },
+    "https://mosdac.gov.in/insat-3d-payloads": {
+      "title": "INSAT-3D Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.8,
+      "content_length": 0,
+      "tables_count": 4,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:53.030175",
+      "directory": "mosdac_complete_data/insat-3d-payloads"
+    },
+    "http://mosdac.gov.in/mumbai-heavy-rain-august-2017": {
+      "title": "Mumbai Heavy Rain August 2017 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.5700000000000001,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:58:55.592816",
+      "directory": "mosdac_complete_data/mumbai-heavy-rain-august-2017"
+    },
+    "https://mosdac.gov.in/oceansat-2-introduction": {
+      "title": "OCEANSAT-2 Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:56.245235",
+      "directory": "mosdac_complete_data/oceansat-2-introduction"
+    },
+    "https://mosdac.gov.in/oceansat-2-references": {
+      "title": "Oceansat-2 References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:58:57.172417",
+      "directory": "mosdac_complete_data/oceansat-2-references"
+    },
+    "https://mosdac.gov.in/insat-3dr-references": {
+      "title": "INSAT-3DR References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:01.962604",
+      "directory": "mosdac_complete_data/insat-3dr-references"
+    },
+    "http://mosdac.gov.in/cold-waves": {
+      "title": "Cold Waves | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:59:09.078487",
+      "directory": "mosdac_complete_data/cold-waves"
+    },
+    "http://mosdac.gov.in/solar-wind": {
+      "title": "Solar & Wind | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:59:09.355466",
+      "directory": "mosdac_complete_data/solar-wind"
+    },
+    "https://mosdac.gov.in/insat-3d-spacecraft": {
+      "title": "INSAT-3D SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:24.121594",
+      "directory": "mosdac_complete_data/insat-3d-spacecraft"
+    },
+    "http://mosdac.gov.in/insat-3d-sounder-0": {
+      "title": "INSAT-3D Sounder | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.55,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:26.565003",
+      "directory": "mosdac_complete_data/insat-3d-sounder-0"
+    },
+    "https://mosdac.gov.in/insat-3d-references": {
+      "title": "INSAT-3D References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:29.655159",
+      "directory": "mosdac_complete_data/insat-3d-references"
+    },
+    "https://mosdac.gov.in/scatsat-1-payloads": {
+      "title": "SCATSAT-1 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.65,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:34.499514",
+      "directory": "mosdac_complete_data/scatsat-1-payloads"
+    },
+    "http://mosdac.gov.in/south-east-asian-countries": {
+      "title": "South East Asian Countries | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:59:34.827748",
+      "directory": "mosdac_complete_data/south-east-asian-countries"
+    },
+    "https://mosdac.gov.in/insat-3dr-spacecraft": {
+      "title": "INSAT-3DR SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:38.344882",
+      "directory": "mosdac_complete_data/insat-3dr-spacecraft"
+    },
+    "http://mosdac.gov.in/vayu": {
+      "title": "VAYU | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:59:43.641125",
+      "directory": "mosdac_complete_data/vayu"
+    },
+    "http://mosdac.gov.in/dust-storm-april-2015": {
+      "title": "Dust Storm, April 2015 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.5700000000000001,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:59:45.062777",
+      "directory": "mosdac_complete_data/dust-storm-april-2015"
+    },
+    "https://mosdac.gov.in/insat-3a-objectives": {
+      "title": "INSAT-3A Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:47.817267",
+      "directory": "mosdac_complete_data/insat-3a-objectives"
+    },
+    "https://mosdac.gov.in/oceansat3-references": {
+      "title": "OCEANSAT-3 References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T05:59:53.632956",
+      "directory": "mosdac_complete_data/oceansat3-references"
+    },
+    "http://mosdac.gov.in/soil-moisture": {
+      "title": "Soil Moisture | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T05:59:59.050842",
+      "directory": "mosdac_complete_data/soil-moisture"
+    },
+    "https://mosdac.gov.in/insat-3s-payloads": {
+      "title": "INSAT-3DS Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.8,
+      "content_length": 0,
+      "tables_count": 4,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:01.889500",
+      "directory": "mosdac_complete_data/insat-3s-payloads"
+    },
+    "https://mosdac.gov.in/saral-references": {
+      "title": "SARAL References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:03.723779",
+      "directory": "mosdac_complete_data/saral-references"
+    },
+    "http://mosdac.gov.in/mosdac-live": {
+      "title": "MOSDAC LIVE | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T06:00:04.608544",
+      "directory": "mosdac_complete_data/mosdac-live"
+    },
+    "http://mosdac.gov.in/digital-object-identifier-doi": {
+      "title": "Digital Object Identifier (DOI) | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:07.493500",
+      "directory": "mosdac_complete_data/digital-object-identifier-doi"
+    },
+    "https://mosdac.gov.in/insat-3dr-payloads": {
+      "title": "INSAT-3DR Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.8,
+      "content_length": 0,
+      "tables_count": 5,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:11.699547",
+      "directory": "mosdac_complete_data/insat-3dr-payloads"
+    },
+    "https://mosdac.gov.in/megha-tropiques-spacecraft": {
+      "title": "Megha Tropiques SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:14.130751",
+      "directory": "mosdac_complete_data/megha-tropiques-spacecraft"
+    },
+    "http://mosdac.gov.in/ocean-eye-interface": {
+      "title": "Ocean Eye Interface | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.55,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:14.619859",
+      "directory": "mosdac_complete_data/ocean-eye-interface"
+    },
+    "http://mosdac.gov.in/weekly-rainfall-distribution-2019": {
+      "title": "Weekly Rainfall Distribution 2019 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.62,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 6,
+      "extracted_at": "2025-09-13T06:00:28.999469",
+      "directory": "mosdac_complete_data/weekly-rainfall-distribution-2019"
+    },
+    "http://mosdac.gov.in/insat-3d-cloud-properties": {
+      "title": "INSAT 3D Cloud Properties | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.75,
+      "content_length": 0,
+      "tables_count": 1,
+      "headings_count": 14,
+      "extracted_at": "2025-09-13T06:00:30.047609",
+      "directory": "mosdac_complete_data/insat-3d-cloud-properties"
+    },
+    "https://mosdac.gov.in/kalpana-1-objectives": {
+      "title": "KALPANA-1 Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:34.604037",
+      "directory": "mosdac_complete_data/kalpana-1-objectives"
+    },
+    "https://mosdac.gov.in/insat-3s-introduction": {
+      "title": "INSAT-3DS Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "quality_score": 0.6,
+      "content_length": 0,
+      "tables_count": 0,
+      "headings_count": 5,
+      "extracted_at": "2025-09-13T06:00:43.639423",
+      "directory": "mosdac_complete_data/insat-3s-introduction"
+    }
+  },
+  "content_index": {
+    "https://mosdac.gov.in/meteosat8-cloud-properties": {
+      "title": "METEOSAT8 Cloud Properties | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "NASA LaRC is operationally generating global cloud properties products using different geostationary satellites.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "METEOSAT8 Cloud Properties",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "http://mosdac.gov.in/hyperlink-policy": {
+      "title": "Hyperlink Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Links to external websites/portals At many places in this Portal, you shall find links to other websites/portals. This links have been placed for your convenience. MOSDAC is not responsible for the contents and reliability of the linked websites and does not necessarily endorse the views expressed in them. Mere presence of the link or its listing on this Portal should not be",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Hyperlink Policy",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/node?qt-latest_products=4#qt-latest_products": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "Meteorological & Oceanographic Satellite Data Archival Centre",
+        "",
+        "Services",
+        "City Weather",
+        "Cold Waves",
+        "Cyclone",
+        "Heat Waves",
+        "Heavy Rain",
+        "Lightning",
+        "Monsoon",
+        "Sea State",
+        "Solar & Wind",
+        "Cloud Burst",
+        "Heavy Rain",
+        "AWS Time Series",
+        "Heavy Rain",
+        "MOSDAC LIVE",
+        "Indian State Portal",
+        "South East Asian Countries",
+        "Urja",
+        "VARSHA",
+        "VAYU",
+        "Soil Moisture",
+        "SCORPIO",
+        "OIL SPILL",
+        "Ocean Subsurface Fields",
+        "Safe Beach",
+        "Ocean-Eye",
+        "Eddy Currents",
+        "Announcements",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.7000000000000001
+    },
+    "https://mosdac.gov.in/saral-altika#top": {
+      "title": "SARAL-AltiKa | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "SARAL mission results from the common interest of both CNES and ISRO in studying ocean from space using altimetry system and in promoting maximum use of the ARGOS Data Collecting System. Radar altimetry by satellite is a technique used in oceanography to measure, globally over the oceans, the sea level needed to understand ocean circulation and its variability. The importance",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SARAL-AltiKa",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insitu#top": {
+      "title": "Insitu | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Insitu",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6000000000000001
+    },
+    "https://mosdac.gov.in/3d-volumetric-terls-dwrproduct#top": {
+      "title": "3D Volumetric TERLS DWRproduct | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "These products contain the 3D volumetric gridded de-cluttered radar reflectivity and de-aliased radial velocity generated from the C-Band Thumba Equatorial Rocket Launching Station (TERLS) DWR Volumet",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "3D Volumetric TERLS DWRproduct",
+        "These products contain the 3D volumetric gridded de-cluttered radar reflectivity and de-aliased radial velocity generated from the C-Band Thumba Equatorial Rocket Launching Station (TERLS) DWR Volumetric PPI Scan data. The data grid has dimensions of (81x481x481) with a horizontal resolution of (1 km x 1 km) and vertical resolution of (250 m). The maximum altitude considered in while gridding is 20.0 km. This product can be used for various hydrological and numerical weather prediction applications.",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "Derivation Techniques and Algorithm",
+        "Reference",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "http://mosdac.gov.in/twin-cyclones-jan-2015": {
+      "title": "Twin Cyclones, Jan 2015 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Twin Cyclones, Jan 2015",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.5700000000000001
+    },
+    "https://mosdac.gov.in/validation-reports#main-content": {
+      "title": "Validation | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Validation",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6000000000000001
+    },
+    "https://mosdac.gov.in/high-resolution-sea-surface-salinity": {
+      "title": "High Resolution Sea Surface Salinity | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The Bay of Bengal's high-resolution sea surface salinity has been reconstructed using a Lagrangian technique leveraging satellite data.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "High Resolution Sea Surface Salinity",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "https://mosdac.gov.in/megha-tropiques": {
+      "title": "Megha Tropiques | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Megha-Tropiques is an Indo-French Joint Satellite Mission for studying the water cycle and energy exchanges in the tropics. The main objective of this mission is to understand the life cycle of convective systems that influence the tropical weather and climate and their role in associated energy and moisture budget of the atmosphere in tropical regions. Megha-Tropiques",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Megha Tropiques",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insat-3s-references": {
+      "title": "INSAT-3DS References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT-3DS_Operational_Products_V1 (Size:586 KB Format:PDF Tool:PDFViewer)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DS References",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/#main-content": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "Meteorological & Oceanographic Satellite Data Archival Centre",
+        "",
+        "Services",
+        "City Weather",
+        "Cold Waves",
+        "Cyclone",
+        "Heat Waves",
+        "Heavy Rain",
+        "Lightning",
+        "Monsoon",
+        "Sea State",
+        "Solar & Wind",
+        "Cloud Burst",
+        "Heavy Rain",
+        "AWS Time Series",
+        "Heavy Rain",
+        "MOSDAC LIVE",
+        "Indian State Portal",
+        "South East Asian Countries",
+        "Urja",
+        "VARSHA",
+        "VAYU",
+        "Soil Moisture",
+        "SCORPIO",
+        "OIL SPILL",
+        "Ocean Subsurface Fields",
+        "Safe Beach",
+        "Ocean-Eye",
+        "Eddy Currents",
+        "Announcements",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.7000000000000001
+    },
+    "http://mosdac.gov.in/global-ocean-surface-current": {
+      "title": "Global Ocean Surface Current | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The Global Ocean Surface Current defined here as the average current for the top 0 to 30m layer is derived from the synergistic use of three different satellite derived parameters.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Global Ocean Surface Current",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Data Citation",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "Related data collections",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.9
+    },
+    "https://mosdac.gov.in/calibration-reports#main-content": {
+      "title": "Relative | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Relative",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6000000000000001
+    },
+    "https://mosdac.gov.in/insat-3d": {
+      "title": "INSAT-3D | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue needs of India. Commissioned in 1983, INSAT is the largest domestic communication system in the Asia Pacific Region. The satellite is monitored and controlled by Master Control",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3D",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/privacy-policy": {
+      "title": "Privacy Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "This Policy outlines the types of information we gather about you and how we use it. We understand that your personal information is very sensitive, and protecting the privacy of this information is a top priority for us. All the information collected by this site will be kept strictly confidential.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Privacy Policy",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/atlases?sort=asc&order=modified": {
+      "title": "Atlases | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Atlases",
+        "Download PDF",
+        "",
+        "Read Online",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.66
+    },
+    "http://mosdac.gov.in/rss-feed": {
+      "title": "RSS Feed | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Uses RSS (Rich Site Summary) based technology for dissemination of Satellite Images and Data Products to end users on InternetAllow Users to subscribe to these feeds automatically and get notified for",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "RSS Feed",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/weather-reports#main-content": {
+      "title": "Weather | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Weather",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6000000000000001
+    },
+    "https://mosdac.gov.in/imageshow": {
+      "title": "Imageshow | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Imageshow",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.55
+    },
+    "https://mosdac.gov.in/megha-tropiques-payloads": {
+      "title": "Megha Tropiques Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Megha-Tropiques carries the following four payloads:Microwave Analysis and Detection of Rain and Atmospheric Structures (MADRAS), an Imaging Radiometer developed jointly by CNES and ISROSounder for Probing Vertical Profiles of Humidity (SAPHIR), from CNESScanner for Radiation Budget (ScaRaB), from CNESRadio Occultation Sensor for Vertical Profiling of Temperature and Humidity",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Megha Tropiques Payloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.8
+    },
+    "https://mosdac.gov.in/gps-derived-integrated-water-vapour#main-content": {
+      "title": "GPS derived Integrated water vapour | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "This dataset contains Integrated Water Vapor (IWV) estimates derived from GPS receivers that comprise the GAGAN TEC network.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "GPS derived Integrated water vapour",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "https://mosdac.gov.in/saral-altika-payloads": {
+      "title": "SARAL-AltiKa Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "SARAL carries the following four payloads:Ka-band altimeter with enhanced bandwidthIonospheric effects are negligibleBetter vertical resolution (0.3m)Ka-band (35 GHz) authorizes a compact, lightweight instrument easier to accommodate on a wide range of satellite buses.Dual-frequency radiometer (24/37 GHz)Required for tropospheric correctionDerived from Madras (Megha-Tropiques)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SARAL-AltiKa Payloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/<nolink>": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Page not found",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/oceanic-eddies-detection#main-content": {
+      "title": "Oceanic Eddies Detection | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The oceanic eddy parameter information was prepared for 24 years (1993 – 2016) over Bay of Bengal using AVISO.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Oceanic Eddies Detection",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "Related data collections",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "https://mosdac.gov.in/megha-tropiques-references": {
+      "title": "Megha Tropiques References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "MADRAS L1-Product definition (Size:2.2 MB Format:PDF Tool:PDFViewer) SAPHIR L1-Product definition (Size:1.6 MB Format:PDF Tool:PDFViewer) SCARAB L1-Product definition (Size:1.8 MB Format:PDF Tool:PDFViewer) ATBD-for-saphir-rain-ver2 (Size:1.3 MB Format:PDF Tool:PDFViewer) MT_ATBD_ver3 (Size:1.7 MB Format:PDF Tool:PDFViewer)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Megha Tropiques References",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/faq-page": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Frequently Asked Questions",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/oceansat-3-objectives": {
+      "title": "OCEANSAT-3 Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "To ensure the data continuity of Ocean colour and wind vector data to sustain the operational applications. To improve the applications, some additional datasets such as Sea Surface Temperature and more number of bands in Optical region for florescence and in Infrared region for atmospheric corrections are accommodated. To develop / improve related algorithms and data products",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "OCEANSAT-3 Objectives",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/kalpana-1-spacecraft": {
+      "title": "KALPANA-1 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The MetSat-1 spacecraft was developed by ISAC (ISRO Satellite Center), Bangalore. MetSat has been designed using a new spacecraft bus (I-1000 bus) employing lightweight structural elements like CFRP (Carbon Fibre Reinforced Plastic).",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "KALPANA-1 SpaceCraft",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/downloadapi-manual#mdda-sd": {
+      "title": "User Manual for MOSDAC Data Download API | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Overview:Welcome to the User Manual for MOSDAC Data Download API!This tool allows you to download satellite data seamlessly using a simple configuration fileâ€”config.json. Once you have filled out this file correctly according to your download requirements, simply run the script mdapi.py. No need to modify any code!This manual will provide you step-by-step guide to download",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "User Manual for MOSDAC Data Download API",
+        "Overview:",
+        "1. Prerequisites:",
+        "2. How to Download, Install & Run:",
+        "[ Important Tip: Make sure you don't change the name of your Configuration File, i.e. - 'config.json'. Doing so will prevent successful execution of your 'mdapi.py' code, as the name of the Configuration file is already pre-configured inside it.]",
+        "3. Data Download Workflow:",
+        "4. Searching data:",
+        "How to Find Your Dataset ID (datasetId)?",
+        "Where to Find Available Dataset IDs",
+        "Example Workflow",
+        "Example:",
+        "5. Authentication and Account Requirements",
+        "Authentication Process",
+        "Don't Have an Account?",
+        "Forgot Your Password?",
+        "Failed Login Attempts",
+        "Appendix: Parameter Reference of Config.json",
+        "A. user_credentials:",
+        "Incorrect Example:",
+        "Correct Example:",
+        "Incorrect Example:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.85
+    },
+    "http://mosdac.gov.in/safe-beach": {
+      "title": "Safe Beach | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "RIP Current Forecast for All-India beaches.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Safe Beach",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/saral-altika-introduction": {
+      "title": "SARAL-AltiKa Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "SARAL mission results from the common interest of both CNES and ISRO in studying ocean from space using altimetry system and in promoting maximum use of the ARGOS Data Collecting System. Radar altimetry by satellite is a technique used in oceanography to measure, globally over the oceans, the sea level needed to understand ocean circulation and its variability. The importance",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SARAL-AltiKa Introduction",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/mosdac-feedback": {
+      "title": "MOSDAC Feedback | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "MOSDAC Feedback",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.55
+    },
+    "https://mosdac.gov.in/oceansat-2-spacecraft": {
+      "title": "Oceansat-2 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Oceansat-2 is envisaged to provide continuity of operational services of Oceansat-1(IRS-P4) with enhanced application potential.Launch date:Sept 23, 2009Launch site:SHAR, SriharikotaLaunch vehicle;PSLV - C14Orbit:Polar Sun SynchronousAltitude:720 kmInclination:98.28°Period:99.31 minutesRepetitivity:2 daysPayloads:OCM, SCAT and ROSALocal time of Eq. crossing:12 noon ± 10",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Oceansat-2 SpaceCraft",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.65
+    },
+    "https://mosdac.gov.in/sea-ice-occurrence-probability": {
+      "title": "Sea Ice Occurrence Probability | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The Sea Ice Occurrence Probability (SIOP36) data were prepared from 36 years (October 1978 to December 2014) NSIDC sea ice concentration (SIC) data over the Antarctic Region (Cavalieri, 1996).",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Sea Ice Occurrence Probability",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "Data Citation",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "Related data collections",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "http://mosdac.gov.in/soil-moisture-0": {
+      "title": "Soil Moisture | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Data AccessClick Here to access the Science Products .",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Soil Moisture",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "Derivation Techniques and Algorithm",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "https://mosdac.gov.in/gsmap-isro-rain#top": {
+      "title": "GSMap ISRO Rain | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The GSMaP_ISRO is a precipitation product that was developed through the Indian Space Research Organisation (ISRO) - Japan Aerospace Exploration Agency (JAXA) Implementation of Agreement (IA) specific",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "GSMap ISRO Rain",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "https://mosdac.gov.in/insat-3d-objectives": {
+      "title": "INSAT-3D Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue needs of India. Commissioned in 1983, INSAT is the largest domestic communication system in the Asia Pacific Region.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3D Objectives",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/website-policies": {
+      "title": "Website Policies | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Content Archival Policy The content components are created with metadata, source and validity date. There would be some content which is permanent in nature and for such content it is assumed that the content would be reviewed in every ten years unless it is edited / deleted based on requirement. The content shall not be displayed on the Website after the validity date.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Website Policies",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insat-3d-introduction": {
+      "title": "INSAT-3D Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT-3D is a dedicated meteorological spacecraft designed for enhanced meteorological observation and monitoring of land and ocean surfaces of weather forecasting and disaster warning. INSAT-3D is configured on I-2K bus with Sounder, Imager and Data Relay Transponder (DRT) and Satellite Aided Search & Rescue (SAS&R) Payloads. INSAT-3D was flown on July 26, 2013 with a lift of",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3D Introduction",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/megha-tropiques-objectives": {
+      "title": "Megha Tropiques Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The main objective of the Megha-Tropiques mission is to study the convective systems that influence the tropical weather and climate.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Megha Tropiques Objectives",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.65
+    },
+    "http://mosdac.gov.in/ocean-subsurface-fields": {
+      "title": "Ocean Subsurface Fields | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Ocean Subsurface Fields",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Ocean Subsurface Fields",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/insat-3a#top": {
+      "title": "INSAT-3A | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT-3A is a multipurpose satellite for providing telecommunications, television broadcasting, meteorological and search & rescue services. It carries twenty four transponders - twelve operating in the normal C-band frequency, six in Extended C-band and six in Ku-band. Nine of the twelve normal C-band transponders provide expanded coverage and the remaining three have India",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3A",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/scatsat-1-objectives": {
+      "title": "SCATSAT-1 Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The Indian satellite SCATSAT-1 is a miniature satellite dedicated to ocean wind observation. It is preceded by Oceansat-2 which was also dedicated for the same objective. Major objectives of SCATSAT-1 is weather forecasting, cyclone prediction along with ocean state monitoring and prediction. It is currently catering towards weather and climate sector, naval and shipping",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SCATSAT-1 Objectives",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/scatsat-1#main-content": {
+      "title": "SCATSAT-1 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Scatsat-1 was launched by PSLV-C35 from Satish Dhawan Space Centre, Sriharikota on September 26, 2016. It carries the Ku-band Pencil Beam scatterometer (SCAT) payload developed by SAC-ISRO.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SCATSAT-1",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/tools": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Softwares / Tools",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.65
+    },
+    "https://mosdac.gov.in/announcements": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Announcements",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/city-weather": {
+      "title": "City Weather | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "3-hourly Weather forecast.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "City Weather",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/data-quality?sort=asc&order=modified": {
+      "title": "Data Quality | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Data Quality",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6000000000000001
+    },
+    "http://mosdac.gov.in/heat-waves": {
+      "title": "Heat Waves | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Heat Wave Prediction over India (WRF Model)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Heat Waves",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/insat-3dr": {
+      "title": "INSAT-3DR | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT-3DR is identical to INSAT-3D in terms of Sensors and products. INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue needs of India. Commissioned in 1983, INSAT is the largest domestic communication system in the Asia Pacific",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DR",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/saral-altika-objectives": {
+      "title": "SARAL-AltiKa Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "SARAL/AltiKa main scientific objective is to provide data products to oceanographic research user community in studies leading to improve our knowledge of the ocean meso-scale variability, thanks to the improvement in spatial and vertical resolution brought by SARAL/AltiKa.Ocean meso-scale variability is defined as a class of high-energy processes, with wave lengths within a",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SARAL-AltiKa Objectives",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insat-3a-introduction": {
+      "title": "INSAT-3A Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT-3A, a multipurpose satellite built by ISRO was launched by Ariane in April 2003. It is located at 93.5 degree East longitude. It is third satellite in INSAT-3 series after INSAT-3B & INSAT-3C. It provides communication, weather and search & rescue services.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3A Introduction",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/lightning-0": {
+      "title": "Lightning | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Lightning Forecast",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Lightning",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/inland-water-height#main-content": {
+      "title": "Inland Water Height | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "It is crucial to know how the storage of inland water bodies change over time. Also, hydrological modelling studies face the challenge of decreasing availability of in-situ monitoring data.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Inland Water Height",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "Related data collections",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "https://mosdac.gov.in/sitemap": {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Site map",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insat-3a-payloads": {
+      "title": "INSAT-3A Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Communication Payload12 Normal C-band transponders (9 channels provide expanded coverage from Middle East to South East Asia with an EIRP of 38 dBW, 3 channels provide India coverage with an EIRP of 36 dBW and 6 Extended C-band transponders provide India coverage with an EIRP of 36 dBW).6 upper extended C-band transponders having India beam coverage providing an EoC-EIRP of 37",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3A Payloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/wave-based-renewable-energy": {
+      "title": "Wave based Renewable Energy | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "AWARE demonstrates potential renewable energy resource available from ocean waves over Indian Ocean region.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Wave based Renewable Energy",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.7999999999999999
+    },
+    "https://mosdac.gov.in/indian-mainland-coastal-product#top": {
+      "title": "Indian Mainland Coastal Product | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "SARAL/AltiKa was launched on 25 February 2013 as a joint collaboration mission of ISRO and CNES.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Indian Mainland Coastal Product",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "https://mosdac.gov.in/data-access-policy": {
+      "title": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Access ProfileDatasetsLatencyRegistered General UsersAccess to limitedLatency of 3 daysRegistered Privileged UsersAccess to all dataNRT AccessAnonymous UsersAccess to metadata/image and Open DataNRT AccessData access will be provided as per above policies (all that applies).Data Access Guidelines (Bilingual; Size:415KB Format:PDF Tool:PDFViewer) /(English; Size:323KB",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Data Access Policy",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.65
+    },
+    "https://mosdac.gov.in/oceansat-3-spacecraft": {
+      "title": "OCEANSAT-3 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Launch date:26 November 2022Launch site:SHAR, SriharikotaLaunch vehicle;PSLV – C54Orbit:Polar Sun SynchronousAltitude:740 kmInclination: Repetitivity:2 daysPayloads:OCM, SCAT , SSTM and ARGOSLocal time of Eq. crossing:12 noonMass at lift off:",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "OCEANSAT-3 SpaceCraft",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.65
+    },
+    "http://mosdac.gov.in/urja": {
+      "title": "Urja | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Solar Energy",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Urja",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/bayesian-based-mt-saphir-rainfall": {
+      "title": "Bayesian based MT-SAPHIR rainfall | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Megha- Tropiques (MT) is a joint Indo-French collaborative satellite mission, which is launched on 12 October 2011.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Bayesian based MT-SAPHIR rainfall",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "https://mosdac.gov.in/river-discharge#main-content": {
+      "title": "River Discharge | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "River heights from satellite altimeters (ENVISAT, Jason-2 and SARAL AltiKa) have been derived at two cross-over points along Godavari River.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "River Discharge",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "Related data collections",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.85
+    },
+    "http://mosdac.gov.in/contact-us": {
+      "title": "Contact | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Space Applications Centre (SAC) is an ISRO Centre located at Ahmedabad, dealing with a wide variety of themes from satellite payload development, operational data reception and processing to societal applications. SAC is responsible for the development, realization and qualification of communication, navigation, earth observation and planetary payloads and related data",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Contact",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/ocean-subsurface": {
+      "title": "Ocean Subsurface | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Satellite data has been used to reconstruct ocean interior density and velocity anomalies in the Bay of Bengal through the “interior + surface Quasigeostrophic” (isQG) method.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Ocean Subsurface",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "References",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "File Naming Convention",
+        "MetaData",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "http://mosdac.gov.in/alert-dashboard-beta": {
+      "title": "Alert-Dashboard-Beta | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Beta Version",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Alert-Dashboard-Beta",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/aws-time-series": {
+      "title": "AWS Time Series | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "AWS Time Series",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "AWS Time Series",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/oceansat-2": {
+      "title": "Oceansat-2 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Oceansat-2 satellite mainframe systems derive their heritage from previous IRS missions. Oceansat-2 was launched by PSLV-C14 from Satish Dhawan Space Centre, Sriharikota on Sept. 23, 2009. It carries three payloads: Ocean Colour Monitor (OCM) Ku-band Pencil Beam scatterometer (SCAT) developed by ISRO Radio Occultation Sounder for Atmosphere (ROSA) developed by the Italian",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Oceansat-2",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/kalpana-1": {
+      "title": "KALPANA-1 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Metsat is an exclusive meteorological satellite of ISRO in geo-synchronous orbit. This satellite is developed out of a small I-1000 bus made of carbon fibre re-enforced plastic light weight structure, a uni power bus employing an 18AH Ni-Cd battery and a single GaAs/Ge solar panel generating 640 watts of power. Metsat uses a 3-axis stabilized momentum biased attitude control",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "KALPANA-1",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/copyright-policy": {
+      "title": "Copyright Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Material featured on this site may be reproduced free of charge in any format or media without requiring specific permission. This is subject to the material being reproduced accurately and not being used in a derogatory manner or in a misleading context. Where the material is being published or issued to others, the source must be prominently acknowledged. However, the",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Copyright Policy",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/about-us": {
+      "title": "About Us | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Space Applications Centre (SAC) is an ISRO Centre located at Ahmedabad, dealing with a wide variety of themes from satellite payload development, operational data reception and processing to societal applications. SAC is responsible for the development, realization and qualification of communication, navigation, earth observation and planetary payloads and related data",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "About Us",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/oceansat-3#main-content": {
+      "title": "OCEANSAT-3 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "EOS-06(Oceansat-3) also known as Earth Observing Satellite EOS-06(Oceansat-3), was launched by PSLV-C54 from Satish Dhawan Space Centre, Sriharikota on 26 November 2022. EOS-06(Oceansat-3) is developed to provide a unique opportunity for simultaneously measuring the physical, biological and atmospheric parameters for the first time from three instruments, (i) 13-band advanced",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "OCEANSAT-3",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/saral-altika-spacecraft": {
+      "title": "SARAL-AltiKa SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The 450 kg satellite consists of a SSB/ IMS-2 platform and a SARAL/AltiKa specific payload module. The platform provides all housekeeping functions including propulsion, electrical power, command and data handling, telecommunications, and attitude control. The payload module provides mechanical, electrical, thermal, and dynamical support to the SARAL/AltiKa instruments.The",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SARAL-AltiKa SpaceCraft",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insat-3ds": {
+      "title": "INSAT-3DS | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT-3DS is identical to INSAT-3D in terms of Sensors and products. INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue needs of India. Commissioned in 1983, INSAT is the largest domestic communication system in the Asia Pacific",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DS",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/help": {
+      "title": "Help | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "AccessibilityKnow about the accessibility statement, accessibility features, and accessibility options. We are committed to ensure that the SAC website is accessible to all users irrespective of device in use, technology or ability. It has been built, with an aim,to provide maximum accessibility and usability to its visitors.We have put in our best efforts to ensure that all",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Help",
+        "AccessibilityKnow about the accessibility statement, accessibility features, and accessibility options. We are committed to ensure that the SAC website is accessible to all users irrespective of device in use, technology or ability. It has been built, with an aim,to provide maximum accessibility and usability to its visitors.We have put in our best efforts to ensure that all information on this Portal is accessible to people with disabilities. For example, a user with visual disability can access this Portal using assistive technologies, such as screen readers and magnifiers.We also aim to be standards compliant and follow principles of usability and universal design, which should help all visitors of this Portal.This Portal is designed using XHTML 1.0 Transitional and meets priority 1 (level A) of the Web Content Accessibility Guidelines (WCAG) 2.0 laid down by the World Wide Web Consortium (W3C). Part of the information in the Portal is also made available through links to external Web sites. External Web sites are maintained by the respective departments who are responsible for making these sites accessible.",
+        "Viewing different file types",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.74
+    },
+    "http://mosdac.gov.in/oil-spill": {
+      "title": "OIL SPILL | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "OIL SPILL",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/oceansat-2-objectives": {
+      "title": "Oceansat-2 Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The Indian satellite Oceansat-2 is designed to provide service continuity for operational users of the Ocean Colour Monitor (OCM)instrument on Oceansat-1. It will also enhance the potential of applications in other areas.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Oceansat-2 Objectives",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/monsoon-0": {
+      "title": "Monsoon | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Monsoon Prediction 2024",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Monsoon",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/insat-3dr-introduction": {
+      "title": "INSAT-3DR Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT-3DR is a dedicated meteorological spacecraft designed for enhanced meteorological observations and monitoring of land and ocean surfaces for weather forecasting and disaster warning. INSAT-3DR is configured on I-2K bus with Sounder, Imager and Data Relay Transponder (DRT) and Satellite Aided Search & Rescue (SAS&R) Payloads. INSAT-3DR with a lift of mass of about 2211 kg",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DR Introduction",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/downloads": {
+      "title": "Downloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Downloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.55
+    },
+    "http://mosdac.gov.in/ocean-eye": {
+      "title": "Ocean-Eye | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Ocean State Forecast",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Ocean-Eye",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/insat-3d-imager": {
+      "title": "INSAT-3D Imager | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3D Imager",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.55
+    },
+    "http://mosdac.gov.in/agricultural-outlook-2016": {
+      "title": "Agricultural Outlook 2016 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Agricultural Outlook 2016",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.5700000000000001
+    },
+    "https://mosdac.gov.in/terms-conditions": {
+      "title": "Terms & Conditions | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "This website is designed, developed and maintained by Space Applications Centre, Indian Space Research Organisation, Department of Space, Government of India.Though all efforts have been made to ensure the accuracy and currency of the content of this website, the same should not be construed as a statement of law or used for any legal purposes.Under no circumstances the MOSDAC",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Terms & Conditions",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/atlas": {
+      "title": "Atlas | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Atlas",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6000000000000001
+    },
+    "http://mosdac.gov.in/heavy-rain-0": {
+      "title": "Heavy Rain | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Heavy Rain (>5mm/hr) forecast using NWP model.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Heavy Rain",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/signup/": {
+      "title": "Welcome to MOSDAC",
+      "description": "MOSDAC Sign-up",
+      "keywords": [
+        "MOSDAC",
+        "registration",
+        "MOSDAC sign-up",
+        "data download"
+      ],
+      "headings": [],
+      "quality_score": 0.5
+    },
+    "http://mosdac.gov.in/user-manual-mosdac-data-download-api": {
+      "title": "User Manual for MOSDAC Data Download API | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Overview:Welcome to the User Manual for MOSDAC Data Download API!This tool allows you to download satellite data seamlessly using a simple configuration fileâ€”config.json. Once you have filled out this file correctly according to your download requirements, simply run the script mdapi.py. No need to modify any code!This manual will provide you step-by-step guide to download",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "User Manual for MOSDAC Data Download API",
+        "Overview:",
+        "1. Prerequisites:",
+        "2. How to Download, Install & Run:",
+        "[ Important Tip: Make sure you don't change the name of your Configuration File, i.e. - 'config.json'. Doing so will prevent successful execution of your 'mdapi.py' code, as the name of the Configuration file is already pre-configured inside it.]",
+        "3. Data Download Workflow:",
+        "4. Searching data:",
+        "How to Find Your Dataset ID (datasetId)?",
+        "Where to Find Available Dataset IDs",
+        "Example Workflow",
+        "Example:",
+        "5. Authentication and Account Requirements",
+        "Authentication Process",
+        "Don't Have an Account?",
+        "Forgot Your Password?",
+        "Failed Login Attempts",
+        "Appendix: Parameter Reference of Config.json",
+        "A. user_credentials:",
+        "Incorrect Example:",
+        "Correct Example:",
+        "Incorrect Example:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.85
+    },
+    "https://mosdac.gov.in/kalpana-1-payloads": {
+      "title": "KALPANA-1 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "VHRRVHRR/2 is a modified version of the VHRR heritage imagers flown on INSAT-2A, -2B, and -2E. The VHRR observes in VIS, water vapor and TIR bands providing a spatial resolution of 2 km in VIS band and 8 km for the rest. VHRR was developed by SAC (Satellite Application Center), Ahmedabad, India.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "KALPANA-1 Payloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "https://mosdac.gov.in/insat-3dr-objectives": {
+      "title": "INSAT-3DR Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue needs of India. Commissioned in 1983, INSAT is the largest domestic communication system in the Asia Pacific Region.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DR Objectives",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/scatsat-1-mission": {
+      "title": "SCATSAT-1 Mission | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SCATSAT-1 Mission",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.55
+    },
+    "http://mosdac.gov.in/scorpio-0": {
+      "title": "SCORPIO | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Sat. Based Cyclone Obser. and Realtime Pred. over IO.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SCORPIO",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/insat-3a-spacecraft": {
+      "title": "INSAT-3A SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Satellite detailsAcronymINSAT-3AFull nameIndian National Satellite - 3ASatellite Description4th flight unit of the INSAT-3 series.Missions: operational meteorology and telecommunicationMass at launch2950 kgDry mass/td>1348 kgPower3100 WOrbitGeostationary orbitAltitude35786 kmLongitude93.5° E StatusOperationalDetails on Status (as available)Nominal",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3A SpaceCraft",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.7
+    },
+    "http://mosdac.gov.in/risat-ocean-observations": {
+      "title": "RISAT Ocean Observations | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "RISAT Ocean Observations",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "RISAT Ocean Observations",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/cloud-burst": {
+      "title": "Cloud Burst | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Cloud Burst Nowcast for 6 hours over Western Himalayan region.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Cloud Burst",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/gsics": {
+      "title": "GSICS",
+      "description": "",
+      "keywords": [],
+      "headings": [],
+      "quality_score": 0.45
+    },
+    "http://mosdac.gov.in/sea-state": {
+      "title": "Sea State | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Sea State forecast in terms of Wave Height, Wave period etc.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Sea State",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/kalpana-1-introduction": {
+      "title": "KALPANA-1 Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Kalpana-1 is the first dedicated meteorological satellite launched by Indian Space Research Organisation using Polar Satellite Launch Vehicle on 2002-09-12. This was the first satellite launched by the PSLV into the Geo-stationary orbit. The satellite was originally known as MetSat-1.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "KALPANA-1 Introduction",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/oceansat-3-introduction": {
+      "title": "Oceansat-3 Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "ISRO has launched the EOS-06(Oceansat-3) satellite on 26 Nov 2022 in a polar sun-synchronous orbit at 740km altitude. EOS-06(Oceansat-3) is the third-generation satellite in the Oceansat series. This is to provide continuity services of Oceansat-2 spacecraft with enhanced payload specifications as well as application areas. EOS-06(Oceansat-3) has three main instruments,",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Oceansat-3 Introduction",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/agricultural-outlook-2015": {
+      "title": "Agricultural Outlook 2015 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "PAST",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Agricultural Outlook 2015",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/oceansat-3-payloads": {
+      "title": "OCEANSAT-3 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The scientific payload contains three instruments.• Ku-band Scatterometer (SCAT-3)• 13-band Ocean Colour Monitor (OCM-3) • 2-band Sea Surface Temperature Monitor (SSTM)• ARGOS by CNES French Space AgencyOcean Colour Monitor (OCM-3) :OCM-3 is a 13-band multi-spectral camera operating in the Visible and Near IR spectral range. It has 13 narrow (10-20 nm) spectral bands. This",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "OCEANSAT-3 Payloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/indian-state-portal": {
+      "title": "Indian State Portal | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Alerts for Indian States",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Indian State Portal",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/scatsat-1-spacecraft": {
+      "title": "SCATSAT-1 SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "SCATSAT-1 is envisaged to provide continuity of operational services of OSCAT (IRS-P4) with enhanced application potential.Launch date:September 26, 2016Launch site:SDSC (Satish Dhawan Space Centre), Sriharikota.Launch vehicle;PSLV - C35Orbit:Sun Synchronous, dawn-dusk orbitAltitude:720 kmInclination:97.4°Local Time on Ascending Node6:00 hoursRepetitivity:2",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SCATSAT-1 SpaceCraft",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.65
+    },
+    "https://mosdac.gov.in/megha-tropiques-introduction": {
+      "title": "Megha Tropiques Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The tropical belt receives more energy from Sun than it radiates back into space. The excess energy is transported to temperate regions by the motion of atmosphere and oceans. Any variation in the energy budget of the tropics will therefore effect the whole planet. The energy exchanges are strongly linked to the water cycle and particularly to the tropical connective systems:",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Megha Tropiques Introduction",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/scatsat-1-introduction": {
+      "title": "SCATSAT-1 Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Indian Space Research Organisation launched SCATSAT-1 for ocean and weather related studies and seven co-passenger satellites into polar Sun Synchronous Orbit (SSO) on September 26, 2016. The Polar Satellite Launch Vehicle, in its 37th flight, (PSLV-C35) launched the satellites at 9:12 hours on September 26, 2016 from Satish Dhawan Space Centre in Sriharikota. The 377 kg",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SCATSAT-1 Introduction",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/weekly-rainfall-distribution-past": {
+      "title": "Weekly Rainfall Distribution (Past) | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "PAST",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Weekly Rainfall Distribution (Past)",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/insat-3s-objectives": {
+      "title": "INSAT-3DS Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue needs of India. Commissioned in 1983, INSAT is the largest domestic communication system in the Asia Pacific Region.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DS Objectives",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insat-3s-spacecraft": {
+      "title": "INSAT-3DS SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The INSAT-3DS is a momentum-biased 3-axis stabilized spacecraft using star trackers for precise pointing control. The spacecraft has a launch mass of 420 Tonnes with Lift-Off Mass of 2275 kg . The nominal design life is 7.7 years. It is in Geostationary orbit, altitude of ~35, 786 km, location at 82° East. The three-axis stabilized geostationary satellite carries two",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DS SpaceCraft",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/oceansat-2-payloads": {
+      "title": "Oceansat-2 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The scientific payload contains three instruments. Two are Indian and one is from the Italian Space Agency.Ocean Colour Monitor (OCM)Scanning Scatterometer (SCAT)Radio Occultation Sounder for Atmospheric Studies (ROSA)Ocean Colour Monitor (OCM)OCM is an 8-band multi-spectral camera operating in the Visible and Near IR spectral range. This camera provides an instantaneous",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Oceansat-2 Payloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/heavy-rain-1": {
+      "title": "Heavy Rain | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Heavy Rain Events",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Heavy Rain",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/eddy-currents": {
+      "title": "Eddy Currents | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Eddy Currents",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Eddy Currents",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/cyclone": {
+      "title": "Cyclone | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Cyclone Forecast",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Cyclone",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/heavy-rain-nowcast": {
+      "title": "Heavy Rain (Nowcast) | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Heavy Rain (Nowcast)",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.55
+    },
+    "http://mosdac.gov.in/varsha": {
+      "title": "VARSHA | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Rainfall",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "VARSHA",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/scatsat-1-references": {
+      "title": "SCATSAT-1 References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "SCATSAT Level4 Products (Size:968 KB Format:PDF Tool:PDFViewer)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SCATSAT-1 References",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insat-3d-payloads": {
+      "title": "INSAT-3D Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The satellite has 3 payloads:Meteorological (MET) - IMAGER and SOUNDERData Relay Transponder (DRT)Satellite Aided Search and Rescue (SAS&R)Meteorological PayloadThe INSAT-3D spacecraft incorporates advanced Imager and Sounder instruments.IMAGERThe INSAT-3D imager provides imaging capability of the earth disc from geostationary altitude in one visible (0.52 - 0.72 micrometers)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3D Payloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.8
+    },
+    "http://mosdac.gov.in/mumbai-heavy-rain-august-2017": {
+      "title": "Mumbai Heavy Rain August 2017 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Mumbai Heavy Rain August 2017",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.5700000000000001
+    },
+    "https://mosdac.gov.in/oceansat-2-introduction": {
+      "title": "OCEANSAT-2 Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "India's Polar Satellite Launch Vehicle, PSLV-C14, in its 16th Mission launched 958 kg Oceansat-2 and six nano-satellites into a 720 km. intended Sun Synchronous Polar Orbit (SSPO) on September 23, 2009.OCEANSAT-2 mission is an evolution of the OCEANSAT-1. IRS-P4 (OCEANSAT-I), launched in 1999, is a dedicated satellite for Ocean applications and carries two Payloads: Ocean",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "OCEANSAT-2 Introduction",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/oceansat-2-references": {
+      "title": "Oceansat-2 References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Analysed-Winds (Size:583 KB Format:PDF Tool:PDFViewer)High Spatial density winds (Size:145 KB Format:PDF Tool:PDFViewer)ATBD_SCAT_V1 (Size:1.02 MB Format:PDF Tool:PDFViewer)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Oceansat-2 References",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insat-3dr-references": {
+      "title": "INSAT-3DR References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Product Format Compatability with COTS package (Size:796 KB Format:PDF Tool:PDFViewer)ATBD Document (Size:9.8 MB Format:PDF Tool:PDFViewer)Revised ATBD Document for SST (Size:1.4 MB Format:PDF Tool:PDFViewer)Incremental ATBD Document (Size:5.2 MB Format:PDF Tool:PDFViewer)Format Document (Size:903 KB Format:PDF Tool:PDFViewer)Product Catalogue (Size:229 KB Format:PDF",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DR References",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/cold-waves": {
+      "title": "Cold Waves | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Cold wave prediction over India (WRF Model)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Cold Waves",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/solar-wind": {
+      "title": "Solar & Wind | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "3 Days Solar and Wind Forecast for every 15 minutes",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Solar & Wind",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/insat-3d-spacecraft": {
+      "title": "INSAT-3D SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The INSAT-3D is a momentum-biased 3-axis stabilized spacecraft using star trackers for precise pointing control. The spacecraft has a launch mass of 2000 kg with a dry mass of 907 kg. The nominal design life is 7.7 years. It is in Geostationary orbit, altitude of ~35, 786 km, location at 82° East. The three-axis stabilized geostationary satellite carries two meteorological",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3D SpaceCraft",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/insat-3d-sounder-0": {
+      "title": "INSAT-3D Sounder | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3D Sounder",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.55
+    },
+    "https://mosdac.gov.in/insat-3d-references": {
+      "title": "INSAT-3D References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Product Format Compatability with COTS package (Size:796 KB Format:PDF Tool:PDFViewer)ATBD Document (Size:9.8 MB Format:PDF Tool:PDFViewer)Revised ATBD Document for SST (Size:1.4 MB Format:PDF Tool:PDFViewer)Incremental ATBD Document (Size:5.2 MB Format:PDF Tool:PDFViewer)Format Document (Size:903 KB Format:PDF Tool:PDFViewer)Product Catalogue (Size:229 KB Format:PDF",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3D References",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/scatsat-1-payloads": {
+      "title": "SCATSAT-1 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The scientific payload contains the Scanning Scatterometer (SCAT) instrument.Scanning Scatterometer (SCAT)SCAT is an active microwave device designed and developed at SAC/ISRO, Ahmedabad. It is used to determine ocean surface level wind vectors through estimation of radar backscatter. The scatterometer system has a 1-m parabolic dish antenna and a dual feed assembly to",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SCATSAT-1 Payloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.65
+    },
+    "http://mosdac.gov.in/south-east-asian-countries": {
+      "title": "South East Asian Countries | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Alerts for South East Asian Countries",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "South East Asian Countries",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/insat-3dr-spacecraft": {
+      "title": "INSAT-3DR SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The INSAT-3DR is a momentum-biased 3-axis stabilized spacecraft using star trackers for precise pointing control. The spacecraft has a launch mass of 2211 kg with a dry mass of 907 kg. It is in Geostationary orbit, altitude of ~35, 786 km, location at 74° East. The three-axis stabilized geostationary satellite carries two meteorological instruments: a six channel Imager and an",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DR SpaceCraft",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/vayu": {
+      "title": "VAYU | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Air Quality",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "VAYU",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/dust-storm-april-2015": {
+      "title": "Dust Storm, April 2015 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Dust Storm, April 2015",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.5700000000000001
+    },
+    "https://mosdac.gov.in/insat-3a-objectives": {
+      "title": "INSAT-3A Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "To provideTelecommunicationsTelevision broadcastingMeteorologicalSearch and Rescue services",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3A Objectives",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/oceansat3-references": {
+      "title": "OCEANSAT-3 References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "OCM_AOD_ATBD (Size:2.67MB Format:PDF Tool:PDFViewer) OCM_AnalysedCHL_GlobalOcean_ATBD (Size:2.5MB Format:PDF Tool:PDFViewer) OCM_IOPS_ATBD (Size:1.2MB Format:PDF Tool:PDFViewer)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "OCEANSAT-3 References",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/soil-moisture": {
+      "title": "Soil Moisture | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Soil Wetness Index",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Soil Moisture",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "https://mosdac.gov.in/insat-3s-payloads": {
+      "title": "INSAT-3DS Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The satellite has 3 payloads:Meteorological (MET) - IMAGER and SOUNDERData Relay Transponder (DRT)Satellite Aided Search and Rescue (SAS&R)Meteorological PayloadThe INSAT-3DS spacecraft incorporates advanced Imager and Sounder instruments.IMAGERThe INSAT-3DS imager provides imaging capability of the earth disc from geostationary altitude in one visible (0.52 - 0.72",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DS Payloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.8
+    },
+    "https://mosdac.gov.in/saral-references": {
+      "title": "SARAL References | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "SARAL Products Handbook (Size:5.6 MB Format:PDF Tool:PDFViewer)SARAL User Products (Size:957 KB Format:PDF Tool:PDFViewer)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "SARAL References",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/mosdac-live": {
+      "title": "MOSDAC LIVE | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Let's Interactively Visualise the Earth (LIVE)",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "MOSDAC LIVE",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/digital-object-identifier-doi": {
+      "title": "Digital Object Identifier (DOI) | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Digital Object Identifiers (DOI) based persistent identifiers for products introduced in MOSDAC.The digital object identifier [DOI®] system provides an infrastructure for persistent unique identificat",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Digital Object Identifier (DOI)",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insat-3dr-payloads": {
+      "title": "INSAT-3DR Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The satellite has 3 payloads:Meteorological (MET) - IMAGER and SOUNDERData Relay Transponder (DRT)Satellite Aided Search and Rescue (SAS&R)Meteorological PayloadThe INSAT-3DR spacecraft incorporates advanced Imager and Sounder instruments.IMAGERThe INSAT-3DR imager provides imaging capability of the earth disc from geostationary altitude in one visible (0.52 - 0.72",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DR Payloads",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.8
+    },
+    "https://mosdac.gov.in/megha-tropiques-spacecraft": {
+      "title": "Megha Tropiques SpaceCraft | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "The Megha-Tropiques system is composed of a mini-satellite developed jointly by France and India, which includes:a platform derived from the Indian IRS platforma set of four payloadsMADRAS, developed jointly by CNES and ISROSAPHIR, provided by CNESSCARAB, provided by CNESa radio-occulation receiver GPS, provided by ISROMADRAS is a conical scanning microwave imager: the",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Megha Tropiques SpaceCraft",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "http://mosdac.gov.in/ocean-eye-interface": {
+      "title": "Ocean Eye Interface | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Ocean Eye Interface",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.55
+    },
+    "http://mosdac.gov.in/weekly-rainfall-distribution-2019": {
+      "title": "Weekly Rainfall Distribution 2019 | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Weekly Rainfall Distribution.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "Weekly Rainfall Distribution 2019",
+        "Tags:",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.62
+    },
+    "http://mosdac.gov.in/insat-3d-cloud-properties": {
+      "title": "INSAT 3D Cloud Properties | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "NASA LaRC is operationally generating global cloud properties products using different geostationary satellites.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT 3D Cloud Properties",
+        "Data Access",
+        "Data Version",
+        "Data Sources",
+        "Processing Steps",
+        "Derivation Techniques and Algorithm",
+        "Limitations",
+        "Known problems with data",
+        "File Naming Convention",
+        "MetaData",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.75
+    },
+    "https://mosdac.gov.in/kalpana-1-objectives": {
+      "title": "KALPANA-1 Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Major Metsat/Kalpana mission objectives are:-To establish a small satellite I-1000 bus system which can meet the exclusive service requirements of a meteorological payload for earth imageriesCollection of weather data from low cost unattended data collection platforms-to configure Metsat spacecraft within the lift-off mass constraints of upgraded existing polar satellite",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "KALPANA-1 Objectives",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    },
+    "https://mosdac.gov.in/insat-3s-introduction": {
+      "title": "INSAT-3DS Introduction | Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "INSAT-3DS is a dedicated meteorological spacecraft designed for enhanced meteorological observation and monitoring of land and ocean surfaces of weather forecasting and disaster warning. INSAT-3DS is configured on I-2K bus with Sounder, Imager and Data Relay Transponder (DRT) and Satellite Aided Search & Rescue (SAS&R) Payloads. INSAT-3DS was flown on February 17, 2024 with a",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": [
+        "Secondary menu",
+        "You are here",
+        "INSAT-3DS Introduction",
+        "Search",
+        "Follow Us"
+      ],
+      "quality_score": 0.6
+    }
+  }
+}

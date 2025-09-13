@@ -1,0 +1,57 @@
+{
+  "url": "https://mosdac.gov.in/internal/catalog-scatsat",
+  "title": "Satellite Catalog",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/catalog-scatsat",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/catalog-scatsat",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Sr.No",
+        "Product\n\t\t\t\t\t\t\t\t\t/Acq Calendar/Version",
+        "Product Description",
+        "Processing Level",
+        "Temporal Resolution",
+        "Start Date",
+        "End Date",
+        "Processing Status",
+        "DOI"
+      ],
+      "rows": [
+        [
+          "No data available in table"
+        ]
+      ],
+      "row_count": 1,
+      "col_count": 9
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 3,
+      "text": "Loading...",
+      "id": "",
+      "class": [
+        "dt-loading"
+      ]
+    }
+  ],
+  "quality_score": 0.47000000000000003,
+  "extracted_at": "2025-09-13T05:59:53.110420",
+  "content_length": 1974,
+  "rag_optimized": true
+}

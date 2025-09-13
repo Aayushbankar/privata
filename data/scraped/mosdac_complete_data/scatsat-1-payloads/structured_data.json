@@ -1,0 +1,126 @@
+{
+  "url": "https://mosdac.gov.in/scatsat-1-payloads",
+  "title": "SCATSAT-1 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/scatsat-1-payloads",
+    "domain": "mosdac.gov.in",
+    "path": "/scatsat-1-payloads",
+    "description": "The scientific payload contains the Scanning Scatterometer (SCAT) instrument.Scanning Scatterometer (SCAT)SCAT is an active microwave device designed and developed at SAC/ISRO, Ahmedabad. It is used to determine ocean surface level wind vectors through estimation of radar backscatter. The scatterometer system has a 1-m parabolic dish antenna and a dual feed assembly to",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/scatsat-1-payloads",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Parameter",
+        "Inner beam",
+        "Outer beam"
+      ],
+      "rows": [
+        [
+          "Orbital altitude",
+          "720 km"
+        ],
+        [
+          "Instrument frequency",
+          "13.515 GHz (Ku-band)"
+        ],
+        [
+          "Wind speed range",
+          "3-30 m/s, accuracy of 1.8 m/s (rms) or 10%"
+        ],
+        [
+          "Wind direction",
+          "00 to 3600, accuracy of 200 rms"
+        ],
+        [
+          "Wind vector cell size (resolution)",
+          "25 km x 25 km grid"
+        ],
+        [
+          "Polarization",
+          "HH",
+          "VV"
+        ],
+        [
+          "Swath width",
+          "1400 km",
+          "1840 km"
+        ],
+        [
+          "Scanning circle radius",
+          "700 km",
+          "920 km"
+        ],
+        [
+          "Scanning rate",
+          "20.5 rpm"
+        ]
+      ],
+      "row_count": 9,
+      "col_count": 3
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "SCATSAT-1 Payloads",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-13T05:59:34.499514",
+  "content_length": 10104,
+  "rag_optimized": true
+}

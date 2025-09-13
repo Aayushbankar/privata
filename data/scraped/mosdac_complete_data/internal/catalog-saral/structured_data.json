@@ -1,0 +1,164 @@
+{
+  "url": "https://mosdac.gov.in/internal/catalog-saral",
+  "title": "Satellite Catalog",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/catalog-saral",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/catalog-saral",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Sr.No",
+        "Product\n\t\t\t\t\t\t\t\t\t/Acq Calendar/Version",
+        "Product Description",
+        "Processing Level",
+        "Temporal Resolution",
+        "Start Date",
+        "End Date",
+        "Processing Status",
+        "DOI"
+      ],
+      "rows": [
+        [
+          "1",
+          "SRLGPN",
+          "Fully validated offline Native product",
+          "L2",
+          "35 DAYS-CYCLE",
+          "2013-05-23",
+          "2019-10-07",
+          "In-Active",
+          "10.19038/SAC/10/SRLGPN"
+        ],
+        [
+          "2",
+          "SRLGPN_F",
+          "Fully validated offline Native product",
+          "L2",
+          "35 DAYS-CYCLE",
+          "2019-06-24",
+          "2025-07-07",
+          "Active",
+          "10.19038/SAC/10/SRLGPN"
+        ],
+        [
+          "3",
+          "SRLGPR",
+          "Fully validated offline Reduced product",
+          "L2",
+          "35 DAYS-CYCLE",
+          "2013-05-23",
+          "2018-10-22",
+          "In-Active",
+          "10.19038/SAC/10/SRLGPR"
+        ],
+        [
+          "4",
+          "SRLGPR_F",
+          "Fully validated offline Reduced product",
+          "L2",
+          "35 DAYS-CYCLE",
+          "2018-08-13",
+          "2025-07-07",
+          "Active",
+          "10.19038/SAC/10/SRLGPR"
+        ],
+        [
+          "5",
+          "SRLGPS",
+          "Fully validated offline Sensor product",
+          "L2",
+          "35 DAYS-CYCLE",
+          "2013-05-23",
+          "2019-06-24",
+          "In-Active",
+          "10.19038/SAC/10/SRLGPS"
+        ],
+        [
+          "6",
+          "SRLGPS_F",
+          "Fully validated offline Sensor product",
+          "L2",
+          "35 DAYS-CYCLE",
+          "2013-03-14",
+          "2025-07-07",
+          "Active",
+          "10.19038/SAC/10/SRLGPS"
+        ],
+        [
+          "7",
+          "SRLIPN",
+          "Interim Geo physical data record, Native product",
+          "L2",
+          "3 DAYS",
+          "2013-03-12",
+          "2020-03-07",
+          "In-Active",
+          "10.19038/SAC/10/SRLIPN"
+        ],
+        [
+          "8",
+          "SRLIPN_F",
+          "Interim Geo physical data record, Native product",
+          "L2",
+          "3 DAYS",
+          "2020-02-08",
+          "2025-09-11",
+          "Active",
+          "10.19038/SAC/10/SRLIPN"
+        ],
+        [
+          "9",
+          "SRLIPR",
+          "Interim Geo physical data record, Reduced product",
+          "L2",
+          "3 DAYS",
+          "2013-03-12",
+          "2020-03-06",
+          "In-Active",
+          "10.19038/SAC/10/SRLIPR"
+        ],
+        [
+          "10",
+          "SRLIPR_F",
+          "Interim Geo physical data record, Reduced product",
+          "L2",
+          "3 DAYS",
+          "2020-02-06",
+          "2025-09-11",
+          "Active",
+          "10.19038/SAC/10/SRLIPR"
+        ]
+      ],
+      "row_count": 10,
+      "col_count": 9
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 3,
+      "text": "Loading...",
+      "id": "",
+      "class": [
+        "dt-loading"
+      ]
+    }
+  ],
+  "quality_score": 0.47000000000000003,
+  "extracted_at": "2025-09-13T06:00:37.156989",
+  "content_length": 3877,
+  "rag_optimized": true
+}

@@ -1,0 +1,265 @@
+{
+  "url": "https://mosdac.gov.in/#main-content",
+  "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/#main-content",
+    "domain": "mosdac.gov.in",
+    "path": "/",
+    "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 1,
+      "text": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "id": "site-name",
+      "class": []
+    },
+    {
+      "index": 2,
+      "level": 2,
+      "text": "",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Services",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "City Weather",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 5,
+      "level": 2,
+      "text": "Cold Waves",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 6,
+      "level": 2,
+      "text": "Cyclone",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 7,
+      "level": 2,
+      "text": "Heat Waves",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 8,
+      "level": 2,
+      "text": "Heavy Rain",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 9,
+      "level": 2,
+      "text": "Lightning",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 10,
+      "level": 2,
+      "text": "Monsoon",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 11,
+      "level": 2,
+      "text": "Sea State",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 12,
+      "level": 2,
+      "text": "Solar & Wind",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 13,
+      "level": 2,
+      "text": "Cloud Burst",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 14,
+      "level": 2,
+      "text": "Heavy Rain",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 15,
+      "level": 2,
+      "text": "AWS Time Series",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 16,
+      "level": 2,
+      "text": "Heavy Rain",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 17,
+      "level": 2,
+      "text": "MOSDAC LIVE",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 18,
+      "level": 2,
+      "text": "Indian State Portal",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 19,
+      "level": 2,
+      "text": "South East Asian Countries",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 20,
+      "level": 2,
+      "text": "Urja",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 21,
+      "level": 2,
+      "text": "VARSHA",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 22,
+      "level": 2,
+      "text": "VAYU",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 23,
+      "level": 2,
+      "text": "Soil Moisture",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 24,
+      "level": 2,
+      "text": "SCORPIO",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 25,
+      "level": 2,
+      "text": "OIL SPILL",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 26,
+      "level": 2,
+      "text": "Ocean Subsurface Fields",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 27,
+      "level": 2,
+      "text": "Safe Beach",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 28,
+      "level": 2,
+      "text": "Ocean-Eye",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 29,
+      "level": 2,
+      "text": "Eddy Currents",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 30,
+      "level": 2,
+      "text": "Announcements",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 31,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 32,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.7000000000000001,
+  "extracted_at": "2025-09-13T06:00:34.818902",
+  "content_length": 14887,
+  "rag_optimized": true
+}

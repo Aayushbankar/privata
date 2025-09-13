@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/oceansat-3-objectives",
+  "title": "OCEANSAT-3 Objectives | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/oceansat-3-objectives",
+    "domain": "mosdac.gov.in",
+    "path": "/oceansat-3-objectives",
+    "description": "To ensure the data continuity of Ocean colour and wind vector data to sustain the operational applications. To improve the applications, some additional datasets such as Sea Surface Temperature and more number of bands in Optical region for florescence and in Infrared region for atmospheric corrections are accommodated. To develop / improve related algorithms and data products",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/oceansat-3-objectives",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "OCEANSAT-3 Objectives",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T05:54:28.943094",
+  "content_length": 8636,
+  "rag_optimized": true
+}

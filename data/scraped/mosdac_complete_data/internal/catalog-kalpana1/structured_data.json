@@ -1,0 +1,164 @@
+{
+  "url": "https://mosdac.gov.in/internal/catalog-kalpana1",
+  "title": "Satellite Catalog",
+  "metadata": {
+    "url": "https://mosdac.gov.in/internal/catalog-kalpana1",
+    "domain": "mosdac.gov.in",
+    "path": "/internal/catalog-kalpana1",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Sr.No",
+        "Product\n\t\t\t\t\t\t\t\t\t/Acq Calendar/Version",
+        "Product Description",
+        "Processing Level",
+        "Temporal Resolution",
+        "Start Date",
+        "End Date",
+        "Processing Status",
+        "DOI"
+      ],
+      "rows": [
+        [
+          "1",
+          "K1-VHR-AMV",
+          "Cloud Motion Vector and Water Vapour Winds derived from Kalpana IR and WV channel data",
+          "2",
+          "HALF HOURLY",
+          "2009-11-03",
+          "2012-08-06",
+          "In-Active",
+          "10.19038/SAC/10/K1-VHR-AMV"
+        ],
+        [
+          "2",
+          "K1-VHR-AMV-VIS",
+          "Atmospheric Motion Vectors derived using Visible Water vapour and IR bands of Kalpana 1 VHRR data",
+          "2",
+          "HALF HOURLY",
+          "2013-02-21",
+          "2017-09-16",
+          "In-Active",
+          "10.19038/SAC/10/K1-VHR-AMV-VIS"
+        ],
+        [
+          "3",
+          "K1-VHR-BRT",
+          "Kalpana IR Brightness  Temperature",
+          "2",
+          "HALF HOURLY",
+          "2009-11-03",
+          "2017-09-19",
+          "In-Active",
+          "10.19038/SAC/10/K1-VHR-BRT"
+        ],
+        [
+          "4",
+          "K1-VHR-BTW",
+          "Kalpana WV Brightness Temperature",
+          "2",
+          "HALF HOURLY",
+          "2009-11-03",
+          "2017-09-19",
+          "In-Active",
+          "10.19038/SAC/10/K1-VHR-BTW"
+        ],
+        [
+          "5",
+          "K1-VHR-CMK",
+          "Cloud mask derived using Kalpana-1 IR channel data at every Pixel resolution",
+          "2",
+          "HALF HOURLY",
+          "2010-05-04",
+          "2011-01-04",
+          "In-Active",
+          "10.19038/SAC/10/K1-VHR-CMK"
+        ],
+        [
+          "6",
+          "K1-VHR-CMV",
+          "Cloud Motion Vector derived from Kalpana IR channel data",
+          "2",
+          "HALF HOURLY",
+          "2008-06-01",
+          "2010-09-08",
+          "In-Active",
+          "10.19038/SAC/10/K1-VHR-CMV"
+        ],
+        [
+          "7",
+          "K1-VHR-DAILYIMR",
+          "INSAT Multi Chanel Rain; Rainfall estimate derived using Indian Multi-Spectral Rainfall algorithm (IMSRA)",
+          "3",
+          "DAILY",
+          "2010-06-15",
+          "2014-04-15",
+          "In-Active",
+          "10.19038/SAC/10/K1-VHR-DAILYIMR"
+        ],
+        [
+          "8",
+          "K1-VHR-DAILYINS",
+          "Kalpana derived daily insulation product",
+          "0",
+          "DAILY",
+          "2011-07-17",
+          "2017-09-10",
+          "In-Active",
+          "10.19038/SAC/10/K1-VHR-DAILYINS"
+        ],
+        [
+          "9",
+          "K1-VHR-DAILYOLR",
+          "Daily (averaged over previous 24 hr) Outgoing Longwave Radiation derieved from Kalpana - both IR and WV Channel data",
+          "2",
+          "DAILY",
+          "2008-06-01",
+          "2017-09-19",
+          "In-Active",
+          "10.19038/SAC/10/K1-VHR-DAILYOLR"
+        ],
+        [
+          "10",
+          "K1-VHR-DAILYQPE",
+          "Daily Accumulated Quantitative Precipitation Estimates based on GPI Algoritham derived using Kalpana IR channel data",
+          "2",
+          "DAILY",
+          "2008-06-01",
+          "2014-04-15",
+          "In-Active",
+          "10.19038/SAC/10/K1-VHR-DAILYQPE"
+        ]
+      ],
+      "row_count": 10,
+      "col_count": 9
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 3,
+      "text": "Loading...",
+      "id": "",
+      "class": [
+        "dt-loading"
+      ]
+    }
+  ],
+  "quality_score": 0.47000000000000003,
+  "extracted_at": "2025-09-13T05:54:44.755493",
+  "content_length": 4382,
+  "rag_optimized": true
+}

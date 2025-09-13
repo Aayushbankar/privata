@@ -1,0 +1,75 @@
+{
+  "url": "http://mosdac.gov.in/gsics",
+  "title": "GSICS",
+  "metadata": {
+    "url": "http://mosdac.gov.in/gsics",
+    "domain": "mosdac.gov.in",
+    "path": "/gsics",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "language": "en",
+    "canonical": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 0,
+      "caption": "",
+      "headers": [
+        "Monitored satellite/instrument",
+        "Reference satellite/instrument",
+        "Status",
+        "GSICS Product",
+        "Documentation"
+      ],
+      "rows": [
+        [
+          "INSAT 3D/Imager",
+          "METOP / IASI",
+          "Demo",
+          "Near real-time correction\nRe-analysis correction\nBias monitoring",
+          "ATBD\nReadme\nPublications"
+        ],
+        [
+          "INSAT 3D/Sounder",
+          "METOP / IASI",
+          "Demo",
+          "Near real-time correction\nRe-analysis correction\nBias monitoring",
+          "ATBD \nReadme\nPublications"
+        ],
+        [
+          "INSAT 3R/Imager",
+          "METOP / IASI",
+          "Demo",
+          "Near real-time correction\nRe-analysis correction\nBias monitoring",
+          "ATBD\nReadme\nPublication"
+        ],
+        [
+          "KALPANA 1/VHRR",
+          "METOP-A / IASI",
+          "Under Development",
+          "-",
+          "-"
+        ],
+        [
+          "INSAT 3A/VHRR",
+          "METOP-A / IASI",
+          "Under Development",
+          "-",
+          "-"
+        ]
+      ],
+      "row_count": 5,
+      "col_count": 5
+    }
+  ],
+  "headings": [],
+  "quality_score": 0.45,
+  "extracted_at": "2025-09-13T05:57:44.718622",
+  "content_length": 2422,
+  "rag_optimized": true
+}

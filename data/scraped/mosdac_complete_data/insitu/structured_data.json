@@ -1,0 +1,132 @@
+{
+  "url": "https://mosdac.gov.in/insitu#top",
+  "title": "Insitu | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/insitu#top",
+    "domain": "mosdac.gov.in",
+    "path": "/insitu",
+    "description": "",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/insitu",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "",
+        "Display name",
+        "modified"
+      ],
+      "rows": [
+        [
+          "",
+          "EOS-06_OCM_RadCalNet_Monitoring",
+          "Fri, 2025-04-11 14:39"
+        ],
+        [
+          "",
+          "2020",
+          "Tue, 2020-10-27 14:36"
+        ],
+        [
+          "",
+          "2019",
+          "Tue, 2020-10-27 14:36"
+        ],
+        [
+          "",
+          "2018",
+          "Tue, 2020-10-27 14:36"
+        ],
+        [
+          "",
+          "2017",
+          "Tue, 2020-10-27 14:36"
+        ],
+        [
+          "",
+          "2016",
+          "Tue, 2020-10-27 14:36"
+        ],
+        [
+          "",
+          "2015",
+          "Fri, 2017-11-24 11:21"
+        ],
+        [
+          "",
+          "2014",
+          "Fri, 2017-11-24 11:21"
+        ],
+        [
+          "",
+          "2013",
+          "Fri, 2017-11-24 11:20"
+        ]
+      ],
+      "row_count": 9,
+      "col_count": 3
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Insitu",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6000000000000001,
+  "extracted_at": "2025-09-13T05:59:10.023202",
+  "content_length": 9112,
+  "rag_optimized": true
+}

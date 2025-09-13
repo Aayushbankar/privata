@@ -1,0 +1,73 @@
+{
+  "url": "https://mosdac.gov.in/node/2026?language=hi",
+  "title": "इनसैट-3डीएस | मौसम विज्ञान एवं समुद्र विज्ञानीय उपग्रह डेटा पुरालेखी केंद्र",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/2026?language=hi",
+    "domain": "mosdac.gov.in",
+    "path": "/node/2026",
+    "description": "इनसैट-3डीएस सेंसर और उत्पादों के मामले में इनसैट-3डी के समान है। इनसैट या भारतीय राष्ट्रीय उपग्रह प्रणाली भारत के दूरसंचार, प्रसारण, मौसम विज्ञान और खोज और बचाव की जरूरतों को पूरा करने के लिए इसरो द्वारा लॉन्च किए गए बहुउद्देशीय भू-स्थिर उपग्रहों की एक श्रृंखला है। 1983 में कमीशन किया गया, इनसैट एशिया प्रशांत क्षेत्र में सबसे बड़ी घरेलू संचार प्रणाली है। उपग्रह की निगरानी और",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/2026?language=hi",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "द्वितीयक उपागम",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "आप यहाँ हैं",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "इनसैट-3डीएस",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "खोज",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "हमारा अनुसरण करें",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6,
+  "extracted_at": "2025-09-13T05:56:21.053698",
+  "content_length": 10297,
+  "rag_optimized": true
+}

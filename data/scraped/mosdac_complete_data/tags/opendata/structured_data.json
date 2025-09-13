@@ -1,0 +1,242 @@
+{
+  "url": "https://mosdac.gov.in/tags/opendata",
+  "title": "Opendata | Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/tags/opendata",
+    "domain": "mosdac.gov.in",
+    "path": "/tags/opendata",
+    "description": "",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/tags/opendata",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Opendata",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "High Resolution Sea Surface Salinity",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 5,
+      "level": 2,
+      "text": "GSMap ISRO Rain",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 6,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 7,
+      "level": 2,
+      "text": "3D Volumetric TERLS DWRproduct",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 8,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 9,
+      "level": 2,
+      "text": "Bayesian based MT-SAPHIR rainfall",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 10,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 11,
+      "level": 2,
+      "text": "METEOSAT8 Cloud Properties",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 12,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 13,
+      "level": 2,
+      "text": "Ocean Subsurface",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 14,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 15,
+      "level": 2,
+      "text": "GPS derived Integrated water vapour",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 16,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 17,
+      "level": 2,
+      "text": "Oceanic Eddies Detection",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 18,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 19,
+      "level": 2,
+      "text": "Soil Moisture",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 20,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 21,
+      "level": 2,
+      "text": "Indian Mainland Coastal Product",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 22,
+      "level": 3,
+      "text": "Tags:",
+      "id": "",
+      "class": [
+        "field-label"
+      ]
+    },
+    {
+      "index": 23,
+      "level": 2,
+      "text": "Pages",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 24,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 25,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.6500000000000001,
+  "extracted_at": "2025-09-13T05:59:30.843817",
+  "content_length": 13400,
+  "rag_optimized": true
+}
