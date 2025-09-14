@@ -1,305 +1,218 @@
 # MOSDAC AI Help Bot
 
-An AI-powered help bot for information retrieval from the MOSDAC (Meteorological and Oceanographic Satellite Data Archival Center) website. Features both CLI interface and REST API with automatic web scraping capabilities.
+An AI-powered help bot for the MOSDAC (Meteorological & Oceanographic Satellite Data Archival Centre) portal developed for Space Applications Centre ISRO. This system provides intelligent information retrieval from the vast MOSDAC website content using Natural Language Processing and Machine Learning techniques.
+
+## 🌟 Features
+
+- **AI-Powered Chat Interface**: Natural language queries with intelligent responses
+- **Real-time Information Retrieval**: Continuous scanning and indexing of MOSDAC website content
+- **Context Awareness**: Maintains conversation context within sessions
+- **Source Citation**: Provides sources with relevance scores for transparency
+- **Self-Learning Capabilities**: Improves responses based on user interactions
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+
+## 🏗️ Architecture
+
+The system consists of three main components:
+
+1. **Backend API** (`main.py`): FastAPI server handling AI processing and database operations
+2. **Frontend Interface** (`frontend/`): Modern web interface for user interaction
+3. **Data Processing** (`src/`): Scraping, ingestion, and vector database management
 
 ## 🚀 Quick Start
 
-```bash
-# Run the bot (CLI mode)
-./scripts/run_bot.sh
+### Option 1: Unified Launcher (Recommended)
 
-# Or manually
+```bash
+# Make the launcher executable
+chmod +x run_app.py
+
+# Start both backend and frontend
+python run_app.py
+
+# Or with custom ports
+python run_app.py --api-port 8000 --frontend-port 3000
+```
+
+This will:
+- Start the FastAPI backend on port 8000
+- Serve the frontend on port 3000
+- Open your browser automatically
+- Provide monitoring and automatic restart capabilities
+
+### Option 2: Manual Setup
+
+```bash
+# Start the backend API
 python main.py
 
-# Start the REST API server
-python -m src.api.main
-
-# Access comprehensive HTML documentation
-open index.html
+# In another terminal, start the frontend server
+cd frontend
+python -m http.server 3000
 ```
+
+Then open `http://localhost:3000` in your browser.
 
 ## 📁 Project Structure
 
 ```
 privata/
-├── src/                          # Source code
-│   ├── api/                      # REST API implementation
-│   │   ├── main.py              # FastAPI application
-│   │   ├── config.py            # API configuration
-│   │   ├── dependencies.py      # API dependencies
-│   │   ├── models/              # Pydantic models
-│   │   │   ├── chat.py          # Chat models
-│   │   │   ├── status.py        # Status models
-│   │   │   ├── data.py          # Data job models
-│   │   │   └── admin.py         # Admin models
-│   │   ├── routes/              # API endpoints
-│   │   │   ├── chat.py          # Chat endpoints
-│   │   │   ├── status.py        # Status endpoints
-│   │   │   ├── data.py          # Data endpoints
-│   │   │   └── admin.py         # Admin endpoints
-│   │   └── background/          # Background tasks
-│   │       └── scheduler.py     # Auto-scraping scheduler
-│   ├── core/                     # Core functionality
-│   │   ├── mosdac_bot.py        # Main bot controller
-│   │   ├── config.py            # Configuration
-│   │   └── config.json          # Config file
-│   ├── scrapers/                 # Web scraping
-│   │   ├── comprehensive_mosdac_scraper.py
-│   │   └── crawl4ai_mosdac.py
-│   ├── ingestion/                # Data ingestion
-│   │   └── ingest.py
-│   ├── chat/                     # Chat system
-│   │   └── chat.py
-│   ├── models/                   # LLM integration
-│   │   └── llm_loader.py
-│   ├── retrieval/                # Vector search & retrieval
-│   │   ├── modern_vectordb.py
-│   │   ├── multi_modal_embedder.py
-│   │   └── reranker.py
-│   └── utils/                    # Utilities
-│       ├── enhanced_chunker.py
-│       ├── enhanced_doc_loader.py
-│       └── structured_extractor.py
-├── data/                         # Data storage
-│   ├── scraped/                  # Scraped website data
-│   │   └── mosdac_complete_data/
-│   └── vector_db/                # Vector database
-│       └── chroma_db/
-├── config/                       # System configuration
-│   └── system_config.json        # API configuration file
-├── scripts/                      # Utility scripts
-│   ├── run_bot.sh               # Bot runner
-│   ├── setup_llm.py             # LLM setup helper
-│   ├── main.py                  # Legacy main
-│   └── advanced_rag_ingestion.py
-├── tests/                        # Test files
-│   ├── test.py
-│   └── test_chat.py
-├── docs/                         # Documentation
-│   ├── README.md
-│   ├── PROJECT_PROGRESS_REPORT.md
-│   ├── PROJECT_STATUS_REPORT.md
-│   ├── API_DEVELOPMENT_JOURNAL.md
-│   ├── API_FILE_DOCUMENTATION.md
-│   └── MASTER_DEVELOPMENT_JOURNAL.md
-├── main.py                       # Main entry point
-├── requirements.txt              # Dependencies
-├── API_DOCUMENTATION.md          # API documentation
-├── API_README.md                 # API quick start guide
-├── index.html                    # Comprehensive HTML documentation
-└── README.md                     # This file
+├── frontend/                 # Web interface
+│   ├── index.html           # Main HTML file
+│   ├── styles.css           # Styling and responsive design
+│   ├── script.js            # JavaScript functionality
+│   └── README.md            # Frontend documentation
+├── src/                     # Core application code
+│   ├── api/                 # FastAPI backend
+│   ├── chat/                # Chat processing logic
+│   ├── ingestion/           # Data ingestion pipelines
+│   ├── models/              # LLM loading and management
+│   ├── retrieval/           # Vector database and search
+│   ├── scrapers/            # Web scraping utilities
+│   └── utils/               # Utility functions
+├── data/                    # Scraped data and databases
+├── config/                  # Configuration files
+├── docs/                    # Documentation
+├── main.py                  # Main FastAPI application
+├── run_app.py              # Unified application launcher
+├── requirements.txt        # Python dependencies
+└── README.md              # This file
 ```
 
-## 🛠️ Features
+## 🔧 API Endpoints
 
-### Core Bot Features
-- **Comprehensive Web Scraping**: 443 URLs processed (7x more than required)
-- **RAG-Optimized Data Extraction**: 4.1M+ characters, 270 structured tables
-- **Advanced Ingestion Pipeline**: 708 semantic chunks stored in ChromaDB
-- **Fully Functional Chat System**: Natural language Q&A with citations
-- **Dual LLM Support**: Gemini API + Ollama offline modes
-- **Complete Data Management**: Status monitoring, removal, re-scraping
+The backend provides the following API endpoints:
 
-### REST API Features
-- **Production-Ready API**: FastAPI-based RESTful endpoints
-- **Auto-Scraping System**: Automatic website scraping every 48 hours
-- **Background Job Processing**: Asynchronous scraping and ingestion jobs
-- **Real-time Chat API**: AI-powered chat with MOSDAC content
-- **Configuration Management**: Dynamic system configuration via API
-- **Health Monitoring**: Comprehensive system status and metrics
-- **Rate Limiting**: Built-in protection against abuse
+- `POST /api/v1/chat` - Process chat messages and return AI responses
+- `GET /api/v1/status` - Get system status and statistics
+- `GET /docs` - Interactive API documentation (Swagger UI)
 
-## 🔧 Setup
-
-1. **Install Dependencies**:
-```bash
-pip install -r requirements.txt
+### Chat Request Format:
+```json
+{
+  "query": "What is MOSDAC?",
+  "session_id": "unique_session_id"
+}
 ```
 
-2. **Configure LLM**:
-```bash
-# For API mode (recommended)
-export GEMINI_API_KEY="your-api-key"
-export LLM_MODE="api"
-
-# For Ollama mode (offline)
-export LLM_MODE="ollama"
+### Chat Response Format:
+```json
+{
+  "response": "MOSDAC is the Meteorological & Oceanographic Satellite Data Archival Centre...",
+  "sources": [
+    {
+      "url": "https://mosdac.gov.in/about",
+      "title": "About MOSDAC",
+      "relevance": 0.95,
+      "content": "Content snippet..."
+    }
+  ]
+}
 ```
 
-3. **Run Setup Helper**:
-```bash
-python scripts/setup_llm.py
-```
+## 🎯 Example Questions
 
-4. **Start API Server**:
-```bash
-python -m src.api.main
-```
+The frontend includes example questions to help users get started:
 
-## 🎯 Usage
+- "What is MOSDAC and what does it do?"
+- "How can I access satellite data from MOSDAC?"
+- "What types of meteorological data are available?"
+- "Tell me about INSAT-3D satellite capabilities"
+- "How does MOSDAC handle data quality?"
 
-### CLI Interface
+## 🛠️ Development
+
+### Prerequisites
+
+- Python 3.8+
+- Modern web browser
+- Internet connection (for external API calls)
+
+### Installation
+
+1. Clone the repository
+2. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Ensure the backend data has been scraped and processed
+
+### Running in Development Mode
+
 ```bash
-# Main Bot Interface
+# Using the unified launcher (recommended)
+python run_app.py
+
+# Or manually
+# Terminal 1: Backend
 python main.py
 
-# Direct Core Access
-python src/core/mosdac_bot.py
-
-# Test System
-python tests/test_chat.py
+# Terminal 2: Frontend
+cd frontend
+python -m http.server 3000
 ```
 
-### REST API Interface
+## 📊 System Status
+
+The frontend displays real-time system information:
+
+- **Scraped Pages**: Number of pages processed from MOSDAC
+- **Vector Database**: Status of the search database
+- **LLM Status**: Availability of the language model
+- **Last Update**: When the system was last updated
+
+## 🔒 Security Features
+
+- Input sanitization to prevent XSS attacks
+- CORS configuration for secure cross-origin requests
+- No sensitive data storage in the frontend
+- Secure API communication
+
+## 🌐 Browser Support
+
+- Chrome 60+
+- Firefox 55+
+- Safari 12+
+- Edge 79+
+
+## 📝 License
+
+This project is developed for Space Applications Centre ISRO as part of the problem statement PS000007.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 🐛 Troubleshooting
+
+### Common Issues:
+
+1. **Backend not starting**: Check if all dependencies are installed
+2. **CORS errors**: Ensure backend allows requests from frontend origin
+3. **API connection issues**: Verify backend is running on correct port
+4. **Frontend not loading**: Check if frontend server is running
+
+### Debug Mode:
+
+Enable debug logging by setting environment variables:
 ```bash
-# Start API server
-python -m src.api.main
-
-# Test API endpoints
-python test_api.py
-
-# Access API documentation
-# Swagger UI: http://localhost:8000/api/docs
-# ReDoc: http://localhost:8000/api/redoc
+export DEBUG=true
+export LOG_LEVEL=debug
 ```
 
-### Auto-Scraping Configuration
-The API includes automatic scraping every 48 hours. Configure via:
-```bash
-curl -X PUT "http://localhost:8000/api/v1/admin/config" \
-  -H "Content-Type: application/json" \
-  -d '{"scraping_interval_hours": 24}'
-```
+## 📞 Support
 
-## 📊 Current Status
-
-- **Pages Scraped**: 443 URLs
-- **Content Volume**: 4.1M+ characters
-- **Vector Database**: 708 chunks indexed
-- **Tables Extracted**: 270 structured tables
-- **Quality Score**: 0.63 average
-- **API Status**: Production-ready with auto-scraping
-
-## 📋 API Endpoints
-
-### Chat
-- `POST /api/v1/chat` - Send message to AI bot
-- `GET /api/v1/chat/sessions` - Get active chat sessions
-
-### Data Management
-- `POST /api/v1/data/scrape` - Initiate scraping job
-- `GET /api/v1/data/scrape/{job_id}` - Get scraping job status
-- `POST /api/v1/data/ingest` - Initiate ingestion job
-- `GET /api/v1/data/ingest/{job_id}` - Get ingestion job status
-
-### System Status
-- `GET /api/v1/status` - Comprehensive system status
-- `GET /health` - Quick health check
-
-### Administration
-- `GET /api/v1/admin/config` - Get system configuration
-- `PUT /api/v1/admin/config` - Update system configuration
-- `GET /api/v1/admin/jobs` - List all jobs
-- `POST /api/v1/admin/jobs/cancel/{job_id}` - Cancel a job
-
-## 📝 Documentation
-
-### Comprehensive HTML Documentation
-Access the full documentation website by opening `index.html` in your browser. Features include:
-
-- **Complete Usage Guide**: Step-by-step instructions for all CLI options
-- **API Documentation**: Detailed endpoint descriptions with examples
-- **Client Examples**: Python and JavaScript code samples
-- **Troubleshooting**: Solutions for common issues
-- **Performance Metrics**: System requirements and benchmarks
-- **Configuration Guide**: Auto-scraping schedule and system settings
-
-### Additional Documentation Files
-- `API_DOCUMENTATION.md` - Complete API reference
-- `API_README.md` - API quick start guide
-- `docs/MASTER_DEVELOPMENT_JOURNAL.md` - Full development history
-- `docs/API_DEVELOPMENT_JOURNAL.md` - API development progress
-
-## ⚡ Auto-Scraping System
-
-The background scheduler automatically:
-- **Scrapes MOSDAC website** every 48 hours (configurable)
-- **Ingests scraped data** into the vector database
-- **Monitors system health** every 5 minutes
-- **Collects performance metrics** regularly
-
-## 🚀 Production Deployment
-
-### Using Gunicorn + Uvicorn
-```bash
-pip install gunicorn uvloop httptools
-gunicorn src.api.main:app --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
-```
-
-### Environment Variables
-- `LOG_LEVEL`: Logging level (INFO, DEBUG, WARNING, ERROR)
-- `LLM_PROVIDER`: LLM service provider
-- `LLM_API_KEY`: API key for LLM service
-- `DATABASE_URL`: Vector database connection string
-
-## 🚨 Troubleshooting
-
-### Common Issues
-1. **API won't start**: Check dependencies and Python version
-2. **Scraping fails**: Verify network connectivity and website availability
-3. **LLM not responding**: Check LLM configuration and API keys
-4. **Vector DB errors**: Verify ChromaDB installation and permissions
-
-### Debug Mode
-```bash
-export LOG_LEVEL=DEBUG
-python -m src.api.main
-```
-
-## 📈 Performance
-
-- **Scraping**: 443 URLs in ~15 minutes
-- **Ingestion**: 708 chunks in ~110 seconds
-- **Retrieval**: Sub-second response times
-- **Chat**: Real-time natural language responses
-- **API**: Handles 100+ requests per minute
-
-## 🛡️ Quality Assurance
-
-- **Source Citations**: Every response includes source references
-- **Quality Scoring**: Automated content quality assessment
-- **Session Management**: Context retention across conversations
-- **Error Handling**: Graceful failure recovery
-- **Rate Limiting**: API protection against abuse
-
-## 🔄 Available Operations
-
-1. **Scrape Data Only** - Extract all MOSDAC content
-2. **Ingest Data Only** - Process scraped data into vector DB
-3. **Scrape + Ingest** - Complete workflow
-4. **Chat with Bot** - Interactive Q&A
-5. **Check Data Status** - View system status
-6. **Remove All Data** - Clean up data
-7. **Re-scrape + Re-ingest** - Full refresh
-8. **API Access** - RESTful interface for all operations
-
-## 🤖 LLM Configuration
-
-The bot supports two LLM modes:
-
-### API Mode (Default)
-- Uses Gemini API
-- Faster, no local setup required
-- Requires `GEMINI_API_KEY`
-
-### Ollama Mode (Offline)
-- Uses local Ollama installation
-- Private, offline operation
-- Requires Ollama server running
+For technical support or issues, please check:
+- API documentation at `http://localhost:8000/docs`
+- Browser developer console for JavaScript errors
+- Backend server logs for API issues
 
 ---
 
-**Status**: Fully Functional ✅  
-**API Status**: Production-Ready with Auto-Scraping ✅  
-**Last Updated**: September 14, 2025  
-**Version**: 2.0
+**Developed for Space Applications Centre ISRO** 🛰️
+
+*Empowering citizens with intelligent access to satellite data and information.*
