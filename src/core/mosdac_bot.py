@@ -266,6 +266,62 @@ class MOSDACBot:
                 "available": False,
                 "error": str(e)
             }
+
+    def get_response(self, query: str, session_id: str = "default") -> tuple[str, list[dict]]:
+        """
+        Get AI response for a query using the modern chat system.
+        
+        Args:
+            query: Natural language query
+            session_id: Session ID for context
+            
+        Returns:
+            tuple: (response_text, sources_list)
+        """
+        try:
+            import sys
+            sys.path.append('src/chat')
+            # Import directly from the chat.py file
+            from src.chat.chat import ModernChatSystem
+            
+            # Create chat system instance
+            chat_system = ModernChatSystem()
+            
+            # Retrieve relevant documents
+            context_results = chat_system.retrieve_relevant_docs(query)
+            
+            if not context_results:
+                return "I couldn't find any relevant information about this topic in the MOSDAC documentation.", []
+            
+            # Format context with citations
+            context = chat_system.format_context_with_citations(context_results)
+            
+            # Check if augmentation is needed
+            augment = chat_system._should_augment(context_results)
+            
+            # Generate response
+            response = chat_system.generate_response(query, context, augment)
+            
+            # Prepare sources list
+            sources = []
+            for result in context_results:
+                metadata = result.get("metadata", {})
+                # Ensure relevance score is between 0 and 1
+                relevance = max(0.0, min(1.0, result.get("score", 0.8)))
+                sources.append({
+                    "url": metadata.get("source_url", metadata.get("source_file", "Unknown")),
+                    "title": metadata.get("section_title", metadata.get("source_file", "Unknown")),
+                    "relevance": relevance
+                })
+            
+            # Handle session
+            chat_system.handle_session(session_id, query, response, context_results)
+            
+            return response, sources
+            
+        except Exception as e:
+            logger.error(f"Error in get_response: {e}")
+            return f"I encountered an error while processing your query: {str(e)}", []
     
     def remove_data(self):
         """Remove all scraped data and vector database"""

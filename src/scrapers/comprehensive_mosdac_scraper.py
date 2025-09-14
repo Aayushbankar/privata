@@ -694,6 +694,23 @@ class ComprehensiveMOSDACScraper:
         
         logger.info(f"📋 Comprehensive index saved to {index_file}")
 
+    def get_page_count(self) -> int:
+        """Get the number of pages scraped."""
+        return len(self.processed_urls)
+
+    def get_total_content_length(self) -> int:
+        """Get total content length in characters."""
+        return self.stats["total_content_length"]
+
+    def get_last_scraped_time(self) -> Optional[str]:
+        """Get the last scraping completion time."""
+        return self.stats.get("end_time")
+
+    @property
+    def data_path(self) -> str:
+        """Get the data output path."""
+        return str(self.output_dir)
+
 async def main():
     """Main function"""
     scraper = ComprehensiveMOSDACScraper()

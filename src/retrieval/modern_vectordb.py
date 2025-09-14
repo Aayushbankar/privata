@@ -204,3 +204,45 @@ class ModernVectorDB:
 
 # Global instance for easy access
 vector_db = ModernVectorDB()
+
+def get_vector_db_stats() -> Dict[str, Any]:
+    """Get comprehensive vector database statistics for API endpoints."""
+    try:
+        stats = vector_db.get_collection_stats()
+        
+        # Get additional stats that might not be in get_collection_stats
+        try:
+            # Try to get chunk count by counting all documents
+            count = vector_db.collection.count()
+            
+            # Get some sample documents to estimate chunk count
+            sample_docs = vector_db.collection.get(limit=100)
+            chunk_count = len(sample_docs["ids"]) if sample_docs["ids"] else 0
+            
+            # If we have a small collection, use actual count
+            if count <= 1000:
+                all_docs = vector_db.collection.get()
+                chunk_count = len(all_docs["ids"]) if all_docs["ids"] else 0
+            
+        except Exception as e:
+            print(f"[WARNING] Could not get detailed stats: {e}")
+            chunk_count = stats.get("document_count", 0)
+        
+        return {
+            "collection_exists": True,
+            "document_count": stats.get("document_count", 0),
+            "chunk_count": chunk_count,
+            "last_ingested": stats.get("created", "unknown"),
+            "embedding_model": stats.get("embedding_model", "unknown"),
+            "collection_name": stats.get("collection_name", "unknown")
+        }
+    except Exception as e:
+        print(f"[ERROR] Failed to get vector DB stats: {e}")
+        return {
+            "collection_exists": False,
+            "document_count": 0,
+            "chunk_count": 0,
+            "last_ingested": "unknown",
+            "embedding_model": "unknown",
+            "collection_name": "unknown"
+        }

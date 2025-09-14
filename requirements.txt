@@ -26,5 +26,8 @@ pandas>=2.0.3
 # For modern vector DB operations
 uuid>=1.30
 
+# Background scheduling for auto-scraping
+apscheduler>=3.11.0
+
 # Note: Many of these may already be installed via the existing requirements.txt
 # This file lists the additional specific dependencies for the modern components

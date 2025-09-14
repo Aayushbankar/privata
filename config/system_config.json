@@ -1,0 +1,21 @@
+{
+  "scraping_interval_hours": 48,
+  "max_scraping_pages": 1000,
+  "scraping_timeout_seconds": 300,
+  "chunk_size": 512,
+  "chunk_overlap": 50,
+  "max_documents_per_job": 10000,
+  "max_concurrent_jobs": 5,
+  "job_history_limit": 100,
+  "api_rate_limit": 100,
+  "enable_auto_scraping": true,
+  "enable_auto_ingestion": true,
+  "enable_health_checks": true,
+  "enable_data_validation": false,
+  "cache_size_mb": 100,
+  "vector_db_batch_size": 100,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "log_level": "INFO",
+  "metrics_interval_minutes": 5,
+  "retention_days": 30
+}
