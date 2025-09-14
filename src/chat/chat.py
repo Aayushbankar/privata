@@ -83,11 +83,56 @@ Please respond with clear citations:"""
         prompt = self.build_grounded_prompt(query, context, augment)
         try:
             response = run_llm(prompt)
+            
+            # Clean up the response - remove any raw chunk markers or technical artifacts
+            response = self._sanitize_response(response)
+            
+            # Ensure proper citation format
             if "[Source:" not in response:
                 response += "\n\n*Response generated based on retrieved MOSDAC documentation*"
+            
             return response
         except Exception as e:
             return f"I encountered an error while generating a response: {str(e)}"
+    
+    def _sanitize_response(self, response: str) -> str:
+        """Clean up the response by removing technical artifacts and formatting issues"""
+        # Remove any raw chunk markers or technical artifacts
+        sanitized = response
+        
+        # Remove any HTML tags or markdown artifacts
+        import re
+        sanitized = re.sub(r'<[^>]+>', '', sanitized)  # Remove HTML tags
+        sanitized = re.sub(r'```.*?```', '', sanitized, flags=re.DOTALL)  # Remove code blocks
+        sanitized = re.sub(r'\*\*.*?\*\*', '', sanitized)  # Remove bold text
+        sanitized = re.sub(r'\*.*?\*', '', sanitized)  # Remove italic text
+        
+        # Remove any technical metadata that might have leaked through
+        sanitized = re.sub(r'\[chunk_\d+\]', '', sanitized)
+        sanitized = re.sub(r'chunk_\d+', '', sanitized)
+        sanitized = re.sub(r'score:\s*\d+\.\d+', '', sanitized)
+        
+        # Remove any JSON-like artifacts or raw metadata
+        sanitized = re.sub(r'\{.*?\}', '', sanitized, flags=re.DOTALL)
+        sanitized = re.sub(r'\[.*?\]', '', sanitized, flags=re.DOTALL)
+        
+        # Remove any remaining technical patterns
+        sanitized = re.sub(r'metadata:\s*\{.*?\}', '', sanitized, flags=re.DOTALL)
+        sanitized = re.sub(r'content:\s*"', '', sanitized)
+        
+        # Clean up extra whitespace
+        sanitized = re.sub(r'\n\s*\n', '\n\n', sanitized)  # Remove multiple empty lines
+        sanitized = sanitized.strip()
+        
+        # Ensure proper sentence structure
+        sanitized = re.sub(r'\.\.+', '.', sanitized)  # Fix multiple dots
+        sanitized = re.sub(r'\s+', ' ', sanitized)  # Fix multiple spaces
+        
+        # Remove any remaining technical artifacts
+        sanitized = re.sub(r'\\"', '"', sanitized)  # Fix escaped quotes
+        sanitized = re.sub(r'\\n', '\n', sanitized)  # Fix escaped newlines
+        
+        return sanitized
 
     def handle_session(self, user_id: str, query: str, response: str, context_results: List[Dict[str, Any]]) -> None:
         if user_id not in self.session_memory:

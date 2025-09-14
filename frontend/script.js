@@ -114,12 +114,25 @@ class MOSDACChatBot {
         if (sources && sources.length > 0) {
             sourcesHTML = `
                 <div class="sources">
-                    ${sources.map((source, index) => `
+                    ${sources.slice(0, 3).map((source, index) => {
+                        // Convert local file paths to more readable display names
+                        let displayTitle = source.title || source.url;
+                        if (source.url.startsWith('/') || source.url.includes('mosdac_complete_data')) {
+                            const parts = source.url.split('/');
+                            const lastPart = parts[parts.length - 2]; // Get the directory name
+                            displayTitle = lastPart.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                        }
+                        
+                        return `
                         <div class="source-item" onclick="chatBot.showSourcesModal(${index})">
                             <span class="source-relevance">${Math.round(source.relevance * 100)}%</span>
-                            <span class="source-title">${this.escapeHtml(source.title || source.url)}</span>
+                            <span class="source-title">${this.escapeHtml(displayTitle)}</span>
                         </div>
-                    `).join('')}
+                        `;
+                    }).join('')}
+                    ${sources.length > 3 ? `<div class="source-item" onclick="chatBot.showSourcesModal(0)" style="justify-content: center;">
+                        <span class="source-title">+${sources.length - 3} more sources...</span>
+                    </div>` : ''}
                 </div>
             `;
         }
@@ -185,10 +198,23 @@ class MOSDACChatBot {
 
         if (sources.length > 0) {
             const source = sources[sourceIndex];
+            
+            // Convert local file paths to more readable display names
+            let displayUrl = source.url;
+            let displayTitle = source.title || 'No title available';
+            
+            // If it's a local file path, extract just the filename or directory name
+            if (source.url.startsWith('/') || source.url.includes('mosdac_complete_data')) {
+                const parts = source.url.split('/');
+                const lastPart = parts[parts.length - 2]; // Get the directory name
+                displayUrl = `mosdac.gov.in/${lastPart.replace(/-/g, ' ')}`;
+                displayTitle = lastPart.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+            }
+            
             sourcesList.innerHTML = `
                 <div class="source-modal-item">
-                    <a href="${source.url}" target="_blank" class="source-modal-url">${source.url}</a>
-                    <div class="source-modal-title">${this.escapeHtml(source.title || 'No title available')}</div>
+                    <div class="source-modal-title">${this.escapeHtml(displayTitle)}</div>
+                    <div class="source-modal-url">Source: ${this.escapeHtml(displayUrl)}</div>
                     <div class="source-modal-relevance">Relevance: ${Math.round(source.relevance * 100)}%</div>
                     ${source.content ? `<p style="margin-top: 10px; font-size: 0.9rem; color: #6c757d;">${this.escapeHtml(source.content.substring(0, 200))}...</p>` : ''}
                 </div>
@@ -226,22 +252,25 @@ class MOSDACChatBot {
             if (response.ok) {
                 const data = await response.json();
                 
+                const lastUpdate = data.vector_database?.last_ingested ? 
+                    new Date(data.vector_database.last_ingested).toLocaleString() : 'N/A';
+                
                 systemInfo.innerHTML = `
                     <div class="info-item">
                         <span class="info-label">Scraped Pages:</span>
-                        <span class="info-value">${data.scraped_pages || 'N/A'}</span>
+                        <span class="info-value">${data.scraped_data?.pages_count || 0}</span>
                     </div>
                     <div class="info-item">
-                        <span class="info-label">Vector Database:</span>
-                        <span class="info-value">${data.vector_db_status || 'N/A'}</span>
+                        <span class="info-label">Vector Documents:</span>
+                        <span class="info-value">${data.vector_database?.document_count || 0}</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">LLM Status:</span>
-                        <span class="info-value">${data.llm_status || 'N/A'}</span>
+                        <span class="info-value">${data.llm?.available ? 'Available' : 'Unavailable'}</span>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Last Update:</span>
-                        <span class="info-value">${data.last_update || 'N/A'}</span>
+                        <span class="info-value">${lastUpdate}</span>
                     </div>
                 `;
             }
