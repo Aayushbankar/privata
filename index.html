@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOSDAC AI Help Bot - Complete Documentation</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #3b82f6;
+            --text-color: #1f2937;
+            --light-bg: #f8fafc;
+            --border-color: #e2e8f0;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --error-color: #ef4444;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--light-bg);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+        
+        main {
+            padding: 3rem 0;
+        }
+        
+        section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+        
+        h3 {
+            color: var(--secondary-color);
+            margin: 1.5rem 0 1rem 0;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        .card {
+            background: var(--light-bg);
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            border-left: 4px solid var(--accent-color);
+        }
+        
+        .code-block {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            overflow-x: auto;
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+        
+        .file-structure {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            font-family: 'Consolas', 'Monaco', monospace;
+            line-height: 1.8;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .feature-card {
+            background: var(--light-bg);
+            padding: 1.5rem;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .feature-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-right: 0.5rem;
+        }
+        
+        .badge-success {
+            background: var(--success-color);
+            color: white;
+        }
+        
+        .badge-warning {
+            background: var(--warning-color);
+            color: white;
+        }
+        
+        .badge-error {
+            background: var(--error-color);
+            color: white;
+        }
+        
+        .api-endpoint {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .api-method {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        
+        footer {
+            background: var(--text-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+            
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MOSDAC AI Help Bot</h1>
+            <p>Complete Documentation & Usage Guide</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#api">API</a></li>
+                <li><a href="#structure">Structure</a></li>
+                <li><a href="#technical">Technical</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="container">
+        <section id="overview">
+            <h2>Project Overview</h2>
+            <p>The MOSDAC AI Help Bot is a comprehensive RAG (Retrieval Augmented Generation) system designed to help users find information from the MOSDAC (Meteorological & Oceanographic Satellite Data Archival Centre) website.</p>
+            
+            <div class="card">
+                <h3>Key Features</h3>
+                <ul>
+                    <li>🤖 AI-powered question answering with citations</li>
+                    <li>🌐 Comprehensive web scraping of MOSDAC content</li>
+                    <li>📊 Automatic data ingestion every 48 hours</li>
+                    <li>🔍 Semantic search with multi-modal embeddings</li>
+                    <li>💬 Natural language chat interface</li>
+                    <li>🚀 REST API for frontend integration</li>
+                    <li>📈 Real-time system monitoring</li>
+                </ul>
+            </div>
+            
+            <h3>Problem Statement</h3>
+            <p>MOSDAC (www.mosdac.gov.in) hosts vast amounts of satellite data and services, but users often struggle to find specific information due to navigation complexity and mixed content. This AI help bot provides instant, accurate responses based on the website's content.</p>
+            
+            <h3>Technical Architecture</h3>
+            <div class="code-block">
+// High-Level Architecture
+Web Scraper → Content Processor → Semantic Chunker → Embedder → 
+Vector DB → RAG System → Chat Interface → REST API
+            </div>
+        </section>
+        
+        <section id="installation">
+            <h2>Installation & Setup</h2>
+            
+            <h3>Prerequisites</h3>
+            <div class="code-block">
+# Python 3.8+
+python --version
+
+# pip package manager
+pip --version
+
+# Git for version control
+git --version
+            </div>
+            
+            <h3>Clone the Repository</h3>
+            <div class="code-block">
+git clone https://github.com/Aayushbankar/privata.git
+cd privata
+            </div>
+            
+            <h3>Install Dependencies</h3>
+            <div class="code-block">
+pip install -r requirements.txt
+            </div>
+            
+            <h3>Environment Configuration</h3>
+            <p>Create a <code>.env</code> file in the root directory:</p>
+            <div class="code-block">
+# LLM Configuration
+LLM_MODE="api"  # or "ollama"
+GEMINI_API_KEY="your_gemini_api_key_here"
+OLLAMA_MODEL="llama3.2:latest"
+OLLAMA_URL="http://localhost:11434"
+
+# API Configuration (optional)
+API_HOST="0.0.0.0"
+API_PORT=8000
+CORS_ORIGINS="http://localhost:3000"
+RATE_LIMIT_PER_HOUR=100
+            </div>
+            
+            <h3>Initial Setup</h3>
+            <div class="code-block">
+# Run the setup script
+python scripts/setup_llm.py
+
+# Or use the main control interface
+python main.py
+# Select option 7: Re-scrape + Re-ingest (Complete Workflow)
+            </div>
+        </section>
+        
+        <section id="usage">
+            <h2>Complete Usage Guide</h2>
+            
+            <h3>Getting Started - First Time Setup</h3>
+            <div class="card">
+                <h4>Step-by-Step Initial Setup</h4>
+                <ol>
+                    <li><strong>Clone and Install:</strong>
+                        <div class="code-block">
+git clone https://github.com/Aayushbankar/privata.git
+cd privata
+pip install -r requirements.txt
+                        </div>
+                    </li>
+                    <li><strong>Configure Environment:</strong> Create <code>.env</code> file:
+                        <div class="code-block">
+# Required: Choose one LLM mode
+LLM_MODE="api"  # or "ollama"
+
+# For API mode (Gemini):
+GEMINI_API_KEY="your_actual_gemini_api_key_here"
+
+# For Ollama mode:
+OLLAMA_MODEL="llama3.2:latest"
+OLLAMA_URL="http://localhost:11434"
+
+# Optional API settings:
+API_HOST="0.0.0.0"
+API_PORT=8000
+CORS_ORIGINS="http://localhost:3000"
+RATE_LIMIT_PER_HOUR=100
+                        </div>
+                    </li>
+                    <li><strong>Initial Data Setup:</strong>
+                        <div class="code-block">
+# Run complete initial setup
+python main.py
+
+# Select option 7: Re-scrape + Re-ingest (Complete Workflow)
+# This will:
+# 1. Scrape all MOSDAC website content (~8 minutes)
+# 2. Process and chunk the data (~3 minutes)
+# 3. Generate embeddings
+# 4. Store in vector database
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            
+            <h3>CLI Interface - Detailed Usage</h3>
+            <div class="card">
+                <h4>Master Control Interface Options</h4>
+                <div class="code-block">
+python main.py
+
+# 🛰️  MOSDAC AI Help Bot - Master Control
+# [1] 🔍 Scrape Data Only - Scrapes website without ingestion
+# [2] 📥 Ingest Data Only - Processes already scraped data
+# [3] 🚀 Scrape + Ingest - Complete end-to-end workflow
+# [4] 💬 Chat with Bot - Interactive chat interface
+# [5] 📊 Check Data Status - Shows system health and metrics
+# [6] 🗑️  Remove All Data - Deletes scraped data and vector DB
+# [7] 🔄 Re-scrape + Re-ingest - Force complete refresh
+# [8] ❌ Exit - Close the application
+                </div>
+            </div>
+            
+            <h4>Option 1: Scrape Data Only</h4>
+            <p>Scrapes the MOSDAC website and saves content to <code>data/scraped/</code></p>
+            <div class="code-block">
+# What happens:
+# - Connects to mosdac.gov.in
+# - Crawls all accessible pages (443 URLs)
+# - Extracts text, metadata, and structure
+# - Saves as JSON files in data/scraped/mosdac_complete_data/
+# - Creates comprehensive_index.json with all URLs
+
+# Expected output: ~4.1MB of text data across 443 pages
+            </div>
+            
+            <h4>Option 2: Ingest Data Only</h4>
+            <p>Processes already scraped data into the vector database</p>
+            <div class="code-block">
+# What happens:
+# - Loads scraped data from data/scraped/
+# - Applies semantic chunking (creates 708 chunks)
+# - Generates multi-modal embeddings
+# - Stores in ChromaDB vector database
+# - Creates collection "mosdac_docs"
+
+# Requirements: Must have scraped data available
+            </div>
+            
+            <h4>Option 3: Scrape + Ingest (Complete Workflow)</h4>
+            <p>End-to-end process from scraping to vector database</p>
+            <div class="code-block">
+# Complete pipeline:
+# 1. Web scraping (8 minutes)
+# 2. Data processing and chunking (3 minutes)
+# 3. Embedding generation
+# 4. Vector database storage
+
+# Total time: ~11 minutes
+# Creates: 708 semantic chunks with embeddings
+            </div>
+            
+            <h4>Option 4: Chat with Bot</h4>
+            <p>Interactive question-answering interface with citations</p>
+            <div class="code-block">
+💬 Chat with MOSDAC AI Help Bot
+Type 'quit' to exit, 'clear' to clear session
+
+You: What is the purpose of MOSDAC?
+Bot: MOSDAC (Meteorological & Oceanographic Satellite Data Archival Centre) 
+is a data archival and distribution center that hosts satellite data and 
+services freely available to citizens. It provides access to various 
+meteorological and oceanographic data products...
+[Source: https://mosdac.gov.in/about-us | Relevance: 95%]
+
+You: How can I access INSAT-3D data?
+Bot: INSAT-3D data can be accessed through the MOSDAC portal. The satellite 
+carries two payloads: Imager and Sounder, providing various atmospheric 
+parameters including...
+[Source: https://mosdac.gov.in/insat-3d | Relevance: 92%]
+[Source: https://mosdac.gov.in/data-access-policy | Relevance: 88%]
+
+# Features:
+# - Natural language understanding
+# - Citation generation with source URLs
+# - Session memory (remembers conversation context)
+# - Relevance scoring for each source
+            </div>
+            
+            <h4>Option 5: Check Data Status</h4>
+            <p>Comprehensive system health and metrics report</p>
+            <div class="code-block">
+# Sample output:
+📊 System Status Report
+────────────────────────
+Scraped Data:
+  • Pages: 443 URLs processed
+  • Content: 4.1MB total text
+  • Last scraped: 2025-09-14 10:30:00
+
+Vector Database:
+  • Collection: mosdac_docs (exists: ✓)
+  • Documents: 708 chunks stored
+  • Last ingested: 2025-09-14 10:35:00
+
+LLM System:
+  • Mode: api (Gemini)
+  • API key: Configured (✓)
+  • Status: Available
+
+System Resources:
+  • Memory: 4856.2 MB used
+  • CPU: 14.3% utilization
+  • Disk: 37.2% used
+            </div>
+            
+            <h4>Option 6: Remove All Data</h4>
+            <p>Deletes all scraped data and vector database contents</p>
+            <div class="code-block">
+# WARNING: This will delete:
+# - All scraped content in data/scraped/
+# - Entire vector database in chroma_db/
+# - Any processed data
+
+# Use for: Fresh start, debugging, or storage cleanup
+            </div>
+            
+            <h4>Option 7: Re-scrape + Re-ingest</h4>
+            <p>Force complete refresh of all data (scrape + process)</p>
+            <div class="code-block">
+# Performs Option 6 (remove) + Option 3 (scrape+ingest)
+# Ensures completely fresh data from website
+# Useful when website content has been updated
+            </div>
+            
+            <h3>REST API - Detailed Usage</h3>
+            <div class="card">
+                <h4>Starting the API Server</h4>
+                <div class="code-block">
+# Method 1: Direct execution
+python -m src.api.main
+
+# Method 2: Using uvicorn directly
+uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
+
+# Server will start on: http://localhost:8000
+# Interactive docs: http://localhost:8000/api/docs
+# Alternative docs: http://localhost:8000/redoc
+                </div>
+            </div>
+            
+            <h4>API Authentication</h4>
+            <p>The API uses simple API key authentication:</p>
+            <div class="code-block">
+# Header format:
+X-API-Key: your_api_key_here
+
+# Configure API key in .env:
+API_KEY="your_secret_key_here"
+
+# Current implementation: Basic authentication
+# Future: JWT tokens or OAuth2
+            </div>
+            
+            <h4>Making API Requests</h4>
+            <p>Example using curl:</p>
+            <div class="code-block">
+# Get system status
+curl -X GET "http://localhost:8000/api/v1/status" \
+  -H "X-API-Key: your_api_key"
+
+# Chat request
+curl -X POST "http://localhost:8000/api/v1/chat" \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: your_api_key" \
+  -d '{
+    "query": "What is MOSDAC?",
+    "session_id": "user_123"
+  }'
+            </div>
+            
+            <h4>Python Client Example</h4>
+            <div class="code-block">
+import requests
+import json
+
+class MOSDACClient:
+    def __init__(self, base_url="http://localhost:8000", api_key=None):
+        self.base_url = base_url
+        self.api_key = api_key
+        self.session = requests.Session()
+        if api_key:
+            self.session.headers.update({"X-API-Key": api_key})
+    
+    def chat(self, query, session_id="default"):
+        response = self.session.post(
+            f"{self.base_url}/api/v1/chat",
+            json={"query": query, "session_id": session_id}
+        )
+        return response.json()
+    
+    def status(self):
+        response = self.session.get(f"{self.base_url}/api/v1/status")
+        return response.json()
+
+# Usage
+client = MOSDACClient(api_key="your_api_key")
+response = client.chat("What satellite data is available?")
+print(json.dumps(response, indent=2))
+            </div>
+            
+            <h4>JavaScript/Node.js Client Example</h4>
+            <div class="code-block">
+const axios = require('axios');
+
+class MOSDACClient {
+    constructor(baseUrl = 'http://localhost:8000', apiKey = null) {
+        this.baseUrl = baseUrl;
+        this.apiKey = apiKey;
+        this.client = axios.create({
+            baseURL: baseUrl,
+            headers: apiKey ? { 'X-API-Key': apiKey } : {}
+        });
+    }
+    
+    async chat(query, sessionId = 'default') {
+        const response = await this.client.post('/api/v1/chat', {
+            query,
+            session_id: sessionId
+        });
+        return response.data;
+    }
+    
+    async status() {
+        const response = await this.client.get('/api/v1/status');
+        return response.data;
+    }
+}
+
+// Usage
+const client = new MOSDACClient('your_api_key');
+client.chat('What is MOSDAC?')
+    .then(response => console.log(response))
+    .catch(error => console.error(error));
+            </div>
+            
+            <h3>Auto-Scraping Schedule</h3>
+            <p>The system automatically maintains fresh data:</p>
+            <div class="code-block">
+# Automatic maintenance schedule:
+# - Scraping interval: Every 48 hours (172800 seconds)
+# - Health checks: Every 1 hour (3600 seconds)
+# - First run: Immediately after API startup
+# - Subsequent runs: Every 48 hours automatically
+
+# To disable auto-scraping:
+AUTO_SCRAPE=false  # Add to .env file
+
+# To change interval:
+SCRAPING_INTERVAL=86400  # 24 hours in seconds
+            </div>
+            
+            <h3>Troubleshooting Common Issues</h3>
+            <div class="card">
+                <h4>Problem: LLM not responding</h4>
+                <p><strong>Solution:</strong> Check your LLM configuration in .env file</p>
+                <div class="code-block">
+# For API mode: Ensure GEMINI_API_KEY is valid
+# For Ollama mode: Ensure Ollama is running on localhost:11434
+# Test: python scripts/setup_llm.py --test
+                </div>
+            </div>
+            
+            <div class="card">
+                <h4>Problem: Scraping fails</h4>
+                <p><strong>Solution:</strong> Check internet connection and website availability</p>
+                <div class="code-block">
+# Test connectivity:
+curl -I https://mosdac.gov.in
+
+# If website is down, scraping will fail
+# Check: https://mosdac.gov.in status
+                </div>
+            </div>
+            
+            <div class="card">
+                <h4>Problem: API not starting</h4>
+                <p><strong>Solution:</strong> Check port availability and dependencies</p>
+                <div class="code-block">
+# Check if port 8000 is available:
+netstat -tuln | grep :8000
+
+# If port busy, change API_PORT in .env
+API_PORT=8001
+
+# Reinstall dependencies if needed:
+pip install -r requirements.txt
+                </div>
+            </div>
+            
+            <div class="card">
+                <h4>Problem: Memory issues</h4>
+                <p><strong>Solution:</strong> The system uses ~5GB RAM during processing</p>
+                <div class="code-block">
+# For lower memory systems:
+# 1. Reduce chunk size in enhanced_chunker.py
+# 2. Use smaller embedding models
+# 3. Process in smaller batches
+
+# Minimum recommended: 8GB RAM
+# Ideal: 16GB+ RAM
+                </div>
+            </div>
+        </section>
+        
+        <section id="api">
+            <h2>API Documentation</h2>
+            
+            <h3>Base URL</h3>
+            <p><code>http://localhost:8000</code> or your configured host/port</p>
+            
+            <h3>Endpoints</h3>
+            
+            <div class="api-endpoint">
+                <div class="api-method">GET /</div>
+                <p>Returns API information and available endpoints</p>
+            </div>
+            
+            <div class="api-endpoint">
+                <div class="api-method">POST /api/v1/chat</div>
+                <p>Process natural language queries with session management</p>
+                <div class="code-block">
+// Request Body
+{
+    "query": "What is MOSDAC?",
+    "session_id": "user123"
+}
+
+// Response
+{
+    "response": "MOSDAC is...",
+    "sources": [
+        {
+            "url": "https://mosdac.gov.in/about-us",
+            "title": "About MOSDAC",
+            "relevance": 0.95
+        }
+    ],
+    "metadata": {
+        "processing_time": 3.2,
+        "sources_count": 3
+    }
+}
+                </div>
+            </div>
+            
+            <div class="api-endpoint">
+                <div class="api-method">GET /api/v1/status</div>
+                <p>Returns comprehensive system health and status information</p>
+                <div class="code-block">
+// Response
+{
+    "scraped_data": {
+        "pages_count": 443,
+        "total_content_length": 4123456,
+        "last_scraped": "2025-09-14T10:30:00Z"
+    },
+    "vector_database": {
+        "collection_exists": true,
+        "document_count": 708,
+        "chunk_count": 708,
+        "last_ingested": "2025-09-14T10:35:00Z"
+    },
+    "llm": {
+        "mode": "api",
+        "api_key_set": true,
+        "available": true
+    },
+    "system": {
+        "memory_usage_mb": 4856.2,
+        "cpu_percent": 14.3,
+        "disk_usage_percent": 37.2
+    }
+}
+                </div>
+            </div>
+            
+            <h3>Rate Limiting</h3>
+            <p>The API enforces rate limiting of <strong>100 requests per hour</strong> per client IP.</p>
+            
+            <h3>Authentication</h3>
+            <p>Currently supports API key authentication (configured via environment variables).</p>
+        </section>
+        
+        <section id="structure">
+            <h2>Project Structure</h2>
+            
+            <h3>Complete File Hierarchy</h3>
+            <div class="file-structure">
+privata/
+├── main.py                          # CLI entry point
+├── src/
+│   ├── api/                         # REST API layer
+│   │   ├── __init__.py
+│   │   ├── main.py                  # FastAPI application
+│   │   ├── config.py                # Configuration management
+│   │   ├── dependencies.py          # Dependency injection
+│   │   ├── models/                  # Pydantic models
+│   │   │   ├── __init__.py
+│   │   │   ├── chat.py              # Chat request/response models
+│   │   │   ├── status.py            # Status response models
+│   │   │   ├── data.py              # Data management models
+│   │   │   └── admin.py             # Admin operation models
+│   │   ├── routes/                  # API endpoints
+│   │   │   ├── __init__.py
+│   │   │   ├── chat.py              # Chat endpoint
+│   │   │   ├── status.py            # Status endpoint
+│   │   │   ├── data.py              # Data management
+│   │   │   └── admin.py             # Admin operations
+│   │   └── background/              # Background tasks
+│   │       └── scheduler.py          # Auto-scraping scheduler
+│   ├── core/
+│   │   ├── mosdac_bot.py           # Master control system
+│   │   └── config.py               # Configuration management
+│   ├── scrapers/
+│   │   └── comprehensive_mosdac_scraper.py  # Web scraper
+│   ├── ingestion/
+│   │   └── ingest.py               # Data ingestion pipeline
+│   ├── chat/
+│   │   └── chat.py                 # Chat system
+│   ├── models/
+│   │   └── llm_loader.py           # LLM management
+│   ├── retrieval/
+│   │   ├── modern_vectordb.py      # Vector database
+│   │   ├── multi_modal_embedder.py # Embedding generation
+│   │   └── reranker.py             # Document reranking
+│   └── utils/
+│       └── enhanced_chunker.py     # Semantic chunking
+├── data/
+│   ├── scraped/                    # Scraped content
+│   └── vector_db/                  # Vector database
+├── docs/                           # Complete documentation
+└── scripts/                        # Helper scripts
+            </div>
+            
+            <h3>Key Directories</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>src/api/</h4>
+                    <p>REST API implementation with FastAPI</p>
+                    <span class="badge badge-success">Production</span>
+                </div>
+                
+                <div class="feature-card">
+                    <h4>src/core/</h4>
+                    <p>Master control system and configuration</p>
+                    <span class="badge badge-success">Core</span>
+                </div>
+                
+                <div class="feature-card">
+                    <h4>src/scrapers/</h4>
+                    <p>Web scraping components</p>
+                    <span class="badge badge-warning">Async</span>
+                </div>
+                
+                <div class="feature-card">
+                    <h4>src/ingestion/</h4>
+                    <p>Data processing pipeline</p>
+                    <span class="badge badge-success">Processing</span>
+                </div>
+                
+                <div class="feature-card">
+                    <h4>src/chat/</h4>
+                    <p>Chat system implementation</p>
+                    <span class="badge badge-success">Interactive</span>
+                </div>
+                
+                <div class="feature-card">
+                    <h4>data/</h4>
+                    <p>Scraped content and vector database</p>
+                    <span class="badge badge-warning">Storage</span>
+                </div>
+            </div>
+        </section>
+        
+        <section id="technical">
+            <h2>Technical Details</h2>
+            
+            <h3>Performance Metrics</h3>
+            <div class="card">
+                <h4>Scraping Performance</h4>
+                <ul>
+                    <li>443 URLs processed</li>
+                    <li>4.1M+ characters extracted</li>
+                    <li>~8 minutes with 10 concurrent connections</li>
+                    <li>85%+ average quality score</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h4>Ingestion Performance</h4>
+                <ul>
+                    <li>708 semantic chunks created</li>
+                    <li>Multi-modal embeddings generated</li>
+                    <li>~3 minutes processing time</li>
+                    <li>ChromaDB vector storage</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h4>Chat Performance</h4>
+                <ul>
+                    <li>3-8 seconds response time</li>
+                    <li>90%+ retrieval accuracy</li>
+                    <li>Session memory support</li>
+                    <li>Citation generation</li>
+                </ul>
+            </div>
+            
+            <h3>Dependencies</h3>
+            <div class="code-block">
+# Core AI/ML
+crawl4ai>=0.7.4      # Web scraping
+chromadb>=0.4.0      # Vector database
+sentence-transformers>=2.2.0  # Embeddings
+google-generativeai>=0.3.0    # Gemini API
+
+# Web & Async
+aiohttp>=3.8.0       # Async HTTP
+aiofiles>=23.0.0     # Async file operations
+beautifulsoup4>=4.12.0 # HTML parsing
+
+# Data Processing
+numpy>=1.24.0        # Numerical operations
+pandas>=2.0.0        # Data manipulation
+
+# API
+fastapi>=0.104.0     # REST API framework
+uvicorn>=0.24.0      # ASGI server
+pydantic>=2.0.0      # Data validation
+
+# Utilities
+psutil>=5.9.0        # System monitoring
+apscheduler>=3.10.0 # Task scheduling
+            </div>
+            
+            <h3>Auto-Scraping Schedule</h3>
+            <p>The system automatically scrapes and ingests data every 48 hours:</p>
+            <div class="code-block">
+# Scheduler configuration
+SCRAPING_INTERVAL = 172800  # 48 hours in seconds
+HEALTH_CHECK_INTERVAL = 3600  # 1 hour in seconds
+
+# First run: Immediately after API startup
+# Subsequent runs: Every 48 hours
+            </div>
+            
+            <h3>LLM Configuration</h3>
+            <p>Supports dual LLM modes:</p>
+            <div class="code-block">
+# API Mode (Gemini)
+LLM_MODE="api"
+GEMINI_API_KEY="your_api_key"
+
+# OR Local Mode (Ollama)
+LLM_MODE="ollama"
+OLLAMA_MODEL="llama3.2:latest"
+OLLAMA_URL="http://localhost:11434"
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>MOSDAC AI Help Bot - Complete Documentation</p>
+            <p>Built with ❤️ using FastAPI, ChromaDB, and modern AI technologies</p>
+            <p>© 2025 - All rights reserved</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Highlight current section in navigation
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-links a');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
