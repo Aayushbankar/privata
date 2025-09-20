@@ -1,7 +1,7 @@
-# Language-Enforced Response System Implementation
+# Language Selection System Implementation
 
 ## Overview
-Implemented a comprehensive language enforcement system that ensures the MOSDAC AI Help Bot **always responds in the user's selected language**, regardless of the language used in the query.
+Implemented a language selection system that allows users to choose their preferred language for responses, with the system attempting to respond in the selected language when possible.
 
 ## Key Features
 
@@ -9,12 +9,12 @@ Implemented a comprehensive language enforcement system that ensures the MOSDAC 
 - **Location**: Chat header dropdown
 - **Languages Supported**: 10 Indian languages + English
 - **Visual Design**: Flag emojis + native script names
-- **Real-time Switching**: Instant language change with confirmation
+- **Real-time Switching**: Language change with confirmation
 
 ### 2. **Backend Language Processing**
-- **API Integration**: Language parameter passed through entire request chain
+- **API Integration**: Language parameter passed through request chain
 - **Model Updates**: ChatRequest schema enhanced with language field
-- **Prompt Engineering**: Multi-language instruction templates
+- **Prompt Engineering**: Basic language instruction templates
 
 ### 3. **Language Instruction Templates**
 ```python
