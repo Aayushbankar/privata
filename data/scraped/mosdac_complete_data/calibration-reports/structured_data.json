@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/calibration-reports#main-content",
+  "url": "https://mosdac.gov.in/calibration-reports#top",
   "title": "Relative | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/calibration-reports#main-content",
+    "url": "https://mosdac.gov.in/calibration-reports#top",
     "domain": "mosdac.gov.in",
     "path": "/calibration-reports",
     "description": "",
@@ -86,7 +86,7 @@
     }
   ],
   "quality_score": 0.6000000000000001,
-  "extracted_at": "2025-09-13T06:00:15.818230",
+  "extracted_at": "2025-09-15T15:50:37.334498",
   "content_length": 8220,
   "rag_optimized": true
 }

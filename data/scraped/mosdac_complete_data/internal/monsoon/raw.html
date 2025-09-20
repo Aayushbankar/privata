@@ -4,7 +4,7 @@
 	    <meta name="Description" content="Author: Mosdac, Illustrator: Satellite Images, Category: Scientific Spatial Data">
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=yes, width=device-width">
 		
-		<title>Monsoon Prediction 2024</title>
+		<title></title>
 		
 		<link rel="canonical" href="https://localhost:81/monsoon/">
 		<link rel="preconnect" href="https://localhost:81/monsoon/">
@@ -90,15 +90,12 @@
 	             </tr>
 	             <tr>
 	                <td calss="application-name">
-	    	            <label class="title ng-binding">Monsoon Prediction 2024</label>
+	    	            <label class="title ng-binding"></label>
 	                </td>
 	               <td>
 	               <div class="ol-unselectable ol-control" style="position: absolute; top: /*0*/-4px; padding-left: 3px;">
            			<button type="button" title="Info" ng-click="siteInfo()" style="background-color: transparent;margin:auto;margin-left:-28px;margin-top: -4px;">
-                		<md-icon class="ol-info" aria-label="" md-svg-src="assets/img/ic_info_24px.svg" style="height: 1.375em; width: 1.375em; line-height: .4em; background-color: transparent;" role="img"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M0 0h24v24H0z" fill="none"></path>
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
-</svg></md-icon>
+                		<md-icon class="ol-info" aria-label="" md-svg-src="assets/img/ic_info_24px.svg" style="height: 1.375em; width: 1.375em; line-height: .4em; background-color: transparent;" role="img"></md-icon>
             		</button>
         			</div>
 	               </td>
@@ -111,41 +108,7 @@
 	            <tbody><tr>
 	                <td>	
 	                    <button class="md-fab panel-show-hide-btn md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="openCloseNav()" style="top: 23px;">    
-	                    	<md-icon md-svg-src="assets/img/chevron-down.svg" class="ng-scope" role="img" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.159 477.159" style="enable-background:new 0 0 477.159 477.159;" xml:space="preserve" width="100%" height="100%" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-<g>
-	<path d="M441.314,74.44c0-5.091-2.118-10.151-5.719-13.75l-55-55c-3.598-3.591-8.635-5.688-13.719-5.688   c-5.084,0-10.152,2.096-13.75,5.688L238.563,120.252L124.001,5.69c-3.667-3.664-8.848-5.764-14.031-5.688   c-4.985,0.078-9.911,2.163-13.438,5.688l-55,55c-3.601,3.599-5.688,8.659-5.688,13.75s2.087,10.151,5.688,13.75l183.281,183.281   c3.599,3.601,8.659,5.688,13.75,5.688s10.151-2.087,13.75-5.688L435.594,88.19C439.195,84.59,441.314,79.531,441.314,74.44   L441.314,74.44z M441.314,274.44c0-5.091-2.118-10.151-5.719-13.75l-55-55c-3.598-3.591-8.635-5.688-13.719-5.688   c-5.084,0-10.152,2.096-13.75,5.688L238.563,320.252L124.001,205.69c-3.667-3.664-8.848-5.764-14.031-5.688   c-4.985,0.078-9.911,2.163-13.438,5.688l-55,55c-3.601,3.599-5.688,8.659-5.688,13.75s2.087,10.151,5.688,13.75l183.281,183.281   c3.599,3.601,8.659,5.688,13.75,5.688s10.151-2.087,13.75-5.688L435.594,288.19C439.195,284.59,441.314,279.531,441.314,274.44   L441.314,274.44z" fill="#FFFFFF"></path>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg></md-icon>
+	                    	<md-icon md-svg-src="assets/img/chevron-down.svg" class="ng-scope" role="img" aria-hidden="true"></md-icon>
 	                    </button>
 	                </td>  
 	            </tr>
@@ -167,620 +130,10 @@
                 	Analysis
                 </button>
 			 	<font style="font-size: large;color: white;margin-top:19px"><b>Select Year :</b> </font>			
-			 	<!-- ngIf: yearObj --><select ng-if="yearObj" aria-label="Aria Label" class="select-font-box-style ng-pristine ng-untouched ng-valid ng-scope ng-not-empty" ng-model="selectedYear" ng-change="updateMonsoonPrediction(selectedYear)" ng-options="year for year in yearList| orderBy:year:true" aria-invalid="false"><option label="2024" value="string:2024" selected="selected">2024</option><option label="2023" value="string:2023">2023</option><option label="2022" value="string:2022">2022</option><option label="2021" value="string:2021">2021</option><option label="2020" value="string:2020">2020</option><option label="2019" value="string:2019">2019</option><option label="2018" value="string:2018">2018</option><option label="2017" value="string:2017">2017</option></select><!-- end ngIf: yearObj --> 
+			 	<!-- ngIf: yearObj --> 
 			   <br>
 				
-	    		<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" style=""><!-- | orderBy:propertyName:reverse -->
-	    			<div class="layer-display ng-scope ng-binding">
-	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed()" class="layer-title-checkbox ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="Overlay Layers" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
-	        			Overlay Layers
-	        			
-	        			<span ng-show="layergrps.values_.visible" aria-hidden="false">
-							<!-- ngIf: layergrps.values_.extraparams.collapsable --><button class="collapse-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layergrps.values_.extraparams.collapsable" ng-click="map.collapseLayers(layergrps)">    
-	                    		<!--md-icon md-svg-src="img/ic_delete_black_24px.svg"></md-icon-->
-	                    		<!-- ngIf: !layergrps.values_.extraparams.collapsestate -->
-	                    		<!-- ngIf: layergrps.values_.extraparams.collapsestate --><i ng-if="layergrps.values_.extraparams.collapsestate" class="fa fa-angle-double-up collapseBtn" ng-click="layergrps.values_.extraparams.collapsestate=!layergrps.values_.extraparams.collapsestate" role="button" tabindex="0"></i><!-- end ngIf: layergrps.values_.extraparams.collapsestate -->
-	                    	</button><!-- end ngIf: layergrps.values_.extraparams.collapsable -->
-	        			
-	        				<!-- ngIf: layergrps.values_.extraparams.reset -->
-	                    
-	        				<!-- ngIf: layergrps.values_.extraparams.delete -->
-	                    
-	                    	<!-- ngIf: layergrps.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layergrps.values_.extraparams.slider" ng-model="layergrps.values_.opacity" ng-change="layergrps.changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layergrps.values_.extraparams.slider --><!-- ng-change=layergrps.setOpacity(layergrps.values_.opacity); Can Be Used -->
-	        			</span>
-	    			</div>
-	    			<div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" class="selection-div ng-hide" ng-class="{'selection-margin':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	    				<!-- ngIf: layergrps.values_.extraparams.radioSelect --><md-radio-group ng-if="layergrps.values_.extraparams.radioSelect" ng-model="layergrps.values_.extraparams.radioBtnSelect" ng-change="radioSelect(layergrps)" layout="row" class="color-text ng-pristine ng-untouched ng-valid ng-scope _md ng-not-empty layout-row" role="radiogroup" tabindex="0" aria-activedescendant="radio_11" aria-invalid="false">
-						  <label class="selection-label">Selection:-</label>
-	                      <md-radio-button value="Single Select" id="radio_11" role="radio" aria-checked="true" aria-label="Single" class="md-checked"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Single</div></md-radio-button>
-	                      <md-radio-button value="Multiple Select" id="radio_12" role="radio" aria-checked="false" aria-label="Multiple"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Multiple</div></md-radio-button>
-	                    </md-radio-group><!-- end ngIf: layergrps.values_.extraparams.radioSelect -->
-	    			</div>
-	        		<!-- ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Land Slide</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Fire Risk Map</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Landslide Risk Map</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Cyclone Risk Map</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Ports</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rivers</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">District Population</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Railway Tracks</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Airports</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">District Roads</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">National Highways</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Admin Boundaries</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="false">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --> 
-	    		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" style=""><!-- | orderBy:propertyName:reverse -->
-	    			<div class="layer-display ng-scope ng-binding">
-	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed()" class="layer-title-checkbox ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-label="Rainfall Anomaly" tabindex="0" type="checkbox" role="checkbox" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
-	        			Rainfall Anomaly
-	        			
-	        			<span ng-show="layergrps.values_.visible" aria-hidden="true" class="ng-hide">
-							<!-- ngIf: layergrps.values_.extraparams.collapsable -->
-	        			
-	        				<!-- ngIf: layergrps.values_.extraparams.reset -->
-	                    
-	        				<!-- ngIf: layergrps.values_.extraparams.delete -->
-	                    
-	                    	<!-- ngIf: layergrps.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layergrps.values_.extraparams.slider" ng-model="layergrps.values_.opacity" ng-change="layergrps.changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layergrps.values_.extraparams.slider --><!-- ng-change=layergrps.setOpacity(layergrps.values_.opacity); Can Be Used -->
-	        			</span>
-	    			</div>
-	    			<div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" class="selection-div ng-hide" ng-class="{'selection-margin':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	    				<!-- ngIf: layergrps.values_.extraparams.radioSelect --><md-radio-group ng-if="layergrps.values_.extraparams.radioSelect" ng-model="layergrps.values_.extraparams.radioBtnSelect" ng-change="radioSelect(layergrps)" layout="row" class="color-text ng-pristine ng-untouched ng-valid ng-scope _md ng-not-empty layout-row" role="radiogroup" tabindex="0" aria-activedescendant="radio_7" aria-invalid="false">
-						  <label class="selection-label">Selection:-</label>
-	                      <md-radio-button value="Single Select" id="radio_7" role="radio" aria-checked="true" aria-label="Single" class="md-checked"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Single</div></md-radio-button>
-	                      <md-radio-button value="Multiple Select" id="radio_8" role="radio" aria-checked="false" aria-label="Multiple"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Multiple</div></md-radio-button>
-	                    </md-radio-group><!-- end ngIf: layergrps.values_.extraparams.radioSelect -->
-	    			</div>
-	        		<!-- ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall Anomaly Seasonal </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="false">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall Anomaly May </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall Anomaly June </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall Anomaly July </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall Anomaly Aug </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall Anomaly Sep </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --> 
-	    		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" style=""><!-- | orderBy:propertyName:reverse -->
-	    			<div class="layer-display ng-scope ng-binding">
-	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed()" class="layer-title-checkbox ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="Rainfall" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
-	        			Rainfall
-	        			
-	        			<span ng-show="layergrps.values_.visible" aria-hidden="false">
-							<!-- ngIf: layergrps.values_.extraparams.collapsable -->
-	        			
-	        				<!-- ngIf: layergrps.values_.extraparams.reset -->
-	                    
-	        				<!-- ngIf: layergrps.values_.extraparams.delete -->
-	                    
-	                    	<!-- ngIf: layergrps.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layergrps.values_.extraparams.slider" ng-model="layergrps.values_.opacity" ng-change="layergrps.changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layergrps.values_.extraparams.slider --><!-- ng-change=layergrps.setOpacity(layergrps.values_.opacity); Can Be Used -->
-	        			</span>
-	    			</div>
-	    			<div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" class="selection-div" ng-class="{'selection-margin':layergrps.values_.title=='Layers'}" aria-hidden="false">
-	    				<!-- ngIf: layergrps.values_.extraparams.radioSelect --><md-radio-group ng-if="layergrps.values_.extraparams.radioSelect" ng-model="layergrps.values_.extraparams.radioBtnSelect" ng-change="radioSelect(layergrps)" layout="row" class="color-text ng-pristine ng-untouched ng-valid ng-scope _md ng-not-empty layout-row" role="radiogroup" tabindex="0" aria-activedescendant="radio_5" aria-invalid="false">
-						  <label class="selection-label">Selection:-</label>
-	                      <md-radio-button value="Single Select" id="radio_5" role="radio" aria-checked="true" aria-label="Single" class="md-checked"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Single</div></md-radio-button>
-	                      <md-radio-button value="Multiple Select" id="radio_6" role="radio" aria-checked="false" aria-label="Multiple"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Multiple</div></md-radio-button>
-	                    </md-radio-group><!-- end ngIf: layergrps.values_.extraparams.radioSelect -->
-	    			</div>
-	        		<!-- ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="false">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall Seasonal </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="false">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="false">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall May </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="false">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall June </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="false">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall July </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="false">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall Aug </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="false">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall Sep </span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.7"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --> 
-	    		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope"><!-- | orderBy:propertyName:reverse -->
-	    			<div class="layer-display ng-scope ng-binding">
-	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed()" class="layer-title-checkbox ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="Base Layers" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
-	        			Base Layers
-	        			
-	        			<span ng-show="layergrps.values_.visible" aria-hidden="false">
-							<!-- ngIf: layergrps.values_.extraparams.collapsable --><button class="collapse-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layergrps.values_.extraparams.collapsable" ng-click="map.collapseLayers(layergrps)">    
-	                    		<!--md-icon md-svg-src="img/ic_delete_black_24px.svg"></md-icon-->
-	                    		<!-- ngIf: !layergrps.values_.extraparams.collapsestate -->
-	                    		<!-- ngIf: layergrps.values_.extraparams.collapsestate --><i ng-if="layergrps.values_.extraparams.collapsestate" class="fa fa-angle-double-up collapseBtn" ng-click="layergrps.values_.extraparams.collapsestate=!layergrps.values_.extraparams.collapsestate" role="button" tabindex="0"></i><!-- end ngIf: layergrps.values_.extraparams.collapsestate -->
-	                    	</button><!-- end ngIf: layergrps.values_.extraparams.collapsable -->
-	        			
-	        				<!-- ngIf: layergrps.values_.extraparams.reset -->
-	                    
-	        				<!-- ngIf: layergrps.values_.extraparams.delete -->
-	                    
-	                    	<!-- ngIf: layergrps.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layergrps.values_.extraparams.slider" ng-model="layergrps.values_.opacity" ng-change="layergrps.changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layergrps.values_.extraparams.slider --><!-- ng-change=layergrps.setOpacity(layergrps.values_.opacity); Can Be Used -->
-	        			</span>
-	    			</div>
-	    			<div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" class="selection-div ng-hide" ng-class="{'selection-margin':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	    				<!-- ngIf: layergrps.values_.extraparams.radioSelect --><md-radio-group ng-if="layergrps.values_.extraparams.radioSelect" ng-model="layergrps.values_.extraparams.radioBtnSelect" ng-change="radioSelect(layergrps)" layout="row" class="color-text ng-pristine ng-untouched ng-valid ng-scope _md ng-not-empty layout-row" role="radiogroup" tabindex="0" aria-activedescendant="radio_9" aria-invalid="false">
-						  <label class="selection-label">Selection:-</label>
-	                      <md-radio-button value="Single Select" id="radio_9" role="radio" aria-checked="true" aria-label="Single" class="md-checked"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Single</div></md-radio-button>
-	                      <md-radio-button value="Multiple Select" id="radio_10" role="radio" aria-checked="false" aria-label="Multiple"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Multiple</div></md-radio-button>
-	                    </md-radio-group><!-- end ngIf: layergrps.values_.extraparams.radioSelect -->
-	    			</div>
-	        		<!-- ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">DEM</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Bhuvan Maps</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Open Street Map</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="false">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Natural Earth</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Black Marble</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">True Marble</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --> 
-	    		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true -->
+	    		<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true -->
 			</md-content>
 		</div>
 		
@@ -791,9 +144,7 @@
 				<td>
 					<select aria-label="Aria Label" class="select-font-box-style ng-pristine ng-untouched ng-valid ng-empty" ng-model="selectedLayer" ng-change="updateSelectedLayerSelection()" aria-invalid="false">
 						<option value="" selected="selected">--Select Layer--</option>
-						<!-- ngRepeat: grpLayers in map.getLayers().array_ --><!-- ngIf: (grpLayers.values_.title=='Rainfall' || grpLayers.values_.title=='Rainfall Anomaly' || grpLayers.values_.title=='Rainfall Weekly') &&  grpLayers.values_.visible --><!-- end ngRepeat: grpLayers in map.getLayers().array_ --><!-- ngIf: (grpLayers.values_.title=='Rainfall' || grpLayers.values_.title=='Rainfall Anomaly' || grpLayers.values_.title=='Rainfall Weekly') &&  grpLayers.values_.visible --><!-- end ngRepeat: grpLayers in map.getLayers().array_ --><!-- ngIf: (grpLayers.values_.title=='Rainfall' || grpLayers.values_.title=='Rainfall Anomaly' || grpLayers.values_.title=='Rainfall Weekly') &&  grpLayers.values_.visible --><optgroup ng-if="(grpLayers.values_.title=='Rainfall' || grpLayers.values_.title=='Rainfall Anomaly' || grpLayers.values_.title=='Rainfall Weekly') &amp;&amp;  grpLayers.values_.visible" label="Rainfall" ng-repeat="grpLayers in map.getLayers().array_" class="ng-scope" style="">
-							<!-- ngRepeat: layers in grpLayers.getLayers().array_ --><!-- ngIf: layers.values_.visible --><option ng-if="layers.values_.visible" ng-value="layers" ng-repeat="layers in grpLayers.getLayers().array_" class="ng-binding ng-scope" aria-checked="true" value="object:114">Rainfall Seasonal </option><!-- end ngIf: layers.values_.visible --><!-- end ngRepeat: layers in grpLayers.getLayers().array_ --><!-- ngIf: layers.values_.visible --><!-- end ngRepeat: layers in grpLayers.getLayers().array_ --><!-- ngIf: layers.values_.visible --><!-- end ngRepeat: layers in grpLayers.getLayers().array_ --><!-- ngIf: layers.values_.visible --><!-- end ngRepeat: layers in grpLayers.getLayers().array_ --><!-- ngIf: layers.values_.visible --><!-- end ngRepeat: layers in grpLayers.getLayers().array_ --><!-- ngIf: layers.values_.visible --><!-- end ngRepeat: layers in grpLayers.getLayers().array_ -->
-						</optgroup><!-- end ngIf: (grpLayers.values_.title=='Rainfall' || grpLayers.values_.title=='Rainfall Anomaly' || grpLayers.values_.title=='Rainfall Weekly') &&  grpLayers.values_.visible --><!-- end ngRepeat: grpLayers in map.getLayers().array_ --><!-- ngIf: (grpLayers.values_.title=='Rainfall' || grpLayers.values_.title=='Rainfall Anomaly' || grpLayers.values_.title=='Rainfall Weekly') &&  grpLayers.values_.visible --><!-- end ngRepeat: grpLayers in map.getLayers().array_ --><!-- ngIf: (grpLayers.values_.title=='Rainfall' || grpLayers.values_.title=='Rainfall Anomaly' || grpLayers.values_.title=='Rainfall Weekly') &&  grpLayers.values_.visible --><!-- end ngRepeat: grpLayers in map.getLayers().array_ -->  
+						<!-- ngRepeat: grpLayers in map.getLayers().array_ -->  
 					</select>
 				</td>
 			</tr>
@@ -816,19 +167,7 @@
 	<div id="tools" class="tools scrollbarX">
         <table>
             <tbody><tr>
-                <!-- ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in toolsBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Measure Area">
-    	            	<img ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="MeasureArea" ng-src="assets/img/area-icon-small.png" class="ng-scope unclicked_button" src="assets/img/area-icon-small.png">
-                	</button> 
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in toolsBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Measure Distance">
-    	            	<img ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="MeasureDistance" ng-src="assets/img/distance-icon-small.png" class="ng-scope unclicked_button" src="assets/img/distance-icon-small.png">
-                	</button> 
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in toolsBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Graticule">
-    	            	<img ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="Graticule" ng-src="assets/img/graticule-icon-small.png" class="ng-scope unclicked_button" src="assets/img/graticule-icon-small.png">
-                	</button> 
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList -->
+                <!-- ngRepeat: item in toolsBtnList -->
                 <!-- ngIf: toolsNoBtn -->
             </tr>
             <!-- tr>
@@ -841,23 +180,11 @@
     <div id="analysis" class="analysis scrollbarX">
         <table>
             <tbody><tr>
-                <!-- ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in analysisBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Point Probe">
-    	            	<img ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="PointProbe" ng-src="assets/img/point_icon.png" class="ng-scope unclicked_button" src="assets/img/point_icon.png">
-                	</button> 
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in analysisBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Time Series">
-    	            	<img ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="TimeSeries" ng-src="assets/img/time_series_c.png" class="ng-scope unclicked_button" src="assets/img/time_series_c.png">
-                	</button> 
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in analysisBtnList -->
+                <!-- ngRepeat: item in analysisBtnList -->
                 <!-- ngIf: analysisNoBtn -->
             </tr>
             <tr>
-            	<!-- ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in analysisBtnList" class="ng-scope"> 	
-            		<!-- ngIf: item.name=='RegionGrowing' -->
-            	</td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in analysisBtnList" class="ng-scope"> 	
-            		<!-- ngIf: item.name=='RegionGrowing' -->
-            	</td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in analysisBtnList -->
+            	<!-- ngRepeat: item in analysisBtnList -->
             </tr>
         </tbody></table>
     </div>
@@ -883,103 +210,7 @@
 	<div id="legends" class="legends scrollbarX">
 		<table>
 			<tbody><tr>
-				<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' || layergrps.values_.title=='Rainfall Anomaly' || layergrps.values_.title=='Rainfall Weekly' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' || layergrps.values_.title=='Rainfall Anomaly' || layergrps.values_.title=='Rainfall Weekly' --><td ng-if="layergrps.values_.title=='Rainfall' || layergrps.values_.title=='Rainfall Anomaly' || layergrps.values_.title=='Rainfall Weekly'" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="ng-scope" style="">
-					<table>
-						<tbody><tr>
-							<!-- ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="282" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JJAS_ANOM&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JJAS_ANOM&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="284" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_MAY_ANOM&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_MAY_ANOM&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="286" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JUNE_ANOM&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JUNE_ANOM&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="288" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JULY_ANOM&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JULY_ANOM&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="290" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_AUG_ANOM&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_AUG_ANOM&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="292" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_SEPT_ANOM&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_SEPT_ANOM&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ -->		
-						</tr>
-					</tbody></table>
-				</td><!-- end ngIf: layergrps.values_.title=='Rainfall' || layergrps.values_.title=='Rainfall Anomaly' || layergrps.values_.title=='Rainfall Weekly' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' || layergrps.values_.title=='Rainfall Anomaly' || layergrps.values_.title=='Rainfall Weekly' --><td ng-if="layergrps.values_.title=='Rainfall' || layergrps.values_.title=='Rainfall Anomaly' || layergrps.values_.title=='Rainfall Weekly'" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="ng-scope" style="">
-					<table>
-						<tbody><tr>
-							<!-- ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="false">
-									<canvas id="267" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JJAS_RAIN&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JJAS_RAIN&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="269" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_MAY_RAIN&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_MAY_RAIN&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="271" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JUNE_RAIN&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JUNE_RAIN&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="273" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JULY_RAIN&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_JULY_RAIN&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="275" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_AUG_RAIN&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_AUG_RAIN&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
-									<canvas id="277" width="300" height="100">
-										<img ng-src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_SEPT_RAIN&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="/geoserver_2/monsoon_24/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=monsoon_24:CAM_Phase01_SEPT_RAIN&amp;FORMAT=image/png&amp;STYLES=">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ -->		
-						</tr>
-					</tbody></table>
-				</td><!-- end ngIf: layergrps.values_.title=='Rainfall' || layergrps.values_.title=='Rainfall Anomaly' || layergrps.values_.title=='Rainfall Weekly' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' || layergrps.values_.title=='Rainfall Anomaly' || layergrps.values_.title=='Rainfall Weekly' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' || layergrps.values_.title=='Rainfall Anomaly' || layergrps.values_.title=='Rainfall Weekly' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true -->
+				<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true -->
 			</tr>
 		</tbody></table>
 	</div>
@@ -1028,7 +259,7 @@
       				<form class="ng-pristine ng-valid">
         				<md-dialog-content style="max-width:800px;max-height:810px; ">
           					<md-content class="md-padding _md" style="color:white; font-size: large;">
-                				<p class="ng-binding">Indian Summer Monsoon Rainfall (ISMR) during August-Sept. over the country as a whole is likely to be normal with 101% (43.1 cm) of All-India Rainfall (AIR) of long-term mean of 42.9 cm.The monthly-predicted AIRs are 23.7 cm (93%) and 19.4 cm (111%) for the months of August &amp; September respectively</p>&nbsp;
+                				<p class="ng-binding"></p>&nbsp;
               				</md-content>
        					</md-dialog-content>
         
@@ -1078,7 +309,10 @@
 	
    </div>
 	
-	
+	<div id="popup" class="ol-popup">
+		<a href="#" id="popup-closer" class="ol-popup-closer"></a>
+		<div id="popup-content"></div>
+	</div>
 	
 		<!-- CONTROLLER JAVASCRIPT START -->
 		<script defer="" type="application/javascript" src="source/controllers/controller.js?v=1.0"></script>
@@ -1098,7 +332,4 @@
 		<!-- SERVICES JAVASCRIPT START -->
 	
 
-<div class="ol-viewport" style="position: relative; overflow: hidden; width: 100%; height: 100%;"><div class="ol-unselectable ol-layers" style="position: absolute; width: 100%; height: 100%; z-index: 0;"><div class="ol-layer" style="position: absolute; width: 100%; height: 100%;"><canvas width="1080" height="600" style="position: absolute; left: 0px; transform-origin: left top; transform: matrix(1, 0, 0, 1, 0, 0);"></canvas></div></div><div class="ol-overlaycontainer" style="position: absolute; z-index: 0; width: 100%; height: 100%;"></div><div class="ol-overlaycontainer-stopevent" style="position: absolute; z-index: 0; width: 100%; height: 100%;"><div class="ol-overlay-container ol-selectable" style="position: absolute; display: none;"><div id="popup" class="ol-popup">
-		<a href="#" id="popup-closer" class="ol-popup-closer"></a>
-		<div id="popup-content"></div>
-	</div></div><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass" style="transform: rotate(0rad);">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul></ul><button type="button" title="Attributions"><span>i</span></button></div><div class="ol-full-screen ol-unselectable ol-control "><button class="ol-full-screen-false" type="button" title="Toggle full-screen">⤢</button></div><div class="ol-scale-line ol-unselectable"><div class="ol-scale-line-inner" style="width: 77px;">500 km</div></div><div class="ol-mouse-position"></div></div></div></body></html>
+</body></html>

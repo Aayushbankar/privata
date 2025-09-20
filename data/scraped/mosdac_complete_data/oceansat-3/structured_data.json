@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/oceansat-3#main-content",
+  "url": "http://mosdac.gov.in/oceansat-3",
   "title": "OCEANSAT-3 | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/oceansat-3#main-content",
+    "url": "http://mosdac.gov.in/oceansat-3",
     "domain": "mosdac.gov.in",
     "path": "/oceansat-3",
     "description": "EOS-06(Oceansat-3) also known as Earth Observing Satellite EOS-06(Oceansat-3), was launched by PSLV-C54 from Satish Dhawan Space Centre, Sriharikota on 26 November 2022. EOS-06(Oceansat-3) is developed to provide a unique opportunity for simultaneously measuring the physical, biological and atmospheric parameters for the first time from three instruments, (i) 13-band advanced",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.6,
-  "extracted_at": "2025-09-13T05:59:06.027770",
+  "extracted_at": "2025-09-15T15:51:25.002615",
   "content_length": 8774,
   "rag_optimized": true
 }

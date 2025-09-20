@@ -71,13 +71,13 @@
 		<nav ng-show="navbar" class="navbar navbar-expand-sm bg-danger navbar-dark" aria-hidden="false" style="">
 			<div class="col-md-4 col-sm-6 col-xs-6">
 				<label style="text-transform: capitalize; font-style: normal; color: #0213f3; font-weight: bold">Satellite:</label>
-				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty-add ng-animate ng-empty-remove ng-not-empty ng-not-empty-add-active ng-empty-remove-active" ng-change="getSensor('S');" ng-model="satellite" name="satellite" style="font-weight: bold;" aria-invalid="false" data-ng-animate="2">
+				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty" ng-change="getSensor('S');" ng-model="satellite" name="satellite" style="font-weight: bold;" aria-invalid="false">
 					<!-- ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="13" class="ng-binding ng-scope" style="">INSAT-3D</option><!-- end ngRepeat: satellite in satelliteList -->
 				</select><br>
 			</div>
 			<div class="col-md-4 col-sm-6 col-xs-6">
 				<label style="text-transform: capitalize; font-style: normal; color: #0213f3; font-weight: bold">Sensor:</label>
-				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty-add ng-animate ng-empty-remove ng-not-empty ng-not-empty-add-active ng-empty-remove-active" ng-change="search('S');" ng-model="sensor" name="sensor" style="font-weight: bold;" aria-invalid="false" data-ng-animate="2">
+				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty" ng-change="search('S');" ng-model="sensor" name="sensor" style="font-weight: bold;" aria-invalid="false">
 					<!-- ngRepeat: sensor in sensorList --><option ng-repeat="sensor in sensorList" value="10" class="ng-binding ng-scope" style="">
 						IMAGER</option><!-- end ngRepeat: sensor in sensorList --><option ng-repeat="sensor in sensorList" value="11" class="ng-binding ng-scope">
 						SOUNDER</option><!-- end ngRepeat: sensor in sensorList -->
@@ -104,29 +104,72 @@
 			<div id="showData">
 				<div id="main_table" ng-show="maintable" aria-hidden="false" class="" style="">
 					<!-- Start satelite data and standing data tables -->
-					<table id="tabledata" class="table display responsive table-striped table-bordered ng-isolate-scope no-footer dtr-inline" datatable="ng" dt-options="dtOptions" style="" aria-describedby="tabledata_info">
+					<div id="tabledata_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="tabledata_length"><label>Show <select name="tabledata_length" aria-controls="tabledata" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="tabledata_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="tabledata"></label></div><table id="tabledata" class="table display responsive table-striped table-bordered ng-isolate-scope no-footer dtr-inline dataTable collapsed" datatable="ng" dt-options="dtOptions" style="width: 971px;" aria-describedby="tabledata_info">
 						<thead style="background: #337ab7; color: white; text-align: left; vertical-align: center" class="ng-scope">
-							<tr>
-								<th class="all" style="width: 50px">Sr.No</th>
-								<th class="all" style="width: 150px; white-space: nowrap;">Product
+							<tr><th class="all sorting sorting_asc" style="width: 50px;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Sr.No: activate to sort column descending">Sr.No</th><th class="all sorting" style="width: 160px; white-space: nowrap;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Product
+									/Acq Calendar/Version
+								: activate to sort column ascending">Product
 									/<br>Acq Calendar/Version
-								</th>
-								<th class="all">Product Description</th>
-								<th style="width: 50px">Processing Level</th>
-								<th style="width: 80px">Temporal Resolution</th>
-								<th style="width: 50px">Start Date</th>
-								<th style="width: 50px">End Date</th>
-								<th>Processing Status</th>
-								<th>DOI</th>
-
-							</tr>
+								</th><th class="all sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 116px;" aria-label="Product Description: activate to sort column ascending">Product Description</th><th style="width: 76px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Processing Level: activate to sort column ascending">Processing Level</th><th style="width: 80px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Temporal Resolution: activate to sort column ascending">Temporal Resolution</th><th style="width: 50px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Start Date: activate to sort column ascending">Start Date</th><th style="width: 50px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="End Date: activate to sort column ascending">End Date</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 77px;" aria-label="Processing Status: activate to sort column ascending">Processing Status</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px; display: none;" aria-label="DOI: activate to sort column ascending">DOI</th></tr>
 						</thead>
 						<tbody class="ng-scope">
-							<!-- ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope" style="">
-								<td class="ng-binding">1</td>
+							<!-- ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList -->
+						<tr ng-repeat="allproduct in AllProductList" class="ng-scope odd" style="">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">1</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L1B_STD</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
+								<td><b class="ng-binding">3DIMG_L1B_STD</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+<g>
+	<g>
+		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
+		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+</svg></md-icon></td>
 								<td class="ng-binding">Level1 data for Imager 6 channels at half hour interval</td>
 								<td class="ng-binding">L1B</td>
 								<td class="ng-binding">HALF HOURLY</td>
@@ -134,12 +177,63 @@
 								<td class="ng-binding">2024-06-18</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1B_STD" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1B_STD">10.19038/SAC/10/3DIMG_L1B_STD</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">2</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1B_STD" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1B_STD">10.19038/SAC/10/3DIMG_L1B_STD</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">2</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L1C_ASIA_MER</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
+								<td><b class="ng-binding">3DIMG_L1C_ASIA_MER</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+<g>
+	<g>
+		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
+		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+</svg></md-icon></td>
 								<td class="ng-binding">IMAGER- 6 channel Level1 data in Mercator projection for Asian Sector</td>
 								<td class="ng-binding">L1C</td>
 								<td class="ng-binding">HALF HOURLY</td>
@@ -147,12 +241,63 @@
 								<td class="ng-binding">2024-06-18</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1C_ASIA_MER" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1C_ASIA_MER">10.19038/SAC/10/3DIMG_L1C_ASIA_MER</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">3</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1C_ASIA_MER" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1C_ASIA_MER">10.19038/SAC/10/3DIMG_L1C_ASIA_MER</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">3</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L1C_SGP</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
+								<td><b class="ng-binding">3DIMG_L1C_SGP</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+<g>
+	<g>
+		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
+		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+</svg></md-icon></td>
 								<td class="ng-binding">Level1 IMAGER 6 channel  data of TIR1, TIR2, WV, VIS, SWIR, MIR Bands in Mercator projection</td>
 								<td class="ng-binding">L1C</td>
 								<td class="ng-binding">HALF HOURLY</td>
@@ -160,12 +305,63 @@
 								<td class="ng-binding">2024-06-18</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1C_SGP" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1C_SGP">10.19038/SAC/10/3DIMG_L1C_SGP</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">4</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1C_SGP" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L1C_SGP">10.19038/SAC/10/3DIMG_L1C_SGP</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">4</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2B_CMK</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
+								<td><b class="ng-binding">3DIMG_L2B_CMK</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+<g>
+	<g>
+		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
+		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+</svg></md-icon></td>
 								<td class="ng-binding">INSAT-3D VHRR measures radiances in one visible and one SWIR band at 1 km spatial resolution, one MIR and two TIR bands at 4 km resolution, and one WV band at 8 km resolution. Radiances from 3 IR spectral bands TIR-1 , TIR-2 and MIR which are of same resolution of 4km are used in the INSAT cloud mask algorithm to estimate whether a given view of the earth surface is unobstructed by clouds</td>
 								<td class="ng-binding">L2B</td>
 								<td class="ng-binding">HALF HOURLY</td>
@@ -173,12 +369,63 @@
 								<td class="ng-binding">2024-06-18</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_CMK" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_CMK">10.19038/SAC/10/3DIMG_L2B_CMK</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">5</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_CMK" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_CMK">10.19038/SAC/10/3DIMG_L2B_CMK</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">5</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2B_CTP</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
+								<td><b class="ng-binding">3DIMG_L2B_CTP</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+<g>
+	<g>
+		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
+		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+</svg></md-icon></td>
 								<td class="ng-binding">Cloud top properties derived using INSAT3D IMAGER</td>
 								<td class="ng-binding">L2B</td>
 								<td class="ng-binding">HALF HOURLY</td>
@@ -186,12 +433,63 @@
 								<td class="ng-binding">2024-06-18</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_CTP" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_CTP">10.19038/SAC/10/3DIMG_L2B_CTP</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">6</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_CTP" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_CTP">10.19038/SAC/10/3DIMG_L2B_CTP</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">6</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2B_FOG</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
+								<td><b class="ng-binding">3DIMG_L2B_FOG</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+<g>
+	<g>
+		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
+		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+</svg></md-icon></td>
 								<td class="ng-binding">FOG</td>
 								<td class="ng-binding">L2B</td>
 								<td class="ng-binding">HALF HOURLY</td>
@@ -199,12 +497,63 @@
 								<td class="ng-binding">2013-11-15</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_FOG" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_FOG">10.19038/SAC/10/3DIMG_L2B_FOG</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">7</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_FOG" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_FOG">10.19038/SAC/10/3DIMG_L2B_FOG</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">7</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2B_HEM</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
+								<td><b class="ng-binding">3DIMG_L2B_HEM</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+<g>
+	<g>
+		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
+		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+</svg></md-icon></td>
 								<td class="ng-binding">This product is derived on the basis of Hydro-Estimator method. It measures precipitation over Indian Region encompassing area between longitudes 30°E -to130°E and latitudes 50°N- 50°S.</td>
 								<td class="ng-binding">L2B</td>
 								<td class="ng-binding">HALF HOURLY</td>
@@ -212,12 +561,63 @@
 								<td class="ng-binding">2024-06-18</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_HEM" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_HEM">10.19038/SAC/10/3DIMG_L2B_HEM</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">8</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_HEM" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_HEM">10.19038/SAC/10/3DIMG_L2B_HEM</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">8</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2B_IMC</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
+								<td><b class="ng-binding">3DIMG_L2B_IMC</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+<g>
+	<g>
+		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
+		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+</svg></md-icon></td>
 								<td class="ng-binding">INSAT multispectral Rainfall Algorithm Technique (IMSRA) is one of the main operational rainfall retrieval algorithms for INSAT-3D. This algorithm estimates precipitation based on non-linear power law relationship established between infrared (IR) brightness temperatures (Tbs, 10.7 µm observations) and TRMM-PR surface rain rate.  Based on a number of case studies and research works carried out, a further refinement of the algorithm was made. </td>
 								<td class="ng-binding">L2B</td>
 								<td class="ng-binding">HALF HOURLY</td>
@@ -225,12 +625,63 @@
 								<td class="ng-binding">2024-06-18</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_IMC" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_IMC">10.19038/SAC/10/3DIMG_L2B_IMC</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">9</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_IMC" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_IMC">10.19038/SAC/10/3DIMG_L2B_IMC</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">9</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2B_LST</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
+								<td><b class="ng-binding">3DIMG_L2B_LST</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+<g>
+	<g>
+		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
+		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+</svg></md-icon></td>
 								<td class="ng-binding">Land surface temperature (LST) is a key parameter in the land surface processes. LST is very useful input to various models related to agrometeorology, ecology, hydrology and climate.</td>
 								<td class="ng-binding">L2B</td>
 								<td class="ng-binding">HALF HOURLY</td>
@@ -238,12 +689,63 @@
 								<td class="ng-binding">2024-06-18</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_LST" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_LST">10.19038/SAC/10/3DIMG_L2B_LST</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">10</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_LST" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_LST">10.19038/SAC/10/3DIMG_L2B_LST</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">10</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2B_OLR</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
+								<td><b class="ng-binding">3DIMG_L2B_OLR</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+<g>
+	<g>
+		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
+		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
+		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+</svg></md-icon></td>
 								<td class="ng-binding">Total outgoing longwave radiation (OLR) flux, thermally emitted from earth atmosphere system, is estimated by applying regression equation relating OLR flux with INSAT-3D Imager observed WV (6.7&amp;#956;m) and thermal infrared (TIR-1 10.5 &amp;#956;m and TIR-2 11.5 &amp;#956;m) radiances. The coefficients of the regression equations are determined from results of the Radiative Transfer Model simulation with various atmospheric conditions</td>
 								<td class="ng-binding">L2B</td>
 								<td class="ng-binding">HALF HOURLY</td>
@@ -251,442 +753,12 @@
 								<td class="ng-binding">2024-06-18</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_OLR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_OLR">10.19038/SAC/10/3DIMG_L2B_OLR</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">11</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2B_SST</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Sea surface temperature is derived from split thermal window channels (TIR1, TIR2) during daytime and using additional mid IR window channel (MIR) during night time over cloud free oceanic regions. The most important part of the SST retrieval from IR observations is the atmospheric correction, especially over tropics. This correction is determined through a suitable characterization of tropical atmospheres in radiative transfer model to simulate the brightness temperatures of INSAT-3D channels a</td>
-								<td class="ng-binding">L2B</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_SST" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_SST">10.19038/SAC/10/3DIMG_L2B_SST</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">12</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2B_UTH</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Upper Tropospheric Humidity from IMAGER</td>
-								<td class="ng-binding">L2B</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_UTH" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_UTH">10.19038/SAC/10/3DIMG_L2B_UTH</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">13</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2C_CMP</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Day-time cloud microphysical parameters from visible and SWIR channels of INSAT-3D imager</td>
-								<td class="ng-binding">L2C</td>
-								<td class="ng-binding">HALF HOURLY,  01:30 TO 11:30 GMT</td>
-								<td class="ng-binding">2015-12-30</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_CMP" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_CMP">10.19038/SAC/10/3DIMG_L2C_CMP</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">14</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2C_FOG</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Night time FOG is derived from TIR-1 and MIR channel brightness temperature over Indian region. However, for day time visible channel reflectance and TIR-1 channel brightness temperature has been used. The algorithm involves detection of different thresholds following an image based approach to detect FOG</td>
-								<td class="ng-binding">L2C</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_FOG" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_FOG">10.19038/SAC/10/3DIMG_L2C_FOG</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">15</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2C_INS</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">INSAT-3D derived INSOLATION</td>
-								<td class="ng-binding">L2C</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2015-03-11</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_INS" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_INS">10.19038/SAC/10/3DIMG_L2C_INS</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">16</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2C_SNW</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Snow cover derived from IMAGER</td>
-								<td class="ng-binding">L2C</td>
-								<td class="ng-binding">ONCE A DAY</td>
-								<td class="ng-binding">2013-10-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_SNW" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_SNW">10.19038/SAC/10/3DIMG_L2C_SNW</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">17</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2G_AOD</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">The AOD product provides the aerosol optical thickness, at 650 nm and 4 Km spatial resolution over both land and ocean surfaces with root mean square (RMS) error of ±0.1.</td>
-								<td class="ng-binding">L2G</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-05</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_AOD" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_AOD">10.19038/SAC/10/3DIMG_L2G_AOD</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">18</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2G_GPI</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Rainfall from INSAT-3D Imager channels is derived based on two methodologies: (i) Rainfall Estimation by GOES Precipitation Index (GPI) (ii) INSAT Multispectral Rainfall Algorithm . </td>
-								<td class="ng-binding">L2G</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_GPI" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_GPI">10.19038/SAC/10/3DIMG_L2G_GPI</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">19</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2G_IMR</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Indian Multi Spectral rainfall from IMAGER</td>
-								<td class="ng-binding">L2G</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_IMR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_IMR">10.19038/SAC/10/3DIMG_L2G_IMR</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">20</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2G_SST</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Sea surface temperature is derived from split thermal window channels (TIR1, TIR2) during daytime and using additional mid IR window channel (MIR) during night time over cloud free oceanic regions. The most important part of the SST retrieval from IR observations is the atmospheric correction, especially over tropics. This correction is determined through a suitable characterization of tropical atmospheres in radiative transfer model to simulate the brightness temperatures of INSAT-3D channels and then generating the regression coefficients for SST retrieval.</td>
-								<td class="ng-binding">L2B</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2014-01-01</td>
-								<td class="ng-binding">2014-01-24</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_SST" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_SST">10.19038/SAC/10/3DIMG_L2G_SST</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">21</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2G_WDP</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Wind Derived Product, Upper level divergence, lower level convergence, wind shear, mid-level wind shear, 24 hour wind shear tendency, vorticity(200,500,700,850mb) using INSAT-3D AMVs.</td>
-								<td class="ng-binding">L2G</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2015-03-03</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_WDP" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_WDP">10.19038/SAC/10/3DIMG_L2G_WDP</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">22</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2P_FIR</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">This is an Active FIRE product which shows that the pixel is warm enough to be qualified as fire. This is derived using MIR (T3) and TIR1 (T5) channel BT from INSAT-3D imager. </td>
-								<td class="ng-binding">L2P</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_FIR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_FIR">10.19038/SAC/10/3DIMG_L2P_FIR</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">23</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2P_IRW</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">INSAT-3D Infrared channel derived Wind</td>
-								<td class="ng-binding">L2P</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-08</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_IRW" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_IRW">10.19038/SAC/10/3DIMG_L2P_IRW</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">24</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2P_IRW_MERGED</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Product is a merged wind product derived using the algorithm for retrieving Atmospheric Motion Vectors (AMVs) from INSAT-3D and INSAT-3DR in staggering mode</td>
-								<td class="ng-binding">L2P</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2019-02-06</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_IRW_MERGED" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_IRW_MERGED">10.19038/SAC/10/3DIMG_L2P_IRW_MERGED</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">25</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2P_MRW</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Winds derived using MIR band data of IMAGER</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-08</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_MRW" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_MRW">10.19038/SAC/10/3DIMG_L2P_MRW</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">26</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2P_SMK</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">This is an Active Smoke product which shows that the pixel is to be qualified as smoke.Inputs to the algorithm will include geo-referenced, corrected  Albedo, Digital counts for Visible channel and geo-referenced Brightness temperature for MIR,TIR1, TIR2. </td>
-								<td class="ng-binding">L2P</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_SMK" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_SMK">10.19038/SAC/10/3DIMG_L2P_SMK</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">27</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2P_VSW</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Winds derived using Visible band data of IMAGER</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-08</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_VSW" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_VSW">10.19038/SAC/10/3DIMG_L2P_VSW</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">28</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2P_WVW</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Water vapour derived wind vectors</td>
-								<td class="ng-binding">L2P</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2013-10-08</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_WVW" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_WVW">10.19038/SAC/10/3DIMG_L2P_WVW</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">29</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L2P_WV_MERGED</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">This product is merged water vapour wind product using the algorithm for retrieving Atmospheric Motion Vectors (AMVs) from INSAT-3D and INSAT-3DR in staggering mode</td>
-								<td class="ng-binding">L2P</td>
-								<td class="ng-binding">HALF HOURLY</td>
-								<td class="ng-binding">2019-02-06</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_WV_MERGED" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_WV_MERGED">10.19038/SAC/10/3DIMG_L2P_WV_MERGED</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">30</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3B_HEM_DLY</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Daily HEM  from INSAT-3D</td>
-								<td class="ng-binding">L3</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2014-01-07</td>
-								<td class="ng-binding">2024-06-16</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_HEM_DLY" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_HEM_DLY">10.19038/SAC/10/3DIMG_L3B_HEM_DLY</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">31</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3B_HEM_WKL</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Weekly HEM product from INSAT3D</td>
-								<td class="ng-binding">L3B</td>
-								<td class="ng-binding">WEEKLY</td>
-								<td class="ng-binding">2020-01-06</td>
-								<td class="ng-binding">2024-05-27</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">32</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3B_OLR_DLY</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Daily OLR from INSAT-3D</td>
-								<td class="ng-binding">L3</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2014-01-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_OLR_DLY" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_OLR_DLY">10.19038/SAC/10/3DIMG_L3B_OLR_DLY</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">33</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3B_OLR_WKL</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Weekly OLR product from INSAT3D</td>
-								<td class="ng-binding">L3B</td>
-								<td class="ng-binding">WEEKLY</td>
-								<td class="ng-binding">2020-01-06</td>
-								<td class="ng-binding">2024-06-17</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">34</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3B_SST_DLY</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Daily SST from INSAT-3D</td>
-								<td class="ng-binding">L3</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2014-02-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_SST_DLY" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_SST_DLY">10.19038/SAC/10/3DIMG_L3B_SST_DLY</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">35</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3B_SST_WKL</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Weekly SST product from INSAT3D</td>
-								<td class="ng-binding">L3B</td>
-								<td class="ng-binding">WEEKLY</td>
-								<td class="ng-binding">2020-01-06</td>
-								<td class="ng-binding">2024-06-17</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">36</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3B_UTH_DLY</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Daily UTH from INSAT-3D</td>
-								<td class="ng-binding">L3</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2014-01-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_UTH_DLY" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_UTH_DLY">10.19038/SAC/10/3DIMG_L3B_UTH_DLY</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">37</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3B_UTH_WKL</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Weekly UTH product from INSAT3D</td>
-								<td class="ng-binding">L3B</td>
-								<td class="ng-binding">WEEKLY</td>
-								<td class="ng-binding">2020-01-06</td>
-								<td class="ng-binding">2024-06-17</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">38</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3C_INS_DLY</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">INSAT-3D derived INSOLATION</td>
-								<td class="ng-binding">L3</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2015-11-25</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3C_INS_DLY" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3C_INS_DLY">10.19038/SAC/10/3DIMG_L3C_INS_DLY</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">39</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3C_PET_DLY</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Evapotranspiration (ET) is one of the important processes in the terrestrial water cycle. About 65% of rainwater is lost to the atmosphere due to the combined processes of evaporation and transpiration. In a given climate, reference evapotranspiration (ET0) is defined as the maximum evaporative demand of the atmosphere from a well-watered surface independent of crop type, crop development, and management practice. </td>
-								<td class="ng-binding">L3</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2016-01-01</td>
-								<td class="ng-binding">2024-06-18</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3C_PET_DLY" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3C_PET_DLY">10.19038/SAC/10/3DIMG_L3C_PET_DLY</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">40</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3G_GPI_DLY</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Daily GPI from INSAT-3D</td>
-								<td class="ng-binding">L3</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2015-01-01</td>
-								<td class="ng-binding">2024-06-17</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3G_GPI_DLY" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3G_GPI_DLY">10.19038/SAC/10/3DIMG_L3G_GPI_DLY</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">41</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3G_GPI_WKL</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Weekly GPI product from INSAT3D</td>
-								<td class="ng-binding">L3G</td>
-								<td class="ng-binding">WEEKLY</td>
-								<td class="ng-binding">2020-01-06</td>
-								<td class="ng-binding">2024-06-10</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">42</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3G_IMR_DLY</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Daily IMR Rain  from INSAT-3D</td>
-								<td class="ng-binding">L3</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2014-01-01</td>
-								<td class="ng-binding">2024-06-16</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3G_IMR_DLY" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L3G_IMR_DLY">10.19038/SAC/10/3DIMG_L3G_IMR_DLY</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">43</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">3DIMG_L3G_IMR_WKL</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Weekly IMR product from INSAT3D</td>
-								<td class="ng-binding">L3G</td>
-								<td class="ng-binding">WEEKLY</td>
-								<td class="ng-binding">2020-01-06</td>
-								<td class="ng-binding">2024-06-10</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList -->
-						</tbody>
-					</table><h3 class="dt-loading" style="display: none;">Loading...</h3>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_OLR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_OLR">10.19038/SAC/10/3DIMG_L2B_OLR</a></td>
+							</tr></tbody>
+					</table><div class="dataTables_info" id="tabledata_info" role="status" aria-live="polite">Showing 1 to 10 of 43 entries</div><div class="dataTables_paginate paging_simple_numbers" id="tabledata_paginate"><a class="paginate_button previous disabled" aria-controls="tabledata" data-dt-idx="0" tabindex="-1" id="tabledata_previous">Previous</a><span><a class="paginate_button current" aria-controls="tabledata" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="tabledata" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="tabledata" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="tabledata" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="tabledata" data-dt-idx="5" tabindex="0">5</a></span><a class="paginate_button next" aria-controls="tabledata" data-dt-idx="6" tabindex="0" id="tabledata_next">Next</a></div></div><h3 class="dt-loading" style="display: none;">Loading...</h3>
 
 					<div id="wrapper">
-						<div class="spinner-wrapper" id="loading4" style="margin-right: auto; opacity: 0.999985;">
+						<div class="spinner-wrapper" id="loading4" style="margin-right: auto; opacity: 0.0842652;">
 							<div class="spinner"></div>
 							<div class="spinner">
 								<div class="rect1"></div>

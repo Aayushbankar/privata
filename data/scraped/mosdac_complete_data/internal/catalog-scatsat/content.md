@@ -1,7 +1,7 @@
 # Satellite Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-scatsat
-**Extracted:** 2025-09-13T05:59:53.110420
+**Extracted:** 2025-09-15T15:51:30.262494
 **Quality Score:** 0.470
 
 A- A A+

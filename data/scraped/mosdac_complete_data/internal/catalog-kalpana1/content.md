@@ -1,7 +1,7 @@
 # Satellite Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-kalpana1
-**Extracted:** 2025-09-13T05:54:44.755493
+**Extracted:** 2025-09-15T15:50:10.449796
 **Quality Score:** 0.470
 
 A- A A+
@@ -15,8 +15,6 @@ Sensor: VHRR
   
 
 **X**
-Show 10 25 50 100 entries
-Search:
 Sr.No | Product /  
 Acq Calendar/Version  | Product Description | Processing Level | Temporal Resolution | Start Date | End Date | Processing Status | DOI  
 ---|---|---|---|---|---|---|---|---  
@@ -40,8 +38,38 @@ Acq Calendar/Version  | Product Description | Processing Level | Temporal Resolu
 | Daily (averaged over previous 24 hr) Outgoing Longwave Radiation derieved from Kalpana - both IR and WV Channel data | 2 | DAILY | 2008-06-01 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-DAILYOLR](https://dx.doi.org/10.19038/SAC/10/K1-VHR-DAILYOLR)  
 10 |  **K1-VHR-DAILYQPE**  
 | Daily Accumulated Quantitative Precipitation Estimates based on GPI Algoritham derived using Kalpana IR channel data | 2 | DAILY | 2008-06-01 | 2014-04-15 | In-Active | [10.19038/SAC/10/K1-VHR-DAILYQPE](https://dx.doi.org/10.19038/SAC/10/K1-VHR-DAILYQPE)  
-Showing 1 to 10 of 26 entries
-Previous123Next
+11 |  **K1-VHR-DAILYSST**  
+| Daily (averaged over previous 24 hr) Sea Surface Temperature derived from Kalpana IR channel data | 2 | DAILY | 2008-06-01 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-DAILYSST](https://dx.doi.org/10.19038/SAC/10/K1-VHR-DAILYSST)  
+12 |  **K1-VHR-DAILYUTH**  
+| Upper Tropospheric Humidity derived from IR Channel data | 3 | DAILY | 2008-08-05 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-DAILYUTH](https://dx.doi.org/10.19038/SAC/10/K1-VHR-DAILYUTH)  
+13 |  **K1-VHR-HEM**  
+| KALPANA derived rainfall using Hydro Estimator Method | 2 | HALF-HOURLY | 2012-11-05 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-HEM](https://dx.doi.org/10.19038/SAC/10/K1-VHR-HEM)  
+14 |  **K1-VHR-IMR**  
+| INSAT Multi Chanel Rain; Rainfall estimate derived using Indian Multi-Spectral Rainfall algorithm (IMSRA) | 2 | HALF HOURLY | 2010-05-19 | 2017-09-16 | In-Active | [10.19038/SAC/10/K1-VHR-IMR](https://dx.doi.org/10.19038/SAC/10/K1-VHR-IMR)  
+15 |  **K1-VHR-INS**  
+| Kalpana derived insulation product | 0 | HALF HOURLY | 2011-07-17 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-INS](https://dx.doi.org/10.19038/SAC/10/K1-VHR-INS)  
+16 |  **K1-VHR-L1**  
+| Level 1B data- normal mode for all 3 channels - Visible,Infrared and Water vapour for Kalpana satellite | 1 | HALF HOURLY | 2008-06-01 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-L1](https://dx.doi.org/10.19038/SAC/10/K1-VHR-L1)  
+17 |  **K1-VHR-L1-INDIAN SECTOR**  
+| Level 1B Data (Indian Sector) for all 3 channels - Visible, Infrared and Water vapour for KALPANA satellite | 1 | HALF HOURLY | 2008-06-01 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-L1-INDIANSECTOR](https://dx.doi.org/10.19038/SAC/10/K1-VHR-L1-INDIANSECTOR)  
+18 |  **K1-VHR-LST**  
+|  | 0 | HALF HOURLY | 2010-08-30 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-LST](https://dx.doi.org/10.19038/SAC/10/K1-VHR-LST)  
+19 |  **K1-VHR-OLR**  
+| Outgoing Longwave Radiation derieved from Kalpana - both IR and WV Channel data | 2 | HALF HOURLY | 2008-05-06 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-OLR](https://dx.doi.org/10.19038/SAC/10/K1-VHR-OLR)  
+20 |  **K1-VHR-QPE**  
+| Quatitative Precipitation Estimates based on GPI Algoritham derived using Kalpana IR channel data | 2 | HALF HOURLY | 2008-06-01 | 2017-09-16 | In-Active | [10.19038/SAC/10/K1-VHR-QPE](https://dx.doi.org/10.19038/SAC/10/K1-VHR-QPE)  
+21 |  **K1-VHR-SGP**  
+| Kalpana VHRR derived Level1B all 3 bands data in Asia Mercator projection over one-third of globe used for deriving winds | 0 | HALF HOURLY | 2010-05-05 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-SGP](https://dx.doi.org/10.19038/SAC/10/K1-VHR-SGP)  
+22 |  **K1-VHR-SGP-CMV**  
+| Cloud Motion Vector derived using Level1 SGP product of Kalpana | 0 | HALF HOURLY | 2009-11-17 | 2013-05-22 | In-Active | [10.19038/SAC/10/K1-VHR-SGP-CMV](https://dx.doi.org/10.19038/SAC/10/K1-VHR-SGP-CMV)  
+23 |  **K1-VHR-SGP-WVWV**  
+| Water vapor winds derived using Level1 SGP product of KALPANA | 0 | HALF HOURLY | 2009-04-01 | 2013-05-22 | In-Active | [10.19038/SAC/10/K1-VHR-SGP-WVWV](https://dx.doi.org/10.19038/SAC/10/K1-VHR-SGP-WVWV)  
+24 |  **K1-VHR-SST**  
+| Sea Surface Temperature derived from Kalpana IR channel data | 2 | HALF HOURLY | 2008-06-01 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-SST](https://dx.doi.org/10.19038/SAC/10/K1-VHR-SST)  
+25 |  **K1-VHR-UTH**  
+| Upper Tropospheric Humidity derived from IR Channel data | 2 | HALF HOURLY | 2008-06-01 | 2017-09-19 | In-Active | [10.19038/SAC/10/K1-VHR-UTH](https://dx.doi.org/10.19038/SAC/10/K1-VHR-UTH)  
+26 |  **K1-VHR-WVWV**  
+| Water Vapour Winds derived from Kalpana WV chennal data | 2 | HALF HOURLY | 2008-06-01 | 2010-07-06 | In-Active | [10.19038/SAC/10/K1-VHR-WVWV](https://dx.doi.org/10.19038/SAC/10/K1-VHR-WVWV)  
 ### Loading...
 **X**
 Version Detail

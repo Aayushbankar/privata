@@ -1,7 +1,7 @@
 # Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/node/940/9
-**Extracted:** 2025-09-13T05:59:43.278085
+**Extracted:** 2025-09-15T15:46:15.480264
 **Quality Score:** 0.650
 
 [Skip to main Content](https://mosdac.gov.in/node/940/9#main-content "Skip to main Content")
@@ -77,20 +77,38 @@ Space Applications Centre, ISRO
 
 
 ## You are here
-[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2018
+[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » Glimspes_of_India_by_RISAT-1.pdf
 # Insitu
-| [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/9?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/9?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/9?sort=asc&order=modified "sort by modified")  
----|---|---|---  
-| [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/9?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/9?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/9?sort=asc&order=modified "sort by modified")  
----|---|---|---  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder-parent.png) | [Go up](https://mosdac.gov.in/insitu) |  | Fri, 2025-04-11 14:38  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Validation of Resourcesat 2A LISS 3.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/246) | 975.36 KB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Phase-2 Calibration field campaign for AVIRIS-NG sensor.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/245) | 407.05 KB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [INSAT 3D and MODIS retrieved sea surface temperature validation and assessment over waters surrounding the Indian subcontinent.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/244) | 2.55 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [OCM2 vicarious calibration over cal-val sites Little Rann of Kuchchh and Kavaratti.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/243) | 1.26 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Day-1 INSAT-3DR Vicarious Calibration Using Reflectance-Based Approach Over Great Rann of Kutch.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/242) | 3.51 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Image quality characterization of fine resolution RISAT 1 data using impulse response function.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/241) | 3.28 MB | Tue, 2020-10-27 14:29  
-1 folder - 6 files - 11.95 MB
+| [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/9?sort=desc&order=Display%20name "sort by Display name") | [modified](https://mosdac.gov.in/node/940/9?sort=asc&order=modified "sort by modified")  
+---|---|---  
+| [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/9?sort=desc&order=Display%20name "sort by Display name") | [modified](https://mosdac.gov.in/node/940/9?sort=asc&order=modified "sort by modified")  
+---|---|---  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [insitu](https://mosdac.gov.in/node/940/61) | Sat, 2022-05-28 23:57  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [upload](https://mosdac.gov.in/node/940/60) | Wed, 2025-07-09 12:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [web](https://mosdac.gov.in/node/940/59) | Wed, 2025-09-03 10:10  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [live](https://mosdac.gov.in/node/940/58) | Tue, 2025-01-07 10:08  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [srv](https://mosdac.gov.in/node/940/57) | Tue, 2024-06-25 19:58  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [opt](https://mosdac.gov.in/node/940/56) | Fri, 2025-01-17 22:43  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [mnt](https://mosdac.gov.in/node/940/55) | Tue, 2024-06-25 19:58  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [media](https://mosdac.gov.in/node/940/54) | Tue, 2024-06-25 19:58  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [home](https://mosdac.gov.in/node/940/53) | Fri, 2024-12-27 14:51  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [afs](https://mosdac.gov.in/node/940/52) | Tue, 2024-06-25 19:58  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [lib64](https://mosdac.gov.in/node/940/51) | Tue, 2025-01-21 17:28  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [lib](https://mosdac.gov.in/node/940/50) | Thu, 2024-11-28 09:47  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [sbin](https://mosdac.gov.in/node/940/49) | Fri, 2024-12-13 11:28  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [bin](https://mosdac.gov.in/node/940/48) | Mon, 2025-01-20 12:04  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [usr](https://mosdac.gov.in/node/940/47) | Thu, 2024-11-28 09:41  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [var](https://mosdac.gov.in/node/940/46) | Thu, 2025-01-30 09:22  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [etc](https://mosdac.gov.in/node/940/45) | Tue, 2025-09-09 17:06  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [tmp](https://mosdac.gov.in/node/940/44) | Mon, 2025-09-15 14:13  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [sys](https://mosdac.gov.in/node/940/43) | Tue, 2025-02-04 11:08  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [run](https://mosdac.gov.in/node/940/42) | Thu, 2025-05-01 17:14  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [proc](https://mosdac.gov.in/node/940/41) | Tue, 2025-02-04 11:08  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [dev](https://mosdac.gov.in/node/940/40) | Tue, 2025-02-04 11:08  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [data](https://mosdac.gov.in/node/940/39) | Tue, 2025-08-05 12:02  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [boot](https://mosdac.gov.in/node/940/38) | Thu, 2024-11-28 09:55  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder-parent.png) | [Go up](https://mosdac.gov.in/node/940/) | Thu, 2025-01-30 08:53  
+25 folders
 ## Search
 Search 
 ## Follow Us
@@ -123,7 +141,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/node/940/9 "Previous")[](https://mosdac.gov.in/node/940/9 "Next")
 [](https://mosdac.gov.in/node/940/9)
 [](https://mosdac.gov.in/node/940/9 "Previous")[](https://mosdac.gov.in/node/940/9 "Next")

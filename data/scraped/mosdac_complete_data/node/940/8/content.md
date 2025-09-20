@@ -1,7 +1,7 @@
 # Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/node/940/8
-**Extracted:** 2025-09-13T05:56:37.173559
+**Extracted:** 2025-09-15T15:49:46.561252
 **Quality Score:** 0.650
 
 [Skip to main Content](https://mosdac.gov.in/node/940/8#main-content "Skip to main Content")
@@ -77,19 +77,24 @@ Space Applications Centre, ISRO
 
 
 ## You are here
-[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2017
+[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2019
 # Insitu
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/8?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/8?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/8?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/8?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/8?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/8?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
 ![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder-parent.png) | [Go up](https://mosdac.gov.in/insitu) |  | Fri, 2025-04-11 14:38  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Radiometric calibration stability assessment for the RISAT-1 SAR sensor.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/166) | 4.06 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Indian_distributed_target_sites_report_18apr17_2.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/165) | 1.11 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Optical and radiative properties of aerosols over Desalpar.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/164) | 3.65 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Aerosol characterization and radiative properties over Kavaratti.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/163) | 4.35 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [INSAT-3D&3DR-Cal-Report-final.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/162) | 2.28 MB | Tue, 2020-10-27 14:29  
-1 folder - 5 files - 15.45 MB
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [airborneSAR_calibration_L-band_full-pol_December2019_Final_4.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/694) | 10.46 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Optimal estimation of spectral surface reflectance.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/693) | 2.93 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [MTNovYr2019-Sun Photometer Calibration using high altitude site.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/692) | 1.41 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [INSAT-3D&3DR Report-Nov2019.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/691) | 2.59 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [HySIS-Cal-Report-April2019.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/690) | 698.27 KB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Canadian_Boreal_final_report -dec19.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/689) | 1.13 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Antarctica_report_14jan2020_Final.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/688) | 4.58 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Amazon_rainforest_final_report_dec19.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/687) | 892.03 KB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [AVIRIS-Babu-CalVal-CurrentScience.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/686) | 1.09 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Amazon_rainforest_final_Dec2019_1.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/685) | 875.35 KB | Tue, 2020-10-27 14:29  
+1 folder - 10 files - 26.61 MB
 ## Search
 Search 
 ## Follow Us
@@ -122,7 +127,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/node/940/8 "Previous")[](https://mosdac.gov.in/node/940/8 "Next")
 [](https://mosdac.gov.in/node/940/8)
 [](https://mosdac.gov.in/node/940/8 "Previous")[](https://mosdac.gov.in/node/940/8 "Next")

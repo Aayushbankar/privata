@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/data-quality?sort=asc&order=modified",
+  "url": "https://mosdac.gov.in/data-quality?sort=desc&order=Display%20name",
   "title": "Data Quality | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/data-quality?sort=asc&order=modified",
+    "url": "https://mosdac.gov.in/data-quality?sort=desc&order=Display%20name",
     "domain": "mosdac.gov.in",
     "path": "/data-quality",
     "description": "",
@@ -34,8 +34,8 @@
       "rows": [
         [
           "",
-          "SCATSAT1",
-          "Thu, 2017-04-06 15:31"
+          "INSAT-3D",
+          "Mon, 2017-03-27 11:18"
         ],
         [
           "",
@@ -44,8 +44,8 @@
         ],
         [
           "",
-          "INSAT-3D",
-          "Mon, 2017-03-27 11:18"
+          "SCATSAT1",
+          "Thu, 2017-04-06 15:31"
         ]
       ],
       "row_count": 3,
@@ -96,7 +96,7 @@
     }
   ],
   "quality_score": 0.6000000000000001,
-  "extracted_at": "2025-09-13T06:00:40.174940",
-  "content_length": 8960,
+  "extracted_at": "2025-09-15T15:49:22.508168",
+  "content_length": 9132,
   "rag_optimized": true
 }

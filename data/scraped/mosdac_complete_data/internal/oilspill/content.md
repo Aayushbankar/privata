@@ -1,12 +1,12 @@
 # OILSPILL
 
 **URL:** https://mosdac.gov.in/internal/oilspill
-**Extracted:** 2025-09-13T05:59:37.542875
+**Extracted:** 2025-09-15T15:49:45.792459
 **Quality Score:** 0.540
 
 ![mosdac logo](https://mosdac.gov.in/oilspill/assets/img/transparent_mosdac_rapid.png) |  OILSPILL |   
 ---|---|---  
-Select Date : |  13-09-2025 12-09-2025 11-09-2025 10-09-2025 08-09-2025 07-09-2025 06-09-2025 05-09-2025 04-09-2025 03-09-2025 02-09-2025 01-09-2025 31-08-2025 30-08-2025 29-08-2025  
+Select Date : |  15-09-2025 14-09-2025 13-09-2025 12-09-2025 11-09-2025 10-09-2025 08-09-2025 07-09-2025 06-09-2025 05-09-2025 04-09-2025 03-09-2025 02-09-2025 01-09-2025 31-08-2025  
 ---|---  
 **No Oil Spill Threat**
 Click on icon to collapse 

@@ -98,7 +98,7 @@
         "L2",
         "3 DAYS",
         "2020-02-08",
-        "2025-09-11",
+        "2025-09-13",
         "Active",
         "10.19038/SAC/10/SRLIPN"
       ],
@@ -120,12 +120,78 @@
         "L2",
         "3 DAYS",
         "2020-02-06",
-        "2025-09-11",
+        "2025-09-13",
         "Active",
         "10.19038/SAC/10/SRLIPR"
+      ],
+      [
+        "11",
+        "SRLIPS",
+        "Interim Geo physical data record, Sensor product",
+        "L2",
+        "3 DAYS",
+        "2013-03-12",
+        "2020-01-19",
+        "In-Active",
+        "10.19038/SAC/10/SRLIPS"
+      ],
+      [
+        "12",
+        "SRLIPS_F",
+        "Interim Geo physical data record, Sensor product",
+        "L2",
+        "3 DAYS",
+        "2020-06-14",
+        "2025-09-13",
+        "Active",
+        "10.19038/SAC/10/SRLIPS"
+      ],
+      [
+        "13",
+        "SRLOPN",
+        "Near Real Time- Native product generated after every 100 minutes",
+        "L2",
+        "100 MINUTES",
+        "2013-03-19",
+        "2020-03-08",
+        "In-Active",
+        "10.19038/SAC/10/SRLOPN"
+      ],
+      [
+        "14",
+        "SRLOPN_F",
+        "Near Real Time- Native product generated after every 100 minutes",
+        "L2",
+        "100 MINUTES",
+        "2020-02-26",
+        "2025-09-15",
+        "Active",
+        "10.19038/SAC/10/SRLOPN"
+      ],
+      [
+        "15",
+        "SRLOPR",
+        "Near Real Time- Reduced level2 product generated after every 100 minutes",
+        "L2",
+        "100 MINUTES",
+        "2013-03-19",
+        "2020-03-08",
+        "In-Active",
+        "10.19038/SAC/10/SRLOPR"
+      ],
+      [
+        "16",
+        "SRLOPR_F",
+        "Near Real Time- Reduced level2 product generated after every 100 minutes",
+        "L2",
+        "100 MINUTES",
+        "2020-02-26",
+        "2025-09-15",
+        "Active",
+        "10.19038/SAC/10/SRLOPR"
       ]
     ],
-    "row_count": 10,
+    "row_count": 16,
     "col_count": 9
   }
 ]

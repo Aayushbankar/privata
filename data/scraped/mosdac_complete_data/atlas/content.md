@@ -1,7 +1,7 @@
 # Atlas | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/atlas
-**Extracted:** 2025-09-13T05:57:08.454217
+**Extracted:** 2025-09-15T15:47:53.483642
 **Quality Score:** 0.600
 
 [Skip to main Content](https://mosdac.gov.in/atlas#main-content "Skip to main Content")
@@ -83,16 +83,16 @@ Space Applications Centre, ISRO
 ---|---|---|---  
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/atlas?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/atlas?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/atlas?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [viewing_ocean_from_space.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/32) | 10.01 MB | Mon, 2020-01-27 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Spectrum_of_India_AVIRIS-NG.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/31) | 27.64 MB | Thu, 2016-12-22 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Glimspes_of_India_by_RISAT-1.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/30) | 88.53 MB | Mon, 2015-08-31 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Eyes_on_Waves_from_Space.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/29) | 6.24 MB | Thu, 2018-05-03 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Exploring_the_Antarctic.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/28) | 35.11 MB | Wed, 2020-02-19 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Images_of_Moon_From_Chandrayan-1.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/27) | 388.48 MB | Thu, 2010-12-23 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Chandrayan-1_Lunar_Science_Atlas.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/26) | 69.87 MB | Thu, 2015-04-30 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Coral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/25) | 72.11 MB | Thu, 2018-05-03 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Atlas_of_Sea_Ice_Trends.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/24) | 2.83 MB | Thu, 2012-03-01 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Mars-atlas.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/23) | 35.13 MB | Mon, 2015-08-31 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [viewing_ocean_from_space.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/294) | 10.01 MB | Mon, 2020-01-27 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Spectrum_of_India_AVIRIS-NG.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/293) | 27.64 MB | Thu, 2016-12-22 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Glimspes_of_India_by_RISAT-1.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/292) | 88.53 MB | Mon, 2015-08-31 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Eyes_on_Waves_from_Space.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/291) | 6.24 MB | Thu, 2018-05-03 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Exploring_the_Antarctic.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/290) | 35.11 MB | Wed, 2020-02-19 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Images_of_Moon_From_Chandrayan-1.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/289) | 388.48 MB | Thu, 2010-12-23 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Chandrayan-1_Lunar_Science_Atlas.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/288) | 69.87 MB | Thu, 2015-04-30 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Coral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/287) | 72.11 MB | Thu, 2018-05-03 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Atlas_of_Sea_Ice_Trends.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/286) | 2.83 MB | Thu, 2012-03-01 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Mars-atlas.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/285) | 35.13 MB | Mon, 2015-08-31 10:00  
 10 files - 735.95 MB
 ## Search
 Search 
@@ -126,7 +126,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/atlas "Previous")[](https://mosdac.gov.in/atlas "Next")
 [](https://mosdac.gov.in/atlas)
 [](https://mosdac.gov.in/atlas "Previous")[](https://mosdac.gov.in/atlas "Next")

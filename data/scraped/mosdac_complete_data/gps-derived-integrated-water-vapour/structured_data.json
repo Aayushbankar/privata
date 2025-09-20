@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/gps-derived-integrated-water-vapour#main-content",
+  "url": "https://mosdac.gov.in/gps-derived-integrated-water-vapour",
   "title": "GPS derived Integrated water vapour | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/gps-derived-integrated-water-vapour#main-content",
+    "url": "https://mosdac.gov.in/gps-derived-integrated-water-vapour",
     "domain": "mosdac.gov.in",
     "path": "/gps-derived-integrated-water-vapour",
     "description": "This dataset contains Integrated Water Vapor (IWV) estimates derived from GPS receivers that comprise the GAGAN TEC network.",
@@ -300,7 +300,7 @@
     }
   ],
   "quality_score": 0.75,
-  "extracted_at": "2025-09-13T05:59:00.092512",
+  "extracted_at": "2025-09-15T15:51:28.343958",
   "content_length": 13206,
   "rag_optimized": true
 }

@@ -29,55 +29,137 @@
       "headers": [
         "",
         "Display name",
-        "size",
         "modified"
       ],
       "rows": [
         [
           "",
+          "insitu",
+          "Sat, 2022-05-28 23:57"
+        ],
+        [
+          "",
+          "upload",
+          "Wed, 2025-07-09 12:20"
+        ],
+        [
+          "",
+          "web",
+          "Wed, 2025-09-03 10:10"
+        ],
+        [
+          "",
+          "live",
+          "Tue, 2025-01-07 10:08"
+        ],
+        [
+          "",
+          "srv",
+          "Tue, 2024-06-25 19:58"
+        ],
+        [
+          "",
+          "opt",
+          "Fri, 2025-01-17 22:43"
+        ],
+        [
+          "",
+          "mnt",
+          "Tue, 2024-06-25 19:58"
+        ],
+        [
+          "",
+          "media",
+          "Tue, 2024-06-25 19:58"
+        ],
+        [
+          "",
+          "home",
+          "Fri, 2024-12-27 14:51"
+        ],
+        [
+          "",
+          "afs",
+          "Tue, 2024-06-25 19:58"
+        ],
+        [
+          "",
+          "lib64",
+          "Tue, 2025-01-21 17:28"
+        ],
+        [
+          "",
+          "lib",
+          "Thu, 2024-11-28 09:47"
+        ],
+        [
+          "",
+          "sbin",
+          "Fri, 2024-12-13 11:28"
+        ],
+        [
+          "",
+          "bin",
+          "Mon, 2025-01-20 12:04"
+        ],
+        [
+          "",
+          "usr",
+          "Thu, 2024-11-28 09:41"
+        ],
+        [
+          "",
+          "var",
+          "Thu, 2025-01-30 09:22"
+        ],
+        [
+          "",
+          "etc",
+          "Tue, 2025-09-09 17:06"
+        ],
+        [
+          "",
+          "tmp",
+          "Mon, 2025-09-15 14:13"
+        ],
+        [
+          "",
+          "sys",
+          "Tue, 2025-02-04 11:08"
+        ],
+        [
+          "",
+          "run",
+          "Thu, 2025-05-01 17:14"
+        ],
+        [
+          "",
+          "proc",
+          "Tue, 2025-02-04 11:08"
+        ],
+        [
+          "",
+          "dev",
+          "Tue, 2025-02-04 11:08"
+        ],
+        [
+          "",
+          "data",
+          "Tue, 2025-08-05 12:02"
+        ],
+        [
+          "",
+          "boot",
+          "Thu, 2024-11-28 09:55"
+        ],
+        [
+          "",
           "Go up",
-          "",
-          "Fri, 2025-04-11 14:38"
-        ],
-        [
-          "",
-          "Validation of Resourcesat 2A LISS 3.pdf(link is external)",
-          "975.36 KB",
-          "Tue, 2020-10-27 14:29"
-        ],
-        [
-          "",
-          "Phase-2 Calibration field campaign for AVIRIS-NG sensor.pdf(link is external)",
-          "407.05 KB",
-          "Tue, 2020-10-27 14:29"
-        ],
-        [
-          "",
-          "INSAT 3D and MODIS retrieved sea surface temperature validation and assessment over waters surrounding the Indian subcontinent.pdf(link is external)",
-          "2.55 MB",
-          "Tue, 2020-10-27 14:29"
-        ],
-        [
-          "",
-          "OCM2 vicarious calibration over cal-val sites Little Rann of Kuchchh and Kavaratti.pdf(link is external)",
-          "1.26 MB",
-          "Tue, 2020-10-27 14:29"
-        ],
-        [
-          "",
-          "Day-1 INSAT-3DR Vicarious Calibration Using Reflectance-Based Approach Over Great Rann of Kutch.pdf(link is external)",
-          "3.51 MB",
-          "Tue, 2020-10-27 14:29"
-        ],
-        [
-          "",
-          "Image quality characterization of fine resolution RISAT 1 data using impulse response function.pdf(link is external)",
-          "3.28 MB",
-          "Tue, 2020-10-27 14:29"
+          "Thu, 2025-01-30 08:53"
         ]
       ],
-      "row_count": 7,
-      "col_count": 4
+      "row_count": 25,
+      "col_count": 3
     }
   ],
   "headings": [
@@ -124,7 +206,7 @@
     }
   ],
   "quality_score": 0.65,
-  "extracted_at": "2025-09-13T05:59:43.278085",
-  "content_length": 9915,
+  "extracted_at": "2025-09-15T15:46:15.480264",
+  "content_length": 11697,
   "rag_optimized": true
 }

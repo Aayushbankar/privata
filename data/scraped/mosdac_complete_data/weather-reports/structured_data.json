@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/weather-reports#main-content",
+  "url": "https://mosdac.gov.in/weather-reports",
   "title": "Weather | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/weather-reports#main-content",
+    "url": "https://mosdac.gov.in/weather-reports",
     "domain": "mosdac.gov.in",
     "path": "/weather-reports",
     "description": "",
@@ -86,7 +86,7 @@
     }
   ],
   "quality_score": 0.6000000000000001,
-  "extracted_at": "2025-09-13T05:58:25.480189",
-  "content_length": 8113,
+  "extracted_at": "2025-09-15T15:50:27.101654",
+  "content_length": 8114,
   "rag_optimized": true
 }

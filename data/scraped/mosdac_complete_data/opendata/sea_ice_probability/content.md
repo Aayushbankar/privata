@@ -1,20 +1,20 @@
 # Sign in to MOSDAC Single Sign ON
 
 **URL:** https://mosdac.gov.in/opendata/sea_ice_probability/
-**Extracted:** 2025-09-13T05:56:50.261912
+**Extracted:** 2025-09-15T15:50:15.241800
 **Quality Score:** 0.420
 
 MOSDAC SSO
 [Home (मुख पृष्ठ)](https://mosdac.gov.in)
 English
-  * [English](https://mosdac.gov.in/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=RdDoDAus5m4&client_data=eyJydSI6Imh0dHBzOi8vbW9zZGFjLmdvdi5pbi91b3BzL3JlZGlyZWN0X3VyaSIsInJ0IjoiY29kZSIsInN0IjoiTTRjRWZUTFBhcHZOTWVKdEMyTng5MjFIeVJJIn0&execution=4cb21923-091b-4b14-8493-f5c02d7af1a3&kc_locale=en)
-  * [Hindi (हिन्दी)](https://mosdac.gov.in/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=RdDoDAus5m4&client_data=eyJydSI6Imh0dHBzOi8vbW9zZGFjLmdvdi5pbi91b3BzL3JlZGlyZWN0X3VyaSIsInJ0IjoiY29kZSIsInN0IjoiTTRjRWZUTFBhcHZOTWVKdEMyTng5MjFIeVJJIn0&execution=4cb21923-091b-4b14-8493-f5c02d7af1a3&kc_locale=hi)
+  * [English](https://mosdac.gov.in/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=8psTbkvbfeM&client_data=eyJydSI6Imh0dHBzOi8vbW9zZGFjLmdvdi5pbi91b3BzL3JlZGlyZWN0X3VyaSIsInJ0IjoiY29kZSIsInN0IjoiTUQ4ZEJFdUVmWjZldjhiT0MtaFJrVWhHUWQ0In0&execution=4cb21923-091b-4b14-8493-f5c02d7af1a3&kc_locale=en)
+  * [Hindi (हिन्दी)](https://mosdac.gov.in/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=8psTbkvbfeM&client_data=eyJydSI6Imh0dHBzOi8vbW9zZGFjLmdvdi5pbi91b3BzL3JlZGlyZWN0X3VyaSIsInJ0IjoiY29kZSIsInN0IjoiTUQ4ZEJFdUVmWjZldjhiT0MtaFJrVWhHUWQ0In0&execution=4cb21923-091b-4b14-8493-f5c02d7af1a3&kc_locale=hi)
 
 
 #  MOSDAC Single-Sign-On(SSO) 
 Username or email
 Password
-[Forgot Password?](https://mosdac.gov.in/realms/Mosdac/login-actions/reset-credentials?client_id=mosdac&tab_id=RdDoDAus5m4&client_data=eyJydSI6Imh0dHBzOi8vbW9zZGFjLmdvdi5pbi91b3BzL3JlZGlyZWN0X3VyaSIsInJ0IjoiY29kZSIsInN0IjoiTTRjRWZUTFBhcHZOTWVKdEMyTng5MjFIeVJJIn0)
+[Forgot Password?](https://mosdac.gov.in/realms/Mosdac/login-actions/reset-credentials?client_id=mosdac&tab_id=8psTbkvbfeM&client_data=eyJydSI6Imh0dHBzOi8vbW9zZGFjLmdvdi5pbi91b3BzL3JlZGlyZWN0X3VyaSIsInJ0IjoiY29kZSIsInN0IjoiTUQ4ZEJFdUVmWjZldjhiT0MtaFJrVWhHUWQ0In0)
   
 
 मॉस्डैक, अंतरिक्ष उपयोग केंद्र, इसरो, भारत सरकार द्वारा निर्मित और संचालित

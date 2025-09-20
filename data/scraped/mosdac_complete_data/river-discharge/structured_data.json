@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/river-discharge#main-content",
+  "url": "https://mosdac.gov.in/river-discharge",
   "title": "River Discharge | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/river-discharge#main-content",
+    "url": "https://mosdac.gov.in/river-discharge",
     "domain": "mosdac.gov.in",
     "path": "/river-discharge",
     "description": "River heights from satellite altimeters (ENVISAT, Jason-2 and SARAL AltiKa) have been derived at two cross-over points along Godavari River.",
@@ -369,7 +369,7 @@
     }
   ],
   "quality_score": 0.85,
-  "extracted_at": "2025-09-13T06:00:30.665582",
+  "extracted_at": "2025-09-15T15:51:20.094737",
   "content_length": 14003,
   "rag_optimized": true
 }

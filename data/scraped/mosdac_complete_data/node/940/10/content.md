@@ -1,7 +1,7 @@
 # Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/node/940/10
-**Extracted:** 2025-09-13T05:58:49.358199
+**Extracted:** 2025-09-15T15:44:01.952887
 **Quality Score:** 0.650
 
 [Skip to main Content](https://mosdac.gov.in/node/940/10#main-content "Skip to main Content")
@@ -77,24 +77,16 @@ Space Applications Centre, ISRO
 
 
 ## You are here
-[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2019
+[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » EOS-06_OCM_RadCalNet_Monitoring
 # Insitu
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/10?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/10?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/10?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/10?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/10?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/10?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2025](https://mosdac.gov.in/node/940/505) |  | Wed, 2025-08-20 10:30  
 ![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder-parent.png) | [Go up](https://mosdac.gov.in/insitu) |  | Fri, 2025-04-11 14:38  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [airborneSAR_calibration_L-band_full-pol_December2019_Final_4.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/348) | 10.46 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Optimal estimation of spectral surface reflectance.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/347) | 2.93 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [MTNovYr2019-Sun Photometer Calibration using high altitude site.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/346) | 1.41 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [INSAT-3D&3DR Report-Nov2019.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/345) | 2.59 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [HySIS-Cal-Report-April2019.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/344) | 698.27 KB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Canadian_Boreal_final_report -dec19.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/343) | 1.13 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Antarctica_report_14jan2020_Final.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/342) | 4.58 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Amazon_rainforest_final_report_dec19.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/341) | 892.03 KB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [AVIRIS-Babu-CalVal-CurrentScience.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/340) | 1.09 MB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Amazon_rainforest_final_Dec2019_1.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/339) | 875.35 KB | Tue, 2020-10-27 14:29  
-1 folder - 10 files - 26.61 MB
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Brief-about-RadCalNet-Calibration-report.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/506) | 130.34 KB | Fri, 2025-04-11 14:39  
+2 folders - 1 file - 130.34 KB
 ## Search
 Search 
 ## Follow Us
@@ -127,7 +119,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/node/940/10 "Previous")[](https://mosdac.gov.in/node/940/10 "Next")
 [](https://mosdac.gov.in/node/940/10)
 [](https://mosdac.gov.in/node/940/10 "Previous")[](https://mosdac.gov.in/node/940/10 "Next")

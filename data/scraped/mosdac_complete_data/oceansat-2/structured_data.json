@@ -1,8 +1,8 @@
 {
-  "url": "http://mosdac.gov.in/oceansat-2",
+  "url": "https://mosdac.gov.in/oceansat-2#top",
   "title": "Oceansat-2 | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "http://mosdac.gov.in/oceansat-2",
+    "url": "https://mosdac.gov.in/oceansat-2#top",
     "domain": "mosdac.gov.in",
     "path": "/oceansat-2",
     "description": "Oceansat-2 satellite mainframe systems derive their heritage from previous IRS missions. Oceansat-2 was launched by PSLV-C14 from Satish Dhawan Space Centre, Sriharikota on Sept. 23, 2009. It carries three payloads: Ocean Colour Monitor (OCM) Ku-band Pencil Beam scatterometer (SCAT) developed by ISRO Radio Occultation Sounder for Atmosphere (ROSA) developed by the Italian",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.6,
-  "extracted_at": "2025-09-13T05:57:44.159250",
+  "extracted_at": "2025-09-15T15:47:27.098044",
   "content_length": 8489,
   "rag_optimized": true
 }

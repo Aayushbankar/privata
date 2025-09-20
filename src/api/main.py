@@ -2,7 +2,7 @@
 FastAPI main application for MOSDAC AI Help Bot API.
 
 This module serves as the entry point for the FastAPI application,
-providing REST API endpoints for chat, data management, and system monitoring.
+providing REST API endpoints for chat, data, status, admin, navigation, feedback and system monitoring.
 """
 
 import os
@@ -28,6 +28,8 @@ from src.api.routes.chat import router as chat_router
 from src.api.routes.data import router as data_router
 from src.api.routes.status import router as status_router
 from src.api.routes.admin import router as admin_router
+from src.api.routes.navigation import router as navigation_router
+from src.api.routes.feedback import router as feedback_router
 
 # Import background scheduler
 from src.api.background.scheduler import scheduler
@@ -58,6 +60,8 @@ app.include_router(chat_router, prefix="/api/v1", tags=["chat"])
 app.include_router(data_router, prefix="/api/v1", tags=["data"])
 app.include_router(status_router, prefix="/api/v1", tags=["status"])
 app.include_router(admin_router, prefix="/api/v1/admin", tags=["admin"])
+app.include_router(navigation_router, prefix="/api/v1", tags=["navigation"])
+app.include_router(feedback_router, prefix="/api/v1", tags=["feedback"])
 
 # Import dependencies
 from src.api.dependencies import get_bot, get_scraper, get_ingestor
@@ -101,6 +105,7 @@ async def root():
             "status": "/api/v1/status",
             "data": "/api/v1/data",
             "admin": "/api/v1/admin",
+            "navigation": "/api/v1/navigation",
             "docs": "/api/docs"
         }
     }

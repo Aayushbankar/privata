@@ -1,7 +1,7 @@
 # Weekly Rainfall Distribution 2019 | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** http://mosdac.gov.in/weekly-rainfall-distribution-2019
-**Extracted:** 2025-09-13T06:00:28.999469
+**Extracted:** 2025-09-15T15:43:52.406584
 **Quality Score:** 0.620
 
 [Skip to main Content](https://mosdac.gov.in/weekly-rainfall-distribution-2019#main-content "Skip to main Content")
@@ -118,7 +118,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/weekly-rainfall-distribution-2019 "Previous")[](https://mosdac.gov.in/weekly-rainfall-distribution-2019 "Next")
 [](https://mosdac.gov.in/weekly-rainfall-distribution-2019)
 [](https://mosdac.gov.in/weekly-rainfall-distribution-2019 "Previous")[](https://mosdac.gov.in/weekly-rainfall-distribution-2019 "Next")

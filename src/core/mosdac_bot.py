@@ -39,9 +39,51 @@ class MOSDACBot:
         self.crawl_output_dir = project_root / "data/scraped/mosdac_complete_data"
         self.chroma_dir = project_root / "data/vector_db/chroma_db"
         self.llm_available = False
+        self._chat_system = None
         
         # Check if components are available
         self.check_components()
+
+    def _ensure_chat_system(self):
+        if self._chat_system is not None:
+            return self._chat_system
+        try:
+            import importlib.util
+            chat_path = self.crawl_output_dir.parent.parent.parent / "src/chat/chat.py"
+            spec = importlib.util.spec_from_file_location("chat", chat_path)
+            chat_module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(chat_module)
+            # Instantiate ModernChatSystem
+            self._chat_system = chat_module.ModernChatSystem()
+            return self._chat_system
+        except Exception as e:
+            logger.error(f"Failed to initialize chat system: {e}")
+            raise
+
+    def _normalize_source_url(self, raw_url: str) -> str:
+        """Return a public MOSDAC URL if possible, avoiding local file paths.
+
+        Rules:
+        - If already http(s), return as-is
+        - If local path contains mosdac_complete_data/<slug>/..., map to https://mosdac.gov.in/<slug>/
+        - Otherwise return empty string to hide local paths
+        """
+        try:
+            if not isinstance(raw_url, str) or not raw_url:
+                return ""
+            lower = raw_url.strip()
+            if lower.startswith("http://") or lower.startswith("https://"):
+                return raw_url
+            marker = "mosdac_complete_data"
+            if marker in lower:
+                # extract slug after marker
+                parts = lower.split(marker, 1)[1].lstrip("/\\").split("/", 1)
+                slug = parts[0] if parts else ""
+                if slug:
+                    return f"https://mosdac.gov.in/{slug}/"
+            return ""
+        except Exception:
+            return ""
     
     def check_components(self):
         """Check if all required components are available"""
@@ -166,6 +208,75 @@ class MOSDACBot:
         except Exception as e:
             logger.error(f"❌ Error starting chat: {e}")
             print(f"Error: {e}")
+
+    def get_response(self, query: str, session_id: str = "default_user", language: str = "en"):
+        """Get a response using intent detection + RAG with small-talk fallback.
+
+        Returns tuple: (response_text, sources_list)
+        sources_list items: {"url": str, "title": str, "relevance": float}
+        """
+        chat_system = self._ensure_chat_system()
+
+        # Stage 1: intent detection
+        intent_info = chat_system.detect_intent(session_id, query)
+        intent = intent_info.get("intent", "qa")
+        intent_conf = float(intent_info.get("confidence", 0.0))
+        intent_ctx = (
+            f"intent={intent}, confidence={intent_conf:.2f}, goals={intent_info.get('goals','')}, "
+            f"entities={intent_info.get('entities','')}"
+        )
+
+        # Small talk path
+        if intent in ("chitchat", "other") and intent_conf >= 0.5:
+            reply = chat_system.handle_smalltalk(query)
+            chat_system.handle_session(session_id, query, reply, [])
+            return reply, []
+
+        # Stage 2: retrieval
+        results = chat_system.retrieve_relevant_docs(query)
+
+        # If no results, smalltalk fallback
+        if not results:
+            reply = chat_system.handle_smalltalk(query)
+            chat_system.handle_session(session_id, query, reply, results)
+            return reply, []
+
+        context = chat_system.format_context_with_citations(results)
+        augment = chat_system._should_augment(results)
+        # First pass RAG with language parameter
+        reply = chat_system.generate_response(query, context, augment, intent_ctx, language)
+
+        # Optional refine pass for info-gathering or weak context
+        try:
+            avg_score = chat_system._average_score(results)
+        except Exception:
+            avg_score = 0.0
+        if (intent == "info" and intent_conf >= 0.5) or avg_score < max(0.12, chat_system.augmentation_threshold):
+            try:
+                reply = chat_system.refine_answer(query, reply, context)
+            except Exception:
+                pass
+
+        # Build sources
+        sources = []
+        for r in results:
+            md = r.get("metadata", {})
+            # Prefer real page URL if present
+            raw_url = md.get("url") or md.get("source_url") or md.get("source_file") or ""
+            url = self._normalize_source_url(raw_url)
+            title = md.get("section_title") or md.get("title") or ""
+            rel = r.get("score", 0.0)
+            # Clamp relevance to [0.0, 1.0] to satisfy API schema
+            if rel is None:
+                rel = 0.0
+            try:
+                rel = max(0.0, min(1.0, float(rel)))
+            except Exception:
+                rel = 0.0
+            sources.append({"url": url, "title": title, "relevance": rel})
+
+        chat_system.handle_session(session_id, query, reply, results)
+        return reply, sources
     
     def get_data_status(self) -> Dict[str, Any]:
         """Get current data status"""
@@ -266,62 +377,6 @@ class MOSDACBot:
                 "available": False,
                 "error": str(e)
             }
-
-    def get_response(self, query: str, session_id: str = "default") -> tuple[str, list[dict]]:
-        """
-        Get AI response for a query using the modern chat system.
-        
-        Args:
-            query: Natural language query
-            session_id: Session ID for context
-            
-        Returns:
-            tuple: (response_text, sources_list)
-        """
-        try:
-            import sys
-            sys.path.append('src/chat')
-            # Import directly from the chat.py file
-            from src.chat.chat import ModernChatSystem
-            
-            # Create chat system instance
-            chat_system = ModernChatSystem()
-            
-            # Retrieve relevant documents
-            context_results = chat_system.retrieve_relevant_docs(query)
-            
-            if not context_results:
-                return "I couldn't find any relevant information about this topic in the MOSDAC documentation.", []
-            
-            # Format context with citations
-            context = chat_system.format_context_with_citations(context_results)
-            
-            # Check if augmentation is needed
-            augment = chat_system._should_augment(context_results)
-            
-            # Generate response
-            response = chat_system.generate_response(query, context, augment)
-            
-            # Prepare sources list
-            sources = []
-            for result in context_results:
-                metadata = result.get("metadata", {})
-                # Ensure relevance score is between 0 and 1
-                relevance = max(0.0, min(1.0, result.get("score", 0.8)))
-                sources.append({
-                    "url": metadata.get("source_url", metadata.get("source_file", "Unknown")),
-                    "title": metadata.get("section_title", metadata.get("source_file", "Unknown")),
-                    "relevance": relevance
-                })
-            
-            # Handle session
-            chat_system.handle_session(session_id, query, response, context_results)
-            
-            return response, sources
-            
-        except Exception as e:
-            logger.error(f"Error in get_response: {e}")
-            return f"I encountered an error while processing your query: {str(e)}", []
     
     def remove_data(self):
         """Remove all scraped data and vector database"""

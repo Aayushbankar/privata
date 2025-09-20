@@ -68,19 +68,17 @@
 	<div ng-init="metadata=[]"></div>
 	<div class="container" style="margin-right: auto; padding-left: unset; padding-right: unset;">
 		<!--div class="container" style="/*margin-right: auto;*/ margin-left: unset; margin-right: unset; padding-left: unset; padding-right: unset; padding-left: unset; width: auto !important;"-->
-		<nav ng-show="navbar" class="navbar navbar-expand-sm bg-danger navbar-dark" aria-hidden="false" style="">
+		<nav ng-show="navbar" class="navbar navbar-expand-sm bg-danger navbar-dark ng-hide" aria-hidden="true">
 			<div class="col-md-4 col-sm-6 col-xs-6">
 				<label style="text-transform: capitalize; font-style: normal; color: #0213f3; font-weight: bold">Satellite:</label>
-				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty-add ng-animate ng-empty-remove ng-not-empty ng-not-empty-add-active ng-empty-remove-active" ng-change="getSensor('S');" ng-model="satellite" name="satellite" style="font-weight: bold;" aria-invalid="false" data-ng-animate="2">
-					<!-- ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="24" class="ng-binding ng-scope" style="">INSAT-3DS</option><!-- end ngRepeat: satellite in satelliteList -->
+				<select class="form-control ng-pristine ng-untouched ng-valid ng-empty" ng-change="getSensor('S');" ng-model="satellite" name="satellite" style="font-weight: bold" aria-invalid="false"><option value="? undefined:undefined ?"></option>
+					<!-- ngRepeat: satellite in satelliteList -->
 				</select><br>
 			</div>
 			<div class="col-md-4 col-sm-6 col-xs-6">
 				<label style="text-transform: capitalize; font-style: normal; color: #0213f3; font-weight: bold">Sensor:</label>
-				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty-add ng-animate ng-empty-remove ng-not-empty ng-not-empty-add-active ng-empty-remove-active" ng-change="search('S');" ng-model="sensor" name="sensor" style="font-weight: bold;" aria-invalid="false" data-ng-animate="2">
-					<!-- ngRepeat: sensor in sensorList --><option ng-repeat="sensor in sensorList" value="10" class="ng-binding ng-scope" style="">
-						IMAGER</option><!-- end ngRepeat: sensor in sensorList --><option ng-repeat="sensor in sensorList" value="11" class="ng-binding ng-scope">
-						SOUNDER</option><!-- end ngRepeat: sensor in sensorList -->
+				<select class="form-control ng-pristine ng-untouched ng-valid ng-empty" ng-change="search('S');" ng-model="sensor" name="sensor" style="font-weight: bold" aria-invalid="false"><option value="? undefined:undefined ?"></option>
+					<!-- ngRepeat: sensor in sensorList -->
 				</select><br>
 				<br>
 			</div>
@@ -102,7 +100,7 @@
 		<!--div class="container" style="/*margin-right: auto;*/ margin-left: unset; margin-right: unset; padding-left: unset; padding-right: unset; padding-left: unset;width: auto !important;"-->
 		<div class="maintable">
 			<div id="showData">
-				<div id="main_table" ng-show="maintable" aria-hidden="false" class="" style="">
+				<div id="main_table" ng-show="maintable" aria-hidden="true" class="ng-hide">
 					<!-- Start satelite data and standing data tables -->
 					<div id="tabledata_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="tabledata_length"><label>Show <select name="tabledata_length" aria-controls="tabledata" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="tabledata_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="tabledata"></label></div><table id="tabledata" class="table display responsive table-striped table-bordered ng-isolate-scope dataTable no-footer dtr-inline" datatable="ng" dt-options="dtOptions" style="width: 0px;" aria-describedby="tabledata_info">
 						<thead style="background: #337ab7; color: white; text-align: left; vertical-align: center">

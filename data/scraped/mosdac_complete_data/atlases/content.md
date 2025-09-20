@@ -1,10 +1,10 @@
 # Atlases | Meteorological & Oceanographic Satellite Data Archival Centre
 
-**URL:** https://mosdac.gov.in/atlases?sort=asc&order=modified
-**Extracted:** 2025-09-13T06:00:28.504046
+**URL:** https://mosdac.gov.in/atlases#quickset-atlases_qt_1
+**Extracted:** 2025-09-15T15:51:31.862562
 **Quality Score:** 0.660
 
-[Skip to main Content](https://mosdac.gov.in/atlases?sort=asc&order=modified#main-content "Skip to main Content")
+[Skip to main Content](https://mosdac.gov.in/atlases#main-content "Skip to main Content")
 [-A](javascript:;) [A](javascript:;) [+A](javascript:;)
 [A](javascript:drupalHighContrast.enableStyles\(\))[A](javascript:drupalHighContrast.disableStyles\(\))
 हिन्दी English
@@ -17,7 +17,7 @@
 **[ Meteorological & Oceanographic Satellite Data Archival Centre](https://mosdac.gov.in/ "Home") **
 Space Applications Centre, ISRO 
   * [Home](https://mosdac.gov.in/)
-  * [Missions »](https://mosdac.gov.in/atlases?sort=asc&order=modified)
+  * [Missions »](https://mosdac.gov.in/atlases)
     * [INSAT-3DR](https://mosdac.gov.in/insat-3dr)
     * [INSAT-3D](https://mosdac.gov.in/insat-3d)
     * [KALPANA-1](https://mosdac.gov.in/kalpana-1)
@@ -28,31 +28,31 @@ Space Applications Centre, ISRO
     * [OCEANSAT-3](https://mosdac.gov.in/oceansat-3)
     * [INSAT-3DS](https://mosdac.gov.in/insat-3ds)
     * [SCATSAT-1](https://mosdac.gov.in/scatsat-1)
-  * [Catalog »](https://mosdac.gov.in/atlases?sort=asc&order=modified)
+  * [Catalog »](https://mosdac.gov.in/atlases)
     * [Satellite](https://mosdac.gov.in/internal/catalog-satellite)
     * [Insitu (AWS)](https://mosdac.gov.in/internal/catalog-insitu)
     * [RADAR](https://mosdac.gov.in/internal/catalog-radar)
-  * [Galleries »](https://mosdac.gov.in/atlases?sort=asc&order=modified)
+  * [Galleries »](https://mosdac.gov.in/atlases)
     * [Satellite Products](https://mosdac.gov.in/internal/gallery)
     * [Weather Forecast](https://mosdac.gov.in/internal/gallery/weather)
     * [Ocean Forecast](https://mosdac.gov.in/internal/gallery/ocean)
     * [RADAR (DWR)](https://mosdac.gov.in/internal/gallery/dwr)
     * [Global Ocean Current](https://mosdac.gov.in/internal/gallery/current)
-  * [Data Access »](https://mosdac.gov.in/atlases?sort=asc&order=modified)
+  * [Data Access »](https://mosdac.gov.in/atlases)
     * [Order Data](https://mosdac.gov.in/internal/uops)
     * [API based Access](https://mosdac.gov.in/downloadapi-manual)
-    * [Open Data »](https://mosdac.gov.in/atlases?sort=asc&order=modified)
-      * [Atmosphere »](https://mosdac.gov.in/atlases?sort=asc&order=modified)
+    * [Open Data »](https://mosdac.gov.in/atlases)
+      * [Atmosphere »](https://mosdac.gov.in/atlases)
         * [Bayesian based MT-SAPHIR rainfall](https://mosdac.gov.in/bayesian-based-mt-saphir-rainfall)
         * [GPS derived Integrated water vapour](https://mosdac.gov.in/gps-derived-integrated-water-vapour)
         * [GSMap ISRO Rain](https://mosdac.gov.in/gsmap-isro-rain)
         * [METEOSAT8 Cloud Properties](https://mosdac.gov.in/meteosat8-cloud-properties)
-      * [Land »](https://mosdac.gov.in/atlases?sort=asc&order=modified)
+      * [Land »](https://mosdac.gov.in/atlases)
         * [3D Volumetric TERLS DWRproduct](https://mosdac.gov.in/3d-volumetric-terls-dwrproduct)
         * [Inland Water Height](https://mosdac.gov.in/inland-water-height)
         * [River Discharge](https://mosdac.gov.in/river-discharge)
         * [Soil Moisture](https://mosdac.gov.in/soil-moisture-0)
-      * [Ocean »](https://mosdac.gov.in/atlases?sort=asc&order=modified)
+      * [Ocean »](https://mosdac.gov.in/atlases)
         * [Global Ocean Surface Current](https://mosdac.gov.in/global-ocean-surface-current)
         * [High Resolution Sea Surface Salinity](https://mosdac.gov.in/high-resolution-sea-surface-salinity)
         * [Indian Mainland Coastal Product](https://mosdac.gov.in/indian-mainland-coastal-product)
@@ -63,8 +63,8 @@ Space Applications Centre, ISRO
     * [Cal-Val](https://mosdac.gov.in/internal/calval-data)
     * [Forecast](https://mosdac.gov.in/internal/forecast-menu)
     * [RSS Feeds](https://mosdac.gov.in/rss-feed "ISROCast")
-  * [Reports »](https://mosdac.gov.in/atlases?sort=asc&order=modified)
-    * [Calibration »](https://mosdac.gov.in/atlases?sort=asc&order=modified)
+  * [Reports »](https://mosdac.gov.in/atlases)
+    * [Calibration »](https://mosdac.gov.in/atlases)
       * [Insitu](https://mosdac.gov.in/insitu)
       * [Relative](https://mosdac.gov.in/calibration-reports)
     * [Validation](https://mosdac.gov.in/validation-reports)
@@ -79,24 +79,24 @@ Space Applications Centre, ISRO
 ## You are here
 [Home](https://mosdac.gov.in/) » Atlas
 # Atlases
-### [Download PDF](https://mosdac.gov.in/atlases?sort=asc&order=modified#quickset-atlases_qt_0)
+### [Download PDF](https://mosdac.gov.in/atlases#quickset-atlases_qt_0)
 ##  [](https://mosdac.gov.in/atlas)
-| [Display name](https://mosdac.gov.in/atlases?sort=asc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/atlases?sort=asc&order=size "sort by size") | [modified![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/atlases?sort=desc&order=modified "sort by modified")  
+| [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/atlases?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/atlases?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/atlases?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
-| [Display name](https://mosdac.gov.in/atlases?sort=asc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/atlases?sort=asc&order=size "sort by size") | [modified![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/atlases?sort=desc&order=modified "sort by modified")  
+| [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/atlases?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/atlases?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/atlases?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [viewing_ocean_from_space.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/32) | 10.01 MB | Mon, 2020-01-27 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Spectrum_of_India_AVIRIS-NG.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/31) | 27.64 MB | Thu, 2016-12-22 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Glimspes_of_India_by_RISAT-1.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/30) | 88.53 MB | Mon, 2015-08-31 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Eyes_on_Waves_from_Space.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/29) | 6.24 MB | Thu, 2018-05-03 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Exploring_the_Antarctic.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/28) | 35.11 MB | Wed, 2020-02-19 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Images_of_Moon_From_Chandrayan-1.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/27) | 388.48 MB | Thu, 2010-12-23 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Chandrayan-1_Lunar_Science_Atlas.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/26) | 69.87 MB | Thu, 2015-04-30 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Coral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/25) | 72.11 MB | Thu, 2018-05-03 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Atlas_of_Sea_Ice_Trends.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/24) | 2.83 MB | Thu, 2012-03-01 10:00  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Mars-atlas.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/23) | 35.13 MB | Mon, 2015-08-31 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [viewing_ocean_from_space.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/294) | 10.01 MB | Mon, 2020-01-27 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Spectrum_of_India_AVIRIS-NG.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/293) | 27.64 MB | Thu, 2016-12-22 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Glimspes_of_India_by_RISAT-1.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/292) | 88.53 MB | Mon, 2015-08-31 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Eyes_on_Waves_from_Space.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/291) | 6.24 MB | Thu, 2018-05-03 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Exploring_the_Antarctic.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/290) | 35.11 MB | Wed, 2020-02-19 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Images_of_Moon_From_Chandrayan-1.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/289) | 388.48 MB | Thu, 2010-12-23 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Chandrayan-1_Lunar_Science_Atlas.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/288) | 69.87 MB | Thu, 2015-04-30 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Coral_Reef_Atlas_of_Red_Sea_Gulf_of_Aden.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/287) | 72.11 MB | Thu, 2018-05-03 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Atlas_of_Sea_Ice_Trends.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/286) | 2.83 MB | Thu, 2012-03-01 10:00  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Mars-atlas.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/285) | 35.13 MB | Mon, 2015-08-31 10:00  
 10 files - 735.95 MB
-### [Read Online](https://mosdac.gov.in/atlases?sort=asc&order=modified#quickset-atlases_qt_1)
+### [Read Online](https://mosdac.gov.in/atlases#quickset-atlases_qt_1)
   * [![ExploringAntarctic](https://mosdac.gov.in/sites/default/files/styles/atlas_thumbs_big_/public/flipdoc_covers/Exploring-Antarctic.jpg?itok=RmYU5DYp)](https://mosdac.gov.in/flip-book/demos/Antarctic.html)
 Exploring the Antarctic
   * [![Ocean-from-Space-Cover](https://mosdac.gov.in/sites/default/files/styles/atlas_thumbs_big_/public/flipdoc_covers/ocean-from-space.jpg?itok=2eu_TYz0)](https://mosdac.gov.in/flip-book/demos/ocean.html)
@@ -151,9 +151,9 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
-[](https://mosdac.gov.in/atlases?sort=asc&order=modified "Previous")[](https://mosdac.gov.in/atlases?sort=asc&order=modified "Next")
-[](https://mosdac.gov.in/atlases?sort=asc&order=modified)
-[](https://mosdac.gov.in/atlases?sort=asc&order=modified "Previous")[](https://mosdac.gov.in/atlases?sort=asc&order=modified "Next")
-[](https://mosdac.gov.in/atlases?sort=asc&order=modified "Close")[](https://mosdac.gov.in/atlases?sort=asc&order=modified)[](https://mosdac.gov.in/atlases?sort=asc&order=modified)[](https://mosdac.gov.in/atlases?sort=asc&order=modified "Pause Slideshow")[](https://mosdac.gov.in/atlases?sort=asc&order=modified "Play Slideshow")
-[Back to top](https://mosdac.gov.in/atlases?sort=asc&order=modified#top)
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
+[](https://mosdac.gov.in/atlases "Previous")[](https://mosdac.gov.in/atlases "Next")
+[](https://mosdac.gov.in/atlases)
+[](https://mosdac.gov.in/atlases "Previous")[](https://mosdac.gov.in/atlases "Next")
+[](https://mosdac.gov.in/atlases "Close")[](https://mosdac.gov.in/atlases)[](https://mosdac.gov.in/atlases)[](https://mosdac.gov.in/atlases "Pause Slideshow")[](https://mosdac.gov.in/atlases "Play Slideshow")
+[Back to top](https://mosdac.gov.in/atlases#top)

@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/gsmap-isro-rain#top",
+  "url": "http://mosdac.gov.in/gsmap-isro-rain",
   "title": "GSMap ISRO Rain | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/gsmap-isro-rain#top",
+    "url": "http://mosdac.gov.in/gsmap-isro-rain",
     "domain": "mosdac.gov.in",
     "path": "/gsmap-isro-rain",
     "description": "The GSMaP_ISRO is a precipitation product that was developed through the Indian Space Research Organisation (ISRO) - Japan Aerospace Exploration Agency (JAXA) Implementation of Agreement (IA) specific",
@@ -300,7 +300,7 @@
     }
   ],
   "quality_score": 0.75,
-  "extracted_at": "2025-09-13T05:59:10.584808",
+  "extracted_at": "2025-09-15T15:50:52.619985",
   "content_length": 13993,
   "rag_optimized": true
 }

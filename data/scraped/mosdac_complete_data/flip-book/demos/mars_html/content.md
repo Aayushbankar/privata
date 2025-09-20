@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/flip-book/demos/mars.html
-**Extracted:** 2025-09-13T05:59:56.398652
+**Extracted:** 2025-09-15T15:43:08.646224
 **Quality Score:** 0.300
 
 ![](https://mosdac.gov.in/flip-book/demos/Mars-atlas/thumb/Page1.jpg)

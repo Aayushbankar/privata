@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/indian-mainland-coastal-product#top",
+  "url": "https://mosdac.gov.in/indian-mainland-coastal-product#main-content",
   "title": "Indian Mainland Coastal Product | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/indian-mainland-coastal-product#top",
+    "url": "https://mosdac.gov.in/indian-mainland-coastal-product#main-content",
     "domain": "mosdac.gov.in",
     "path": "/indian-mainland-coastal-product",
     "description": "SARAL/AltiKa was launched on 25 February 2013 as a joint collaboration mission of ISRO and CNES.",
@@ -295,7 +295,7 @@
     }
   ],
   "quality_score": 0.75,
-  "extracted_at": "2025-09-13T06:00:18.842215",
+  "extracted_at": "2025-09-15T15:51:38.312177",
   "content_length": 18797,
   "rag_optimized": true
 }

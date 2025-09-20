@@ -1,13 +1,13 @@
 # CloudBurst Alerts over Western Himalayan Region
 
 **URL:** https://mosdac.gov.in/internal/nowcast-cloudburst
-**Extracted:** 2025-09-13T05:57:50.769694
+**Extracted:** 2025-09-15T15:49:06.599016
 **Quality Score:** 0.550
 
 ![mosdac logo](https://mosdac.gov.in/cloudburst/assets/img/transparent_mosdac_rapid.png)  
 ---  
 CloudBurst Alerts over Western Himalayan Region   
-Current Forecast: 2025-09-13 14:15 IST |   
+Current Forecast: 2025-09-15 12:45 IST |   
 ---  
   
 

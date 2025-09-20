@@ -1,7 +1,7 @@
 # Satellite Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-meghatropiques
-**Extracted:** 2025-09-13T05:55:56.421346
+**Extracted:** 2025-09-15T15:50:58.686460
 **Quality Score:** 0.470
 
 A- A A+
@@ -15,8 +15,6 @@ Sensor: MADRAS ROSA SAPHIR SCARAB
   
 
 **X**
-Show 10 25 50 100 entries
-Search:
 Sr.No | Product /  
 Acq Calendar/Version  | Product Description | Processing Level | Temporal Resolution | Start Date | End Date | Processing Status | DOI  
 ---|---|---|---|---|---|---|---|---  
@@ -30,8 +28,6 @@ Acq Calendar/Version  | Product Description | Processing Level | Temporal Resolu
 | Radiance Values for infrared, solar, synthetic_LW, total and Visible channels | L1B | 14 ORBIT/DAY | 2011-10-13 | 2013-12-21 | In-Active | [10.19038/SAC/10/MT1MADSL1B](https://dx.doi.org/10.19038/SAC/10/MT1MADSL1B)  
 5 |  **MT1MADSRRL2A**  
 | Rain Rate (mm/hr) retrieved from MADRAS, high and low frequency (89, 23.5 , 19 GHz) channels using emission and scattering charateristics of atmospheric and oceanic variables. | L2A | 14 ORBIT/DAY | 2011-10-13 | 2013-12-21 | In-Active | [10.19038/SAC/10/MT1MADSRRL2A](https://dx.doi.org/10.19038/SAC/10/MT1MADSRRL2A)  
-Showing 1 to 5 of 5 entries
-Previous1Next
 ### Loading...
 **X**
 Version Detail

@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/terms-conditions",
+  "url": "http://mosdac.gov.in/terms-conditions",
   "title": "Terms & Conditions | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/terms-conditions",
+    "url": "http://mosdac.gov.in/terms-conditions",
     "domain": "mosdac.gov.in",
     "path": "/terms-conditions",
     "description": "This website is designed, developed and maintained by Space Applications Centre, Indian Space Research Organisation, Department of Space, Government of India.Though all efforts have been made to ensure the accuracy and currency of the content of this website, the same should not be construed as a statement of law or used for any legal purposes.Under no circumstances the MOSDAC",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.6,
-  "extracted_at": "2025-09-13T05:59:06.847694",
+  "extracted_at": "2025-09-15T15:50:13.031908",
   "content_length": 9183,
   "rag_optimized": true
 }

@@ -1,7 +1,7 @@
 # River Discharge | Meteorological & Oceanographic Satellite Data Archival Centre
 
-**URL:** https://mosdac.gov.in/river-discharge#main-content
-**Extracted:** 2025-09-13T06:00:30.665582
+**URL:** https://mosdac.gov.in/river-discharge
+**Extracted:** 2025-09-15T15:51:20.094737
 **Quality Score:** 0.850
 
 [Skip to main Content](https://mosdac.gov.in/river-discharge#main-content "Skip to main Content")
@@ -212,7 +212,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/river-discharge "Previous")[](https://mosdac.gov.in/river-discharge "Next")
 [](https://mosdac.gov.in/river-discharge)
 [](https://mosdac.gov.in/river-discharge "Previous")[](https://mosdac.gov.in/river-discharge "Next")

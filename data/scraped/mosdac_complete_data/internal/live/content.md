@@ -1,7 +1,7 @@
 # MOSDAC Live
 
 **URL:** https://mosdac.gov.in/internal/live
-**Extracted:** 2025-09-13T05:59:40.918712
+**Extracted:** 2025-09-15T15:46:41.902232
 **Quality Score:** 0.700
 
 **X**

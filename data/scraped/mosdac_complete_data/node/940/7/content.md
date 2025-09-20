@@ -1,7 +1,7 @@
 # Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/node/940/7
-**Extracted:** 2025-09-13T06:00:35.172713
+**Extracted:** 2025-09-15T15:43:24.134928
 **Quality Score:** 0.650
 
 [Skip to main Content](https://mosdac.gov.in/node/940/7#main-content "Skip to main Content")
@@ -77,23 +77,20 @@ Space Applications Centre, ISRO
 
 
 ## You are here
-[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2016
+[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2018
 # Insitu
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/7?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/7?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/7?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/7?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/7?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/7?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
 ![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder-parent.png) | [Go up](https://mosdac.gov.in/insitu) |  | Fri, 2025-04-11 14:38  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Temperature-and-humidity-profile-validation-INSAT-3D+3DR-Kavaratti-Dec-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/667) | 5.08 MB | Tue, 2018-02-20 15:10  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Post earthquake land deformation mapping of eastern Nepal 2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/666) | 3.94 MB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Radiometric calibration of Cartosat-2 panchromatic sensor-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/665) | 1.01 MB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Validation and assessment of INSAT-3D and MODIS SST-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/664) | 2.49 MB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [INSAT-3DR vicarious calibration-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/663) | 932.04 KB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Absolute calibration and image quality assessment of RISAT_1 FRS and MRS mode data-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/662) | 7.7 MB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [INSAT-3D site characterisation and calibration-2016.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/661) | 2.66 MB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Absolute Vicarious calibration of Landsat-8 OLI and Resourcesat-2.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/660) | 1013.47 KB | Tue, 2020-10-27 14:29  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Cartosat-2_Artificialtargets_V1.0.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/659) | 1.01 MB | Tue, 2020-10-27 14:29  
-1 folder - 9 files - 25.8 MB
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Validation of Resourcesat 2A LISS 3.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/451) | 975.36 KB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Phase-2 Calibration field campaign for AVIRIS-NG sensor.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/450) | 407.05 KB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [INSAT 3D and MODIS retrieved sea surface temperature validation and assessment over waters surrounding the Indian subcontinent.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/449) | 2.55 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [OCM2 vicarious calibration over cal-val sites Little Rann of Kuchchh and Kavaratti.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/448) | 1.26 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Day-1 INSAT-3DR Vicarious Calibration Using Reflectance-Based Approach Over Great Rann of Kutch.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/447) | 3.51 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Image quality characterization of fine resolution RISAT 1 data using impulse response function.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/446) | 3.28 MB | Tue, 2020-10-27 14:29  
+1 folder - 6 files - 11.95 MB
 ## Search
 Search 
 ## Follow Us
@@ -126,7 +123,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/node/940/7 "Previous")[](https://mosdac.gov.in/node/940/7 "Next")
 [](https://mosdac.gov.in/node/940/7)
 [](https://mosdac.gov.in/node/940/7 "Previous")[](https://mosdac.gov.in/node/940/7 "Next")

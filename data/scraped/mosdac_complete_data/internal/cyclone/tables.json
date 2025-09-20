@@ -3,14 +3,14 @@
     "index": 0,
     "caption": "",
     "headers": [
-      "SCORPIO \n\n\n\n\n\n\n\n\t\t\t\t\tLOC"
+      "LOC"
     ],
     "rows": [
       [
-        "Cyclogenesis in Bay Of Bengal"
+        ""
       ],
       [
-        "Year:\nRecent202420232022202120202019201820172016201520142013\n\n\nCyclone:\nNO-Cyclone"
+        "Year:\n\n\n\nCyclone:"
       ]
     ],
     "row_count": 2,
@@ -19,40 +19,13 @@
   {
     "index": 5,
     "caption": "",
-    "headers": [
-      "PointProbe",
-      "Contours",
-      "Region Growing"
-    ],
+    "headers": [],
     "rows": [
       [
-        "",
-        "",
         ""
       ]
     ],
     "row_count": 1,
-    "col_count": 3
-  },
-  {
-    "index": 6,
-    "caption": "",
-    "headers": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "rows": [
-      [
-        ""
-      ],
-      [
-        ""
-      ]
-    ],
-    "row_count": 2,
-    "col_count": 5
+    "col_count": 0
   }
 ]

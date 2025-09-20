@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/flip-book/demos/lunar_science.html
-**Extracted:** 2025-09-13T05:59:20.168552
+**Extracted:** 2025-09-15T15:47:01.850883
 **Quality Score:** 0.300
 
 ![](https://mosdac.gov.in/flip-book/demos/lunar_science/thumb/Page1.jpg)

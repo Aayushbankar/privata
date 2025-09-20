@@ -1,7 +1,7 @@
 # 3D Volumetric TERLS DWRproduct | Meteorological & Oceanographic Satellite Data Archival Centre
 
-**URL:** https://mosdac.gov.in/3d-volumetric-terls-dwrproduct#top
-**Extracted:** 2025-09-13T05:59:48.306764
+**URL:** http://mosdac.gov.in/3d-volumetric-terls-dwrproduct
+**Extracted:** 2025-09-15T15:51:10.118189
 **Quality Score:** 0.750
 
 [Skip to main Content](https://mosdac.gov.in/3d-volumetric-terls-dwrproduct#main-content "Skip to main Content")
@@ -185,7 +185,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/3d-volumetric-terls-dwrproduct "Previous")[](https://mosdac.gov.in/3d-volumetric-terls-dwrproduct "Next")
 [](https://mosdac.gov.in/3d-volumetric-terls-dwrproduct)
 [](https://mosdac.gov.in/3d-volumetric-terls-dwrproduct "Previous")[](https://mosdac.gov.in/3d-volumetric-terls-dwrproduct "Next")

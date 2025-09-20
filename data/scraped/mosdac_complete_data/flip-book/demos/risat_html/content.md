@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/flip-book/demos/risat.html
-**Extracted:** 2025-09-13T05:59:19.242460
+**Extracted:** 2025-09-15T15:42:50.523405
 **Quality Score:** 0.300
 
 ![](https://mosdac.gov.in/flip-book/demos/final-risat/thumb/Final%20Risat%20-1%20PDF_0001.jpg)

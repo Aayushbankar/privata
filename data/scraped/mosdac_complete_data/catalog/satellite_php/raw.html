@@ -68,19 +68,17 @@
 	<div ng-init="metadata=[]"></div>
 	<div class="container" style="margin-right: auto; padding-left: unset; padding-right: unset;">
 		<!--div class="container" style="/*margin-right: auto;*/ margin-left: unset; margin-right: unset; padding-left: unset; padding-right: unset; padding-left: unset; width: auto !important;"-->
-		<nav ng-show="navbar" class="navbar navbar-expand-sm bg-danger navbar-dark" aria-hidden="false" style="">
+		<nav ng-show="navbar" class="navbar navbar-expand-sm bg-danger navbar-dark ng-hide" aria-hidden="true">
 			<div class="col-md-4 col-sm-6 col-xs-6">
 				<label style="text-transform: capitalize; font-style: normal; color: #0213f3; font-weight: bold">Satellite:</label>
-				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty-add ng-animate ng-empty-remove ng-not-empty ng-not-empty-add-active ng-empty-remove-active" ng-change="getSensor('S');" ng-model="satellite" name="satellite" style="font-weight: bold;" aria-invalid="false" data-ng-animate="2">
-					<!-- ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="22" class="ng-binding ng-scope" style="">EOS-06</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="14" class="ng-binding ng-scope">INSAT-3DR</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="24" class="ng-binding ng-scope">INSAT-3DS</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="32" class="ng-binding ng-scope">MSG</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="12" class="ng-binding ng-scope">SARAL</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="23" class="ng-binding ng-scope">EOS-07</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="3" class="ng-binding ng-scope">INSAT-3A</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="13" class="ng-binding ng-scope">INSAT-3D</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="1" class="ng-binding ng-scope">KALPANA-1</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="11" class="ng-binding ng-scope">MEGHATROPIQUES</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="9" class="ng-binding ng-scope">OCEANSAT-2</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="15" class="ng-binding ng-scope">SCATSAT-1</option><!-- end ngRepeat: satellite in satelliteList -->
+				<select class="form-control ng-pristine ng-untouched ng-valid ng-empty" ng-change="getSensor('S');" ng-model="satellite" name="satellite" style="font-weight: bold" aria-invalid="false"><option value="? undefined:undefined ?"></option>
+					<!-- ngRepeat: satellite in satelliteList -->
 				</select><br>
 			</div>
 			<div class="col-md-4 col-sm-6 col-xs-6">
 				<label style="text-transform: capitalize; font-style: normal; color: #0213f3; font-weight: bold">Sensor:</label>
-				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty-add ng-animate ng-empty-remove ng-not-empty ng-not-empty-add-active ng-empty-remove-active" ng-change="search('S');" ng-model="sensor" name="sensor" style="font-weight: bold;" aria-invalid="false" data-ng-animate="2">
-					<!-- ngRepeat: sensor in sensorList --><option ng-repeat="sensor in sensorList" value="16" class="ng-binding ng-scope" style="">
-						OCM</option><!-- end ngRepeat: sensor in sensorList --><option ng-repeat="sensor in sensorList" value="4" class="ng-binding ng-scope">
-						SCATTEROMETER</option><!-- end ngRepeat: sensor in sensorList -->
+				<select class="form-control ng-pristine ng-untouched ng-valid ng-empty" ng-change="search('S');" ng-model="sensor" name="sensor" style="font-weight: bold" aria-invalid="false"><option value="? undefined:undefined ?"></option>
+					<!-- ngRepeat: sensor in sensorList -->
 				</select><br>
 				<br>
 			</div>
@@ -102,114 +100,23 @@
 		<!--div class="container" style="/*margin-right: auto;*/ margin-left: unset; margin-right: unset; padding-left: unset; padding-right: unset; padding-left: unset;width: auto !important;"-->
 		<div class="maintable">
 			<div id="showData">
-				<div id="main_table" ng-show="maintable" aria-hidden="false" class="" style="">
+				<div id="main_table" ng-show="maintable" aria-hidden="true" class="ng-hide">
 					<!-- Start satelite data and standing data tables -->
-					<div id="tabledata_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="tabledata_length"><label>Show <select name="tabledata_length" aria-controls="tabledata" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="tabledata_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="tabledata"></label></div><table id="tabledata" class="table display responsive table-striped table-bordered ng-isolate-scope no-footer dtr-inline dataTable collapsed" datatable="ng" dt-options="dtOptions" style="width: 970px;" aria-describedby="tabledata_info">
-						<thead style="background: #337ab7; color: white; text-align: left; vertical-align: center" class="ng-scope">
-							<tr><th class="all sorting sorting_asc" style="width: 50px;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Sr.No: activate to sort column descending">Sr.No</th><th class="all sorting" style="width: 150px; white-space: nowrap;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Product
+					<div id="tabledata_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="tabledata_length"><label>Show <select name="tabledata_length" aria-controls="tabledata" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="tabledata_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="tabledata"></label></div><table id="tabledata" class="table display responsive table-striped table-bordered ng-isolate-scope dataTable no-footer dtr-inline" datatable="ng" dt-options="dtOptions" style="width: 0px;" aria-describedby="tabledata_info">
+						<thead style="background: #337ab7; color: white; text-align: left; vertical-align: center">
+							<tr><th class="all sorting sorting_asc" style="width: 0px;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Sr.No: activate to sort column descending">Sr.No</th><th class="all sorting" style="width: 0px; white-space: nowrap;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Product
 									/Acq Calendar/Version
 								: activate to sort column ascending">Product
 									/<br>Acq Calendar/Version
-								</th><th class="all sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 241px;" aria-label="Product Description: activate to sort column ascending">Product Description</th><th style="width: 76px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Processing Level: activate to sort column ascending">Processing Level</th><th style="width: 80px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Temporal Resolution: activate to sort column ascending">Temporal Resolution</th><th style="width: 50px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Start Date: activate to sort column ascending">Start Date</th><th style="width: 50px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="End Date: activate to sort column ascending">End Date</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px; display: none;" aria-label="Processing Status: activate to sort column ascending">Processing Status</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px; display: none;" aria-label="DOI: activate to sort column ascending">DOI</th></tr>
+								</th><th class="all sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px;" aria-label="Product Description: activate to sort column ascending">Product Description</th><th style="width: 0px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Processing Level: activate to sort column ascending">Processing Level</th><th style="width: 0px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Temporal Resolution: activate to sort column ascending">Temporal Resolution</th><th style="width: 0px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Start Date: activate to sort column ascending">Start Date</th><th style="width: 0px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="End Date: activate to sort column ascending">End Date</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px;" aria-label="Processing Status: activate to sort column ascending">Processing Status</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px;" aria-label="DOI: activate to sort column ascending">DOI</th></tr>
 						</thead>
-						<tbody class="ng-scope">
-							<!-- ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList -->
-						<tr ng-repeat="allproduct in AllProductList" class="ng-scope odd" style="">
-								<td class="ng-binding dtr-control sorting_1" tabindex="0">1</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">E06OCM_L2C_LAC_AD</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Scenewise Aerosol Optical Depth over Land</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">SCENEWISE</td>
-								<td class="ng-binding">2024-10-01</td>
-								<td class="ng-binding">2025-09-12</td>
-								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
-								<td class="ng-binding dtr-control sorting_1" tabindex="0">2</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">E06OCM_L2C_LAC_GA</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Coloured Dissolved Organic Matter (CDOM) Absorption Coefficient at 412nm (units m-1)</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">SCENEWISE</td>
-								<td class="ng-binding">2025-05-05</td>
-								<td class="ng-binding">2025-09-12</td>
-								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
-								<td class="ng-binding dtr-control sorting_1" tabindex="0">3</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">E06OCM_L2C_LAC_OC</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Inherent Optical  Properties</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">SCENEWISE</td>
-								<td class="ng-binding">2025-05-15</td>
-								<td class="ng-binding">2025-09-12</td>
-								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
-								<td class="ng-binding dtr-control sorting_1" tabindex="0">4</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">E06OCM_L2C_LAC_PR</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Instantaneous_Photosynthetically_Active_Radiation</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">SCENEWISE</td>
-								<td class="ng-binding">2025-05-12</td>
-								<td class="ng-binding">2025-09-12</td>
-								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
-								<td class="ng-binding dtr-control sorting_1" tabindex="0">5</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">E06OCM_L2C_LAC_PS</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Scenewise Phytoplankton size class</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">SCENEWISE</td>
-								<td class="ng-binding">2025-07-02</td>
-								<td class="ng-binding">2025-09-12</td>
-								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
-								<td class="ng-binding dtr-control sorting_1" tabindex="0">6</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">E06OCM_L3_LAC_AD</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Daily Aerosol Optical Depth over Land</td>
-								<td class="ng-binding">L3</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2023-06-01</td>
-								<td class="ng-binding">2025-09-12</td>
-								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
-								<td class="ng-binding dtr-control sorting_1" tabindex="0">7</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">E06OCM_L4_AC</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">The Analyzed Chlorophyll products are generated by combining OCM-3 derived chlorophyll observations with coupled physical-biogeochemical model simulation of chlorophyll using particle filter based assimilation technique. The model utilized is MOM5, coupled with biogeochemical model TOPAZ.</td>
-								<td class="ng-binding">L4</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2023-06-20</td>
-								<td class="ng-binding">2025-09-12</td>
-								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
-							</tr></tbody>
-					</table><div class="dataTables_info" id="tabledata_info" role="status" aria-live="polite">Showing 1 to 7 of 7 entries</div><div class="dataTables_paginate paging_simple_numbers" id="tabledata_paginate"><a class="paginate_button previous disabled" aria-controls="tabledata" data-dt-idx="0" tabindex="-1" id="tabledata_previous">Previous</a><span><a class="paginate_button current" aria-controls="tabledata" data-dt-idx="1" tabindex="0">1</a></span><a class="paginate_button next disabled" aria-controls="tabledata" data-dt-idx="2" tabindex="-1" id="tabledata_next">Next</a></div></div><h3 class="dt-loading" style="display: none;">Loading...</h3>
+						<tbody>
+							<!-- ngRepeat: allproduct in AllProductList -->
+						<tr class="odd"><td valign="top" colspan="9" class="dataTables_empty">No data available in table</td></tr></tbody>
+					</table><div class="dataTables_info" id="tabledata_info" role="status" aria-live="polite">Showing 0 to 0 of 0 entries</div><div class="dataTables_paginate paging_simple_numbers" id="tabledata_paginate"><a class="paginate_button previous disabled" aria-controls="tabledata" data-dt-idx="0" tabindex="-1" id="tabledata_previous">Previous</a><span></span><a class="paginate_button next disabled" aria-controls="tabledata" data-dt-idx="1" tabindex="-1" id="tabledata_next">Next</a></div></div><h3 class="dt-loading" style="display: none;">Loading...</h3>
 
 					<div id="wrapper">
-						<div class="spinner-wrapper" id="loading4" style="margin-right: auto; opacity: 0.793893;">
+						<div class="spinner-wrapper" id="loading4" style="margin-right: auto;">
 							<div class="spinner"></div>
 							<div class="spinner">
 								<div class="rect1"></div>

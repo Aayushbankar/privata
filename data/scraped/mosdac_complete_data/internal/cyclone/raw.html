@@ -4,7 +4,7 @@
 	    <meta name="Description" content="Author: Mosdac, Illustrator: Satellite Images, Category: Scientific Spatial Data">
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
 		
-		<title>SCORPIO </title>
+		<title></title>
 		
 		<link rel="canonical" href="https://localhost:81/monsoon/">
 		<link rel="preconnect" href="https://localhost:81/monsoon/">
@@ -50,12 +50,9 @@
 	            <tbody><tr>
 	                <td>
 	    	            <img width="547" align="center" alt="mosdac logo" src="assets/img/transparent_mosdac_rapid.png" style="/*margin-top: -12px;*/" height="77">
-				<label class="title ng-binding">SCORPIO </label>
+				<label class="title ng-binding"></label>
            			<button class="ol-unselectable ol-control" type="button" title="Info" ng-click="siteInfo()" style="background-color: rgba(0,0,0,0.6);/*top: -5px;*/margin-left: 2px;border-radius: 10px;border-color: transparent;">
-                		<md-icon class="ol-info" aria-label="" md-svg-src="assets/img/ic_info_24px.svg" style="height: 1.375em; width: 1.375em; line-height: .4em; background-color: transparent;" role="img" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M0 0h24v24H0z" fill="none"></path>
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
-</svg></md-icon>
+                		<md-icon class="ol-info" aria-label="" md-svg-src="assets/img/ic_info_24px.svg" style="height: 1.375em; width: 1.375em; line-height: .4em; background-color: transparent;" role="img" aria-hidden="true"></md-icon>
             		</button>
             		<button class="md-fab md-button md-ink-ripple ng-binding" type="button" aria-label="Aria Label" ng-click="toggleTimeZone()" uib-tooltip="" tooltip-placement="bottom" style="margin:0 ;line-height: unset; width: unset; height: unset; left: 39px; /*bottom:5px*/; ">
 					LOC
@@ -65,7 +62,7 @@
 	             </tr>
 	             <tr>
 	                <td calss="application-name">
-	    	           <div class="title" id="cyclone_text" style="margin-top: 3px;margin-left: 0px;">Cyclogenesis in Bay Of Bengal</div>
+	    	           <div class="title" id="cyclone_text" style="margin-top: 3px;margin-left: 0px;"></div>
 	                </td>
 	               
 	            </tr>
@@ -75,11 +72,11 @@
 			<div>
 			<span>
            <label style="color:white;font-size:large;font-weight: bolder;left: -4px;">Year:</label>
-           	<select class="ng-pristine ng-valid ng-scope ng-touched ng-untouched ng-not-empty" aria-label="Aria Label" ng-options="cyclone.Year for cyclone in cyclonelist" ng-model="model_cyclone" ng-change="updateCyclonename(model_cyclone)" aria-invalid="false"><option label="Recent" value="object:223" selected="selected">Recent</option><option label="2024" value="object:224">2024</option><option label="2023" value="object:225">2023</option><option label="2022" value="object:226">2022</option><option label="2021" value="object:227">2021</option><option label="2020" value="object:228">2020</option><option label="2019" value="object:229">2019</option><option label="2018" value="object:230">2018</option><option label="2017" value="object:231">2017</option><option label="2016" value="object:232">2016</option><option label="2015" value="object:233">2015</option><option label="2014" value="object:234">2014</option><option label="2013" value="object:235">2013</option></select>
+           	<select class="ng-pristine ng-valid ng-scope ng-touched ng-untouched ng-empty" aria-label="Aria Label" ng-options="cyclone.Year for cyclone in cyclonelist" ng-model="model_cyclone" ng-change="updateCyclonename(model_cyclone)" aria-invalid="false"><option value="?" selected="selected"></option></select>
            </span>
 			<span>
            	<label style="color:white;font-size:large;font-weight: bolder;left: -4px;">Cyclone:</label>
-           	<select class="ng-pristine ng-valid ng-scope ng-touched ng-untouched ng-not-empty" aria-label="Aria Label" ng-options="cyc for cyc in model_cyclone.Cyclonelist" ng-model="model_cyclone_selected" ng-change="timeUpdateLayer(model_cyclone_selected)" aria-invalid="false"><option label="NO-Cyclone" value="string:NO-Cyclone" selected="selected">NO-Cyclone</option></select>
+           	<select class="ng-pristine ng-valid ng-scope ng-touched ng-untouched ng-empty" aria-label="Aria Label" ng-options="cyc for cyc in model_cyclone.Cyclonelist" ng-model="model_cyclone_selected" ng-change="timeUpdateLayer(model_cyclone_selected)" aria-invalid="false"><option value="?" selected="selected"></option></select>
            	</span>
            	</div>
            	
@@ -94,41 +91,7 @@
 	            <tbody><tr>
 	                <td>	
 	                    <button class="md-fab panel-show-hide-btn md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="openCloseNav()" style="top: /*23px*/ 15px; left: 6px;">    
-	                    	<md-icon md-svg-src="assets/img/chevron-down.svg" class="ng-scope" role="img" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1_cache16" x="0px" y="0px" viewBox="0 0 477.159 477.159" style="enable-background:new 0 0 477.159 477.159;" xml:space="preserve" width="100%" height="100%" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-<g>
-	<path d="M441.314,74.44c0-5.091-2.118-10.151-5.719-13.75l-55-55c-3.598-3.591-8.635-5.688-13.719-5.688   c-5.084,0-10.152,2.096-13.75,5.688L238.563,120.252L124.001,5.69c-3.667-3.664-8.848-5.764-14.031-5.688   c-4.985,0.078-9.911,2.163-13.438,5.688l-55,55c-3.601,3.599-5.688,8.659-5.688,13.75s2.087,10.151,5.688,13.75l183.281,183.281   c3.599,3.601,8.659,5.688,13.75,5.688s10.151-2.087,13.75-5.688L435.594,88.19C439.195,84.59,441.314,79.531,441.314,74.44   L441.314,74.44z M441.314,274.44c0-5.091-2.118-10.151-5.719-13.75l-55-55c-3.598-3.591-8.635-5.688-13.719-5.688   c-5.084,0-10.152,2.096-13.75,5.688L238.563,320.252L124.001,205.69c-3.667-3.664-8.848-5.764-14.031-5.688   c-4.985,0.078-9.911,2.163-13.438,5.688l-55,55c-3.601,3.599-5.688,8.659-5.688,13.75s2.087,10.151,5.688,13.75l183.281,183.281   c3.599,3.601,8.659,5.688,13.75,5.688s10.151-2.087,13.75-5.688L435.594,288.19C439.195,284.59,441.314,279.531,441.314,274.44   L441.314,274.44z" fill="#FFFFFF"></path>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg></md-icon>
+	                    	<md-icon md-svg-src="assets/img/chevron-down.svg" class="ng-scope" role="img" aria-hidden="true"></md-icon>
 	                    </button>
 	                </td>  
 	            </tr>
@@ -145,701 +108,7 @@
 				
 	    	
 	    	
-	    		<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope">  <!-- | orderBy:propertyName:reverse -->
-	    			<div class="layer-display ng-scope ng-binding">
-	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed()" class="layer-title-checkbox md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="Overlay Layers" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
-	        			Overlay Layers
-	        			
-	        			
-	        			
-	        			<span ng-show="layergrps.values_.visible" aria-hidden="false">
-							<!-- ngIf: layergrps.values_.extraparams.collapsable --><button class="collapse-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layergrps.values_.extraparams.collapsable" ng-click="map.collapseLayers(layergrps)">    
-	                    		<!--md-icon md-svg-src="img/ic_delete_black_24px.svg"></md-icon-->
-	                    		<!-- ngIf: !layergrps.values_.extraparams.collapsestate -->
-	                    		<!-- ngIf: layergrps.values_.extraparams.collapsestate --><i ng-if="layergrps.values_.extraparams.collapsestate" class="fa fa-angle-double-up collapseBtn" ng-click="layergrps.values_.extraparams.collapsestate=!layergrps.values_.extraparams.collapsestate" role="button" tabindex="0"></i><!-- end ngIf: layergrps.values_.extraparams.collapsestate -->
-	                    	</button><!-- end ngIf: layergrps.values_.extraparams.collapsable -->
-	        			
-	        				<!-- ngIf: layergrps.values_.extraparams.reset -->
-	                    
-	        				<!-- ngIf: layergrps.values_.extraparams.delete -->
-	                    
-	                    	<!-- ngIf: layergrps.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layergrps.values_.extraparams.slider" ng-model="layergrps.values_.opacity" ng-change="layergrps.changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layergrps.values_.extraparams.slider --><!-- ng-change=layergrps.setOpacity(layergrps.values_.opacity); Can Be Used -->
-	        			</span>
-	    			</div>
-	    			<div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" class="selection-div ng-hide" ng-class="{'selection-margin':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	    				<!-- ngIf: layergrps.values_.extraparams.radioSelect --><md-radio-group ng-if="layergrps.values_.extraparams.radioSelect" ng-model="layergrps.values_.extraparams.radioBtnSelect" ng-change="radioSelect(layergrps)" layout="row" class="color-text ng-pristine ng-untouched ng-valid ng-scope _md ng-not-empty layout-row" role="radiogroup" tabindex="0" aria-activedescendant="radio_21" aria-invalid="false">
-						  <label class="selection-label">Selection:-</label>
-	                      <md-radio-button value="Single Select" id="radio_21" role="radio" aria-checked="true" aria-label="Single" class="md-auto-horizontal-margin md-checked"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Single</div></md-radio-button>
-	                      <md-radio-button value="Multiple Select" id="radio_22" role="radio" aria-checked="false" aria-label="Multiple" class="md-auto-horizontal-margin"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Multiple</div></md-radio-button>
-	                    </md-radio-group><!-- end ngIf: layergrps.values_.extraparams.radioSelect -->
-	    			</div>
-	        		<!-- ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Coastal Inundation</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Cyclone Track (2013-2022)</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Land Slide</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Fire Risk Map</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Landslide Risk Map</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Cyclone Risk Map</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Ports</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rivers</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">District Population</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Railway Tracks</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Airports</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">District Roads</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">National Highways</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Admin Boundaries</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="false">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ -->
-	        		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" style="">  <!-- | orderBy:propertyName:reverse -->
-	    			<div class="layer-display ng-scope ng-binding">
-	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed()" class="layer-title-checkbox md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-label="Heat Content Anomaly" tabindex="0" type="checkbox" role="checkbox" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
-	        			Heat Content Anomaly
-	        			
-	        			
-	        			
-	        			<span ng-show="layergrps.values_.visible" aria-hidden="true" class="ng-hide">
-							<!-- ngIf: layergrps.values_.extraparams.collapsable --><button class="collapse-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layergrps.values_.extraparams.collapsable" ng-click="map.collapseLayers(layergrps)">    
-	                    		<!--md-icon md-svg-src="img/ic_delete_black_24px.svg"></md-icon-->
-	                    		<!-- ngIf: !layergrps.values_.extraparams.collapsestate --><i ng-if="!layergrps.values_.extraparams.collapsestate" class="fa fa-angle-double-down collapseBtn" ng-click="layergrps.values_.extraparams.collapsestate=!layergrps.values_.extraparams.collapsestate" role="button" tabindex="0"></i><!-- end ngIf: !layergrps.values_.extraparams.collapsestate -->
-	                    		<!-- ngIf: layergrps.values_.extraparams.collapsestate -->
-	                    	</button><!-- end ngIf: layergrps.values_.extraparams.collapsable -->
-	        			
-	        				<!-- ngIf: layergrps.values_.extraparams.reset -->
-	                    
-	        				<!-- ngIf: layergrps.values_.extraparams.delete -->
-	                    
-	                    	<!-- ngIf: layergrps.values_.extraparams.slider --><!-- ng-change=layergrps.setOpacity(layergrps.values_.opacity); Can Be Used -->
-	        			</span>
-	    			</div>
-	    			<div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" class="selection-div ng-hide" ng-class="{'selection-margin':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	    				<!-- ngIf: layergrps.values_.extraparams.radioSelect -->
-	    			</div>
-	        		<!-- ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Heat Content Anomaly</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="false">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' --><div ng-if="layers.values_.title == 'Heat Content Anomaly'" class="ng-scope">
-	                    		  Select Date And Time :<select aria-label="Aria Label" ng-change="gettimeLayer(date_id)" class="ng-pristine ng-valid ng-scope ng-touched ng-untouched ng-not-empty" ng-model="date_id" ng-options="avlDate.dateStr for avlDate in todayDate | orderBy:avlDate:false" aria-invalid="false" style="padding: 2px;"><option label="13-SEP-2025 0:00 Hours" value="object:442" selected="selected">13-SEP-2025 0:00 Hours</option><option label="13-SEP-2025 6:00 Hours" value="object:443">13-SEP-2025 6:00 Hours</option><option label="13-SEP-2025 12:00 Hours" value="object:444">13-SEP-2025 12:00 Hours</option><option label="13-SEP-2025 18:00 Hours" value="object:445">13-SEP-2025 18:00 Hours</option><option label="14-SEP-2025 0:00 Hours" value="object:446">14-SEP-2025 0:00 Hours</option><option label="14-SEP-2025 6:00 Hours" value="object:447">14-SEP-2025 6:00 Hours</option><option label="14-SEP-2025 12:00 Hours" value="object:448">14-SEP-2025 12:00 Hours</option><option label="14-SEP-2025 18:00 Hours" value="object:449">14-SEP-2025 18:00 Hours</option><option label="15-SEP-2025 0:00 Hours" value="object:450">15-SEP-2025 0:00 Hours</option><option label="15-SEP-2025 6:00 Hours" value="object:451">15-SEP-2025 6:00 Hours</option><option label="15-SEP-2025 12:00 Hours" value="object:452">15-SEP-2025 12:00 Hours</option><option label="15-SEP-2025 18:00 Hours" value="object:453">15-SEP-2025 18:00 Hours</option><option label="16-SEP-2025 0:00 Hours" value="object:454">16-SEP-2025 0:00 Hours</option><option label="16-SEP-2025 6:00 Hours" value="object:455">16-SEP-2025 6:00 Hours</option><option label="16-SEP-2025 12:00 Hours" value="object:456">16-SEP-2025 12:00 Hours</option><option label="16-SEP-2025 18:00 Hours" value="object:457">16-SEP-2025 18:00 Hours</option><option label="17-SEP-2025 0:00 Hours" value="object:458">17-SEP-2025 0:00 Hours</option><option label="17-SEP-2025 6:00 Hours" value="object:459">17-SEP-2025 6:00 Hours</option><option label="17-SEP-2025 12:00 Hours" value="object:460">17-SEP-2025 12:00 Hours</option><option label="17-SEP-2025 18:00 Hours" value="object:461">17-SEP-2025 18:00 Hours</option><option label="18-SEP-2025 0:00 Hours" value="object:462">18-SEP-2025 0:00 Hours</option></select>
-	                    		  
-	                    		  </div><!-- end ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ -->
-	        		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" style="">  <!-- | orderBy:propertyName:reverse -->
-	    			<div class="layer-display ng-scope ng-binding">
-	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed()" class="layer-title-checkbox md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="Base Layers" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
-	        			Base Layers
-	        			
-	        			
-	        			
-	        			<span ng-show="layergrps.values_.visible" aria-hidden="false">
-							<!-- ngIf: layergrps.values_.extraparams.collapsable --><button class="collapse-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layergrps.values_.extraparams.collapsable" ng-click="map.collapseLayers(layergrps)">    
-	                    		<!--md-icon md-svg-src="img/ic_delete_black_24px.svg"></md-icon-->
-	                    		<!-- ngIf: !layergrps.values_.extraparams.collapsestate -->
-	                    		<!-- ngIf: layergrps.values_.extraparams.collapsestate --><i ng-if="layergrps.values_.extraparams.collapsestate" class="fa fa-angle-double-up collapseBtn" ng-click="layergrps.values_.extraparams.collapsestate=!layergrps.values_.extraparams.collapsestate" role="button" tabindex="0"></i><!-- end ngIf: layergrps.values_.extraparams.collapsestate -->
-	                    	</button><!-- end ngIf: layergrps.values_.extraparams.collapsable -->
-	        			
-	        				<!-- ngIf: layergrps.values_.extraparams.reset -->
-	                    
-	        				<!-- ngIf: layergrps.values_.extraparams.delete -->
-	                    
-	                    	<!-- ngIf: layergrps.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layergrps.values_.extraparams.slider" ng-model="layergrps.values_.opacity" ng-change="layergrps.changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.65"><!-- end ngIf: layergrps.values_.extraparams.slider --><!-- ng-change=layergrps.setOpacity(layergrps.values_.opacity); Can Be Used -->
-	        			</span>
-	    			</div>
-	    			<div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" class="selection-div ng-hide" ng-class="{'selection-margin':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	    				<!-- ngIf: layergrps.values_.extraparams.radioSelect --><md-radio-group ng-if="layergrps.values_.extraparams.radioSelect" ng-model="layergrps.values_.extraparams.radioBtnSelect" ng-change="radioSelect(layergrps)" layout="row" class="color-text ng-pristine ng-untouched ng-valid ng-scope _md ng-not-empty layout-row" role="radiogroup" tabindex="0" aria-activedescendant="radio_19" aria-invalid="false">
-						  <label class="selection-label">Selection:-</label>
-	                      <md-radio-button value="Single Select" id="radio_19" role="radio" aria-checked="true" aria-label="Single" class="md-auto-horizontal-margin md-checked"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Single</div></md-radio-button>
-	                      <md-radio-button value="Multiple Select" id="radio_20" role="radio" aria-checked="false" aria-label="Multiple" class="md-auto-horizontal-margin"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-off"></div><div class="md-on"></div></div><div ng-transclude="" class="md-label">Multiple</div></md-radio-button>
-	                    </md-radio-group><!-- end ngIf: layergrps.values_.extraparams.radioSelect -->
-	    			</div>
-	        		<!-- ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Open Street Map</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Natural Earth</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-empty flex-80" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Black Marble</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            		 
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">True Marble</span>
-	         	        	<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="false">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.9"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-		                    
-		                  
-				<!-- ngIf: layers.values_.title == 'Heat Content Anomaly' -->	                    		
-					  
-					   <!-- ngIf: layergrps.values_.title=='EOS-06 (SCAT)' -->
-					 <!-- <div ng-if="layers.values_.title == 'Analyzed Wind'">
-	                    		  Select Date :<select class="ng-pristine ng-valid ng-scope ng-not-empty ng-touched" aria-label="Aria Label"
-	                    		   ng-model="selected_scat_layer"
-	                    		   ng-change="updateSelectedSCATlayer(selected_scat_layer,layers)"
-	                    		    ng-options="layer.values_.extraparams.date_local_str for layer in layers.values_.extraparams.scat_layer_obj_arr " aria-invalid="false" style="margin-left: 8px;">
-	                    		  	</select>
-
-					 </div> -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	                    		  <!-- ngIf: layers.values_.title == 'IMG TIR1' || layers.values_.title == 'IMG TIR2' || layers.values_.title == 'IMG SWIR' ||layers.values_.title == 'IMG MIR' || layers.values_.title == 'IMG VIS' || layers.values_.title == 'IMG WV' -->
-				                </span>
-		        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	            			
-	            			
-	            			
-	        			</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ -->
-	        		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true -->
+	    		<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true -->
 	        		
 	        		
 	        		</md-content></div> 
@@ -874,23 +143,8 @@
 		<div id="quick_layers" class="quick_layers scrollbarX" style="display: block;">
         <table>
             <tbody><tr>
-                <!-- ngRepeat: item in iconList --><!-- ngIf: item.visible && model_cyclone.Year=='Recent' --><td ng-if="item.visible &amp;&amp; model_cyclone.Year=='Recent'" ng-repeat="item in iconList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Wind (Forecast)">
-    	            	<img ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="wind" ng-src="assets/img/wind.png" alt="cyclone-images" class="ng-scope unclicked_button" src="assets/img/wind.png">
-                	</button>
-                	<br>
-                	                <label>Gfs Winds</label>
-                </td><!-- end ngIf: item.visible && model_cyclone.Year=='Recent' --><!-- end ngRepeat: item in iconList -->
-		 <!-- ngIf:  model_cyclone.Year=='Recent' --><td ng-if=" model_cyclone.Year=='Recent'" class="ng-scope">
-
-		  <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="showSCATImgInfo()" id="CycloneInfo" uib-tooltip="SCAT Recent Image">
-                		
-    	            	<img id="CycloneInfo" ng-src="assets/img/scat_wind_2.png" alt="cyclone-images" class="ng-scope" src="assets/img/scat_wind_2.png">
-                </button>
-                <br>
-                <label>SCAT Image</label>
-
-                </td><!-- end ngIf:  model_cyclone.Year=='Recent' -->
+                <!-- ngRepeat: item in iconList -->
+		 <!-- ngIf:  model_cyclone.Year=='Recent' -->
                 <td>
 <!--                 <md-button type="submit" value="Cyclone Info"  ng-click='showCycloneInfo()' style='background-color: deepskyblue; width: /*119px*/ 278px;/*margin-left: 43px;*/ left: 30px; top: 0px; margin-top: 1px;height: 42px; font-size: 23px;'>Cyclone Info</md-button> -->
                 <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="showCycloneInfo()" uib-tooltip="Cyclone Info">
@@ -911,25 +165,7 @@
 	<div id="tools" class="tools scrollbarX">
         <table>
             <tbody><tr>
-                <!-- ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in toolsBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Measure Area">
-    	            	<img defer="" ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="MeasureArea" ng-src="assets/img/area-icon-small.png" alt="tools-btn" class="ng-scope unclicked_button" src="assets/img/area-icon-small.png">
-                	</button> 
-                	<br>
-                	<label class="ng-binding">Measure Area</label>
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in toolsBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Measure Distance">
-    	            	<img defer="" ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="MeasureDistance" ng-src="assets/img/distance-icon-small.png" alt="tools-btn" class="ng-scope unclicked_button" src="assets/img/distance-icon-small.png">
-                	</button> 
-                	<br>
-                	<label class="ng-binding">Measure Distance</label>
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in toolsBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Graticule">
-    	            	<img defer="" ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="Graticule" ng-src="assets/img/graticule-icon-small.png" alt="tools-btn" class="ng-scope unclicked_button" src="assets/img/graticule-icon-small.png">
-                	</button> 
-                	<br>
-                	<label class="ng-binding">Graticules</label>
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in toolsBtnList -->
+                <!-- ngRepeat: item in toolsBtnList -->
 <!--                 <td ng-if="toolsNoBtn" id="toolsNoBtn">{{generalMessage.infoMsg.toolsNoBtn.message}}</td> -->
             </tr>
             
@@ -940,36 +176,13 @@
     <div id="analysis" class="analysis scrollbarX">
         <!-- ngIf: scope.selectedLayer!='' --><table ng-if="scope.selectedLayer!=''" class="ng-scope">
             <tbody><tr>
-                <!-- ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in analysisBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Point Probe">
-    	            	<img defer="" ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="PointProbe" ng-src="assets/img/point_icon.png" alt="analysis-btn" class="ng-scope unclicked_button" src="assets/img/point_icon.png">
-                	</button> 
-            	    <br>
-                <label class="ng-binding">PointProbe</label>
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in analysisBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Contours">
-    	            	<img defer="" ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="Contours" ng-src="assets/img/contour_icon.png" alt="analysis-btn" class="ng-scope unclicked_button" src="assets/img/contour_icon.png">
-                	</button> 
-            	    <br>
-                <label class="ng-binding">Contours</label>
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible --><td ng-if="item.visible" ng-repeat="item in analysisBtnList" class="ng-scope">
-                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Region Growing">
-    	            	<img defer="" ng-class="{clicked_button:item.active==true, unclicked_button:item.active==false}" id="RegionGrowing" ng-src="assets/img/region_icon.png" alt="analysis-btn" class="ng-scope unclicked_button" src="assets/img/region_icon.png">
-                	</button> 
-            	    <br>
-                <label class="ng-binding">Region Growing</label>
-                </td><!-- end ngIf: item.visible --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible --><!-- end ngRepeat: item in analysisBtnList -->
+                <!-- ngRepeat: item in analysisBtnList -->
 <!--                 <td ng-if="analysisNoBtn" id="analysisNoBtn">{{generalMessage.infoMsg.analysisNoBtn.message}}</td> -->
             </tr>
             <tr>
             	<td></td>
-            	<!-- ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible && item.name=='Contours' --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible && item.name=='Contours' --><td ng-if="item.visible &amp;&amp; item.name=='Contours'" ng-repeat="item in analysisBtnList" class="ng-scope"> 
-            		
-            		<!-- ngIf: item.name=='Contours' && contours_status -->
-            	</td><!-- end ngIf: item.visible && item.name=='Contours' --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible && item.name=='Contours' --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible && item.name=='Contours' --><!-- end ngRepeat: item in analysisBtnList -->
-            	<!-- ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible && item.name=='RegionGrowing' --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible && item.name=='RegionGrowing' --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible && item.name=='RegionGrowing' --><td ng-if="item.visible &amp;&amp; item.name=='RegionGrowing'" ng-repeat="item in analysisBtnList" class="ng-scope"> 	
-            		<!-- ngIf: item.name=='RegionGrowing' --><input ng-if="item.name=='RegionGrowing'" type="text" id="threshold-value" ng-value="analysisBtnList[regionGrowingBtnIndex].thresholdvalue" size="2" class="regionThresholdInput ng-pristine ng-untouched ng-valid ng-scope ng-not-empty ng-hide" uib-tooltip="Threshold" tooltip-placement="bottom" ng-show="analysisBtnList[regionGrowingBtnIndex].active" ng-change="updateSelectedUserRangeSetting(selectedLayerTimeseries, 'user_selection')" ng-model="analysisBtnList[regionGrowingBtnIndex].thresholdvalue" aria-hidden="true" value="20" aria-invalid="false"><!-- end ngIf: item.name=='RegionGrowing' -->
-            	</td><!-- end ngIf: item.visible && item.name=='RegionGrowing' --><!-- end ngRepeat: item in analysisBtnList --><!-- ngIf: item.visible && item.name=='RegionGrowing' --><!-- end ngRepeat: item in analysisBtnList -->
+            	<!-- ngRepeat: item in analysisBtnList -->
+            	<!-- ngRepeat: item in analysisBtnList -->
             </tr>
         </tbody></table><!-- end ngIf: scope.selectedLayer!='' -->
     </div>
@@ -979,41 +192,7 @@
 	
 		 <table>
 			<tbody><tr>
-				<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Overlay Layers' ||layergrps.values_.title=='INSAT-3D' || layergrps.values_.title =='Heat Content Anomaly'||layergrps.values_.title =='EOS-06 (SCAT)' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Overlay Layers' ||layergrps.values_.title=='INSAT-3D' || layergrps.values_.title =='Heat Content Anomaly'||layergrps.values_.title =='EOS-06 (SCAT)' --><td ng-if="layergrps.values_.title=='Overlay Layers' ||layergrps.values_.title=='INSAT-3D' || layergrps.values_.title =='Heat Content Anomaly'||layergrps.values_.title =='EOS-06 (SCAT)'" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="ng-scope" style="">
-					<table>
-						<tbody><tr>
-							<!-- ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
- 							<!-- {{layers.values_.visible && layergrps.values_.visible}} --> 
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
- 								<!-- {{layers.values_.extraparams.legendImgSrc}}  -->
-									<canvas id="51" width="300" height="100">
-										<img defer="" ng-src="https://mosdac.gov.in/geoserver_2/cyc_track/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=coastal_inun_maxele&amp;FORMAT=image/png&amp;STYLES=undefined" onload="changeCssOfLegendDiv(this)" alt="legend-img" src="https://mosdac.gov.in/geoserver_2/cyc_track/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=coastal_inun_maxele&amp;FORMAT=image/png&amp;STYLES=undefined">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==true -->
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ -->
-								
-						</tr>
-					</tbody></table>
-				</td><!-- end ngIf: layergrps.values_.title=='Overlay Layers' ||layergrps.values_.title=='INSAT-3D' || layergrps.values_.title =='Heat Content Anomaly'||layergrps.values_.title =='EOS-06 (SCAT)' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Overlay Layers' ||layergrps.values_.title=='INSAT-3D' || layergrps.values_.title =='Heat Content Anomaly'||layergrps.values_.title =='EOS-06 (SCAT)' --><td ng-if="layergrps.values_.title=='Overlay Layers' ||layergrps.values_.title=='INSAT-3D' || layergrps.values_.title =='Heat Content Anomaly'||layergrps.values_.title =='EOS-06 (SCAT)'" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="ng-scope" style="">
-					<table>
-						<tbody><tr>
-							<!-- ngRepeat: layers in layergrps.getLayers().array_ --><!-- ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><td ng-if="!noLegends &amp;&amp; layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().array_" class="ng-scope">
- 							<!-- {{layers.values_.visible && layergrps.values_.visible}} --> 
-								<div id="legends_div" class="legends_div ng-hide" ng-show="layers.values_.visible &amp;&amp; layergrps.values_.visible" aria-hidden="true">
- 								<!-- {{layers.values_.extraparams.legendImgSrc}}  -->
-									<canvas id="37" width="300" height="100">
-										<img defer="" ng-src="https://mosdac.gov.in/geoserver_2/ocean_sci/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=ocean_sci:GEO_TCHCPANO_000&amp;FORMAT=image/png&amp;STYLES=undefined" onload="changeCssOfLegendDiv(this)" alt="legend-img" src="https://mosdac.gov.in/geoserver_2/ocean_sci/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=ocean_sci:GEO_TCHCPANO_000&amp;FORMAT=image/png&amp;STYLES=undefined">
-									</canvas><br>
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==true --><select ng-if="layers.values_.extraparams.fixStyleLegend==true" aria-label="Aria Label" class="select-font-box-style ng-pristine ng-untouched ng-valid ng-scope ng-not-empty" ng-model="legendStyle" ng-change="updateSelectedLayerLegend(layers,legendStyle)" ng-options="option for option in layers.values_.extraparams.legendsStyleAvailable" aria-invalid="false" style="position: absolute; top: 3px; margin-left: 60px;"><option value="?" selected="selected"></option></select><!-- end ngIf: layers.values_.extraparams.fixStyleLegend==true -->
-									<!-- ngIf: layers.values_.extraparams.fixStyleLegend==false -->
-								</div>
-							</td><!-- end ngIf: !noLegends && layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().array_ -->
-								
-						</tr>
-					</tbody></table>
-				</td><!-- end ngIf: layergrps.values_.title=='Overlay Layers' ||layergrps.values_.title=='INSAT-3D' || layergrps.values_.title =='Heat Content Anomaly'||layergrps.values_.title =='EOS-06 (SCAT)' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Overlay Layers' ||layergrps.values_.title=='INSAT-3D' || layergrps.values_.title =='Heat Content Anomaly'||layergrps.values_.title =='EOS-06 (SCAT)' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Overlay Layers' ||layergrps.values_.title=='INSAT-3D' || layergrps.values_.title =='Heat Content Anomaly'||layergrps.values_.title =='EOS-06 (SCAT)' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true -->
+				<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true -->
 				<td>
 						<div>
 									<center>
@@ -1059,7 +238,7 @@
           <md-tabs md-dynamic-height="" md-border-bottom="" class="ng-isolate-scope md-dynamic-height"><md-tabs-wrapper> <md-tab-data>
             
             <!-- ngRepeat: tab in tabs --><md-tab ng-repeat="tab in tabs" label="Track" class="ng-scope ng-isolate-scope"></md-tab><!-- end ngRepeat: tab in tabs --><md-tab ng-repeat="tab in tabs" label="Intensity" class="ng-scope ng-isolate-scope"></md-tab><!-- end ngRepeat: tab in tabs --><md-tab ng-repeat="tab in tabs" label="Center" class="ng-scope ng-isolate-scope"></md-tab><!-- end ngRepeat: tab in tabs --><md-tab ng-repeat="tab in tabs" label="Cyclone Centric Images" class="ng-scope ng-isolate-scope"></md-tab><!-- end ngRepeat: tab in tabs --><md-tab ng-repeat="tab in tabs" label="Ship Avoidance Region" class="ng-scope ng-isolate-scope"></md-tab><!-- end ngRepeat: tab in tabs --><md-tab ng-repeat="tab in tabs" label="Surge" class="ng-scope ng-isolate-scope"></md-tab><!-- end ngRepeat: tab in tabs --><md-tab ng-repeat="tab in tabs" label="Inundation" class="ng-scope ng-isolate-scope"></md-tab><!-- end ngRepeat: tab in tabs --><md-tab ng-repeat="tab in tabs" label="Cyclogenesis" class="ng-scope ng-isolate-scope"></md-tab><!-- end ngRepeat: tab in tabs --><md-tab ng-repeat="tab in tabs" label="Landfall" class="ng-scope ng-isolate-scope"></md-tab><!-- end ngRepeat: tab in tabs --><md-tab ng-repeat="tab in tabs" label="Animation" class="ng-scope ng-isolate-scope"></md-tab><!-- end ngRepeat: tab in tabs --> 
-                  </md-tab-data> <!-- ngIf: $mdTabsCtrl.shouldPaginate --><md-prev-button tabindex="-1" role="button" aria-label="Previous Page" aria-disabled="true" ng-class="{ 'md-disabled': !$mdTabsCtrl.canPageBack() }" ng-if="$mdTabsCtrl.shouldPaginate" ng-click="$mdTabsCtrl.previousPage()" class="ng-scope md-disabled-add ng-animate md-disabled ng-enter ng-md-disabled-add ng-enter-active ng-md-disabled-add-active md-disabled-add-active" data-ng-animate="2" style=""> <md-icon md-svg-src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxnPjxwb2x5Z29uIHBvaW50cz0iMTUuNCw3LjQgMTQsNiA4LDEyIDE0LDE4IDE1LjQsMTYuNiAxMC44LDEyICIvPjwvZz48L3N2Zz4=" role="img" aria-hidden="true"><svg version="1.1" x="0px" y="0px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fit="" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false"><g><polygon points="15.4,7.4 14,6 8,12 14,18 15.4,16.6 10.8,12 "></polygon></g></svg></md-icon> </md-prev-button><!-- end ngIf: $mdTabsCtrl.shouldPaginate --> <!-- ngIf: $mdTabsCtrl.shouldPaginate --><md-next-button tabindex="-1" role="button" aria-label="Next Page" aria-disabled="false" ng-class="{ 'md-disabled': !$mdTabsCtrl.canPageForward() }" ng-if="$mdTabsCtrl.shouldPaginate" ng-click="$mdTabsCtrl.nextPage()" class="ng-scope ng-animate ng-enter ng-enter-active" data-ng-animate="2" style=""> <md-icon md-svg-src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxnPjxwb2x5Z29uIHBvaW50cz0iMTUuNCw3LjQgMTQsNiA4LDEyIDE0LDE4IDE1LjQsMTYuNiAxMC44LDEyICIvPjwvZz48L3N2Zz4=" role="img" aria-hidden="true"><svg version="1.1" x="0px" y="0px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fit="" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false"><g><polygon points="15.4,7.4 14,6 8,12 14,18 15.4,16.6 10.8,12 "></polygon></g></svg></md-icon> </md-next-button><!-- end ngIf: $mdTabsCtrl.shouldPaginate --> <md-tabs-canvas tabindex="0" ng-focus="$mdTabsCtrl.redirectFocus()" ng-class="{ 'md-paginated': $mdTabsCtrl.shouldPaginate, 'md-center-tabs': $mdTabsCtrl.shouldCenterTabs }" ng-keydown="$mdTabsCtrl.keydown($event)" class="md-paginated" style=""> <md-pagination-wrapper ng-class="{ 'md-center-tabs': $mdTabsCtrl.shouldCenterTabs }" md-tab-scroll="$mdTabsCtrl.scroll($event)" role="tablist" aria-label="Use the left and right arrow keys to navigate between tabs" style="transform: translate(0px, 0px);"><!-- ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="0" class="md-tab  md-active" ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-3" md-tab-id="3" aria-selected="true" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-3" style="max-width: 264px;">Track</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-4" md-tab-id="4" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-4" style="max-width: 264px;">Intensity</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-5" md-tab-id="5" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-5" style="max-width: 264px;">Center</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-6" md-tab-id="6" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-6" style="max-width: 264px;">Cyclone Centric Images</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-7" md-tab-id="7" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-7" style="max-width: 264px;">Ship Avoidance Region</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-8" md-tab-id="8" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-8" style="max-width: 264px;">Surge</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-9" md-tab-id="9" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-9" style="max-width: 264px;">Inundation</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-10" md-tab-id="10" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-10" style="max-width: 264px;">Cyclogenesis</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-11" md-tab-id="11" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-11" style="max-width: 264px;">Landfall</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-12" md-tab-id="12" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-12" style="max-width: 264px;">Animation</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --> <md-ink-bar style="left: 0px; right: 1293px;"></md-ink-bar> </md-pagination-wrapper> <md-tabs-dummy-wrapper aria-hidden="true" class="md-visually-hidden md-dummy-wrapper"> <!-- ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 264px;">Track</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 264px;">Intensity</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 264px;">Center</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 264px;">Cyclone Centric Images</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 264px;">Ship Avoidance Region</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 264px;">Surge</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 264px;">Inundation</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 264px;">Cyclogenesis</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 264px;">Landfall</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 264px;">Animation</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --> </md-tabs-dummy-wrapper> </md-tabs-canvas> </md-tabs-wrapper> <md-tabs-content-wrapper ng-show="$mdTabsCtrl.hasContent &amp;&amp; $mdTabsCtrl.selectedIndex &gt;= 0" class="_md" aria-hidden="false"> <!-- ngRepeat: (index, tab) in $mdTabsCtrl.tabs --><!-- ngIf: tab.hasContent --><md-tab-content id="tab-content-3" class="_md ng-scope md-active md-no-scroll" role="tabpanel" aria-labelledby="tab-item-3" md-swipe-left="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(1)" md-swipe-right="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(-1)" ng-if="tab.hasContent" ng-repeat="(index, tab) in $mdTabsCtrl.tabs" ng-class="{ 'md-no-transition': $mdTabsCtrl.lastSelectedIndex == null, 'md-active':        tab.isActive(), 'md-left':          tab.isLeft(), 'md-right':         tab.isRight(), 'md-no-scroll':     $mdTabsCtrl.dynamicHeight }"> <!-- ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() --><div md-tabs-template="::tab.template" md-connected-if="tab.isActive()" md-scope="::tab.parent" ng-if="$mdTabsCtrl.enableDisconnect || tab.shouldRender()" class="ng-scope ng-isolate-scope">
+                  </md-tab-data> <!-- ngIf: $mdTabsCtrl.shouldPaginate --><md-prev-button tabindex="-1" role="button" aria-label="Previous Page" aria-disabled="true" ng-class="{ 'md-disabled': !$mdTabsCtrl.canPageBack() }" ng-if="$mdTabsCtrl.shouldPaginate" ng-click="$mdTabsCtrl.previousPage()" class="ng-scope md-disabled"> <md-icon md-svg-src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxnPjxwb2x5Z29uIHBvaW50cz0iMTUuNCw3LjQgMTQsNiA4LDEyIDE0LDE4IDE1LjQsMTYuNiAxMC44LDEyICIvPjwvZz48L3N2Zz4=" role="img" aria-hidden="true"><svg version="1.1" x="0px" y="0px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fit="" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false"><g><polygon points="15.4,7.4 14,6 8,12 14,18 15.4,16.6 10.8,12 "></polygon></g></svg></md-icon> </md-prev-button><!-- end ngIf: $mdTabsCtrl.shouldPaginate --> <!-- ngIf: $mdTabsCtrl.shouldPaginate --><md-next-button tabindex="-1" role="button" aria-label="Next Page" aria-disabled="false" ng-class="{ 'md-disabled': !$mdTabsCtrl.canPageForward() }" ng-if="$mdTabsCtrl.shouldPaginate" ng-click="$mdTabsCtrl.nextPage()" class="ng-scope"> <md-icon md-svg-src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxnPjxwb2x5Z29uIHBvaW50cz0iMTUuNCw3LjQgMTQsNiA4LDEyIDE0LDE4IDE1LjQsMTYuNiAxMC44LDEyICIvPjwvZz48L3N2Zz4=" role="img" aria-hidden="true"><svg version="1.1" x="0px" y="0px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fit="" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false"><g><polygon points="15.4,7.4 14,6 8,12 14,18 15.4,16.6 10.8,12 "></polygon></g></svg></md-icon> </md-next-button><!-- end ngIf: $mdTabsCtrl.shouldPaginate --> <md-tabs-canvas tabindex="0" ng-focus="$mdTabsCtrl.redirectFocus()" ng-class="{ 'md-paginated': $mdTabsCtrl.shouldPaginate, 'md-center-tabs': $mdTabsCtrl.shouldCenterTabs }" ng-keydown="$mdTabsCtrl.keydown($event)" class="md-paginated"> <md-pagination-wrapper ng-class="{ 'md-center-tabs': $mdTabsCtrl.shouldCenterTabs }" md-tab-scroll="$mdTabsCtrl.scroll($event)" role="tablist" aria-label="Use the left and right arrow keys to navigate between tabs" style="transform: translate(0px, 0px);"><!-- ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="0" class="md-tab  md-active" ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-3" md-tab-id="3" aria-selected="true" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-3" style="max-width: 224px;">Track</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-4" md-tab-id="4" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-4" style="max-width: 224px;">Intensity</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-5" md-tab-id="5" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-5" style="max-width: 224px;">Center</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-6" md-tab-id="6" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-6" style="max-width: 224px;">Cyclone Centric Images</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-7" md-tab-id="7" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-7" style="max-width: 224px;">Ship Avoidance Region</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-8" md-tab-id="8" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-8" style="max-width: 224px;">Surge</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-9" md-tab-id="9" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-9" style="max-width: 224px;">Inundation</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-10" md-tab-id="10" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-10" style="max-width: 224px;">Cyclogenesis</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-11" md-tab-id="11" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-11" style="max-width: 224px;">Landfall</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-tab-item tabindex="-1" class="md-tab " ng-repeat="tab in $mdTabsCtrl.tabs" role="tab" id="tab-item-12" md-tab-id="12" aria-selected="false" aria-disabled="false" ng-click="$mdTabsCtrl.select(tab.getIndex())" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }" ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()" md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label" md-scope="::tab.parent" aria-controls="tab-content-12" style="max-width: 224px;">Animation</md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --> <md-ink-bar style="left: 0px; right: 1289px;"></md-ink-bar> </md-pagination-wrapper> <md-tabs-dummy-wrapper aria-hidden="true" class="md-visually-hidden md-dummy-wrapper"> <!-- ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 224px;">Track</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 224px;">Intensity</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 224px;">Center</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 224px;">Cyclone Centric Images</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 224px;">Ship Avoidance Region</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 224px;">Surge</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 224px;">Inundation</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 224px;">Cyclogenesis</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 224px;">Landfall</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --><md-dummy-tab class="md-tab ng-scope ng-isolate-scope ng-binding" tabindex="-1" ng-focus="$mdTabsCtrl.hasFocus = true" ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs" md-tabs-template="::tab.label" md-scope="::tab.parent" style="max-width: 224px;">Animation</md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --> </md-tabs-dummy-wrapper> </md-tabs-canvas> </md-tabs-wrapper> <md-tabs-content-wrapper ng-show="$mdTabsCtrl.hasContent &amp;&amp; $mdTabsCtrl.selectedIndex &gt;= 0" class="_md" aria-hidden="false"> <!-- ngRepeat: (index, tab) in $mdTabsCtrl.tabs --><!-- ngIf: tab.hasContent --><md-tab-content id="tab-content-3" class="_md ng-scope md-active md-no-scroll" role="tabpanel" aria-labelledby="tab-item-3" md-swipe-left="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(1)" md-swipe-right="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(-1)" ng-if="tab.hasContent" ng-repeat="(index, tab) in $mdTabsCtrl.tabs" ng-class="{ 'md-no-transition': $mdTabsCtrl.lastSelectedIndex == null, 'md-active':        tab.isActive(), 'md-left':          tab.isLeft(), 'md-right':         tab.isRight(), 'md-no-scroll':     $mdTabsCtrl.dynamicHeight }"> <!-- ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() --><div md-tabs-template="::tab.template" md-connected-if="tab.isActive()" md-scope="::tab.parent" ng-if="$mdTabsCtrl.enableDisconnect || tab.shouldRender()" class="ng-scope ng-isolate-scope">
             	<md-content class="md-padding ng-scope _md" style="color:white;">
             	<!-- ngIf: tab.title=='Center' -->
             	
@@ -1085,7 +264,7 @@
 	           	    </div>
             		
                 	<img ng-show="returnObjectKeys(selectedCycloneTrack).length!=0" defer="" loading="lazy" style="max-width:100%; max-height: 100%;  display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
-                	<img ng-show="returnObjectKeys(selectedCycloneTrack).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg" width="1200" height="900">
+                	<img ng-show="returnObjectKeys(selectedCycloneTrack).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
             	</div><!-- end ngIf: tab.title=='Track' -->		
 				
                 </md-content>
@@ -1103,7 +282,7 @@
 	           	    </div>
             		
                 	<img ng-show="returnObjectKeys(selectedCycloneIntensity).length!=0" defer="" loading="lazy" style="max-width:100%; max-height: 100%;  display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
-                	<img ng-show="returnObjectKeys(selectedCycloneIntensity).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg" width="1200" height="900">
+                	<img ng-show="returnObjectKeys(selectedCycloneIntensity).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
             	</div><!-- end ngIf: tab.title=='Intensity' -->
             	
             	<!-- ngIf: tab.title=='Inundation' -->
@@ -1127,7 +306,7 @@
 	           	    </div>
             		
                 	<img ng-show="returnObjectKeys(selectedCycloneCenter).length!=0" defer="" loading="lazy" style="/*max-width:100%; max-height: 100%;*/ width: 78vw; height: 60vh;  display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
-                	<img ng-show="returnObjectKeys(selectedCycloneCenter).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="/*max-width:100%; max-height: 100%;*/  width: 78vw; height: 60vh; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg" width="1200" height="900">
+                	<img ng-show="returnObjectKeys(selectedCycloneCenter).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="/*max-width:100%; max-height: 100%;*/  width: 78vw; height: 60vh; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
                 	
             	</div><!-- end ngIf: tab.title=='Center' -->
             	
@@ -1162,7 +341,7 @@
 	           	    </div>
             		
                 	<img ng-show="returnObjectKeys(selectedCycloneCenteric).length!=0" defer="" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
-                	<img ng-show="returnObjectKeys(selectedCycloneCenteric).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg" width="1200" height="900">
+                	<img ng-show="returnObjectKeys(selectedCycloneCenteric).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
             	</div><!-- end ngIf: tab.title=='Cyclone Centric Images' -->
             	
             	<!-- ngIf: tab.title=='Intensity' -->
@@ -1202,7 +381,7 @@
 	           	    </div>
             		
                 	<img ng-show="returnObjectKeys(selectedCycloneShipAvoidance).length!=0" defer="" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
-                	<img ng-show="returnObjectKeys(selectedCycloneShipAvoidance).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg" width="1200" height="900">
+                	<img ng-show="returnObjectKeys(selectedCycloneShipAvoidance).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
             	</div><!-- end ngIf: tab.title=='Ship Avoidance Region' -->	
 			
 				<!-- ngIf: tab.title=='Surge' -->			
@@ -1234,7 +413,7 @@
 	           	    </div>
             		
                 	<img ng-show="returnObjectKeys(selectedCycloneSurge).length!=0" defer="" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
-                	<img ng-show="returnObjectKeys(selectedCycloneSurge).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style=" width: 78vw; height: 60vh; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg" width="1200" height="900">
+                	<img ng-show="returnObjectKeys(selectedCycloneSurge).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style=" width: 78vw; height: 60vh; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
             	</div><!-- end ngIf: tab.title=='Surge' -->			
 					
 				<!-- ngIf: tab.title=='Track' -->		
@@ -1256,7 +435,7 @@
 	           	    </div>
             		
                 	<img ng-show="returnObjectKeys(selectedCycloneInundation).length!=0" defer="" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
-                	<img ng-show="returnObjectKeys(selectedCycloneInundation).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg" width="1200" height="900">
+                	<img ng-show="returnObjectKeys(selectedCycloneInundation).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
             	</div><!-- end ngIf: tab.title=='Inundation' -->
             	
             	<!-- ngIf: tab.title=='Landfall' -->
@@ -1290,7 +469,7 @@
 	           	    </div>
             		
                 	<img ng-show="returnObjectKeys(selectedCycloneCycloGenesis).length!=0" defer="" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
-                	<img ng-show="returnObjectKeys(selectedCycloneCycloGenesis).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg" width="1200" height="900">
+                	<img ng-show="returnObjectKeys(selectedCycloneCycloGenesis).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
             	</div><!-- end ngIf: tab.title=='Cyclogenesis' -->	
             	
 				<!-- ngIf: tab.title=='Ship Avoidance Region' -->	
@@ -1318,7 +497,7 @@
 	           	    </div>
             		
                 	<img ng-show="returnObjectKeys(selectedCycloneLandfall).length!=0" defer="" loading="lazy" style="max-width:100%; max-height: 100%;  display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
-                	<img ng-show="returnObjectKeys(selectedCycloneLandfall).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg" width="1200" height="900">
+                	<img ng-show="returnObjectKeys(selectedCycloneLandfall).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
             	</div><!-- end ngIf: tab.title=='Landfall' -->
 					
 				<!-- ngIf: tab.title=='Cyclogenesis' -->	
@@ -1340,7 +519,7 @@
 	           	    </div>
             		
                 	<img ng-show="returnObjectKeys(selectedCycloneAnimation).length!=0" defer="" loading="lazy" style="max-width:100%; max-height: 100%;/*width: 78vw; height: 60vh;*/ display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
-                	<img ng-show="returnObjectKeys(selectedCycloneAnimation).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg" width="1200" height="900">
+                	<img ng-show="returnObjectKeys(selectedCycloneAnimation).length==0" defer="" ng-src="Images/NoImage.jpg" loading="lazy" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
             	</div><!-- end ngIf: tab.title=='Animation' -->
             	
             	<!-- ngIf: tab.title=='Cyclone Centric Images' -->
@@ -1385,11 +564,11 @@
                 <md-content class="md-padding ng-scope _md" style="color:white;">
                 <!-- ngIf: tab.title=='EOS-06 SCAT ARB' --><div ng-if="tab.title=='EOS-06 SCAT ARB'" class="ng-scope">
                         <div style="text-align: center;font-size:13px;">
-                        <select ng-show="returnObjectKeys(selectedARB).length!=0" class="ng-pristine ng-valid ng-scope ng-touched ng-untouched ng-not-empty" aria-label="Aria Label" ng-options="scatarb for scatarb in returnObjectKeys(selectedARB)" ng-model="currentSelectedCyclone.ARB" aria-hidden="false" aria-invalid="false" style=""><option label="E06SCTL2B2025248_14672_14673_SN_25km_2025-248T20-19-54_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025248_14672_14673_SN_25km_2025-248T20-19-54_v1.0.4_ARB.jpg">E06SCTL2B2025248_14672_14673_SN_25km_2025-248T20-19-54_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025248_14672_14673_SN_25km_2025-249T18-36-50_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025248_14672_14673_SN_25km_2025-249T18-36-50_v1.0.4_ARB.jpg">E06SCTL2B2025248_14672_14673_SN_25km_2025-249T18-36-50_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025249_14680_14681_NS_25km_2025-249T08-34-08_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025249_14680_14681_NS_25km_2025-249T08-34-08_v1.0.4_ARB.jpg">E06SCTL2B2025249_14680_14681_NS_25km_2025-249T08-34-08_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025249_14680_14681_NS_25km_2025-249T09-35-41_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025249_14680_14681_NS_25km_2025-249T09-35-41_v1.0.4_ARB.jpg">E06SCTL2B2025249_14680_14681_NS_25km_2025-249T09-35-41_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025249_14680_14681_NS_25km_2025-249T18-36-41_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025249_14680_14681_NS_25km_2025-249T18-36-41_v1.0.4_ARB.jpg">E06SCTL2B2025249_14680_14681_NS_25km_2025-249T18-36-41_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025249_14686_14687_SN_25km_2025-249T19-57-24_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025249_14686_14687_SN_25km_2025-249T19-57-24_v1.0.4_ARB.jpg">E06SCTL2B2025249_14686_14687_SN_25km_2025-249T19-57-24_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025249_14686_14687_SN_25km_2025-250T19-57-41_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025249_14686_14687_SN_25km_2025-250T19-57-41_v1.0.4_ARB.jpg">E06SCTL2B2025249_14686_14687_SN_25km_2025-250T19-57-41_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025250_14694_14695_NS_25km_2025-250T08-55-20_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025250_14694_14695_NS_25km_2025-250T08-55-20_v1.0.4_ARB.jpg">E06SCTL2B2025250_14694_14695_NS_25km_2025-250T08-55-20_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025250_14694_14695_NS_25km_2025-250T19-57-38_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025250_14694_14695_NS_25km_2025-250T19-57-38_v1.0.4_ARB.jpg">E06SCTL2B2025250_14694_14695_NS_25km_2025-250T19-57-38_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025250_14701_14702_SN_25km_2025-250T20-31-03_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025250_14701_14702_SN_25km_2025-250T20-31-03_v1.0.4_ARB.jpg">E06SCTL2B2025250_14701_14702_SN_25km_2025-250T20-31-03_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025250_14701_14702_SN_25km_2025-251T18-54-22_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025250_14701_14702_SN_25km_2025-251T18-54-22_v1.0.4_ARB.jpg">E06SCTL2B2025250_14701_14702_SN_25km_2025-251T18-54-22_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025251_14709_14710_NS_25km_2025-251T08-45-20_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025251_14709_14710_NS_25km_2025-251T08-45-20_v1.0.4_ARB.jpg">E06SCTL2B2025251_14709_14710_NS_25km_2025-251T08-45-20_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025251_14709_14710_NS_25km_2025-251T09-42-04_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025251_14709_14710_NS_25km_2025-251T09-42-04_v1.0.4_ARB.jpg">E06SCTL2B2025251_14709_14710_NS_25km_2025-251T09-42-04_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025251_14709_14710_NS_25km_2025-251T18-54-18_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025251_14709_14710_NS_25km_2025-251T18-54-18_v1.0.4_ARB.jpg">E06SCTL2B2025251_14709_14710_NS_25km_2025-251T18-54-18_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025251_14715_14716_SN_25km_2025-251T19-51-05_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025251_14715_14716_SN_25km_2025-251T19-51-05_v1.0.4_ARB.jpg">E06SCTL2B2025251_14715_14716_SN_25km_2025-251T19-51-05_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025251_14715_14716_SN_25km_2025-252T19-47-12_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025251_14715_14716_SN_25km_2025-252T19-47-12_v1.0.4_ARB.jpg">E06SCTL2B2025251_14715_14716_SN_25km_2025-252T19-47-12_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025252_14723_14724_NS_25km_2025-252T19-47-22_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025252_14723_14724_NS_25km_2025-252T19-47-22_v1.0.4_ARB.jpg">E06SCTL2B2025252_14723_14724_NS_25km_2025-252T19-47-22_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025252_14730_14731_SN_25km_2025-252T20-38-27_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025252_14730_14731_SN_25km_2025-252T20-38-27_v1.0.4_ARB.jpg">E06SCTL2B2025252_14730_14731_SN_25km_2025-252T20-38-27_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025252_14730_14731_SN_25km_2025-253T19-01-37_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025252_14730_14731_SN_25km_2025-253T19-01-37_v1.0.4_ARB.jpg">E06SCTL2B2025252_14730_14731_SN_25km_2025-253T19-01-37_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025253_14738_14739_NS_25km_2025-253T09-58-49_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025253_14738_14739_NS_25km_2025-253T09-58-49_v1.0.4_ARB.jpg">E06SCTL2B2025253_14738_14739_NS_25km_2025-253T09-58-49_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025253_14738_14739_NS_25km_2025-253T19-01-42_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025253_14738_14739_NS_25km_2025-253T19-01-42_v1.0.4_ARB.jpg">E06SCTL2B2025253_14738_14739_NS_25km_2025-253T19-01-42_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025253_14744_14745_SN_25km_2025-253T19-51-29_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025253_14744_14745_SN_25km_2025-253T19-51-29_v1.0.4_ARB.jpg">E06SCTL2B2025253_14744_14745_SN_25km_2025-253T19-51-29_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025253_14744_14745_SN_25km_2025-254T20-06-50_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025253_14744_14745_SN_25km_2025-254T20-06-50_v1.0.4_ARB.jpg">E06SCTL2B2025253_14744_14745_SN_25km_2025-254T20-06-50_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025254_14752_14753_NS_25km_2025-254T09-15-38_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025254_14752_14753_NS_25km_2025-254T09-15-38_v1.0.4_ARB.jpg">E06SCTL2B2025254_14752_14753_NS_25km_2025-254T09-15-38_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025254_14752_14753_NS_25km_2025-254T20-06-00_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025254_14752_14753_NS_25km_2025-254T20-06-00_v1.0.4_ARB.jpg">E06SCTL2B2025254_14752_14753_NS_25km_2025-254T20-06-00_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025255_14773_14774_SN_25km_2025-255T19-58-03_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025255_14773_14774_SN_25km_2025-255T19-58-03_v1.0.4_ARB.jpg">E06SCTL2B2025255_14773_14774_SN_25km_2025-255T19-58-03_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025256_14781_14782_NS_25km_2025-256T08-24-53_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025256_14781_14782_NS_25km_2025-256T08-24-53_v1.0.4_ARB.jpg">E06SCTL2B2025256_14781_14782_NS_25km_2025-256T08-24-53_v1.0.4_ARB.jpg</option><option label="E06SCTL2B2025256_14781_14782_NS_25km_2025-256T09-09-28_v1.0.4_ARB.jpg" value="string:E06SCTL2B2025256_14781_14782_NS_25km_2025-256T09-09-28_v1.0.4_ARB.jpg" selected="selected">E06SCTL2B2025256_14781_14782_NS_25km_2025-256T09-09-28_v1.0.4_ARB.jpg</option></select>
+                        <select ng-show="returnObjectKeys(selectedARB).length!=0" class="ng-pristine ng-valid ng-scope ng-touched ng-untouched ng-empty ng-hide" aria-label="Aria Label" ng-options="scatarb for scatarb in returnObjectKeys(selectedARB)" ng-model="currentSelectedCyclone.ARB" aria-hidden="true" aria-invalid="false"><option value="?" selected="selected"></option></select>
                             </div>
 
-                        <img ng-show="returnObjectKeys(selectedARB).length!=0" defer="" style="max-width: 100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" class="" ng-src="/live_data/fileServer/CycloneArchiveImages/SCAT/EOS06_ARB/E06SCTL2B2025256_14781_14782_NS_25km_2025-256T09-09-28_v1.0.4_ARB.jpg" src="/live_data/fileServer/CycloneArchiveImages/SCAT/EOS06_ARB/E06SCTL2B2025256_14781_14782_NS_25km_2025-256T09-09-28_v1.0.4_ARB.jpg">
-                        <img ng-show="returnObjectKeys(selectedARB).length==0" defer="" ng-src="Images/NoImage.jpg" style="width: 78vw; height: 60vh; display: block;" alt="cyclone-images" aria-hidden="true" src="Images/NoImage.jpg" class="ng-hide">
+                        <img ng-show="returnObjectKeys(selectedARB).length!=0" defer="" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
+                        <img ng-show="returnObjectKeys(selectedARB).length==0" defer="" ng-src="Images/NoImage.jpg" style="/*max-width:100%; max-height: 100%;*/  width: 78vw; height: 60vh; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
 
                 </div><!-- end ngIf: tab.title=='EOS-06 SCAT ARB' -->
 
@@ -1412,11 +591,11 @@
 
                 <!-- ngIf: tab.title=='EOS-06 SCAT BOB' --><div ng-if="tab.title=='EOS-06 SCAT BOB'" class="ng-scope">
                         <div style="text-align: center;font-size:13px;">
-                        <select ng-show="returnObjectKeys(selectedBOB).length!=0" class="ng-pristine ng-valid ng-scope ng-touched ng-untouched ng-not-empty" aria-label="Aria Label" ng-options="scatBOB for scatBOB in returnObjectKeys(selectedBOB)" ng-model="currentSelectedCyclone.BOB" aria-hidden="false" aria-invalid="false" style=""><option label="E06SCTL2B2025248_14671_14672_SN_25km_2025-248T18-44-13_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025248_14671_14672_SN_25km_2025-248T18-44-13_v1.0.4_BOB.jpg">E06SCTL2B2025248_14671_14672_SN_25km_2025-248T18-44-13_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025248_14671_14672_SN_25km_2025-248T19-55-56_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025248_14671_14672_SN_25km_2025-248T19-55-56_v1.0.4_BOB.jpg">E06SCTL2B2025248_14671_14672_SN_25km_2025-248T19-55-56_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025249_14679_14680_NS_25km_2025-249T06-59-42_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025249_14679_14680_NS_25km_2025-249T06-59-42_v1.0.4_BOB.jpg">E06SCTL2B2025249_14679_14680_NS_25km_2025-249T06-59-42_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025249_14679_14680_NS_25km_2025-249T08-03-23_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025249_14679_14680_NS_25km_2025-249T08-03-23_v1.0.4_BOB.jpg">E06SCTL2B2025249_14679_14680_NS_25km_2025-249T08-03-23_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025249_14679_14680_NS_25km_2025-249T18-37-22_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025249_14679_14680_NS_25km_2025-249T18-37-22_v1.0.4_BOB.jpg">E06SCTL2B2025249_14679_14680_NS_25km_2025-249T18-37-22_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025250_14700_14701_SN_25km_2025-250T19-06-12_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025250_14700_14701_SN_25km_2025-250T19-06-12_v1.0.4_BOB.jpg">E06SCTL2B2025250_14700_14701_SN_25km_2025-250T19-06-12_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025250_14700_14701_SN_25km_2025-250T20-09-28_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025250_14700_14701_SN_25km_2025-250T20-09-28_v1.0.4_BOB.jpg">E06SCTL2B2025250_14700_14701_SN_25km_2025-250T20-09-28_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025251_14708_14709_NS_25km_2025-251T07-01-22_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025251_14708_14709_NS_25km_2025-251T07-01-22_v1.0.4_BOB.jpg">E06SCTL2B2025251_14708_14709_NS_25km_2025-251T07-01-22_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025251_14708_14709_NS_25km_2025-251T08-11-08_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025251_14708_14709_NS_25km_2025-251T08-11-08_v1.0.4_BOB.jpg">E06SCTL2B2025251_14708_14709_NS_25km_2025-251T08-11-08_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025251_14708_14709_NS_25km_2025-251T18-54-27_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025251_14708_14709_NS_25km_2025-251T18-54-27_v1.0.4_BOB.jpg">E06SCTL2B2025251_14708_14709_NS_25km_2025-251T18-54-27_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025252_14729_14730_SN_25km_2025-252T19-01-21_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025252_14729_14730_SN_25km_2025-252T19-01-21_v1.0.4_BOB.jpg">E06SCTL2B2025252_14729_14730_SN_25km_2025-252T19-01-21_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025252_14729_14730_SN_25km_2025-252T20-12-29_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025252_14729_14730_SN_25km_2025-252T20-12-29_v1.0.4_BOB.jpg">E06SCTL2B2025252_14729_14730_SN_25km_2025-252T20-12-29_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025253_14737_14738_NS_25km_2025-253T08-19-03_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025253_14737_14738_NS_25km_2025-253T08-19-03_v1.0.4_BOB.jpg">E06SCTL2B2025253_14737_14738_NS_25km_2025-253T08-19-03_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025253_14737_14738_NS_25km_2025-253T19-01-35_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025253_14737_14738_NS_25km_2025-253T19-01-35_v1.0.4_BOB.jpg">E06SCTL2B2025253_14737_14738_NS_25km_2025-253T19-01-35_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025254_14758_14759_SN_25km_2025-254T19-08-02_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025254_14758_14759_SN_25km_2025-254T19-08-02_v1.0.4_BOB.jpg">E06SCTL2B2025254_14758_14759_SN_25km_2025-254T19-08-02_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025254_14758_14759_SN_25km_2025-254T20-22-47_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025254_14758_14759_SN_25km_2025-254T20-22-47_v1.0.4_BOB.jpg">E06SCTL2B2025254_14758_14759_SN_25km_2025-254T20-22-47_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025255_14766_14767_NS_25km_2025-255T08-27-48_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025255_14766_14767_NS_25km_2025-255T08-27-48_v1.0.4_BOB.jpg">E06SCTL2B2025255_14766_14767_NS_25km_2025-255T08-27-48_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025255_14766_14767_NS_25km_2025-255T19-04-16_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025255_14766_14767_NS_25km_2025-255T19-04-16_v1.0.4_BOB.jpg">E06SCTL2B2025255_14766_14767_NS_25km_2025-255T19-04-16_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025255_14772_14773_SN_25km_2025-255T18-27-49_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025255_14772_14773_SN_25km_2025-255T18-27-49_v1.0.4_BOB.jpg">E06SCTL2B2025255_14772_14773_SN_25km_2025-255T18-27-49_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025255_14772_14773_SN_25km_2025-255T19-32-37_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025255_14772_14773_SN_25km_2025-255T19-32-37_v1.0.4_BOB.jpg">E06SCTL2B2025255_14772_14773_SN_25km_2025-255T19-32-37_v1.0.4_BOB.jpg</option><option label="E06SCTL2B2025256_14780_14781_NS_25km_2025-256T08-03-52_v1.0.4_BOB.jpg" value="string:E06SCTL2B2025256_14780_14781_NS_25km_2025-256T08-03-52_v1.0.4_BOB.jpg" selected="selected">E06SCTL2B2025256_14780_14781_NS_25km_2025-256T08-03-52_v1.0.4_BOB.jpg</option></select>
+                        <select ng-show="returnObjectKeys(selectedBOB).length!=0" class="ng-pristine ng-valid ng-scope ng-touched ng-untouched ng-empty ng-hide" aria-label="Aria Label" ng-options="scatBOB for scatBOB in returnObjectKeys(selectedBOB)" ng-model="currentSelectedCyclone.BOB" aria-hidden="true" aria-invalid="false"><option value="?" selected="selected"></option></select>
                             </div>
 
-                        <img ng-show="returnObjectKeys(selectedBOB).length!=0" defer="" style="max-width: 100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" class="" ng-src="/live_data/fileServer/CycloneArchiveImages/SCAT/EOS06_BOB/E06SCTL2B2025256_14780_14781_NS_25km_2025-256T08-03-52_v1.0.4_BOB.jpg" src="/live_data/fileServer/CycloneArchiveImages/SCAT/EOS06_BOB/E06SCTL2B2025256_14780_14781_NS_25km_2025-256T08-03-52_v1.0.4_BOB.jpg">
-                        <img ng-show="returnObjectKeys(selectedBOB).length==0" defer="" ng-src="Images/NoImage.jpg" style="max-width: 100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="true" src="Images/NoImage.jpg" class="ng-hide">
+                        <img ng-show="returnObjectKeys(selectedBOB).length!=0" defer="" style="max-width:100%; max-height: 100%;/*width: 78vw; height: 60vh;*/ display: block;" alt="cyclone-images" aria-hidden="true" class="ng-hide">
+                        <img ng-show="returnObjectKeys(selectedBOB).length==0" defer="" ng-src="Images/NoImage.jpg" style="max-width:100%; max-height: 100%; display: block;" alt="cyclone-images" aria-hidden="false" src="Images/NoImage.jpg">
                 </div><!-- end ngIf: tab.title=='EOS-06 SCAT BOB' -->
 		
                                     <!--         <md-tab label="EOS-06 SCAT ARB">
@@ -1517,7 +696,11 @@ Developed &amp; Maintained By: DWD/SAC/ISRO.</p>&nbsp;
 
    
 	
-	
+	<div id="popup" class="ol-popup">
+		<!--		<a href="#" id="popup-closer" class="ol-popup-closer"></a> -->
+		  <button type="button" id="popup-closer" class="ol-popup-closer">Close</button>
+		<div id="popup-content"></div>
+	</div>
 	
 		<!-- CONTROLLER JAVASCRIPT START -->
 		<script defer="" type="application/javascript" src="source/controllers/controller.js?v=1.0"></script>
@@ -1540,8 +723,4 @@ Developed &amp; Maintained By: DWD/SAC/ISRO.</p>&nbsp;
 		<!-- SERVICES JAVASCRIPT START -->
 	
 
-<div class="ol-viewport" style="position: relative; overflow: hidden; width: 100%; height: 100%;"><div class="ol-unselectable ol-layers" style="position: absolute; width: 100%; height: 100%; z-index: 0;"><div class="ol-layer" style="position: absolute; width: 100%; height: 100%;"><canvas width="1080" height="600" style="position: absolute; left: 0px; transform-origin: left top; transform: matrix(1, 0, 0, 1, 0, 0);"></canvas></div></div><div class="ol-overlaycontainer" style="position: absolute; z-index: 0; width: 100%; height: 100%; pointer-events: none;"></div><div class="ol-overlaycontainer-stopevent" style="position: absolute; z-index: 0; width: 100%; height: 100%; pointer-events: none;"><div class="ol-overlay-container ol-selectable" style="position: absolute; pointer-events: auto; display: none;"><div id="popup" class="ol-popup">
-		<!--		<a href="#" id="popup-closer" class="ol-popup-closer"></a> -->
-		  <button type="button" id="popup-closer" class="ol-popup-closer">Close</button>
-		<div id="popup-content"></div>
-	</div></div><div class="ol-zoom ol-unselectable ol-control" style="pointer-events: auto;"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden" style="pointer-events: auto;"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass" style="transform: rotate(0rad);">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="pointer-events: auto; display: none;"><ul></ul><button type="button" title="Attributions"><span class="ol-attribution-expand">i</span></button></div><div class="ol-full-screen ol-unselectable ol-control " style="pointer-events: auto;"><button class="ol-full-screen-false" type="button" title="Toggle full-screen">⤢</button></div><div class="ol-scale-line ol-unselectable" style="pointer-events: auto;"><div class="ol-scale-line-inner" style="width: 77px;">500 km</div></div><div class="ol-mouse-position" style="pointer-events: auto;"></div></div></div></body></html>
+</body></html>

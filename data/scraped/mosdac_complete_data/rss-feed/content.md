@@ -1,7 +1,7 @@
 # RSS Feed | Meteorological & Oceanographic Satellite Data Archival Centre
 
-**URL:** http://mosdac.gov.in/rss-feed
-**Extracted:** 2025-09-13T05:57:58.390943
+**URL:** https://mosdac.gov.in/rss-feed#top
+**Extracted:** 2025-09-15T15:50:34.637342
 **Quality Score:** 0.600
 
 [Skip to main Content](https://mosdac.gov.in/rss-feed#main-content "Skip to main Content")
@@ -121,7 +121,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/rss-feed "Previous")[](https://mosdac.gov.in/rss-feed "Next")
 [](https://mosdac.gov.in/rss-feed)
 [](https://mosdac.gov.in/rss-feed "Previous")[](https://mosdac.gov.in/rss-feed "Next")

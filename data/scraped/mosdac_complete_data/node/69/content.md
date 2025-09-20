@@ -1,7 +1,7 @@
 # इनसैट-3डी | मौसम विज्ञान एवं समुद्र विज्ञानीय उपग्रह डेटा पुरालेखी केंद्र
 
 **URL:** https://mosdac.gov.in/node/69?language=hi
-**Extracted:** 2025-09-13T06:00:41.466812
+**Extracted:** 2025-09-15T15:48:54.617132
 **Quality Score:** 0.600
 
 [मुख्य विषयवस्तु में जाएं](https://mosdac.gov.in/node/69?language=hi#main-content "Skip to main Content")
@@ -130,7 +130,7 @@
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"संस्करण 3.0; अंतिम बार 13 Sep, 2025 में समीक्षा और अद्यतन किया गया | 
+"संस्करण 3.0; अंतिम बार 15 Sep, 2025 में समीक्षा और अद्यतन किया गया | 
 [](https://mosdac.gov.in/node/69?language=hi "Previous")[](https://mosdac.gov.in/node/69?language=hi "अगला")
 [](https://mosdac.gov.in/node/69?language=hi)
 [](https://mosdac.gov.in/node/69?language=hi "Previous")[](https://mosdac.gov.in/node/69?language=hi "अगला")

@@ -34,137 +34,10 @@
       ],
       "rows": [
         [
-          "1",
-          "Diglipur,Portblair",
-          "ANDAMAN & NICOBAR",
-          "15F488",
-          "AGROMET18",
-          "13.26",
-          "93.01",
-          "2011-02-15",
-          "2016-03-30",
-          "In-Active",
-          "Half Hourly"
-        ],
-        [
-          "2",
-          "CRIDA Farm,Hayathnagar, Hyderabad",
-          "ANDHRA PRADESH",
-          "15F0FF",
-          "AGROMET02",
-          "17.34",
-          "78.59",
-          "2010-12-31",
-          "2017-12-06",
-          "In-Active",
-          "Half Hourly"
-        ],
-        [
-          "3",
-          "SDSC, SHAR, Sriharikota",
-          "ANDHRA PRADESH",
-          "15F464",
-          "AGROMET06",
-          "13.62",
-          "80.23",
-          "2010-12-31",
-          "2016-02-14",
-          "In-Active",
-          "Half Hourly"
-        ],
-        [
-          "4",
-          "Rajendra Agricultural University, PUSA, Samastipur",
-          "BIHAR",
-          "15F47F",
-          "AGROMET15",
-          "25.98",
-          "85.67",
-          "2010-12-31",
-          "2017-06-29",
-          "In-Active",
-          "Half Hourly"
-        ],
-        [
-          "5",
-          "Rice Research Station, Anand Agricultural University,  Nawagam.",
-          "GUJARAT",
-          "15F102",
-          "AGROMET03",
-          "22.80",
-          "72.57",
-          "2010-12-31",
-          "2017-09-19",
-          "In-Active",
-          "Half Hourly"
-        ],
-        [
-          "6",
-          "Junagadh Agricultural University, Junagadh",
-          "GUJARAT",
-          "15F105",
-          "AGROMET04",
-          "21.50",
-          "70.44",
-          "2011-04-05",
-          "2017-08-17",
-          "In-Active",
-          "Half Hourly"
-        ],
-        [
-          "7",
-          "Range Office Research Centre, Dhorado, Kutch",
-          "GUJARAT",
-          "15F485",
-          "AGROMET17",
-          "23.80",
-          "69.50",
-          "2010-12-31",
-          "2016-09-16",
-          "In-Active",
-          "Half Hourly"
-        ],
-        [
-          "8",
-          "Regional Agricultural  Research Station, Bijapur.",
-          "KARNATAKA",
-          "15F0FC",
-          "AGROMET01",
-          "16.78",
-          "75.75",
-          "2011-07-30",
-          "2016-09-26",
-          "In-Active",
-          "Half Hourly"
-        ],
-        [
-          "9",
-          "IISC Bengaluru. (Gopal Pura)",
-          "KARNATAKA",
-          "15F518",
-          "AGROMET24",
-          "11.76",
-          "76.59",
-          "2012-01-31",
-          "2016-04-30",
-          "In-Active",
-          "Half Hourly"
-        ],
-        [
-          "10",
-          "Zonal Agricultural Research Station, Powerkhed, Hoshangabad",
-          "MADHYA PRADESH",
-          "15F46A",
-          "AGROMET08",
-          "22.70",
-          "77.74",
-          "2010-12-31",
-          "2017-08-06",
-          "In-Active",
-          "Half Hourly"
+          "No data available in table"
         ]
       ],
-      "row_count": 10,
+      "row_count": 1,
       "col_count": 11
     }
   ],
@@ -180,7 +53,7 @@
     }
   ],
   "quality_score": 0.47000000000000003,
-  "extracted_at": "2025-09-13T05:54:47.002327",
-  "content_length": 3516,
+  "extracted_at": "2025-09-15T15:50:21.391390",
+  "content_length": 1969,
   "rag_optimized": true
 }

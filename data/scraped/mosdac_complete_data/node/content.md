@@ -1,10 +1,10 @@
 # Meteorological & Oceanographic Satellite Data Archival Centre
 
-**URL:** https://mosdac.gov.in/node?qt-latest_products=4#qt-latest_products
-**Extracted:** 2025-09-13T05:59:06.519366
+**URL:** https://mosdac.gov.in/node?qt-services_quicktab=4#qt-services_quicktab
+**Extracted:** 2025-09-15T15:50:52.466048
 **Quality Score:** 0.700
 
-[Skip to main Content](https://mosdac.gov.in/node?qt-latest_products=4#main-content "Skip to main Content")
+[Skip to main Content](https://mosdac.gov.in/node?qt-services_quicktab=4#main-content "Skip to main Content")
 [-A](javascript:;) [A](javascript:;) [+A](javascript:;)
 [A](javascript:drupalHighContrast.enableStyles\(\))[A](javascript:drupalHighContrast.disableStyles\(\))
 हिन्दी English
@@ -17,7 +17,7 @@
 #  [Meteorological & Oceanographic Satellite Data Archival Centre](https://mosdac.gov.in/ "Home")
 Space Applications Centre, ISRO 
   * [Home](https://mosdac.gov.in/)
-  * [Missions »](https://mosdac.gov.in/node?qt-latest_products=4)
+  * [Missions »](https://mosdac.gov.in/node?qt-services_quicktab=4)
     * [INSAT-3DR](https://mosdac.gov.in/insat-3dr)
     * [INSAT-3D](https://mosdac.gov.in/insat-3d)
     * [KALPANA-1](https://mosdac.gov.in/kalpana-1)
@@ -28,31 +28,31 @@ Space Applications Centre, ISRO
     * [OCEANSAT-3](https://mosdac.gov.in/oceansat-3)
     * [INSAT-3DS](https://mosdac.gov.in/insat-3ds)
     * [SCATSAT-1](https://mosdac.gov.in/scatsat-1)
-  * [Catalog »](https://mosdac.gov.in/node?qt-latest_products=4)
+  * [Catalog »](https://mosdac.gov.in/node?qt-services_quicktab=4)
     * [Satellite](https://mosdac.gov.in/internal/catalog-satellite)
     * [Insitu (AWS)](https://mosdac.gov.in/internal/catalog-insitu)
     * [RADAR](https://mosdac.gov.in/internal/catalog-radar)
-  * [Galleries »](https://mosdac.gov.in/node?qt-latest_products=4)
+  * [Galleries »](https://mosdac.gov.in/node?qt-services_quicktab=4)
     * [Satellite Products](https://mosdac.gov.in/internal/gallery)
     * [Weather Forecast](https://mosdac.gov.in/internal/gallery/weather)
     * [Ocean Forecast](https://mosdac.gov.in/internal/gallery/ocean)
     * [RADAR (DWR)](https://mosdac.gov.in/internal/gallery/dwr)
     * [Global Ocean Current](https://mosdac.gov.in/internal/gallery/current)
-  * [Data Access »](https://mosdac.gov.in/node?qt-latest_products=4)
+  * [Data Access »](https://mosdac.gov.in/node?qt-services_quicktab=4)
     * [Order Data](https://mosdac.gov.in/internal/uops)
     * [API based Access](https://mosdac.gov.in/downloadapi-manual)
-    * [Open Data »](https://mosdac.gov.in/node?qt-latest_products=4)
-      * [Atmosphere »](https://mosdac.gov.in/node?qt-latest_products=4)
+    * [Open Data »](https://mosdac.gov.in/node?qt-services_quicktab=4)
+      * [Atmosphere »](https://mosdac.gov.in/node?qt-services_quicktab=4)
         * [Bayesian based MT-SAPHIR rainfall](https://mosdac.gov.in/bayesian-based-mt-saphir-rainfall)
         * [GPS derived Integrated water vapour](https://mosdac.gov.in/gps-derived-integrated-water-vapour)
         * [GSMap ISRO Rain](https://mosdac.gov.in/gsmap-isro-rain)
         * [METEOSAT8 Cloud Properties](https://mosdac.gov.in/meteosat8-cloud-properties)
-      * [Land »](https://mosdac.gov.in/node?qt-latest_products=4)
+      * [Land »](https://mosdac.gov.in/node?qt-services_quicktab=4)
         * [3D Volumetric TERLS DWRproduct](https://mosdac.gov.in/3d-volumetric-terls-dwrproduct)
         * [Inland Water Height](https://mosdac.gov.in/inland-water-height)
         * [River Discharge](https://mosdac.gov.in/river-discharge)
         * [Soil Moisture](https://mosdac.gov.in/soil-moisture-0)
-      * [Ocean »](https://mosdac.gov.in/node?qt-latest_products=4)
+      * [Ocean »](https://mosdac.gov.in/node?qt-services_quicktab=4)
         * [Global Ocean Surface Current](https://mosdac.gov.in/global-ocean-surface-current)
         * [High Resolution Sea Surface Salinity](https://mosdac.gov.in/high-resolution-sea-surface-salinity)
         * [Indian Mainland Coastal Product](https://mosdac.gov.in/indian-mainland-coastal-product)
@@ -63,8 +63,8 @@ Space Applications Centre, ISRO
     * [Cal-Val](https://mosdac.gov.in/internal/calval-data)
     * [Forecast](https://mosdac.gov.in/internal/forecast-menu)
     * [RSS Feeds](https://mosdac.gov.in/rss-feed "ISROCast")
-  * [Reports »](https://mosdac.gov.in/node?qt-latest_products=4)
-    * [Calibration »](https://mosdac.gov.in/node?qt-latest_products=4)
+  * [Reports »](https://mosdac.gov.in/node?qt-services_quicktab=4)
+    * [Calibration »](https://mosdac.gov.in/node?qt-services_quicktab=4)
       * [Insitu](https://mosdac.gov.in/insitu)
       * [Relative](https://mosdac.gov.in/calibration-reports)
     * [Validation](https://mosdac.gov.in/validation-reports)
@@ -76,23 +76,23 @@ Space Applications Centre, ISRO
   * [Help](https://mosdac.gov.in/help)
 
 
-  * [Satellite Images](https://mosdac.gov.in/node?qt-latest_products=0#qt-latest_products)
-  * [RADAR](https://mosdac.gov.in/node?qt-latest_products=1#qt-latest_products)
-  * [Weather](https://mosdac.gov.in/node?qt-latest_products=2#qt-latest_products)
-  * [OceanState](https://mosdac.gov.in/node?qt-latest_products=3#qt-latest_products)
-  * [LIVE](https://mosdac.gov.in/node?qt-latest_products=4#qt-latest_products)
+  * [Satellite Images](https://mosdac.gov.in/node?qt-services_quicktab=4&qt-latest_products=0#qt-latest_products)
+  * [RADAR](https://mosdac.gov.in/node?qt-services_quicktab=4&qt-latest_products=1#qt-latest_products)
+  * [Weather](https://mosdac.gov.in/node?qt-services_quicktab=4&qt-latest_products=2#qt-latest_products)
+  * [OceanState](https://mosdac.gov.in/node?qt-services_quicktab=4&qt-latest_products=3#qt-latest_products)
+  * [LIVE](https://mosdac.gov.in/node?qt-services_quicktab=4&qt-latest_products=4#qt-latest_products)
 
 
-##  [](https://mosdac.gov.in/live-frame)
-Your browser does not support iframes, but you can use the following link. [Link](https://mosdac.gov.in/live/lite)
-[Fullscreen](https://mosdac.gov.in/live)
+##  [](https://mosdac.gov.in/imageshow)
+Your browser does not support iframes, but you can use the following link. [Link](https://mosdac.gov.in/gallery/index.html%3F%26prod%3D3SIMG_%2A_L1B_STD_IR1_V%2A.jpg "Image Gallery")
+[Fullscreen](https://mosdac.gov.in/gallery/index.html?&prod=3SIMG_%2A_L1B_STD_IR1_V%2A.jpg)
 ## Services
-  * [Forecast(active tab)](https://mosdac.gov.in/node?qt-latest_products=4&qt-services_quicktab=0#qt-services_quicktab)
-  * [Nowcast](https://mosdac.gov.in/node?qt-latest_products=4&qt-services_quicktab=1#qt-services_quicktab)
-  * [Current Events](https://mosdac.gov.in/node?qt-latest_products=4&qt-services_quicktab=2#qt-services_quicktab)
-  * [Alerts](https://mosdac.gov.in/node?qt-latest_products=4&qt-services_quicktab=3#qt-services_quicktab)
-  * [Met Applications](https://mosdac.gov.in/node?qt-latest_products=4&qt-services_quicktab=4#qt-services_quicktab)
-  * [Ocean Applications](https://mosdac.gov.in/node?qt-latest_products=4&qt-services_quicktab=5#qt-services_quicktab)
+  * [Forecast](https://mosdac.gov.in/node?qt-services_quicktab=0#qt-services_quicktab)
+  * [Nowcast](https://mosdac.gov.in/node?qt-services_quicktab=1#qt-services_quicktab)
+  * [Current Events](https://mosdac.gov.in/node?qt-services_quicktab=2#qt-services_quicktab)
+  * [Alerts](https://mosdac.gov.in/node?qt-services_quicktab=3#qt-services_quicktab)
+  * [Met Applications(active tab)](https://mosdac.gov.in/node?qt-services_quicktab=4#qt-services_quicktab)
+  * [Ocean Applications](https://mosdac.gov.in/node?qt-services_quicktab=5#qt-services_quicktab)
 
 
   * [ ![Weather Forecast](https://mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/weather.jpg?itok=me1X6l-u) City Weather 3-hourly Weather forecast. ](https://mosdac.gov.in/internal/weather)
@@ -171,9 +171,9 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
-[](https://mosdac.gov.in/node?qt-latest_products=4 "Previous")[](https://mosdac.gov.in/node?qt-latest_products=4 "Next")
-[](https://mosdac.gov.in/node?qt-latest_products=4)
-[](https://mosdac.gov.in/node?qt-latest_products=4 "Previous")[](https://mosdac.gov.in/node?qt-latest_products=4 "Next")
-[](https://mosdac.gov.in/node?qt-latest_products=4 "Close")[](https://mosdac.gov.in/node?qt-latest_products=4)[](https://mosdac.gov.in/node?qt-latest_products=4)[](https://mosdac.gov.in/node?qt-latest_products=4 "Pause Slideshow")[](https://mosdac.gov.in/node?qt-latest_products=4 "Play Slideshow")
-[Back to top](https://mosdac.gov.in/node?qt-latest_products=4#top)
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
+[](https://mosdac.gov.in/node?qt-services_quicktab=4 "Previous")[](https://mosdac.gov.in/node?qt-services_quicktab=4 "Next")
+[](https://mosdac.gov.in/node?qt-services_quicktab=4)
+[](https://mosdac.gov.in/node?qt-services_quicktab=4 "Previous")[](https://mosdac.gov.in/node?qt-services_quicktab=4 "Next")
+[](https://mosdac.gov.in/node?qt-services_quicktab=4 "Close")[](https://mosdac.gov.in/node?qt-services_quicktab=4)[](https://mosdac.gov.in/node?qt-services_quicktab=4)[](https://mosdac.gov.in/node?qt-services_quicktab=4 "Pause Slideshow")[](https://mosdac.gov.in/node?qt-services_quicktab=4 "Play Slideshow")
+[Back to top](https://mosdac.gov.in/node?qt-services_quicktab=4#top)

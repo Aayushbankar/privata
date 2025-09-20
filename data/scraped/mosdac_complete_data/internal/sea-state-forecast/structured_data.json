@@ -29,8 +29,8 @@
   },
   "tables": [],
   "headings": [],
-  "quality_score": 0.5,
-  "extracted_at": "2025-09-13T05:57:11.403436",
-  "content_length": 1117,
+  "quality_score": 0.4,
+  "extracted_at": "2025-09-15T15:49:14.646132",
+  "content_length": 857,
   "rag_optimized": true
 }

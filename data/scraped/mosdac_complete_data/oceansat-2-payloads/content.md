@@ -1,7 +1,7 @@
 # Oceansat-2 Payloads | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/oceansat-2-payloads
-**Extracted:** 2025-09-13T05:58:32.459463
+**Extracted:** 2025-09-15T15:47:39.752920
 **Quality Score:** 0.600
 
 [Skip to main Content](https://mosdac.gov.in/oceansat-2-payloads#main-content "Skip to main Content")
@@ -133,7 +133,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/oceansat-2-payloads "Previous")[](https://mosdac.gov.in/oceansat-2-payloads "Next")
 [](https://mosdac.gov.in/oceansat-2-payloads)
 [](https://mosdac.gov.in/oceansat-2-payloads "Previous")[](https://mosdac.gov.in/oceansat-2-payloads "Next")

@@ -1,18 +1,16 @@
 # INSAT3R Intense Heavy Rain Over India
 
 **URL:** https://mosdac.gov.in/internal/event-heavyrain
-**Extracted:** 2025-09-13T05:53:55.876214
+**Extracted:** 2025-09-15T15:49:25.485467
 **Quality Score:** 0.550
 
 ![mosdac logo](https://mosdac.gov.in/HeavyRain_Insat3D/assets/img/transparent_mosdac_rapid.png)  
 ---  
 INSAT3R Intense Heavy Rain Over India   
-Rainfall (mm): 13-SEP-2025 08:45 GMT |   
+Rainfall (mm): 15-SEP-2025 08:15 GMT |   
 ---  
 Current HeavyRain    
 
-Rainfall 
-Rainfall (mm)
 Overlay Layers 
 Selection:-
 Single
@@ -35,6 +33,8 @@ Airports
 District Roads
 National Highways
 Admin Boundaries
+Rainfall 
+Rainfall (mm)
 Base Layers 
 Selection:-
 Single

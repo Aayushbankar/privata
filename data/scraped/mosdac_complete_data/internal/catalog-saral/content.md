@@ -1,7 +1,7 @@
 # Satellite Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-saral
-**Extracted:** 2025-09-13T06:00:37.156989
+**Extracted:** 2025-09-15T15:47:11.328647
 **Quality Score:** 0.470
 
 A- A A+
@@ -15,8 +15,6 @@ Sensor: ALTIMETER
   
 
 **X**
-Show 10 25 50 100 entries
-Search:
 Sr.No | Product /  
 Acq Calendar/Version  | Product Description | Processing Level | Temporal Resolution | Start Date | End Date | Processing Status | DOI  
 ---|---|---|---|---|---|---|---|---  
@@ -35,13 +33,23 @@ Acq Calendar/Version  | Product Description | Processing Level | Temporal Resolu
 7 |  **SRLIPN**  
 | Interim Geo physical data record, Native product | L2 | 3 DAYS | 2013-03-12 | 2020-03-07 | In-Active | [10.19038/SAC/10/SRLIPN](https://dx.doi.org/10.19038/SAC/10/SRLIPN)  
 8 |  **SRLIPN_F**  
-| Interim Geo physical data record, Native product | L2 | 3 DAYS | 2020-02-08 | 2025-09-11 | Active | [10.19038/SAC/10/SRLIPN](https://dx.doi.org/10.19038/SAC/10/SRLIPN)  
+| Interim Geo physical data record, Native product | L2 | 3 DAYS | 2020-02-08 | 2025-09-13 | Active | [10.19038/SAC/10/SRLIPN](https://dx.doi.org/10.19038/SAC/10/SRLIPN)  
 9 |  **SRLIPR**  
 | Interim Geo physical data record, Reduced product | L2 | 3 DAYS | 2013-03-12 | 2020-03-06 | In-Active | [10.19038/SAC/10/SRLIPR](https://dx.doi.org/10.19038/SAC/10/SRLIPR)  
 10 |  **SRLIPR_F**  
-| Interim Geo physical data record, Reduced product | L2 | 3 DAYS | 2020-02-06 | 2025-09-11 | Active | [10.19038/SAC/10/SRLIPR](https://dx.doi.org/10.19038/SAC/10/SRLIPR)  
-Showing 1 to 10 of 16 entries
-Previous12Next
+| Interim Geo physical data record, Reduced product | L2 | 3 DAYS | 2020-02-06 | 2025-09-13 | Active | [10.19038/SAC/10/SRLIPR](https://dx.doi.org/10.19038/SAC/10/SRLIPR)  
+11 |  **SRLIPS**  
+| Interim Geo physical data record, Sensor product | L2 | 3 DAYS | 2013-03-12 | 2020-01-19 | In-Active | [10.19038/SAC/10/SRLIPS](https://dx.doi.org/10.19038/SAC/10/SRLIPS)  
+12 |  **SRLIPS_F**  
+| Interim Geo physical data record, Sensor product | L2 | 3 DAYS | 2020-06-14 | 2025-09-13 | Active | [10.19038/SAC/10/SRLIPS](https://dx.doi.org/10.19038/SAC/10/SRLIPS)  
+13 |  **SRLOPN**  
+| Near Real Time- Native product generated after every 100 minutes | L2 | 100 MINUTES | 2013-03-19 | 2020-03-08 | In-Active | [10.19038/SAC/10/SRLOPN](https://dx.doi.org/10.19038/SAC/10/SRLOPN)  
+14 |  **SRLOPN_F**  
+| Near Real Time- Native product generated after every 100 minutes | L2 | 100 MINUTES | 2020-02-26 | 2025-09-15 | Active | [10.19038/SAC/10/SRLOPN](https://dx.doi.org/10.19038/SAC/10/SRLOPN)  
+15 |  **SRLOPR**  
+| Near Real Time- Reduced level2 product generated after every 100 minutes | L2 | 100 MINUTES | 2013-03-19 | 2020-03-08 | In-Active | [10.19038/SAC/10/SRLOPR](https://dx.doi.org/10.19038/SAC/10/SRLOPR)  
+16 |  **SRLOPR_F**  
+| Near Real Time- Reduced level2 product generated after every 100 minutes | L2 | 100 MINUTES | 2020-02-26 | 2025-09-15 | Active | [10.19038/SAC/10/SRLOPR](https://dx.doi.org/10.19038/SAC/10/SRLOPR)  
 ### Loading...
 **X**
 Version Detail

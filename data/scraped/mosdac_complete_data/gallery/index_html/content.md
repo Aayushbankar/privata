@@ -1,11 +1,11 @@
 # MOSDAC Gallery
 
 **URL:** https://mosdac.gov.in/gallery/index.html?&prod=3SIMG_%2A_L1B_STD_IR1_V%2A.jpg
-**Extracted:** 2025-09-13T05:56:04.146704
+**Extracted:** 2025-09-15T15:43:46.984014
 **Quality Score:** 0.500
 
 ☰
-Sat Sep 13 2025 13:00:00 (India Standard Time)
+Mon Sep 15 2025 10:00:00 (India Standard Time)
 ×
 ![](https://mosdac.gov.in/gallery/icons/mgallery.png)
 Satellite/Forecast INSAT-3DS EOS-07 EOS-06 INSAT-3DR MSG GOES + INSAT SCATSAT1 INSAT-3D INSAT-3A KALPANA-1
@@ -15,8 +15,8 @@ Product Infrared1 Infrared1(BT) Infrared2 Infrared2(BT) Mid Infrared Mid Infrare
 AutoLoad 15mins.
 [ __ ](https://mosdac.gov.in/gallery/index.html?&prod=3SIMG_%2A_L1B_STD_IR1_V%2A.jpg)
 + -
-![](https://mosdac.gov.in/look/3S_IMG/preview/2025/13SEP/3SIMG_13SEP2025_0730_L1B_STD_IR1_V01R00.jpg)
-13-09-2025_13:00 13-09-2025_16:30 13-09-2025_13:00
+![](https://mosdac.gov.in/look/3S_IMG/preview/2025/15SEP/3SIMG_15SEP2025_0430_L1B_STD_IR1_V01R00.jpg)
+15-09-2025_10:00 15-09-2025_13:30 15-09-2025_10:00
   *   *   *   *   *   *   *   * 
 
 [ « ](https://mosdac.gov.in/gallery/index.html?&prod=3SIMG_%2A_L1B_STD_IR1_V%2A.jpg) [ ▹ ](https://mosdac.gov.in/gallery/index.html?&prod=3SIMG_%2A_L1B_STD_IR1_V%2A.jpg) [ ‖ ](https://mosdac.gov.in/gallery/index.html?&prod=3SIMG_%2A_L1B_STD_IR1_V%2A.jpg) [ » ](https://mosdac.gov.in/gallery/index.html?&prod=3SIMG_%2A_L1B_STD_IR1_V%2A.jpg)

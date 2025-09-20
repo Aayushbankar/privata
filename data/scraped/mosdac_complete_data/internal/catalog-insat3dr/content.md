@@ -1,7 +1,7 @@
 # Satellite Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-insat3dr
-**Extracted:** 2025-09-13T05:55:46.620896
+**Extracted:** 2025-09-15T15:48:00.406281
 **Quality Score:** 0.470
 
 A- A A+
@@ -20,28 +20,9 @@ Search:
 Sr.No | Product /  
 Acq Calendar/Version  | Product Description | Processing Level | Temporal Resolution | Start Date | End Date | Processing Status | DOI  
 ---|---|---|---|---|---|---|---|---  
-1 |  **3RIMG_L1B_STD**  
-| Level1 data for Imager 6 channels at half hour interval | L1B | HALF HOURLY | 2016-10-11 | 2025-09-13 | Active | [10.19038/SAC/10/3RIMG_L1B_STD](https://dx.doi.org/10.19038/SAC/10/3RIMG_L1B_STD)  
-2 |  **3RIMG_L1C_ASIA_MER**  
-| IMAGER- 6 channel Level1 data in Mercator projection for Asian Sector | L1C | HALF HOURLY | 2016-10-03 | 2025-09-13 | Active | [10.19038/SAC/10/3RIMG_L1C_ASIA_MER](https://dx.doi.org/10.19038/SAC/10/3RIMG_L1C_ASIA_MER)  
-3 |  **3RIMG_L1C_SGP**  
-| Level1 IMAGER 6 channel data of TIR1, TIR2, WV, VIS, SWIR, MIR Bands in Mercator projection | L1C | HALF HOURLY | 2016-10-03 | 2025-09-13 | Active | [10.19038/SAC/10/3RIMG_L1C_SGP](https://dx.doi.org/10.19038/SAC/10/3RIMG_L1C_SGP)  
-4 |  **3RIMG_L2B_CMK**  
-| INSAT-3DR VHRR measures radiances in one visible and one SWIR band at 1 km spatial resolution, one MIR and two TIR bands at 4 km resolution, and one WV band at 8 km resolution. Radiances from 3 IR spectral bands TIR ?1 , TIR ?2 and MIR which are of same resolution of 4km are used in the INSAT cloud mask algorithm to estimate whether a given view of the earth surface is unobstructed by clouds | L2B | HALF HOURLY | 2016-10-11 | 2025-09-13 | Active | [10.19038/SAC/10/3RIMG_L2B_CMK](https://dx.doi.org/10.19038/SAC/10/3RIMG_L2B_CMK)  
-5 |  **3RIMG_L2B_CTP**  
-| Cloud top properties derived using INSAT3R IMAGER | L2B | HALF HOURLY | 2018-11-30 | 2025-09-13 | Active | [10.19038/SAC/10/3RIMG_L2B_CTP](https://dx.doi.org/10.19038/SAC/10/3RIMG_L2B_CTP)  
-6 |  **3RIMG_L2B_HEM**  
-| This product is derived on the basis of Hydro-Estimator method. It measures precipitation over Indian Region encompassing area between longitudes 30°E -to130°E and latitudes 50°N- 50°S. | L2B | HALF HOURLY | 2016-10-11 | 2025-09-13 | Active | [10.19038/SAC/10/3RIMG_L2B_HEM](https://dx.doi.org/10.19038/SAC/10/3RIMG_L2B_HEM)  
-7 |  **3RIMG_L2B_IMC**  
-| INSAT multispectral Rainfall Algorithm Technique (IMSRA) is one of the main operational rainfall retrieval algorithms for INSAT-3DR. This algorithm estimates precipitation based on non-linear power law relationship established between infrared (IR) brightness temperatures (Tbs, 10.7 µm observations) and TRMM-PR surface rain rate. Based on a number of case studies and research works carried out, a further refinement of the algorithm was made.  | L2B | HALF HOURLY | 2016-11-08 | 2025-09-13 | Active | [10.19038/SAC/10/3RIMG_L2B_IMC](https://dx.doi.org/10.19038/SAC/10/3RIMG_L2B_IMC)  
-8 |  **3RIMG_L2B_LST**  
-| Land surface temperature (LST) is a key parameter in the land surface processes. LST is very useful input to various models related to agrometeorology, ecology, hydrology and climate. | L2B | HALF HOURLY | 2016-10-11 | 2025-09-13 | Active | [10.19038/SAC/10/3RIMG_L2B_LST](https://dx.doi.org/10.19038/SAC/10/3RIMG_L2B_LST)  
-9 |  **3RIMG_L2B_OLR**  
-| Total outgoing longwave radiation (OLR) flux, thermally emitted from earth atmosphere system, is estimated by applying regression equation relating OLR flux with INSAT-3DR Imager observed WV (6.7&#956;m) and thermal infrared (TIR-1 10.5 &#956;m and TIR-2 11.5 &#956;m) radiances. The coefficients of the regression equations are determined from results of the Radiative Transfer Model simulation with various atmospheric conditions | L2B | HALF HOURLY | 2016-10-11 | 2025-09-13 | Active | [10.19038/SAC/10/3RIMG_L2B_OLR](https://dx.doi.org/10.19038/SAC/10/3RIMG_L2B_OLR)  
-10 |  **3RIMG_L2B_SST**  
-| Sea surface temperature is derived from split thermal window channels (TIR1, TIR2) during daytime and using additional mid IR window channel (MIR) during night time over cloud free oceanic regions. The most important part of the SST retrieval from IR observations is the atmospheric correction, especially over tropics. This correction is determined through a suitable characterization of tropical atmospheres in radiative transfer model to simulate the brightness temperatures of INSAT-3DR channels a | L2B | HALF HOURLY | 2016-10-11 | 2025-09-13 | Active | [10.19038/SAC/10/3RIMG_L2B_SST](https://dx.doi.org/10.19038/SAC/10/3RIMG_L2B_SST)  
-Showing 1 to 10 of 41 entries
-Previous12345Next
+No data available in table  
+Showing 0 to 0 of 0 entries
+PreviousNext
 ### Loading...
 **X**
 Version Detail

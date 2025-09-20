@@ -1,7 +1,7 @@
 # Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/node/940/6
-**Extracted:** 2025-09-13T05:55:13.424255
+**Extracted:** 2025-09-15T15:50:12.148222
 **Quality Score:** 0.650
 
 [Skip to main Content](https://mosdac.gov.in/node/940/6#main-content "Skip to main Content")
@@ -77,20 +77,19 @@ Space Applications Centre, ISRO
 
 
 ## You are here
-[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2015
+[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2017
 # Insitu
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/6?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/6?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/6?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/6?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/6?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/6?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
 ![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder-parent.png) | [Go up](https://mosdac.gov.in/insitu) |  | Fri, 2025-04-11 14:38  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Reflectance based vicarious calibration of INSAT-3D, 2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/214) | 2.33 MB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Land displacement mapping-Nepal earthquake-2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/213) | 5.21 MB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Final Validation Report on SST from INSAT-3D_11Aug2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/212) | 6 MB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Calibration of Ka-band Alitmiter (altika)-2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/211) | 3.73 MB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Absolute calibration and image quality assessment of RISAT-1 FRS and MRS mode data-2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/210) | 1.64 MB | Fri, 2017-11-24 11:20  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Calibration and validation site characterisation for INSAT-3D, 2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/209) | 1.54 MB | Fri, 2017-11-24 11:20  
-1 folder - 6 files - 20.46 MB
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Radiometric calibration stability assessment for the RISAT-1 SAR sensor.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1657) | 4.06 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Indian_distributed_target_sites_report_18apr17_2.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1656) | 1.11 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Optical and radiative properties of aerosols over Desalpar.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1655) | 3.65 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Aerosol characterization and radiative properties over Kavaratti.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1654) | 4.35 MB | Tue, 2020-10-27 14:29  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [INSAT-3D&3DR-Cal-Report-final.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1653) | 2.28 MB | Tue, 2020-10-27 14:29  
+1 folder - 5 files - 15.45 MB
 ## Search
 Search 
 ## Follow Us
@@ -123,7 +122,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/node/940/6 "Previous")[](https://mosdac.gov.in/node/940/6 "Next")
 [](https://mosdac.gov.in/node/940/6)
 [](https://mosdac.gov.in/node/940/6 "Previous")[](https://mosdac.gov.in/node/940/6 "Next")

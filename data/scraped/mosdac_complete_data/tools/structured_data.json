@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/tools",
+  "url": "https://mosdac.gov.in/tools#main-content",
   "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/tools",
+    "url": "https://mosdac.gov.in/tools#main-content",
     "domain": "mosdac.gov.in",
     "path": "/tools",
     "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
@@ -139,7 +139,7 @@
     }
   ],
   "quality_score": 0.65,
-  "extracted_at": "2025-09-13T05:57:03.687990",
+  "extracted_at": "2025-09-15T15:50:07.697150",
   "content_length": 8602,
   "rag_optimized": true
 }

@@ -1,7 +1,7 @@
 # Satellite Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-insat3d
-**Extracted:** 2025-09-13T05:59:59.396997
+**Extracted:** 2025-09-15T15:47:03.793005
 **Quality Score:** 0.470
 
 A- A A+
@@ -15,6 +15,8 @@ Sensor: IMAGER SOUNDER
   
 
 **X**
+Show 10 25 50 100 entries
+Search:
 Sr.No | Product /  
 Acq Calendar/Version  | Product Description | Processing Level | Temporal Resolution | Start Date | End Date | Processing Status | DOI  
 ---|---|---|---|---|---|---|---|---  
@@ -38,72 +40,8 @@ Acq Calendar/Version  | Product Description | Processing Level | Temporal Resolu
 | Land surface temperature (LST) is a key parameter in the land surface processes. LST is very useful input to various models related to agrometeorology, ecology, hydrology and climate. | L2B | HALF HOURLY | 2015-03-04 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2B_LST](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_LST)  
 10 |  **3DIMG_L2B_OLR**  
 | Total outgoing longwave radiation (OLR) flux, thermally emitted from earth atmosphere system, is estimated by applying regression equation relating OLR flux with INSAT-3D Imager observed WV (6.7&#956;m) and thermal infrared (TIR-1 10.5 &#956;m and TIR-2 11.5 &#956;m) radiances. The coefficients of the regression equations are determined from results of the Radiative Transfer Model simulation with various atmospheric conditions | L2B | HALF HOURLY | 2013-10-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2B_OLR](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_OLR)  
-11 |  **3DIMG_L2B_SST**  
-| Sea surface temperature is derived from split thermal window channels (TIR1, TIR2) during daytime and using additional mid IR window channel (MIR) during night time over cloud free oceanic regions. The most important part of the SST retrieval from IR observations is the atmospheric correction, especially over tropics. This correction is determined through a suitable characterization of tropical atmospheres in radiative transfer model to simulate the brightness temperatures of INSAT-3D channels a | L2B | HALF HOURLY | 2013-10-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2B_SST](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_SST)  
-12 |  **3DIMG_L2B_UTH**  
-| Upper Tropospheric Humidity from IMAGER | L2B | HALF HOURLY | 2013-10-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2B_UTH](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2B_UTH)  
-13 |  **3DIMG_L2C_CMP**  
-| Day-time cloud microphysical parameters from visible and SWIR channels of INSAT-3D imager | L2C | HALF HOURLY, 01:30 TO 11:30 GMT | 2015-12-30 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2C_CMP](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_CMP)  
-14 |  **3DIMG_L2C_FOG**  
-| Night time FOG is derived from TIR-1 and MIR channel brightness temperature over Indian region. However, for day time visible channel reflectance and TIR-1 channel brightness temperature has been used. The algorithm involves detection of different thresholds following an image based approach to detect FOG | L2C | HALF HOURLY | 2013-10-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2C_FOG](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_FOG)  
-15 |  **3DIMG_L2C_INS**  
-| INSAT-3D derived INSOLATION | L2C | HALF HOURLY | 2015-03-11 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2C_INS](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_INS)  
-16 |  **3DIMG_L2C_SNW**  
-| Snow cover derived from IMAGER | L2C | ONCE A DAY | 2013-10-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2C_SNW](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2C_SNW)  
-17 |  **3DIMG_L2G_AOD**  
-| The AOD product provides the aerosol optical thickness, at 650 nm and 4 Km spatial resolution over both land and ocean surfaces with root mean square (RMS) error of ±0.1. | L2G | HALF HOURLY | 2013-10-05 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2G_AOD](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_AOD)  
-18 |  **3DIMG_L2G_GPI**  
-| Rainfall from INSAT-3D Imager channels is derived based on two methodologies: (i) Rainfall Estimation by GOES Precipitation Index (GPI) (ii) INSAT Multispectral Rainfall Algorithm .  | L2G | HALF HOURLY | 2013-10-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2G_GPI](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_GPI)  
-19 |  **3DIMG_L2G_IMR**  
-| Indian Multi Spectral rainfall from IMAGER | L2G | HALF HOURLY | 2013-10-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2G_IMR](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_IMR)  
-20 |  **3DIMG_L2G_SST**  
-| Sea surface temperature is derived from split thermal window channels (TIR1, TIR2) during daytime and using additional mid IR window channel (MIR) during night time over cloud free oceanic regions. The most important part of the SST retrieval from IR observations is the atmospheric correction, especially over tropics. This correction is determined through a suitable characterization of tropical atmospheres in radiative transfer model to simulate the brightness temperatures of INSAT-3D channels and then generating the regression coefficients for SST retrieval. | L2B | HALF HOURLY | 2014-01-01 | 2014-01-24 | In-Active | [10.19038/SAC/10/3DIMG_L2G_SST](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_SST)  
-21 |  **3DIMG_L2G_WDP**  
-| Wind Derived Product, Upper level divergence, lower level convergence, wind shear, mid-level wind shear, 24 hour wind shear tendency, vorticity(200,500,700,850mb) using INSAT-3D AMVs. | L2G | HALF HOURLY | 2015-03-03 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2G_WDP](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2G_WDP)  
-22 |  **3DIMG_L2P_FIR**  
-| This is an Active FIRE product which shows that the pixel is warm enough to be qualified as fire. This is derived using MIR (T3) and TIR1 (T5) channel BT from INSAT-3D imager.  | L2P | HALF HOURLY | 2013-10-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2P_FIR](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_FIR)  
-23 |  **3DIMG_L2P_IRW**  
-| INSAT-3D Infrared channel derived Wind | L2P | HALF HOURLY | 2013-10-08 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2P_IRW](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_IRW)  
-24 |  **3DIMG_L2P_IRW_MERGED**  
-| Product is a merged wind product derived using the algorithm for retrieving Atmospheric Motion Vectors (AMVs) from INSAT-3D and INSAT-3DR in staggering mode | L2P | HALF HOURLY | 2019-02-06 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2P_IRW_MERGED](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_IRW_MERGED)  
-25 |  **3DIMG_L2P_MRW**  
-| Winds derived using MIR band data of IMAGER | L2 | HALF HOURLY | 2013-10-08 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2P_MRW](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_MRW)  
-26 |  **3DIMG_L2P_SMK**  
-| This is an Active Smoke product which shows that the pixel is to be qualified as smoke.Inputs to the algorithm will include geo-referenced, corrected Albedo, Digital counts for Visible channel and geo-referenced Brightness temperature for MIR,TIR1, TIR2.  | L2P | HALF HOURLY | 2013-10-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2P_SMK](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_SMK)  
-27 |  **3DIMG_L2P_VSW**  
-| Winds derived using Visible band data of IMAGER | L2 | HALF HOURLY | 2013-10-08 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2P_VSW](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_VSW)  
-28 |  **3DIMG_L2P_WVW**  
-| Water vapour derived wind vectors | L2P | HALF HOURLY | 2013-10-08 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2P_WVW](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_WVW)  
-29 |  **3DIMG_L2P_WV_MERGED**  
-| This product is merged water vapour wind product using the algorithm for retrieving Atmospheric Motion Vectors (AMVs) from INSAT-3D and INSAT-3DR in staggering mode | L2P | HALF HOURLY | 2019-02-06 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L2P_WV_MERGED](https://dx.doi.org/10.19038/SAC/10/3DIMG_L2P_WV_MERGED)  
-30 |  **3DIMG_L3B_HEM_DLY**  
-| Daily HEM from INSAT-3D | L3 | DAILY | 2014-01-07 | 2024-06-16 | In-Active | [10.19038/SAC/10/3DIMG_L3B_HEM_DLY](https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_HEM_DLY)  
-31 |  **3DIMG_L3B_HEM_WKL**  
-| Weekly HEM product from INSAT3D | L3B | WEEKLY | 2020-01-06 | 2024-05-27 | In-Active | [](https://dx.doi.org/)  
-32 |  **3DIMG_L3B_OLR_DLY**  
-| Daily OLR from INSAT-3D | L3 | DAILY | 2014-01-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L3B_OLR_DLY](https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_OLR_DLY)  
-33 |  **3DIMG_L3B_OLR_WKL**  
-| Weekly OLR product from INSAT3D | L3B | WEEKLY | 2020-01-06 | 2024-06-17 | In-Active | [](https://dx.doi.org/)  
-34 |  **3DIMG_L3B_SST_DLY**  
-| Daily SST from INSAT-3D | L3 | DAILY | 2014-02-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L3B_SST_DLY](https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_SST_DLY)  
-35 |  **3DIMG_L3B_SST_WKL**  
-| Weekly SST product from INSAT3D | L3B | WEEKLY | 2020-01-06 | 2024-06-17 | In-Active | [](https://dx.doi.org/)  
-36 |  **3DIMG_L3B_UTH_DLY**  
-| Daily UTH from INSAT-3D | L3 | DAILY | 2014-01-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L3B_UTH_DLY](https://dx.doi.org/10.19038/SAC/10/3DIMG_L3B_UTH_DLY)  
-37 |  **3DIMG_L3B_UTH_WKL**  
-| Weekly UTH product from INSAT3D | L3B | WEEKLY | 2020-01-06 | 2024-06-17 | In-Active | [](https://dx.doi.org/)  
-38 |  **3DIMG_L3C_INS_DLY**  
-| INSAT-3D derived INSOLATION | L3 | DAILY | 2015-11-25 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L3C_INS_DLY](https://dx.doi.org/10.19038/SAC/10/3DIMG_L3C_INS_DLY)  
-39 |  **3DIMG_L3C_PET_DLY**  
-| Evapotranspiration (ET) is one of the important processes in the terrestrial water cycle. About 65% of rainwater is lost to the atmosphere due to the combined processes of evaporation and transpiration. In a given climate, reference evapotranspiration (ET0) is defined as the maximum evaporative demand of the atmosphere from a well-watered surface independent of crop type, crop development, and management practice.  | L3 | DAILY | 2016-01-01 | 2024-06-18 | In-Active | [10.19038/SAC/10/3DIMG_L3C_PET_DLY](https://dx.doi.org/10.19038/SAC/10/3DIMG_L3C_PET_DLY)  
-40 |  **3DIMG_L3G_GPI_DLY**  
-| Daily GPI from INSAT-3D | L3 | DAILY | 2015-01-01 | 2024-06-17 | In-Active | [10.19038/SAC/10/3DIMG_L3G_GPI_DLY](https://dx.doi.org/10.19038/SAC/10/3DIMG_L3G_GPI_DLY)  
-41 |  **3DIMG_L3G_GPI_WKL**  
-| Weekly GPI product from INSAT3D | L3G | WEEKLY | 2020-01-06 | 2024-06-10 | In-Active | [](https://dx.doi.org/)  
-42 |  **3DIMG_L3G_IMR_DLY**  
-| Daily IMR Rain from INSAT-3D | L3 | DAILY | 2014-01-01 | 2024-06-16 | In-Active | [10.19038/SAC/10/3DIMG_L3G_IMR_DLY](https://dx.doi.org/10.19038/SAC/10/3DIMG_L3G_IMR_DLY)  
-43 |  **3DIMG_L3G_IMR_WKL**  
-| Weekly IMR product from INSAT3D | L3G | WEEKLY | 2020-01-06 | 2024-06-10 | In-Active | [](https://dx.doi.org/)  
+Showing 1 to 10 of 43 entries
+Previous12345Next
 ### Loading...
 **X**
 Version Detail

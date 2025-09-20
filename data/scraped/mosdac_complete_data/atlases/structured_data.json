@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/atlases?sort=asc&order=modified",
+  "url": "https://mosdac.gov.in/atlases#quickset-atlases_qt_1",
   "title": "Atlases | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/atlases?sort=asc&order=modified",
+    "url": "https://mosdac.gov.in/atlases#quickset-atlases_qt_1",
     "domain": "mosdac.gov.in",
     "path": "/atlases",
     "description": "",
@@ -177,7 +177,7 @@
     }
   ],
   "quality_score": 0.66,
-  "extracted_at": "2025-09-13T06:00:28.504046",
-  "content_length": 13041,
+  "extracted_at": "2025-09-15T15:51:31.862562",
+  "content_length": 12475,
   "rag_optimized": true
 }

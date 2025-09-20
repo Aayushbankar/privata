@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/saral-altika#top",
+  "url": "https://mosdac.gov.in/saral-altika",
   "title": "SARAL-AltiKa | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/saral-altika#top",
+    "url": "https://mosdac.gov.in/saral-altika",
     "domain": "mosdac.gov.in",
     "path": "/saral-altika",
     "description": "SARAL mission results from the common interest of both CNES and ISRO in studying ocean from space using altimetry system and in promoting maximum use of the ARGOS Data Collecting System. Radar altimetry by satellite is a technique used in oceanography to measure, globally over the oceans, the sea level needed to understand ocean circulation and its variability. The importance",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.6,
-  "extracted_at": "2025-09-13T05:59:24.781081",
+  "extracted_at": "2025-09-15T15:50:52.333048",
   "content_length": 10574,
   "rag_optimized": true
 }

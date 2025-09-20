@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/inland-water-height#main-content",
+  "url": "https://mosdac.gov.in/inland-water-height#top",
   "title": "Inland Water Height | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/inland-water-height#main-content",
+    "url": "https://mosdac.gov.in/inland-water-height#top",
     "domain": "mosdac.gov.in",
     "path": "/inland-water-height",
     "description": "It is crucial to know how the storage of inland water bodies change over time. Also, hydrological modelling studies face the challenge of decreasing availability of in-situ monitoring data.",
@@ -307,7 +307,7 @@
     }
   ],
   "quality_score": 0.75,
-  "extracted_at": "2025-09-13T05:59:39.960804",
+  "extracted_at": "2025-09-15T15:51:03.397068",
   "content_length": 15101,
   "rag_optimized": true
 }

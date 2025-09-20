@@ -98,7 +98,7 @@
 	                <td calss="application-name">
 	    	            <label class="title ng-binding">INSAT3R Intense Heavy Rain Over India</label>
 	    	            <br>
-	    	            <lable class="title ng-binding">Rainfall (mm): 13-SEP-2025 08:45 GMT</lable>
+	    	            <lable class="title ng-binding">Rainfall (mm): 15-SEP-2025 08:15 GMT</lable>
 	    	           
 	    	            
 	                </td>
@@ -123,7 +123,7 @@
 	            <tbody><tr>
 	                <td>	
 	                    <button class="md-fab panel-show-hide-btn md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="openCloseNav()" style="top: 1px;">    
-	                    	<md-icon md-svg-src="assets/img/chevron-down.svg" class="ng-scope" role="img" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1_cache11" x="0px" y="0px" viewBox="0 0 477.159 477.159" style="enable-background:new 0 0 477.159 477.159;" xml:space="preserve" width="100%" height="100%" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+	                    	<md-icon md-svg-src="assets/img/chevron-down.svg" class="ng-scope" role="img" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1_cache12" x="0px" y="0px" viewBox="0 0 477.159 477.159" style="enable-background:new 0 0 477.159 477.159;" xml:space="preserve" width="100%" height="100%" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
 <g>
 	<path d="M441.314,74.44c0-5.091-2.118-10.151-5.719-13.75l-55-55c-3.598-3.591-8.635-5.688-13.719-5.688   c-5.084,0-10.152,2.096-13.75,5.688L238.563,120.252L124.001,5.69c-3.667-3.664-8.848-5.764-14.031-5.688   c-4.985,0.078-9.911,2.163-13.438,5.688l-55,55c-3.601,3.599-5.688,8.659-5.688,13.75s2.087,10.151,5.688,13.75l183.281,183.281   c3.599,3.601,8.659,5.688,13.75,5.688s10.151-2.087,13.75-5.688L435.594,88.19C439.195,84.59,441.314,79.531,441.314,74.44   L441.314,74.44z M441.314,274.44c0-5.091-2.118-10.151-5.719-13.75l-55-55c-3.598-3.591-8.635-5.688-13.719-5.688   c-5.084,0-10.152,2.096-13.75,5.688L238.563,320.252L124.001,205.69c-3.667-3.664-8.848-5.764-14.031-5.688   c-4.985,0.078-9.911,2.163-13.438,5.688l-55,55c-3.601,3.599-5.688,8.659-5.688,13.75s2.087,10.151,5.688,13.75l183.281,183.281   c3.599,3.601,8.659,5.688,13.75,5.688s10.151-2.087,13.75-5.688L435.594,288.19C439.195,284.59,441.314,279.531,441.314,274.44   L441.314,274.44z" fill="#FFFFFF"></path>
 </g>
@@ -175,47 +175,7 @@
                 </button>
 			   <br>
 				
-	    		<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" style=""><!-- | orderBy:propertyName:reverse -->
-	    			<div class="layer-display ng-scope ng-binding">
-	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed();removeLayer();" class="layer-title-checkbox md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="Rainfall" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
-	        			Rainfall
-	        			
-	        			<span ng-show="layergrps.values_.visible" aria-hidden="false">
-							<!-- ngIf: layergrps.values_.extraparams.collapsable --><button class="collapse-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layergrps.values_.extraparams.collapsable" ng-click="map.collapseLayers(layergrps)">    
-	                    		<!--md-icon md-svg-src="img/ic_delete_black_24px.svg"></md-icon-->
-	                    		<!-- ngIf: !layergrps.values_.extraparams.collapsestate -->
-	                    		<!-- ngIf: layergrps.values_.extraparams.collapsestate --><i ng-if="layergrps.values_.extraparams.collapsestate" class="fa fa-angle-double-down collapseBtn" ng-click="layergrps.values_.extraparams.collapsestate=!layergrps.values_.extraparams.collapsestate" role="button" tabindex="0"></i><!-- end ngIf: layergrps.values_.extraparams.collapsestate -->
-	                    	</button><!-- end ngIf: layergrps.values_.extraparams.collapsable -->
-	        			
-	        				<!-- ngIf: layergrps.values_.extraparams.reset -->
-	                    
-	        				<!-- ngIf: layergrps.values_.extraparams.delete -->
-	                    
-	                    	<!-- ngIf: layergrps.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layergrps.values_.extraparams.slider" ng-model="layergrps.values_.opacity" ng-change="layergrps.changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layergrps.values_.extraparams.slider --><!-- ng-change=layergrps.setOpacity(layergrps.values_.opacity); Can Be Used -->
-	        			</span>
-	    			</div>
-	    			<div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" class="selection-div ng-hide" ng-class="{'selection-margin':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	    				<!-- ngIf: layergrps.values_.extraparams.radioSelect -->
-	    			</div>
-	        		<!-- ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall (mm)</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            			<span ng-show="layers.values_.visible" aria-hidden="false">
-	            				 <!-- ngIf: layers.values_.extraparams.delete --> 
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
-	            			</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --> 
-	    		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope"><!-- | orderBy:propertyName:reverse -->
+	    		<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" data-ng-animate="2"><!-- | orderBy:propertyName:reverse -->
 	    			<div class="layer-display ng-scope ng-binding">
 	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed();removeLayer();" class="layer-title-checkbox md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="Overlay Layers" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
 	        			Overlay Layers
@@ -250,10 +210,7 @@
 	            			
 	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
 	            				 <!-- ngIf: layers.values_.extraparams.delete --><button class="delete-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layers.values_.extraparams.delete" ng-click="layergrps.values_.layers.remove(layers)">    
-	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"><svg fill="#FFFFFF" height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"></path>
-    <path d="M0 0h24v24H0z" fill="none"></path>
-</svg></md-icon>
+	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"></md-icon>
 	                    		</button><!-- end ngIf: layers.values_.extraparams.delete --> 
 	                    	
 	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
@@ -272,10 +229,7 @@
 	            			
 	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
 	            				 <!-- ngIf: layers.values_.extraparams.delete --><button class="delete-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layers.values_.extraparams.delete" ng-click="layergrps.values_.layers.remove(layers)">    
-	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"><svg fill="#FFFFFF" height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"></path>
-    <path d="M0 0h24v24H0z" fill="none"></path>
-</svg></md-icon>
+	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"></md-icon>
 	                    		</button><!-- end ngIf: layers.values_.extraparams.delete --> 
 	                    	
 	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
@@ -294,10 +248,7 @@
 	            			
 	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
 	            				 <!-- ngIf: layers.values_.extraparams.delete --><button class="delete-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layers.values_.extraparams.delete" ng-click="layergrps.values_.layers.remove(layers)">    
-	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"><svg fill="#FFFFFF" height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"></path>
-    <path d="M0 0h24v24H0z" fill="none"></path>
-</svg></md-icon>
+	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"></md-icon>
 	                    		</button><!-- end ngIf: layers.values_.extraparams.delete --> 
 	                    	
 	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
@@ -316,10 +267,7 @@
 	            			
 	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
 	            				 <!-- ngIf: layers.values_.extraparams.delete --><button class="delete-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layers.values_.extraparams.delete" ng-click="layergrps.values_.layers.remove(layers)">    
-	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"><svg fill="#FFFFFF" height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"></path>
-    <path d="M0 0h24v24H0z" fill="none"></path>
-</svg></md-icon>
+	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"></md-icon>
 	                    		</button><!-- end ngIf: layers.values_.extraparams.delete --> 
 	                    	
 	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
@@ -423,10 +371,7 @@
 	            			
 	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
 	            				 <!-- ngIf: layers.values_.extraparams.delete --><button class="delete-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layers.values_.extraparams.delete" ng-click="layergrps.values_.layers.remove(layers)">    
-	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"><svg fill="#FFFFFF" height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"></path>
-    <path d="M0 0h24v24H0z" fill="none"></path>
-</svg></md-icon>
+	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"></md-icon>
 	                    		</button><!-- end ngIf: layers.values_.extraparams.delete --> 
 	                    	
 	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
@@ -445,10 +390,7 @@
 	            			
 	            			<span ng-show="layers.values_.visible" aria-hidden="true" class="ng-hide">
 	            				 <!-- ngIf: layers.values_.extraparams.delete --><button class="delete-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layers.values_.extraparams.delete" ng-click="layergrps.values_.layers.remove(layers)">    
-	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"><svg fill="#FFFFFF" height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"></path>
-    <path d="M0 0h24v24H0z" fill="none"></path>
-</svg></md-icon>
+	                    			<md-icon md-svg-src="assets/img/ic_delete_black_24px.svg" class="ng-scope" role="img" aria-hidden="true"></md-icon>
 	                    		</button><!-- end ngIf: layers.values_.extraparams.delete --> 
 	                    	
 	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
@@ -578,7 +520,47 @@
 	            			
 	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
 	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --> 
-	    		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" style=""><!-- | orderBy:propertyName:reverse -->
+	    		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" data-ng-animate="2" style=""><!-- | orderBy:propertyName:reverse -->
+	    			<div class="layer-display ng-scope ng-binding">
+	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed();removeLayer();" class="layer-title-checkbox md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="Rainfall" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
+	        			Rainfall
+	        			
+	        			<span ng-show="layergrps.values_.visible" aria-hidden="false">
+							<!-- ngIf: layergrps.values_.extraparams.collapsable --><button class="collapse-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layergrps.values_.extraparams.collapsable" ng-click="map.collapseLayers(layergrps)">    
+	                    		<!--md-icon md-svg-src="img/ic_delete_black_24px.svg"></md-icon-->
+	                    		<!-- ngIf: !layergrps.values_.extraparams.collapsestate -->
+	                    		<!-- ngIf: layergrps.values_.extraparams.collapsestate --><i ng-if="layergrps.values_.extraparams.collapsestate" class="fa fa-angle-double-down collapseBtn" ng-click="layergrps.values_.extraparams.collapsestate=!layergrps.values_.extraparams.collapsestate" role="button" tabindex="0"></i><!-- end ngIf: layergrps.values_.extraparams.collapsestate -->
+	                    	</button><!-- end ngIf: layergrps.values_.extraparams.collapsable -->
+	        			
+	        				<!-- ngIf: layergrps.values_.extraparams.reset -->
+	                    
+	        				<!-- ngIf: layergrps.values_.extraparams.delete -->
+	                    
+	                    	<!-- ngIf: layergrps.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layergrps.values_.extraparams.slider" ng-model="layergrps.values_.opacity" ng-change="layergrps.changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layergrps.values_.extraparams.slider --><!-- ng-change=layergrps.setOpacity(layergrps.values_.opacity); Can Be Used -->
+	        			</span>
+	    			</div>
+	    			<div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" class="selection-div ng-hide" ng-class="{'selection-margin':layergrps.values_.title=='Layers'}" aria-hidden="true">
+	    				<!-- ngIf: layergrps.values_.extraparams.radioSelect -->
+	    			</div>
+	        		<!-- ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope ng-hide" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="true">
+	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
+	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox aria-label="Aria Label" ng-if="layers.values_.extraparams.checkbox" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
+	            			<!-- {{layers.values_.title}}  -->
+	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Rainfall (mm)</span>
+	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
+	            			
+	            			<span ng-show="layers.values_.visible" aria-hidden="false">
+	            				 <!-- ngIf: layers.values_.extraparams.delete --> 
+	                    	
+	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
+	                    	
+	                    		<!-- ngIf: layers.values_.extraparams.timeSelect -->
+	            			</span>
+	            			
+	            			
+	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
+	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --> 
+	    		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" style=""><!-- | orderBy:propertyName:reverse -->
 	    			<div class="layer-display ng-scope ng-binding">
 	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed();removeLayer();" class="layer-title-checkbox md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="Base Layers" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
 	        			Base Layers
@@ -797,16 +779,16 @@
 	
 	<div id="legends" class="legends scrollbarX">
 		<table>
-			<tbody><!-- ngRepeat: layergrps in map.getLayers().getArray() | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' --><tr ng-if="layergrps.values_.title=='Rainfall'" ng-repeat="layergrps in map.getLayers().getArray() | orderBy:layergrps:true" class="ng-scope" style="">
+			<tbody><!-- ngRepeat: layergrps in map.getLayers().getArray() | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' --><!-- end ngRepeat: layergrps in map.getLayers().getArray() | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' --><!-- end ngRepeat: layergrps in map.getLayers().getArray() | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' --><tr ng-if="layergrps.values_.title=='Rainfall'" ng-repeat="layergrps in map.getLayers().getArray() | orderBy:layergrps:true" class="ng-scope" data-ng-animate="2" style="">
 				<!-- ngIf: noLegends -->
 				<!-- ngRepeat: layers in layergrps.getLayers().getArray() --><!-- ngIf: layers.values_.extraparams.legendAvailable --><td ng-if="layers.values_.extraparams.legendAvailable" ng-repeat="layers in layergrps.getLayers().getArray()" class="ng-scope">
 					<div id="legends_div" class="legends_div" ng-show="layers.get('visible') &amp;&amp; layergrps.get('visible')" aria-hidden="false">
-						<canvas id="35" width="300" height="100">
+						<canvas id="50" width="300" height="100">
 							<img ng-src="https://mosdac.gov.in/geoserver_2/rain_india/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=rain_india:rain_india&amp;FORMAT=image/png&amp;STYLES=" onload="changeCssOfLegendDiv(this)" src="https://mosdac.gov.in/geoserver_2/rain_india/wms?TRANSPARENT=true&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=rain_india:rain_india&amp;FORMAT=image/png&amp;STYLES=">
 						</canvas>
 					</div>
 				</td><!-- end ngIf: layers.values_.extraparams.legendAvailable --><!-- end ngRepeat: layers in layergrps.getLayers().getArray() -->
-			</tr><!-- end ngIf: layergrps.values_.title=='Rainfall' --><!-- end ngRepeat: layergrps in map.getLayers().getArray() | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' --><!-- end ngRepeat: layergrps in map.getLayers().getArray() | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' --><!-- end ngRepeat: layergrps in map.getLayers().getArray() | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' --><!-- end ngRepeat: layergrps in map.getLayers().getArray() | orderBy:layergrps:true -->
+			</tr><!-- end ngIf: layergrps.values_.title=='Rainfall' --><!-- end ngRepeat: layergrps in map.getLayers().getArray() | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title=='Rainfall' --><!-- end ngRepeat: layergrps in map.getLayers().getArray() | orderBy:layergrps:true -->
 		</tbody></table>
 	</div>
 	    

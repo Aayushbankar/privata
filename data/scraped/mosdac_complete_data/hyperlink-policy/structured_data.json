@@ -1,8 +1,8 @@
 {
-  "url": "http://mosdac.gov.in/hyperlink-policy",
+  "url": "https://mosdac.gov.in/hyperlink-policy",
   "title": "Hyperlink Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "http://mosdac.gov.in/hyperlink-policy",
+    "url": "https://mosdac.gov.in/hyperlink-policy",
     "domain": "mosdac.gov.in",
     "path": "/hyperlink-policy",
     "description": "Links to external websites/portals At many places in this Portal, you shall find links to other websites/portals. This links have been placed for your convenience. MOSDAC is not responsible for the contents and reliability of the linked websites and does not necessarily endorse the views expressed in them. Mere presence of the link or its listing on this Portal should not be",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.6,
-  "extracted_at": "2025-09-13T05:57:18.347411",
+  "extracted_at": "2025-09-15T15:46:36.129425",
   "content_length": 8612,
   "rag_optimized": true
 }

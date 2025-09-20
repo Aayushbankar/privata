@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/oceanic-eddies-detection#main-content",
+  "url": "https://mosdac.gov.in/oceanic-eddies-detection#top",
   "title": "Oceanic Eddies Detection | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/oceanic-eddies-detection#main-content",
+    "url": "https://mosdac.gov.in/oceanic-eddies-detection#top",
     "domain": "mosdac.gov.in",
     "path": "/oceanic-eddies-detection",
     "description": "The oceanic eddy parameter information was prepared for 24 years (1993 – 2016) over Bay of Bengal using AVISO.",
@@ -307,7 +307,7 @@
     }
   ],
   "quality_score": 0.75,
-  "extracted_at": "2025-09-13T05:58:12.532527",
+  "extracted_at": "2025-09-15T15:49:33.800508",
   "content_length": 14415,
   "rag_optimized": true
 }

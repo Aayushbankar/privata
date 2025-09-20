@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/tags/opendata",
+  "url": "http://mosdac.gov.in/tags/opendata",
   "title": "Opendata | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/tags/opendata",
+    "url": "http://mosdac.gov.in/tags/opendata",
     "domain": "mosdac.gov.in",
     "path": "/tags/opendata",
     "description": "",
@@ -236,7 +236,7 @@
     }
   ],
   "quality_score": 0.6500000000000001,
-  "extracted_at": "2025-09-13T05:59:30.843817",
+  "extracted_at": "2025-09-15T15:47:35.610000",
   "content_length": 13400,
   "rag_optimized": true
 }

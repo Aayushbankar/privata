@@ -1,7 +1,7 @@
 # GSICS
 
 **URL:** http://mosdac.gov.in/gsics
-**Extracted:** 2025-09-13T05:57:44.718622
+**Extracted:** 2025-09-15T15:46:43.554321
 **Quality Score:** 0.450
 
 ![gsics](https://mosdac.gov.in/sites/default/files/styles/medium/public/field/image/gsics.png?itok=oiNoAesD) ![gsics](https://mosdac.gov.in/sites/default/files/mosdac_small.png)

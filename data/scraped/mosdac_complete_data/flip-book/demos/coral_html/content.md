@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/flip-book/demos/coral.html
-**Extracted:** 2025-09-13T05:59:28.045855
+**Extracted:** 2025-09-15T15:47:25.143427
 **Quality Score:** 0.300
 
 ![](https://mosdac.gov.in/flip-book/demos/coral/thumb/page0001.jpg)

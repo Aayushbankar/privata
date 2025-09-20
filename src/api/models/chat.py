@@ -20,6 +20,7 @@ class ChatRequest(BaseModel):
     """Request model for chat endpoint."""
     query: str = Field(..., description="Natural language query", min_length=1, max_length=1000)
     session_id: Optional[str] = Field("default", description="Session ID for context retention")
+    language: Optional[str] = Field("en", description="Language code for response (e.g., 'en', 'hi', 'ta')")
     stream: Optional[bool] = Field(False, description="Whether to stream the response")
 
 

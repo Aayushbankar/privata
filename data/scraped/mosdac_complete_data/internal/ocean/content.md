@@ -1,7 +1,7 @@
 # MOSDAC Live
 
 **URL:** https://mosdac.gov.in/internal/ocean
-**Extracted:** 2025-09-13T05:59:19.842165
+**Extracted:** 2025-09-15T15:46:42.424712
 **Quality Score:** 0.700
 
 **X**

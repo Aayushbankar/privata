@@ -1,7 +1,7 @@
 # Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/node/940/4
-**Extracted:** 2025-09-13T05:55:00.454375
+**Extracted:** 2025-09-15T15:50:04.469553
 **Quality Score:** 0.650
 
 [Skip to main Content](https://mosdac.gov.in/node/940/4#main-content "Skip to main Content")
@@ -77,15 +77,20 @@ Space Applications Centre, ISRO
 
 
 ## You are here
-[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2013
+[Home](https://mosdac.gov.in/) » [Insitu](https://mosdac.gov.in/node/940/1) » 2015
 # Insitu
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/4?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/4?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/4?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/node/940/4?sort=desc&order=Display%20name "sort by Display name") | [size](https://mosdac.gov.in/node/940/4?sort=asc&order=size "sort by size") | [modified](https://mosdac.gov.in/node/940/4?sort=asc&order=modified "sort by modified")  
 ---|---|---|---  
 ![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder-parent.png) | [Go up](https://mosdac.gov.in/insitu) |  | Fri, 2025-04-11 14:38  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Calibration and validation of SARAL Altika-2013.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/669) | 1.5 MB | Fri, 2017-11-24 11:20  
-1 folder - 1 file - 1.5 MB
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Reflectance based vicarious calibration of INSAT-3D, 2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1626) | 2.33 MB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Land displacement mapping-Nepal earthquake-2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1625) | 5.21 MB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Final Validation Report on SST from INSAT-3D_11Aug2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1624) | 6 MB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Calibration of Ka-band Alitmiter (altika)-2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1623) | 3.73 MB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Absolute calibration and image quality assessment of RISAT-1 FRS and MRS mode data-2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1622) | 1.64 MB | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/application-pdf.png) | [Calibration and validation site characterisation for INSAT-3D, 2015.pdf(link is external)](https://mosdac.gov.in/filebrowser/download/1621) | 1.54 MB | Fri, 2017-11-24 11:20  
+1 folder - 6 files - 20.46 MB
 ## Search
 Search 
 ## Follow Us
@@ -118,7 +123,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/node/940/4 "Previous")[](https://mosdac.gov.in/node/940/4 "Next")
 [](https://mosdac.gov.in/node/940/4)
 [](https://mosdac.gov.in/node/940/4 "Previous")[](https://mosdac.gov.in/node/940/4 "Next")

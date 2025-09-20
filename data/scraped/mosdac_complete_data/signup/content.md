@@ -1,7 +1,7 @@
 # Welcome to MOSDAC
 
 **URL:** https://mosdac.gov.in/signup/
-**Extracted:** 2025-09-13T05:57:12.422098
+**Extracted:** 2025-09-15T15:41:33.175445
 **Quality Score:** 0.500
 
 [ ![Home](https://mosdac.gov.in/sites/default/files/mosdac_small.png) ](https://mosdac.gov.in/ "Home")

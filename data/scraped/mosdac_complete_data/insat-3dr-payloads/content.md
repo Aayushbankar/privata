@@ -1,7 +1,7 @@
 # INSAT-3DR Payloads | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/insat-3dr-payloads
-**Extracted:** 2025-09-13T06:00:11.699547
+**Extracted:** 2025-09-15T15:51:09.627410
 **Quality Score:** 0.800
 
 [Skip to main Content](https://mosdac.gov.in/insat-3dr-payloads#main-content "Skip to main Content")
@@ -196,7 +196,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/insat-3dr-payloads "Previous")[](https://mosdac.gov.in/insat-3dr-payloads "Next")
 [](https://mosdac.gov.in/insat-3dr-payloads)
 [](https://mosdac.gov.in/insat-3dr-payloads "Previous")[](https://mosdac.gov.in/insat-3dr-payloads "Next")

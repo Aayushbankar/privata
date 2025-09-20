@@ -1,7 +1,7 @@
 # Validation | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/validation-reports#main-content
-**Extracted:** 2025-09-13T05:59:52.149862
+**Extracted:** 2025-09-15T15:49:54.129103
 **Quality Score:** 0.600
 
 [Skip to main Content](https://mosdac.gov.in/validation-reports#main-content "Skip to main Content")
@@ -83,8 +83,8 @@ Space Applications Centre, ISRO
 ---|---|---  
 | [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/validation-reports?sort=desc&order=Display%20name "sort by Display name") | [modified](https://mosdac.gov.in/validation-reports?sort=asc&order=modified "sort by modified")  
 ---|---|---  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [Satellite](https://mosdac.gov.in/node/464/19) | Thu, 2018-02-08 10:35  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [Forecast](https://mosdac.gov.in/node/464/18) | Wed, 2017-01-04 09:46  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [Satellite](https://mosdac.gov.in/node/464/13) | Thu, 2018-02-08 10:35  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [Forecast](https://mosdac.gov.in/node/464/12) | Wed, 2017-01-04 09:46  
 2 folders
 ## Search
 Search 
@@ -118,7 +118,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/validation-reports "Previous")[](https://mosdac.gov.in/validation-reports "Next")
 [](https://mosdac.gov.in/validation-reports)
 [](https://mosdac.gov.in/validation-reports "Previous")[](https://mosdac.gov.in/validation-reports "Next")

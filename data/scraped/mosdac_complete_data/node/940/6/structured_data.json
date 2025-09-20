@@ -41,42 +41,36 @@
         ],
         [
           "",
-          "Reflectance based vicarious calibration of INSAT-3D, 2015.pdf(link is external)",
-          "2.33 MB",
-          "Fri, 2017-11-24 11:20"
+          "Radiometric calibration stability assessment for the RISAT-1 SAR sensor.pdf(link is external)",
+          "4.06 MB",
+          "Tue, 2020-10-27 14:29"
         ],
         [
           "",
-          "Land displacement mapping-Nepal earthquake-2015.pdf(link is external)",
-          "5.21 MB",
-          "Fri, 2017-11-24 11:20"
+          "Indian_distributed_target_sites_report_18apr17_2.pdf(link is external)",
+          "1.11 MB",
+          "Tue, 2020-10-27 14:29"
         ],
         [
           "",
-          "Final Validation Report on SST from INSAT-3D_11Aug2015.pdf(link is external)",
-          "6 MB",
-          "Fri, 2017-11-24 11:20"
+          "Optical and radiative properties of aerosols over Desalpar.pdf(link is external)",
+          "3.65 MB",
+          "Tue, 2020-10-27 14:29"
         ],
         [
           "",
-          "Calibration of Ka-band Alitmiter (altika)-2015.pdf(link is external)",
-          "3.73 MB",
-          "Fri, 2017-11-24 11:20"
+          "Aerosol characterization and radiative properties over Kavaratti.pdf(link is external)",
+          "4.35 MB",
+          "Tue, 2020-10-27 14:29"
         ],
         [
           "",
-          "Absolute calibration and image quality assessment of RISAT-1 FRS and MRS mode data-2015.pdf(link is external)",
-          "1.64 MB",
-          "Fri, 2017-11-24 11:20"
-        ],
-        [
-          "",
-          "Calibration and validation site characterisation for INSAT-3D, 2015.pdf(link is external)",
-          "1.54 MB",
-          "Fri, 2017-11-24 11:20"
+          "INSAT-3D&3DR-Cal-Report-final.pdf(link is external)",
+          "2.28 MB",
+          "Tue, 2020-10-27 14:29"
         ]
       ],
-      "row_count": 7,
+      "row_count": 6,
       "col_count": 4
     }
   ],
@@ -124,7 +118,7 @@
     }
   ],
   "quality_score": 0.65,
-  "extracted_at": "2025-09-13T05:55:13.424255",
-  "content_length": 9779,
+  "extracted_at": "2025-09-15T15:50:12.148222",
+  "content_length": 9497,
   "rag_optimized": true
 }

@@ -1,6 +1,6 @@
 {
   "url": "https://mosdac.gov.in/internal/heat-cold-wave",
-  "title": "Heat Wave Forecast",
+  "title": "",
   "metadata": {
     "url": "https://mosdac.gov.in/internal/heat-cold-wave",
     "domain": "mosdac.gov.in",
@@ -17,8 +17,8 @@
   },
   "tables": [],
   "headings": [],
-  "quality_score": 0.30000000000000004,
-  "extracted_at": "2025-09-13T05:57:40.002656",
-  "content_length": 850,
+  "quality_score": 0.1,
+  "extracted_at": "2025-09-15T15:48:47.331352",
+  "content_length": 137,
   "rag_optimized": true
 }

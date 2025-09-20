@@ -1,14 +1,14 @@
 # Sign in to MOSDAC Single Sign ON
 
-**URL:** https://mosdac.gov.in/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=2bl-9cz1PEk&client_data=eyJydSI6Imh0dHBzOi8vbW9zZGFjLmdvdi5pbi91b3BzL3JlZGlyZWN0X3VyaSIsInJ0IjoiY29kZSIsInN0IjoidFJUTzMxUGRCS1had0RiME1ibjAtWThDU1BrIn0&execution=4cb21923-091b-4b14-8493-f5c02d7af1a3&kc_locale=en
-**Extracted:** 2025-09-13T05:59:04.457028
+**URL:** https://mosdac.gov.in/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=lnB5bNBCbKc&client_data=eyJydSI6Imh0dHBzOi8vbW9zZGFjLmdvdi5pbi91b3BzL3JlZGlyZWN0X3VyaSIsInJ0IjoiY29kZSIsInN0IjoicDV1TlJ6ZmRrOW1VdlRIU1o5ZU5mRGJZSW80In0&execution=4cb21923-091b-4b14-8493-f5c02d7af1a3&kc_locale=hi
+**Extracted:** 2025-09-15T15:49:31.101350
 **Quality Score:** 0.320
 
 MOSDAC SSO
 [Home (मुख पृष्ठ)](https://mosdac.gov.in)
 English
-  * [English](https://mosdac.gov.in/realms/Mosdac/login-actions/detached-info?client_id=mosdac&kc_state_checker=a26533e9-f893-403c-acb9-bfe30c118713&kc_locale=en)
-  * [Hindi (हिन्दी)](https://mosdac.gov.in/realms/Mosdac/login-actions/detached-info?client_id=mosdac&kc_state_checker=a26533e9-f893-403c-acb9-bfe30c118713&kc_locale=hi)
+  * [English](https://mosdac.gov.in/realms/Mosdac/login-actions/detached-info?client_id=mosdac&kc_state_checker=6aa3cec9-c548-485c-8ce5-0e666ebc48cd&kc_locale=en)
+  * [Hindi (हिन्दी)](https://mosdac.gov.in/realms/Mosdac/login-actions/detached-info?client_id=mosdac&kc_state_checker=6aa3cec9-c548-485c-8ce5-0e666ebc48cd&kc_locale=hi)
 
 
 #  We are sorry... 

@@ -32,15 +32,7 @@
       ],
       "rows": [
         [
-          "1",
-          "RSCHR_L2B_STD",
-          "DWR Data for Cheerapunji",
-          "L2B",
-          "10 MINUTES",
-          "2016-05-20",
-          "2022-11-05",
-          "Active",
-          ""
+          "No data available in table"
         ]
       ],
       "row_count": 1,
@@ -59,7 +51,7 @@
     }
   ],
   "quality_score": 0.47000000000000003,
-  "extracted_at": "2025-09-13T05:54:34.867824",
-  "content_length": 2071,
+  "extracted_at": "2025-09-15T15:48:38.041521",
+  "content_length": 1965,
   "rag_optimized": true
 }

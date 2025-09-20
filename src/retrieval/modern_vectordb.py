@@ -103,12 +103,23 @@ class ModernVectorDB:
             # Format results
             formatted_results = []
             for i in range(len(results["ids"][0])):
+                # Clamp score within [0,1] for API compatibility
+                raw_distance = results["distances"][0][i]
+                try:
+                    similarity = 1 - float(raw_distance)
+                    if similarity < 0.0:
+                        similarity = 0.0
+                    if similarity > 1.0:
+                        similarity = 1.0
+                except Exception:
+                    similarity = 0.0
+
                 result = {
                     "id": results["ids"][0][i],
                     "content": results["documents"][0][i],
                     "metadata": results["metadatas"][0][i],
-                    "distance": results["distances"][0][i],
-                    "score": 1 - results["distances"][0][i]  # Convert to similarity score
+                    "distance": raw_distance,
+                    "score": similarity
                 }
                 formatted_results.append(result)
             
@@ -205,44 +216,64 @@ class ModernVectorDB:
 # Global instance for easy access
 vector_db = ModernVectorDB()
 
+
 def get_vector_db_stats() -> Dict[str, Any]:
-    """Get comprehensive vector database statistics for API endpoints."""
+    """Return API-friendly stats about the vector database.
+
+    Keys:
+    - collection_exists: bool
+    - document_count: int
+    - chunk_count: int (alias of document_count for compatibility)
+    - last_ingested: str | None (ISO timestamp)
+    """
     try:
-        stats = vector_db.get_collection_stats()
-        
-        # Get additional stats that might not be in get_collection_stats
+        # Verify collection exists by calling count
+        count = 0
+        last_ingested = None
+
         try:
-            # Try to get chunk count by counting all documents
             count = vector_db.collection.count()
-            
-            # Get some sample documents to estimate chunk count
-            sample_docs = vector_db.collection.get(limit=100)
-            chunk_count = len(sample_docs["ids"]) if sample_docs["ids"] else 0
-            
-            # If we have a small collection, use actual count
-            if count <= 1000:
-                all_docs = vector_db.collection.get()
-                chunk_count = len(all_docs["ids"]) if all_docs["ids"] else 0
-            
-        except Exception as e:
-            print(f"[WARNING] Could not get detailed stats: {e}")
-            chunk_count = stats.get("document_count", 0)
-        
+        except Exception:
+            # Collection does not exist or is unavailable
+            return {
+                "collection_exists": False,
+                "document_count": 0,
+                "chunk_count": 0,
+                "last_ingested": None,
+            }
+
+        # Attempt to compute last_ingested by scanning metadata in small batches
+        try:
+            # Get all metadatas (may be large; chroma get without where/limit may be heavy)
+            # Use an incremental approach with pagination if supported; otherwise fall back to single get
+            data = vector_db.collection.get(include=["metadatas"], limit=count or 1000)
+            metadatas = data.get("metadatas", []) or []
+            # Flatten possible nested structure
+            if metadatas and isinstance(metadatas[0], list):
+                flat = []
+                for row in metadatas:
+                    flat.extend(row)
+                metadatas = flat
+            timestamps = []
+            for md in metadatas:
+                ts = md.get("ingestion_timestamp") if isinstance(md, dict) else None
+                if ts:
+                    timestamps.append(ts)
+            if timestamps:
+                last_ingested = max(timestamps)
+        except Exception:
+            last_ingested = None
+
         return {
             "collection_exists": True,
-            "document_count": stats.get("document_count", 0),
-            "chunk_count": chunk_count,
-            "last_ingested": stats.get("created", "unknown"),
-            "embedding_model": stats.get("embedding_model", "unknown"),
-            "collection_name": stats.get("collection_name", "unknown")
+            "document_count": int(count or 0),
+            "chunk_count": int(count or 0),
+            "last_ingested": last_ingested,
         }
-    except Exception as e:
-        print(f"[ERROR] Failed to get vector DB stats: {e}")
+    except Exception:
         return {
             "collection_exists": False,
             "document_count": 0,
             "chunk_count": 0,
-            "last_ingested": "unknown",
-            "embedding_model": "unknown",
-            "collection_name": "unknown"
+            "last_ingested": None,
         }

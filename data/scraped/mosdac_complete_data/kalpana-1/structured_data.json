@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/kalpana-1",
+  "url": "https://mosdac.gov.in/kalpana-1#main-content",
   "title": "KALPANA-1 | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/kalpana-1",
+    "url": "https://mosdac.gov.in/kalpana-1#main-content",
     "domain": "mosdac.gov.in",
     "path": "/kalpana-1",
     "description": "Metsat is an exclusive meteorological satellite of ISRO in geo-synchronous orbit. This satellite is developed out of a small I-1000 bus made of carbon fibre re-enforced plastic light weight structure, a uni power bus employing an 18AH Ni-Cd battery and a single GaAs/Ge solar panel generating 640 watts of power. Metsat uses a 3-axis stabilized momentum biased attitude control",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.6,
-  "extracted_at": "2025-09-13T05:57:43.528349",
+  "extracted_at": "2025-09-15T15:50:04.018261",
   "content_length": 9330,
   "rag_optimized": true
 }

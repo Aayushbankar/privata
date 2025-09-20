@@ -1,7 +1,7 @@
 # INSAT 3D Cloud Properties | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** http://mosdac.gov.in/insat-3d-cloud-properties
-**Extracted:** 2025-09-13T06:00:30.047609
+**Extracted:** 2025-09-15T15:44:16.479247
 **Quality Score:** 0.750
 
 [Skip to main Content](https://mosdac.gov.in/insat-3d-cloud-properties#main-content "Skip to main Content")
@@ -196,7 +196,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/insat-3d-cloud-properties "Previous")[](https://mosdac.gov.in/insat-3d-cloud-properties "Next")
 [](https://mosdac.gov.in/insat-3d-cloud-properties)
 [](https://mosdac.gov.in/insat-3d-cloud-properties "Previous")[](https://mosdac.gov.in/insat-3d-cloud-properties "Next")

@@ -1,7 +1,7 @@
 # Current Events | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** http://mosdac.gov.in/tags/current-events
-**Extracted:** 2025-09-13T05:57:24.319187
+**Extracted:** 2025-09-15T15:43:07.710661
 **Quality Score:** 0.650
 
 [Skip to main Content](https://mosdac.gov.in/tags/current-events#main-content "Skip to main Content")
@@ -142,7 +142,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/tags/current-events "Previous")[](https://mosdac.gov.in/tags/current-events "Next")
 [](https://mosdac.gov.in/tags/current-events)
 [](https://mosdac.gov.in/tags/current-events "Previous")[](https://mosdac.gov.in/tags/current-events "Next")

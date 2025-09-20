@@ -1,8 +1,8 @@
 {
-  "url": "http://mosdac.gov.in/tags/atmosphere",
+  "url": "https://mosdac.gov.in/tags/atmosphere",
   "title": "Atmosphere | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "http://mosdac.gov.in/tags/atmosphere",
+    "url": "https://mosdac.gov.in/tags/atmosphere",
     "domain": "mosdac.gov.in",
     "path": "/tags/atmosphere",
     "description": "",
@@ -131,7 +131,7 @@
     }
   ],
   "quality_score": 0.6500000000000001,
-  "extracted_at": "2025-09-13T05:56:54.832865",
+  "extracted_at": "2025-09-15T15:46:55.507755",
   "content_length": 9963,
   "rag_optimized": true
 }

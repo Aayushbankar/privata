@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/flip-book/demos/ocean.html
-**Extracted:** 2025-09-13T06:00:13.544277
+**Extracted:** 2025-09-15T15:50:05.296629
 **Quality Score:** 0.300
 
 ![](https://mosdac.gov.in/flip-book/demos/ocean/thumb1.jpg) 1

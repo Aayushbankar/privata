@@ -1,8 +1,8 @@
 {
-  "url": "http://mosdac.gov.in/global-ocean-surface-current",
+  "url": "https://mosdac.gov.in/global-ocean-surface-current#top",
   "title": "Global Ocean Surface Current | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "http://mosdac.gov.in/global-ocean-surface-current",
+    "url": "https://mosdac.gov.in/global-ocean-surface-current#top",
     "domain": "mosdac.gov.in",
     "path": "/global-ocean-surface-current",
     "description": "The Global Ocean Surface Current defined here as the average current for the top 0 to 30m layer is derived from the synergistic use of three different satellite derived parameters.",
@@ -446,7 +446,7 @@
     }
   ],
   "quality_score": 0.9,
-  "extracted_at": "2025-09-13T05:58:21.059373",
+  "extracted_at": "2025-09-15T15:49:07.386525",
   "content_length": 17974,
   "rag_optimized": true
 }

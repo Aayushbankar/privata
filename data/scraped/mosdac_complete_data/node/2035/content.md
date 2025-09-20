@@ -1,7 +1,7 @@
 # MOSDAC Satellite Data Download API | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/node/2035#mdda-aar
-**Extracted:** 2025-09-13T05:56:04.449458
+**Extracted:** 2025-09-15T15:51:32.675185
 **Quality Score:** 0.550
 
 [Skip to main Content](https://mosdac.gov.in/node/2035#main-content "Skip to main Content")
@@ -112,7 +112,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/node/2035 "Previous")[](https://mosdac.gov.in/node/2035 "Next")
 [](https://mosdac.gov.in/node/2035)
 [](https://mosdac.gov.in/node/2035 "Previous")[](https://mosdac.gov.in/node/2035 "Next")

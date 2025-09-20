@@ -1,0 +1,112 @@
+{
+  "url": "https://mosdac.gov.in/node/940/3",
+  "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+  "metadata": {
+    "url": "https://mosdac.gov.in/node/940/3",
+    "domain": "mosdac.gov.in",
+    "path": "/node/940/3",
+    "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+    "keywords": [
+      "Meteorological",
+      "Oceanographic",
+      "Satellite",
+      "Data",
+      "Archival",
+      "Data Centre"
+    ],
+    "author": "",
+    "language": "en",
+    "canonical": "https://mosdac.gov.in/node/940/3",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "",
+    "last_modified": ""
+  },
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "headers": [
+        "",
+        "Display name",
+        "size",
+        "modified"
+      ],
+      "rows": [
+        [
+          "",
+          "Go up",
+          "",
+          "Fri, 2025-04-11 14:38"
+        ],
+        [
+          "",
+          "Calibration_RISAT-1 SAR, MRS 2014.pdf(link is external)",
+          "812.06 KB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Absolute Vicarious Calibration of INSAT-3D Imager-2014.pdf(link is external)",
+          "1.27 MB",
+          "Fri, 2017-11-24 11:20"
+        ],
+        [
+          "",
+          "Calibration_RISAT-1 SAR, FRS-1, 2014.pdf(link is external)",
+          "1.7 MB",
+          "Fri, 2017-11-24 11:20"
+        ]
+      ],
+      "row_count": 4,
+      "col_count": 4
+    }
+  ],
+  "headings": [
+    {
+      "index": 0,
+      "level": 2,
+      "text": "Secondary menu",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 1,
+      "level": 2,
+      "text": "You are here",
+      "id": "",
+      "class": [
+        "element-invisible"
+      ]
+    },
+    {
+      "index": 2,
+      "level": 1,
+      "text": "Insitu",
+      "id": "page-title",
+      "class": [
+        "title"
+      ]
+    },
+    {
+      "index": 3,
+      "level": 2,
+      "text": "Search",
+      "id": "",
+      "class": []
+    },
+    {
+      "index": 4,
+      "level": 2,
+      "text": "Follow Us",
+      "id": "",
+      "class": []
+    }
+  ],
+  "quality_score": 0.65,
+  "extracted_at": "2025-09-15T15:51:26.596906",
+  "content_length": 8938,
+  "rag_optimized": true
+}

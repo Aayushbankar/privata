@@ -1,7 +1,7 @@
 # land resources | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** http://mosdac.gov.in/tags/land-resources
-**Extracted:** 2025-09-13T05:59:11.338978
+**Extracted:** 2025-09-15T15:47:50.805159
 **Quality Score:** 0.550
 
 [Skip to main Content](https://mosdac.gov.in/tags/land-resources#main-content "Skip to main Content")
@@ -112,7 +112,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/tags/land-resources "Previous")[](https://mosdac.gov.in/tags/land-resources "Next")
 [](https://mosdac.gov.in/tags/land-resources)
 [](https://mosdac.gov.in/tags/land-resources "Previous")[](https://mosdac.gov.in/tags/land-resources "Next")

@@ -9,6 +9,8 @@ import sys
 from datetime import datetime
 from typing import List, Optional
 from fastapi import APIRouter, HTTPException, Depends, BackgroundTasks
+import re
+import traceback
 from fastapi.responses import StreamingResponse
 
 # Add parent directory to path for imports
@@ -24,6 +26,41 @@ from src.core.mosdac_bot import MOSDACBot
 
 # Create router
 router = APIRouter()
+def _sanitize_response_text(text: str) -> str:
+    """Remove chunk index and noisy debug info from AI response before sending to frontend.
+
+    - Remove patterns like "Chunk 3/8" (optionally preceded by comma/space)
+    - Remove relevance annotations like "(Relevance: 0.532)"
+    - Remove inline citations like "[Source: ...]" with local file paths
+    - Strip any inline http/https URLs from the body (we append links separately)
+    - Collapse excessive spaces
+    - Remove file path references
+    """
+    try:
+        cleaned = text
+        # Remove ", Chunk d+/d+" or "Chunk d+/d+"
+        cleaned = re.sub(r"\s*,?\s*Chunk\s+\d+/\d+", "", cleaned, flags=re.IGNORECASE)
+        # Remove "(Relevance: 0.xxx)"
+        cleaned = re.sub(r"\(\s*Relevance:\s*[^)]+\)", "", cleaned, flags=re.IGNORECASE)
+        # Remove inline [Source: ...] citations completely
+        cleaned = re.sub(r"\[\s*Source\s*:[^\]]*\]", "", cleaned, flags=re.IGNORECASE)
+        # Remove "Source:" followed by file paths
+        cleaned = re.sub(r"Source:\s*[^\n;]+;?\s*", "", cleaned, flags=re.IGNORECASE)
+        # Remove file path patterns like "/home/kai/..."
+        cleaned = re.sub(r"/[^\s;]+\.md[;\s]*", "", cleaned)
+        # Remove inline raw URLs (http/https)
+        cleaned = re.sub(r"https?://\S+", "", cleaned)
+        # Remove Markdown-style links [text](url) -> text
+        cleaned = re.sub(r"\[([^\]]+)\]\(https?://[^)]+\)", r"\1", cleaned)
+        # Remove excessive semicolons and clean up punctuation
+        cleaned = re.sub(r";\s*;+", ";", cleaned)
+        cleaned = re.sub(r";\s*$", "", cleaned, flags=re.MULTILINE)
+        # Remove stray multiple spaces and clean up formatting
+        cleaned = re.sub(r"\s{2,}", " ", cleaned)
+        cleaned = re.sub(r"\n\s*\n\s*\n", "\n\n", cleaned)
+        return cleaned.strip()
+    except Exception:
+        return text
 
 # Session storage (in production, use Redis or database)
 sessions = {}
@@ -57,8 +94,9 @@ async def chat_endpoint(
             # For streaming responses, we'll handle differently
             raise HTTPException(status_code=501, detail="Streaming not implemented yet")
         
-        # Get response from bot
-        response_text, sources = bot.get_response(request.query, request.session_id)
+        # Get response from bot with language parameter
+        response_text, sources = bot.get_response(request.query, request.session_id, language=request.language)
+        response_text = _sanitize_response_text(response_text)
         
         # Add to session history
         sessions[request.session_id]["messages"].append({
@@ -68,9 +106,34 @@ async def chat_endpoint(
             "sources": [{"url": s["url"], "title": s["title"]} for s in sources]
         })
         
+        # Clamp relevance to [0,1]
+        safe_sources = []
+        for s in sources:
+            rel = s.get("relevance", 0.8)
+            try:
+                rel = max(0.0, min(1.0, float(rel)))
+            except Exception:
+                rel = 0.0
+            safe_sources.append({"url": s["url"], "title": s["title"], "relevance": rel})
+
+        # Build clean related links section
+        related_lines = []
+        for s in safe_sources[:3]:  # Limit to 3 most relevant sources
+            url = s.get("url", "")
+            title = s.get("title", "")
+            
+            # Only include if it's a valid HTTP URL and has a meaningful title
+            if isinstance(url, str) and url.startswith("http") and title and title != url:
+                # Clean up the title to remove file paths
+                clean_title = title.replace("/home/kai/aayush/Projects/privata/data/scraped/mosdac_complete_data/", "")
+                clean_title = clean_title.replace("/content.md", "").replace("-", " ").title()
+                related_lines.append(f"📄 {clean_title}")
+        
+        related_block = ("\n\n**Related Resources:**\n" + "\n".join(related_lines)) if related_lines else ""
+
         return ChatResponse(
-            response=response_text,
-            sources=[{"url": s["url"], "title": s["title"], "relevance": s.get("relevance", 0.8)} for s in sources],
+            response=(response_text.strip() + related_block),
+            sources=safe_sources,
             metadata={
                 "session_id": request.session_id,
                 "message_count": len(sessions[request.session_id]["messages"]),
@@ -79,9 +142,26 @@ async def chat_endpoint(
         )
         
     except Exception as e:
-        raise HTTPException(
-            status_code=500,
-            detail=f"Chat processing failed: {str(e)}"
+        # Log full traceback for debugging
+        tb = traceback.format_exc()
+        try:
+            with open("/tmp/api_errors.log", "a") as f:
+                f.write(f"\n[CHAT_ERROR] {datetime.now().isoformat()}\n{tb}\n")
+        except Exception:
+            pass
+        # Graceful fallback response instead of 500
+        fallback = (
+            "I had trouble generating a complete answer just now. "
+            "Please try rephrasing your question, or ask something more specific about MOSDAC data, satellites, or tools."
+        )
+        return ChatResponse(
+            response=fallback,
+            sources=[],
+            metadata={
+                "session_id": request.session_id,
+                "message_count": len(sessions.get(request.session_id, {}).get("messages", [])),
+                "error": str(e)
+            }
         )
 
 

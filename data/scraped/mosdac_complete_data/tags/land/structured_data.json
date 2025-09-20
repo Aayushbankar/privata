@@ -1,8 +1,8 @@
 {
-  "url": "http://mosdac.gov.in/tags/land",
+  "url": "https://mosdac.gov.in/tags/land",
   "title": "Land | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "http://mosdac.gov.in/tags/land",
+    "url": "https://mosdac.gov.in/tags/land",
     "domain": "mosdac.gov.in",
     "path": "/tags/land",
     "description": "",
@@ -131,7 +131,7 @@
     }
   ],
   "quality_score": 0.6500000000000001,
-  "extracted_at": "2025-09-13T05:55:36.838811",
+  "extracted_at": "2025-09-15T15:47:31.317250",
   "content_length": 9224,
   "rag_optimized": true
 }

@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/megha-tropiques",
+  "url": "http://mosdac.gov.in/megha-tropiques",
   "title": "Megha Tropiques | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/megha-tropiques",
+    "url": "http://mosdac.gov.in/megha-tropiques",
     "domain": "mosdac.gov.in",
     "path": "/megha-tropiques",
     "description": "Megha-Tropiques is an Indo-French Joint Satellite Mission for studying the water cycle and energy exchanges in the tropics. The main objective of this mission is to understand the life cycle of convective systems that influence the tropical weather and climate and their role in associated energy and moisture budget of the atmosphere in tropical regions. Megha-Tropiques",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.6,
-  "extracted_at": "2025-09-13T05:59:39.042560",
+  "extracted_at": "2025-09-15T15:50:05.630669",
   "content_length": 9107,
   "rag_optimized": true
 }

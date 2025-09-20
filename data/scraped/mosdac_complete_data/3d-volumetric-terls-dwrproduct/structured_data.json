@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/3d-volumetric-terls-dwrproduct#top",
+  "url": "http://mosdac.gov.in/3d-volumetric-terls-dwrproduct",
   "title": "3D Volumetric TERLS DWRproduct | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/3d-volumetric-terls-dwrproduct#top",
+    "url": "http://mosdac.gov.in/3d-volumetric-terls-dwrproduct",
     "domain": "mosdac.gov.in",
     "path": "/3d-volumetric-terls-dwrproduct",
     "description": "These products contain the 3D volumetric gridded de-cluttered radar reflectivity and de-aliased radial velocity generated from the C-Band Thumba Equatorial Rocket Launching Station (TERLS) DWR Volumet",
@@ -288,7 +288,7 @@
     }
   ],
   "quality_score": 0.75,
-  "extracted_at": "2025-09-13T05:59:48.306764",
+  "extracted_at": "2025-09-15T15:51:10.118189",
   "content_length": 13855,
   "rag_optimized": true
 }

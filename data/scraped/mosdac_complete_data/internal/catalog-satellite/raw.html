@@ -71,13 +71,13 @@
 		<nav ng-show="navbar" class="navbar navbar-expand-sm bg-danger navbar-dark" aria-hidden="false" style="">
 			<div class="col-md-4 col-sm-6 col-xs-6">
 				<label style="text-transform: capitalize; font-style: normal; color: #0213f3; font-weight: bold">Satellite:</label>
-				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty-add ng-animate ng-empty-remove ng-not-empty ng-not-empty-add-active ng-empty-remove-active" ng-change="getSensor('S');" ng-model="satellite" name="satellite" style="font-weight: bold;" aria-invalid="false" data-ng-animate="2">
+				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty" ng-change="getSensor('S');" ng-model="satellite" name="satellite" style="font-weight: bold;" aria-invalid="false">
 					<!-- ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="22" class="ng-binding ng-scope" style="">EOS-06</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="14" class="ng-binding ng-scope">INSAT-3DR</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="24" class="ng-binding ng-scope">INSAT-3DS</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="32" class="ng-binding ng-scope">MSG</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="12" class="ng-binding ng-scope">SARAL</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="23" class="ng-binding ng-scope">EOS-07</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="3" class="ng-binding ng-scope">INSAT-3A</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="13" class="ng-binding ng-scope">INSAT-3D</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="1" class="ng-binding ng-scope">KALPANA-1</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="11" class="ng-binding ng-scope">MEGHATROPIQUES</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="9" class="ng-binding ng-scope">OCEANSAT-2</option><!-- end ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="15" class="ng-binding ng-scope">SCATSAT-1</option><!-- end ngRepeat: satellite in satelliteList -->
 				</select><br>
 			</div>
 			<div class="col-md-4 col-sm-6 col-xs-6">
 				<label style="text-transform: capitalize; font-style: normal; color: #0213f3; font-weight: bold">Sensor:</label>
-				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty-add ng-animate ng-empty-remove ng-not-empty ng-not-empty-add-active ng-empty-remove-active" ng-change="search('S');" ng-model="sensor" name="sensor" style="font-weight: bold;" aria-invalid="false" data-ng-animate="2">
+				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty" ng-change="search('S');" ng-model="sensor" name="sensor" style="font-weight: bold;" aria-invalid="false">
 					<!-- ngRepeat: sensor in sensorList --><option ng-repeat="sensor in sensorList" value="16" class="ng-binding ng-scope" style="">
 						OCM</option><!-- end ngRepeat: sensor in sensorList --><option ng-repeat="sensor in sensorList" value="4" class="ng-binding ng-scope">
 						SCATTEROMETER</option><!-- end ngRepeat: sensor in sensorList -->
@@ -174,7 +174,7 @@
 								<td class="ng-binding">L2</td>
 								<td class="ng-binding">SCENEWISE</td>
 								<td class="ng-binding">2024-10-01</td>
-								<td class="ng-binding">2025-09-12</td>
+								<td class="ng-binding">2025-09-13</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
 								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
@@ -238,7 +238,7 @@
 								<td class="ng-binding">L2</td>
 								<td class="ng-binding">SCENEWISE</td>
 								<td class="ng-binding">2025-05-05</td>
-								<td class="ng-binding">2025-09-12</td>
+								<td class="ng-binding">2025-09-13</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
 								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
@@ -302,7 +302,7 @@
 								<td class="ng-binding">L2</td>
 								<td class="ng-binding">SCENEWISE</td>
 								<td class="ng-binding">2025-05-15</td>
-								<td class="ng-binding">2025-09-12</td>
+								<td class="ng-binding">2025-09-13</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
 								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
@@ -366,7 +366,7 @@
 								<td class="ng-binding">L2</td>
 								<td class="ng-binding">SCENEWISE</td>
 								<td class="ng-binding">2025-05-12</td>
-								<td class="ng-binding">2025-09-12</td>
+								<td class="ng-binding">2025-09-13</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
 								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
@@ -430,7 +430,7 @@
 								<td class="ng-binding">L2</td>
 								<td class="ng-binding">SCENEWISE</td>
 								<td class="ng-binding">2025-07-02</td>
-								<td class="ng-binding">2025-09-12</td>
+								<td class="ng-binding">2025-09-13</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
 								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
@@ -494,7 +494,7 @@
 								<td class="ng-binding">L3</td>
 								<td class="ng-binding">DAILY</td>
 								<td class="ng-binding">2023-06-01</td>
-								<td class="ng-binding">2025-09-12</td>
+								<td class="ng-binding">2025-09-13</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
 								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
@@ -558,7 +558,7 @@
 								<td class="ng-binding">L4</td>
 								<td class="ng-binding">DAILY</td>
 								<td class="ng-binding">2023-06-20</td>
-								<td class="ng-binding">2025-09-12</td>
+								<td class="ng-binding">2025-09-14</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold; display: none;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
 								<td style="display: none;"><a ng-href="https://dx.doi.org/" target="_blank" class="ng-binding" href="https://dx.doi.org/"></a></td>
@@ -566,7 +566,7 @@
 					</table><div class="dataTables_info" id="tabledata_info" role="status" aria-live="polite">Showing 1 to 7 of 7 entries</div><div class="dataTables_paginate paging_simple_numbers" id="tabledata_paginate"><a class="paginate_button previous disabled" aria-controls="tabledata" data-dt-idx="0" tabindex="-1" id="tabledata_previous">Previous</a><span><a class="paginate_button current" aria-controls="tabledata" data-dt-idx="1" tabindex="0">1</a></span><a class="paginate_button next disabled" aria-controls="tabledata" data-dt-idx="2" tabindex="-1" id="tabledata_next">Next</a></div></div><h3 class="dt-loading" style="display: none;">Loading...</h3>
 
 					<div id="wrapper">
-						<div class="spinner-wrapper" id="loading4" style="margin-right: auto; opacity: 0.850766;">
+						<div class="spinner-wrapper" id="loading4" style="margin-right: auto; display: none;">
 							<div class="spinner"></div>
 							<div class="spinner">
 								<div class="rect1"></div>

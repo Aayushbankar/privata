@@ -1,7 +1,7 @@
 # MOSDAC SSO Logout
 
 **URL:** https://mosdac.gov.in/internal/logout
-**Extracted:** 2025-09-13T05:55:05.732158
+**Extracted:** 2025-09-15T15:43:31.812193
 **Quality Score:** 0.200
 
   

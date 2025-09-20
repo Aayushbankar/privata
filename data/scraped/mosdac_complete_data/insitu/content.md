@@ -1,10 +1,10 @@
 # Insitu | Meteorological & Oceanographic Satellite Data Archival Centre
 
-**URL:** https://mosdac.gov.in/insitu#top
-**Extracted:** 2025-09-13T05:59:10.023202
+**URL:** https://mosdac.gov.in/insitu?sort=asc&order=modified
+**Extracted:** 2025-09-15T15:51:41.019035
 **Quality Score:** 0.600
 
-[Skip to main Content](https://mosdac.gov.in/insitu#main-content "Skip to main Content")
+[Skip to main Content](https://mosdac.gov.in/insitu?sort=asc&order=modified#main-content "Skip to main Content")
 [-A](javascript:;) [A](javascript:;) [+A](javascript:;)
 [A](javascript:drupalHighContrast.enableStyles\(\))[A](javascript:drupalHighContrast.disableStyles\(\))
 हिन्दी English
@@ -17,7 +17,7 @@
 **[ Meteorological & Oceanographic Satellite Data Archival Centre](https://mosdac.gov.in/ "Home") **
 Space Applications Centre, ISRO 
   * [Home](https://mosdac.gov.in/)
-  * [Missions »](https://mosdac.gov.in/insitu)
+  * [Missions »](https://mosdac.gov.in/insitu?sort=asc&order=modified)
     * [INSAT-3DR](https://mosdac.gov.in/insat-3dr)
     * [INSAT-3D](https://mosdac.gov.in/insat-3d)
     * [KALPANA-1](https://mosdac.gov.in/kalpana-1)
@@ -28,31 +28,31 @@ Space Applications Centre, ISRO
     * [OCEANSAT-3](https://mosdac.gov.in/oceansat-3)
     * [INSAT-3DS](https://mosdac.gov.in/insat-3ds)
     * [SCATSAT-1](https://mosdac.gov.in/scatsat-1)
-  * [Catalog »](https://mosdac.gov.in/insitu)
+  * [Catalog »](https://mosdac.gov.in/insitu?sort=asc&order=modified)
     * [Satellite](https://mosdac.gov.in/internal/catalog-satellite)
     * [Insitu (AWS)](https://mosdac.gov.in/internal/catalog-insitu)
     * [RADAR](https://mosdac.gov.in/internal/catalog-radar)
-  * [Galleries »](https://mosdac.gov.in/insitu)
+  * [Galleries »](https://mosdac.gov.in/insitu?sort=asc&order=modified)
     * [Satellite Products](https://mosdac.gov.in/internal/gallery)
     * [Weather Forecast](https://mosdac.gov.in/internal/gallery/weather)
     * [Ocean Forecast](https://mosdac.gov.in/internal/gallery/ocean)
     * [RADAR (DWR)](https://mosdac.gov.in/internal/gallery/dwr)
     * [Global Ocean Current](https://mosdac.gov.in/internal/gallery/current)
-  * [Data Access »](https://mosdac.gov.in/insitu)
+  * [Data Access »](https://mosdac.gov.in/insitu?sort=asc&order=modified)
     * [Order Data](https://mosdac.gov.in/internal/uops)
     * [API based Access](https://mosdac.gov.in/downloadapi-manual)
-    * [Open Data »](https://mosdac.gov.in/insitu)
-      * [Atmosphere »](https://mosdac.gov.in/insitu)
+    * [Open Data »](https://mosdac.gov.in/insitu?sort=asc&order=modified)
+      * [Atmosphere »](https://mosdac.gov.in/insitu?sort=asc&order=modified)
         * [Bayesian based MT-SAPHIR rainfall](https://mosdac.gov.in/bayesian-based-mt-saphir-rainfall)
         * [GPS derived Integrated water vapour](https://mosdac.gov.in/gps-derived-integrated-water-vapour)
         * [GSMap ISRO Rain](https://mosdac.gov.in/gsmap-isro-rain)
         * [METEOSAT8 Cloud Properties](https://mosdac.gov.in/meteosat8-cloud-properties)
-      * [Land »](https://mosdac.gov.in/insitu)
+      * [Land »](https://mosdac.gov.in/insitu?sort=asc&order=modified)
         * [3D Volumetric TERLS DWRproduct](https://mosdac.gov.in/3d-volumetric-terls-dwrproduct)
         * [Inland Water Height](https://mosdac.gov.in/inland-water-height)
         * [River Discharge](https://mosdac.gov.in/river-discharge)
         * [Soil Moisture](https://mosdac.gov.in/soil-moisture-0)
-      * [Ocean »](https://mosdac.gov.in/insitu)
+      * [Ocean »](https://mosdac.gov.in/insitu?sort=asc&order=modified)
         * [Global Ocean Surface Current](https://mosdac.gov.in/global-ocean-surface-current)
         * [High Resolution Sea Surface Salinity](https://mosdac.gov.in/high-resolution-sea-surface-salinity)
         * [Indian Mainland Coastal Product](https://mosdac.gov.in/indian-mainland-coastal-product)
@@ -63,8 +63,8 @@ Space Applications Centre, ISRO
     * [Cal-Val](https://mosdac.gov.in/internal/calval-data)
     * [Forecast](https://mosdac.gov.in/internal/forecast-menu)
     * [RSS Feeds](https://mosdac.gov.in/rss-feed "ISROCast")
-  * [Reports »](https://mosdac.gov.in/insitu)
-    * [Calibration »](https://mosdac.gov.in/insitu)
+  * [Reports »](https://mosdac.gov.in/insitu?sort=asc&order=modified)
+    * [Calibration »](https://mosdac.gov.in/insitu?sort=asc&order=modified)
       * [Insitu](https://mosdac.gov.in/insitu)
       * [Relative](https://mosdac.gov.in/calibration-reports)
     * [Validation](https://mosdac.gov.in/validation-reports)
@@ -79,19 +79,19 @@ Space Applications Centre, ISRO
 ## You are here
 [Home](https://mosdac.gov.in/) » Insitu
 # Insitu
-| [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/insitu?sort=desc&order=Display%20name "sort by Display name") | [modified](https://mosdac.gov.in/insitu?sort=asc&order=modified "sort by modified")  
+| [Display name](https://mosdac.gov.in/insitu?sort=asc&order=Display%20name "sort by Display name") | [modified![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/insitu?sort=desc&order=modified "sort by modified")  
 ---|---|---  
-| [Display name![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/insitu?sort=desc&order=Display%20name "sort by Display name") | [modified](https://mosdac.gov.in/insitu?sort=asc&order=modified "sort by modified")  
+| [Display name](https://mosdac.gov.in/insitu?sort=asc&order=Display%20name "sort by Display name") | [modified![sort descending](https://mosdac.gov.in/misc/arrow-desc.png)](https://mosdac.gov.in/insitu?sort=desc&order=modified "sort by modified")  
 ---|---|---  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [EOS-06_OCM_RadCalNet_Monitoring](https://mosdac.gov.in/node/940/12) | Fri, 2025-04-11 14:39  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2020](https://mosdac.gov.in/node/940/11) | Tue, 2020-10-27 14:36  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2019](https://mosdac.gov.in/node/940/10) | Tue, 2020-10-27 14:36  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2018](https://mosdac.gov.in/node/940/9) | Tue, 2020-10-27 14:36  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2017](https://mosdac.gov.in/node/940/8) | Tue, 2020-10-27 14:36  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2016](https://mosdac.gov.in/node/940/7) | Tue, 2020-10-27 14:36  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2015](https://mosdac.gov.in/node/940/6) | Fri, 2017-11-24 11:21  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2014](https://mosdac.gov.in/node/940/5) | Fri, 2017-11-24 11:21  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2013](https://mosdac.gov.in/node/940/4) | Fri, 2017-11-24 11:20  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [EOS-06_OCM_RadCalNet_Monitoring](https://mosdac.gov.in/node/940/10?sort=asc&order=modified) | Fri, 2025-04-11 14:39  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2020](https://mosdac.gov.in/node/940/9?sort=asc&order=modified) | Tue, 2020-10-27 14:36  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2019](https://mosdac.gov.in/node/940/8?sort=asc&order=modified) | Tue, 2020-10-27 14:36  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2018](https://mosdac.gov.in/node/940/7?sort=asc&order=modified) | Tue, 2020-10-27 14:36  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2017](https://mosdac.gov.in/node/940/6?sort=asc&order=modified) | Tue, 2020-10-27 14:36  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2016](https://mosdac.gov.in/node/940/5?sort=asc&order=modified) | Tue, 2020-10-27 14:36  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2015](https://mosdac.gov.in/node/940/4?sort=asc&order=modified) | Fri, 2017-11-24 11:21  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2014](https://mosdac.gov.in/node/940/3?sort=asc&order=modified) | Fri, 2017-11-24 11:21  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [2013](https://mosdac.gov.in/node/940/2?sort=asc&order=modified) | Fri, 2017-11-24 11:20  
 9 folders
 ## Search
 Search 
@@ -125,9 +125,9 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
-[](https://mosdac.gov.in/insitu "Previous")[](https://mosdac.gov.in/insitu "Next")
-[](https://mosdac.gov.in/insitu)
-[](https://mosdac.gov.in/insitu "Previous")[](https://mosdac.gov.in/insitu "Next")
-[](https://mosdac.gov.in/insitu "Close")[](https://mosdac.gov.in/insitu)[](https://mosdac.gov.in/insitu)[](https://mosdac.gov.in/insitu "Pause Slideshow")[](https://mosdac.gov.in/insitu "Play Slideshow")
-[Back to top](https://mosdac.gov.in/insitu#top)
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
+[](https://mosdac.gov.in/insitu?sort=asc&order=modified "Previous")[](https://mosdac.gov.in/insitu?sort=asc&order=modified "Next")
+[](https://mosdac.gov.in/insitu?sort=asc&order=modified)
+[](https://mosdac.gov.in/insitu?sort=asc&order=modified "Previous")[](https://mosdac.gov.in/insitu?sort=asc&order=modified "Next")
+[](https://mosdac.gov.in/insitu?sort=asc&order=modified "Close")[](https://mosdac.gov.in/insitu?sort=asc&order=modified)[](https://mosdac.gov.in/insitu?sort=asc&order=modified)[](https://mosdac.gov.in/insitu?sort=asc&order=modified "Pause Slideshow")[](https://mosdac.gov.in/insitu?sort=asc&order=modified "Play Slideshow")
+[Back to top](https://mosdac.gov.in/insitu?sort=asc&order=modified#top)

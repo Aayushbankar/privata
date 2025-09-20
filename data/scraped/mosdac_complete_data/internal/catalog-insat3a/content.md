@@ -1,7 +1,7 @@
 # Satellite Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-insat3a
-**Extracted:** 2025-09-13T05:56:20.458951
+**Extracted:** 2025-09-15T15:48:25.635293
 **Quality Score:** 0.470
 
 A- A A+
@@ -20,20 +20,9 @@ Search:
 Sr.No | Product /  
 Acq Calendar/Version  | Product Description | Processing Level | Temporal Resolution | Start Date | End Date | Processing Status | DOI  
 ---|---|---|---|---|---|---|---|---  
-1 |  **3A-CCD-AOD**  
-| Aerosol optical Depth over Ocean | 0 | 3,5,7 | 2009-04-29 | 2016-08-12 | In-Active | [10.19038/SAC/10/3A-CCD-AOD](https://dx.doi.org/10.19038/SAC/10/3A-CCD-AOD)  
-2 |  **3A-CCD-COMPOSITE-NDV**  
-| 10 Day composite-normalised Difference Vegetation Index | L3 | 3,5,6,7,9,11 GMT | 2008-08-22 | 2016-08-10 | In-Active | [10.19038/SAC/10/3A-CCD-COMPOSITE-NDV](https://dx.doi.org/10.19038/SAC/10/3A-CCD-COMPOSITE-NDV)  
-3 |  **3A-CCD-GPS**  
-| Co-registered Level-1B data for all 3 bands of INSAT-3A/CCD sensor | L1 | 3,5,6,7,9,11 GMT | 2009-04-29 | 2016-08-12 | In-Active | [10.19038/SAC/10/3A-CCD-GPS](https://dx.doi.org/10.19038/SAC/10/3A-CCD-GPS)  
-4 |  **3A-CCD-L1**  
-| Level 1B data for all 3 Channels- VIS, NIR, SWIR Band | 1 | 3,5,7 | 2008-08-22 | 2016-08-12 | In-Active | [10.19038/SAC/10/3A-CCD-L1](https://dx.doi.org/10.19038/SAC/10/3A-CCD-L1)  
-5 |  **3A-CCD-L1-INDIAN SECTOR**  
-| Level 1B Data Over Indian Sector for all 3 channels - VIS, NIR, SWIR | 1 | 3,5,7 | 2008-08-22 | 2009-07-10 | In-Active | [10.19038/SAC/10/3A-VHR-L1-INDIANSECTOR](https://dx.doi.org/10.19038/SAC/10/3A-VHR-L1-INDIANSECTOR)  
-6 |  **3A-CCD-NDV**  
-| Normalised Difference Vegetation Index | 2 | 3,5,7 | 2008-08-22 | 2016-08-12 | In-Active | [10.19038/SAC/10/3A-CCD-NDV](https://dx.doi.org/10.19038/SAC/10/3A-CCD-NDV)  
-Showing 1 to 6 of 6 entries
-Previous1Next
+No data available in table  
+Showing 0 to 0 of 0 entries
+PreviousNext
 ### Loading...
 **X**
 Version Detail

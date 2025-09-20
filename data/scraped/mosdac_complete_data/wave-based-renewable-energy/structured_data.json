@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/wave-based-renewable-energy",
+  "url": "http://mosdac.gov.in/wave-based-renewable-energy",
   "title": "Wave based Renewable Energy | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/wave-based-renewable-energy",
+    "url": "http://mosdac.gov.in/wave-based-renewable-energy",
     "domain": "mosdac.gov.in",
     "path": "/wave-based-renewable-energy",
     "description": "AWARE demonstrates potential renewable energy resource available from ocean waves over Indian Ocean region.",
@@ -272,7 +272,7 @@
     }
   ],
   "quality_score": 0.7999999999999999,
-  "extracted_at": "2025-09-13T06:00:23.189020",
+  "extracted_at": "2025-09-15T15:51:24.003752",
   "content_length": 12635,
   "rag_optimized": true
 }

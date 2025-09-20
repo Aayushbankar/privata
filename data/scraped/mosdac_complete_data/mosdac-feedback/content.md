@@ -1,7 +1,7 @@
 # MOSDAC Feedback | Meteorological & Oceanographic Satellite Data Archival Centre
 
-**URL:** http://mosdac.gov.in/mosdac-feedback
-**Extracted:** 2025-09-13T05:58:49.031456
+**URL:** https://mosdac.gov.in/mosdac-feedback
+**Extracted:** 2025-09-15T15:49:22.879318
 **Quality Score:** 0.550
 
 [Skip to main Content](https://mosdac.gov.in/mosdac-feedback#main-content "Skip to main Content")
@@ -101,7 +101,7 @@ Excellent
 Email ID *
 Enter your valid Email Id
 Comments 
-Math question * 5 + 14 = 
+Math question * 2 + 12 = 
 Solve this simple math problem and enter the result. E.g. for 1+3, enter 4.
 ## Search
 Search 
@@ -135,7 +135,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/mosdac-feedback "Previous")[](https://mosdac.gov.in/mosdac-feedback "Next")
 [](https://mosdac.gov.in/mosdac-feedback)
 [](https://mosdac.gov.in/mosdac-feedback "Previous")[](https://mosdac.gov.in/mosdac-feedback "Next")

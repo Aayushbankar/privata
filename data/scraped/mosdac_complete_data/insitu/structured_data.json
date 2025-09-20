@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/insitu#top",
+  "url": "https://mosdac.gov.in/insitu?sort=asc&order=modified",
   "title": "Insitu | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/insitu#top",
+    "url": "https://mosdac.gov.in/insitu?sort=asc&order=modified",
     "domain": "mosdac.gov.in",
     "path": "/insitu",
     "description": "",
@@ -126,7 +126,7 @@
     }
   ],
   "quality_score": 0.6000000000000001,
-  "extracted_at": "2025-09-13T05:59:10.023202",
-  "content_length": 9112,
+  "extracted_at": "2025-09-15T15:51:41.019035",
+  "content_length": 9854,
   "rag_optimized": true
 }

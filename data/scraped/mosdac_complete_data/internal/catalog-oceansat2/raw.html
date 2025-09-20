@@ -71,14 +71,14 @@
 		<nav ng-show="navbar" class="navbar navbar-expand-sm bg-danger navbar-dark" aria-hidden="false" style="">
 			<div class="col-md-4 col-sm-6 col-xs-6">
 				<label style="text-transform: capitalize; font-style: normal; color: #0213f3; font-weight: bold">Satellite:</label>
-				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty" ng-change="getSensor('S');" ng-model="satellite" name="satellite" style="font-weight: bold;" aria-invalid="false">
-					<!-- ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="9" class="ng-binding ng-scope" style="">OCEANSAT-2</option><!-- end ngRepeat: satellite in satelliteList -->
+				<select class="form-control ng-pristine ng-untouched ng-valid ng-empty ng-not-empty-add ng-animate ng-empty-remove" ng-change="getSensor('S');" ng-model="satellite" name="satellite" style="font-weight: bold; transition-delay: -0.15s;" aria-invalid="false" data-ng-animate="2">
+					<!-- ngRepeat: satellite in satelliteList --><option ng-repeat=" satellite in satelliteList" value="9" class="ng-binding ng-scope ng-enter-prepare" data-ng-animate="2">OCEANSAT-2</option><!-- end ngRepeat: satellite in satelliteList -->
 				</select><br>
 			</div>
 			<div class="col-md-4 col-sm-6 col-xs-6">
 				<label style="text-transform: capitalize; font-style: normal; color: #0213f3; font-weight: bold">Sensor:</label>
-				<select class="form-control ng-pristine ng-untouched ng-valid ng-not-empty" ng-change="search('S');" ng-model="sensor" name="sensor" style="font-weight: bold;" aria-invalid="false">
-					<!-- ngRepeat: sensor in sensorList --><option ng-repeat="sensor in sensorList" value="4" class="ng-binding ng-scope" style="">
+				<select class="form-control ng-pristine ng-untouched ng-valid ng-empty ng-not-empty-add ng-animate ng-empty-remove" ng-change="search('S');" ng-model="sensor" name="sensor" style="font-weight: bold; transition-delay: -0.15s;" aria-invalid="false" data-ng-animate="2">
+					<!-- ngRepeat: sensor in sensorList --><option ng-repeat="sensor in sensorList" value="4" class="ng-binding ng-scope ng-enter-prepare" data-ng-animate="2">
 						SCATTEROMETER</option><!-- end ngRepeat: sensor in sensorList -->
 				</select><br>
 				<br>
@@ -103,213 +103,21 @@
 			<div id="showData">
 				<div id="main_table" ng-show="maintable" aria-hidden="false" class="" style="">
 					<!-- Start satelite data and standing data tables -->
-					<div id="tabledata_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="tabledata_length"><label>Show <select name="tabledata_length" aria-controls="tabledata" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="tabledata_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="tabledata"></label></div><table id="tabledata" class="table display responsive table-striped table-bordered ng-isolate-scope no-footer dtr-inline dataTable collapsed" datatable="ng" dt-options="dtOptions" style="width: 971px;" aria-describedby="tabledata_info">
-						<thead style="background: #337ab7; color: white; text-align: left; vertical-align: center" class="ng-scope">
-							<tr><th class="all sorting sorting_asc" style="width: 50px;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Sr.No: activate to sort column descending">Sr.No</th><th class="all sorting" style="width: 150px; white-space: nowrap;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Product
+					<div id="tabledata_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="tabledata_length"><label>Show <select name="tabledata_length" aria-controls="tabledata" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="tabledata_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="tabledata"></label></div><table id="tabledata" class="table display responsive table-striped table-bordered ng-isolate-scope dataTable no-footer dtr-inline" datatable="ng" dt-options="dtOptions" style="width: 0px;" aria-describedby="tabledata_info">
+						<thead style="background: #337ab7; color: white; text-align: left; vertical-align: center">
+							<tr><th class="all sorting sorting_asc" style="width: 0px;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Sr.No: activate to sort column descending">Sr.No</th><th class="all sorting" style="width: 0px; white-space: nowrap;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Product
 									/Acq Calendar/Version
 								: activate to sort column ascending">Product
 									/<br>Acq Calendar/Version
-								</th><th class="all sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 126px;" aria-label="Product Description: activate to sort column ascending">Product Description</th><th style="width: 76px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Processing Level: activate to sort column ascending">Processing Level</th><th style="width: 80px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Temporal Resolution: activate to sort column ascending">Temporal Resolution</th><th style="width: 50px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Start Date: activate to sort column ascending">Start Date</th><th style="width: 50px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="End Date: activate to sort column ascending">End Date</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 77px;" aria-label="Processing Status: activate to sort column ascending">Processing Status</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px; display: none;" aria-label="DOI: activate to sort column ascending">DOI</th></tr>
+								</th><th class="all sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px;" aria-label="Product Description: activate to sort column ascending">Product Description</th><th style="width: 0px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Processing Level: activate to sort column ascending">Processing Level</th><th style="width: 0px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Temporal Resolution: activate to sort column ascending">Temporal Resolution</th><th style="width: 0px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Start Date: activate to sort column ascending">Start Date</th><th style="width: 0px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="End Date: activate to sort column ascending">End Date</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px;" aria-label="Processing Status: activate to sort column ascending">Processing Status</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px;" aria-label="DOI: activate to sort column ascending">DOI</th></tr>
 						</thead>
-						<tbody class="ng-scope">
-							<!-- ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList -->
-						<tr ng-repeat="allproduct in AllProductList" class="ng-scope odd" style="">
-								<td class="ng-binding dtr-control sorting_1" tabindex="0">1</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">O2-SCT-AWV50</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-<g>
-	<g>
-		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
-		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M0 0h24v24H0z" fill="none"></path>
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
-</svg></md-icon></td>
-								<td class="ng-binding">12 Hourly Analyzed Wind Vectors are generated by combining Level2B(swath) data from both OSCAT and ASCAT</td>
-								<td class="ng-binding">4</td>
-								<td class="ng-binding">12 HOURLY</td>
-								<td class="ng-binding">2012-01-01</td>
-								<td class="ng-binding">2014-01-05</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/O2-SCT-AWV50" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/O2-SCT-AWV50">10.19038/SAC/10/O2-SCT-AWV50</a></td>
-							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
-								<td class="ng-binding dtr-control sorting_1" tabindex="0">2</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">O2-SCT-DAILYAWV50</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-<g>
-	<g>
-		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
-		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M0 0h24v24H0z" fill="none"></path>
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
-</svg></md-icon></td>
-								<td class="ng-binding">Daily Analyzed Wind Vectors are generated from Level2B data of OSCAT and ASCAT</td>
-								<td class="ng-binding">4</td>
-								<td class="ng-binding">DAILY</td>
-								<td class="ng-binding">2012-01-01</td>
-								<td class="ng-binding">2014-01-06</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/O2-SCT-DAILYAWV50" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/O2-SCT-DAILYAWV50">10.19038/SAC/10/O2-SCT-DAILYAWV50</a></td>
-							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
-								<td class="ng-binding dtr-control sorting_1" tabindex="0">3</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">O2-SCT-HWV</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 36.447 36.447" style="enable-background:new 0 0 36.447 36.447;" xml:space="preserve" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-<g>
-	<g>
-		<path d="M30.224,3.948h-1.098V2.75c0-1.517-1.197-2.75-2.67-2.75c-1.474,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75    c0-1.517-1.197-2.75-2.67-2.75c-1.473,0-2.67,1.233-2.67,2.75v1.197h-2.74V2.75c0-1.517-1.197-2.75-2.67-2.75    c-1.473,0-2.67,1.233-2.67,2.75v1.197H6.224c-2.343,0-4.25,1.907-4.25,4.25v24c0,2.343,1.907,4.25,4.25,4.25h24    c2.344,0,4.25-1.907,4.25-4.25v-24C34.474,5.855,32.567,3.948,30.224,3.948z M25.286,2.75c0-0.689,0.525-1.25,1.17-1.25    c0.646,0,1.17,0.561,1.17,1.25v4.896c0,0.689-0.524,1.25-1.17,1.25c-0.645,0-1.17-0.561-1.17-1.25V2.75z M17.206,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z M9.125,2.75    c0-0.689,0.525-1.25,1.17-1.25s1.17,0.561,1.17,1.25v4.896c0,0.689-0.525,1.25-1.17,1.25s-1.17-0.561-1.17-1.25V2.75z     M31.974,32.198c0,0.965-0.785,1.75-1.75,1.75h-24c-0.965,0-1.75-0.785-1.75-1.75v-22h27.5V32.198z" fill="#FFFFFF"></path>
-		<rect x="6.724" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="12.857" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="18.995" y="14.626" width="4.595" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="25.128" y="14.626" width="4.596" height="4.089" fill="#FFFFFF"></rect>
-		<rect x="6.724" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="12.857" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="18.995" y="20.084" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="25.128" y="20.084" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="6.724" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="12.857" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="18.995" y="25.54" width="4.595" height="4.086" fill="#FFFFFF"></rect>
-		<rect x="25.128" y="25.54" width="4.596" height="4.086" fill="#FFFFFF"></rect>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
-    <path d="M0 0h24v24H0z" fill="none"></path>
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
-</svg></md-icon></td>
-								<td class="ng-binding">This product is generated making use of Backscatter data at composite slice level as available in L2A product of OSCAT and L2B wind vector product from OSCAT presently at 50km wind vector cells. Wind directions at composite slice location are interpolated utilizing neighbouring cells while wind speed is recalculated using backscattering coefficient and the OSCAT specific GMF. The quality flag of L2B product is reproduced.</td>
-								<td class="ng-binding">4</td>
-								<td class="ng-binding">ORBITWISE</td>
-								<td class="ng-binding">2011-12-23</td>
-								<td class="ng-binding">2014-01-05</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/O2-SCT-HWV" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/O2-SCT-HWV">10.19038/SAC/10/O2-SCT-HWV</a></td>
-							</tr></tbody>
-					</table><div class="dataTables_info" id="tabledata_info" role="status" aria-live="polite">Showing 1 to 3 of 3 entries</div><div class="dataTables_paginate paging_simple_numbers" id="tabledata_paginate"><a class="paginate_button previous disabled" aria-controls="tabledata" data-dt-idx="0" tabindex="-1" id="tabledata_previous">Previous</a><span><a class="paginate_button current" aria-controls="tabledata" data-dt-idx="1" tabindex="0">1</a></span><a class="paginate_button next disabled" aria-controls="tabledata" data-dt-idx="2" tabindex="-1" id="tabledata_next">Next</a></div></div><h3 class="dt-loading" style="display: none;">Loading...</h3>
+						<tbody>
+							<!-- ngRepeat: allproduct in AllProductList -->
+						<tr class="odd"><td valign="top" colspan="9" class="dataTables_empty">No data available in table</td></tr></tbody>
+					</table><div class="dataTables_info" id="tabledata_info" role="status" aria-live="polite">Showing 0 to 0 of 0 entries</div><div class="dataTables_paginate paging_simple_numbers" id="tabledata_paginate"><a class="paginate_button previous disabled" aria-controls="tabledata" data-dt-idx="0" tabindex="-1" id="tabledata_previous">Previous</a><span></span><a class="paginate_button next disabled" aria-controls="tabledata" data-dt-idx="1" tabindex="-1" id="tabledata_next">Next</a></div></div><h3 class="dt-loading" style="display: none;">Loading...</h3>
 
 					<div id="wrapper">
-						<div class="spinner-wrapper" id="loading4" style="margin-right: auto; opacity: 0.371855;">
+						<div class="spinner-wrapper" id="loading4" style="margin-right: auto;">
 							<div class="spinner"></div>
 							<div class="spinner">
 								<div class="rect1"></div>

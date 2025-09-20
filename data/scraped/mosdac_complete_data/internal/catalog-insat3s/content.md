@@ -1,7 +1,7 @@
 # Satellite Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-insat3s
-**Extracted:** 2025-09-13T05:54:56.735699
+**Extracted:** 2025-09-15T15:50:36.155287
 **Quality Score:** 0.470
 
 A- A A+
@@ -9,9 +9,9 @@ A- A A+
 संग्रहीत उत्पाद सूची   
 Satellite Catalog  
 
-Satellite: INSAT-3DS   
+Satellite:   
 
-Sensor: IMAGER SOUNDER   
+Sensor:   
   
 
 **X**

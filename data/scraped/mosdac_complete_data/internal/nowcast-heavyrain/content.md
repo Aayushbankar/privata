@@ -1,13 +1,13 @@
 # Heavy Rainfall Alerts over India & Surrounding Regions
 
 **URL:** https://mosdac.gov.in/internal/nowcast-heavyrain
-**Extracted:** 2025-09-13T06:00:42.902808
-**Quality Score:** 0.600
+**Extracted:** 2025-09-15T15:51:40.360854
+**Quality Score:** 0.550
 
 ![mosdac logo](https://mosdac.gov.in/heavyrain/assets/img/transparent_mosdac_rapid.png)  
 ---  
 Heavy Rainfall Alerts over India & Surrounding Regions   
-HeavyRain Alerts: 13SEP2025 13:45 IST HEM NOWCAST: 13SEP2025 1415 IST |   
+HeavyRain Alerts: 15SEP2025 13:15 IST HEM NOWCAST: 15SEP2025 1315 IST |   
 ---  
   
 
@@ -33,13 +33,7 @@ Airports
 District Roads
 National Highways
 Admin Boundaries
-HEM NOWCAST Layers 
-HEM NOWCAST
-Select Event:  --select-- Prev 10days HEM Archive HEM
-13SEP2025 12SEP2025 11SEP2025 10SEP2025 09SEP2025 08SEP2025 07SEP2025 06SEP2025 05SEP2025 04SEP2025 03SEP2025 02SEP2025 01SEP2025
-Date: 
 HeavyRainfall Layers 
-Radius of Influence
 Alerts Areas
 Alert Centroid
 PREVIOUS ALERTS
@@ -55,8 +49,8 @@ Open Street Map
 Natural Earth
 Black Marble
 True Marble
-13SEP2025 1445 13SEP2025 1715 13SEP2025 1445
-  *   *   *   *   *   * 
+0 NaN NaN
+
 
 Tools | Analysis | Legends  
 ---|---|---  
@@ -65,9 +59,6 @@ Tools | Analysis | Legends
 ![](https://mosdac.gov.in/heavyrain/assets/img/point_icon.png) |  ![](https://mosdac.gov.in/heavyrain/assets/img/time_series_c.png)  
 ---|---  
 |   
-|  ![](https://mosdac.gov.in/live_data/wms/liveNew/products/NOWCAST/HE_NOWCAST/EXP-3RIMG_13SEP2025_0845_L2B_HEM_NOWCAST-180M.nc?TRANSPARENT=true&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=HEM-NOWCAST&FORMAT=image/png&STYLES=boxfill/Rainbow&COLORSCALERANGE=0.5,60.0)   
-  
----  
 HEM NOWCAST ANIMATION GIF HEM NOWCAST ANIMATION GIF
 Close
 AboutDisclaimerCredits AboutDisclaimerCredits

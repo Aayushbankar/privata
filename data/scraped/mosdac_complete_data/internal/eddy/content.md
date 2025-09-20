@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/internal/eddy
-**Extracted:** 2025-09-13T05:59:43.759214
+**Extracted:** 2025-09-15T15:47:39.207058
 **Quality Score:** 0.400
 
 ![mosdac logo](https://mosdac.gov.in/eddy/assets/img/transparent_mosdac_rapid.png) |  Eddy  
@@ -21,10 +21,6 @@ Select Eddy ID:
 Close Animation
 Legends  
 ---  
-![](https://mosdac.gov.in/geoserver_2/eddy/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=eddy:eddy_global)   
-|  ![](https://mosdac.gov.in/geoserver_2/eddy/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=eddy:eddy_track)   
-  
----|---  
 AboutDisclaimerCredits AboutDisclaimerCredits
   
 Eddy for more detail:[Eddy Detection and Tracking](https://mosdac.gov.in/eddy/assets/documents/mosdac_eddy_detection.pdf)

@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/flip-book/demos/Antarctic.html
-**Extracted:** 2025-09-13T05:56:42.155005
+**Extracted:** 2025-09-15T15:49:15.157655
 **Quality Score:** 0.300
 
 ![](https://mosdac.gov.in/flip-book/demos/Exploring_the_Antarctic/thumb/Exploring_the_Antarctic-001.jpg)

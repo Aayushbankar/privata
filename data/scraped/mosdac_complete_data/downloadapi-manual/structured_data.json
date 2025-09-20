@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/downloadapi-manual#mdda-sd",
+  "url": "https://mosdac.gov.in/downloadapi-manual#mdda-hfydi",
   "title": "User Manual for MOSDAC Data Download API | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/downloadapi-manual#mdda-sd",
+    "url": "https://mosdac.gov.in/downloadapi-manual#mdda-hfydi",
     "domain": "mosdac.gov.in",
     "path": "/downloadapi-manual",
     "description": "Overview:Welcome to the User Manual for MOSDAC Data Download API!This tool allows you to download satellite data seamlessly using a simple configuration fileâ€”config.json. Once you have filled out this file correctly according to your download requirements, simply run the script mdapi.py. No need to modify any code!This manual will provide you step-by-step guide to download",
@@ -319,7 +319,7 @@
     }
   ],
   "quality_score": 0.85,
-  "extracted_at": "2025-09-13T05:59:33.707878",
+  "extracted_at": "2025-09-15T15:50:39.997786",
   "content_length": 20530,
   "rag_optimized": true
 }

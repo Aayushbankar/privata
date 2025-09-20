@@ -1,8 +1,8 @@
 {
-  "url": "http://mosdac.gov.in/mosdac-feedback",
+  "url": "https://mosdac.gov.in/mosdac-feedback",
   "title": "MOSDAC Feedback | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "http://mosdac.gov.in/mosdac-feedback",
+    "url": "https://mosdac.gov.in/mosdac-feedback",
     "domain": "mosdac.gov.in",
     "path": "/mosdac-feedback",
     "description": "",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.55,
-  "extracted_at": "2025-09-13T05:58:49.031456",
+  "extracted_at": "2025-09-15T15:49:22.879318",
   "content_length": 7996,
   "rag_optimized": true
 }

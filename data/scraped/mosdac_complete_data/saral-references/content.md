@@ -1,7 +1,7 @@
 # SARAL References | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/saral-references
-**Extracted:** 2025-09-13T06:00:03.723779
+**Extracted:** 2025-09-15T15:48:13.989032
 **Quality Score:** 0.600
 
 [Skip to main Content](https://mosdac.gov.in/saral-references#main-content "Skip to main Content")
@@ -123,7 +123,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 13 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/saral-references "Previous")[](https://mosdac.gov.in/saral-references "Next")
 [](https://mosdac.gov.in/saral-references)
 [](https://mosdac.gov.in/saral-references "Previous")[](https://mosdac.gov.in/saral-references "Next")

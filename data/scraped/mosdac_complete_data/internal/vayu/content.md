@@ -1,7 +1,7 @@
 # MOSDAC Live
 
 **URL:** https://mosdac.gov.in/internal/vayu
-**Extracted:** 2025-09-13T05:55:32.481721
+**Extracted:** 2025-09-15T15:49:41.327125
 **Quality Score:** 0.700
 
 **X**
