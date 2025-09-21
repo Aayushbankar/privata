@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/internal/ocean-eye
-**Extracted:** 2025-09-15T15:42:24.134780
+**Extracted:** 2025-09-21T12:05:08.606886
 **Quality Score:** 0.400
 
 ![mosdac logo](https://mosdac.gov.in/sci/assets/img/transparent_mosdac_rapid.png) |  OCEAN EYE |   
@@ -15,7 +15,7 @@ Ocean Surface Current Surface Winds Wave Height Sea Level Pressure Heat Content 
   
 
 Select Forecast Time(GMT) :   
-14-SEP-2025 0:00 Hours 14-SEP-2025 6:00 Hours 14-SEP-2025 12:00 Hours 14-SEP-2025 18:00 Hours 15-SEP-2025 0:00 Hours 15-SEP-2025 6:00 Hours 15-SEP-2025 12:00 Hours 15-SEP-2025 18:00 Hours 16-SEP-2025 0:00 Hours 16-SEP-2025 6:00 Hours 16-SEP-2025 12:00 Hours 16-SEP-2025 18:00 Hours 17-SEP-2025 0:00 Hours 17-SEP-2025 6:00 Hours 17-SEP-2025 12:00 Hours 17-SEP-2025 18:00 Hours 18-SEP-2025 0:00 Hours 18-SEP-2025 6:00 Hours 18-SEP-2025 12:00 Hours 18-SEP-2025 18:00 Hours 19-SEP-2025 0:00 Hours
+20-SEP-2025 0:00 Hours 20-SEP-2025 6:00 Hours 20-SEP-2025 12:00 Hours 20-SEP-2025 18:00 Hours 21-SEP-2025 0:00 Hours 21-SEP-2025 6:00 Hours 21-SEP-2025 12:00 Hours 21-SEP-2025 18:00 Hours 22-SEP-2025 0:00 Hours 22-SEP-2025 6:00 Hours 22-SEP-2025 12:00 Hours 22-SEP-2025 18:00 Hours 23-SEP-2025 0:00 Hours 23-SEP-2025 6:00 Hours 23-SEP-2025 12:00 Hours 23-SEP-2025 18:00 Hours 24-SEP-2025 0:00 Hours 24-SEP-2025 6:00 Hours 24-SEP-2025 12:00 Hours 24-SEP-2025 18:00 Hours 25-SEP-2025 0:00 Hours
 Time Series
 Longitude :
   

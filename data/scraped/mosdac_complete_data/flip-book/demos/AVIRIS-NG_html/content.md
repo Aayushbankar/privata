@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/flip-book/demos/AVIRIS-NG.html
-**Extracted:** 2025-09-15T15:43:45.919074
+**Extracted:** 2025-09-21T12:03:59.492257
 **Quality Score:** 0.300
 
 ![](https://mosdac.gov.in/flip-book/demos/AVIRIS-NG/thumb/Page1.jpg)

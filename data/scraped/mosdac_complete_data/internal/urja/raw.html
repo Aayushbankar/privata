@@ -683,10 +683,7 @@
 
 		
 		
-        <div id="container_timeseries" class="ol-timeseries" ng-hide="sat_timeseries" style="display:none;" aria-hidden="false">
-            <a href="#" id="timeseries-closer" class="ol-timeseries-closer"></a>
-            <div id="content_timeseries"></div>
-        </div>
+        
 
 
         <!-- <div id="popup-layer-list-animation" class="layer_list_animation_class">
@@ -707,7 +704,27 @@
 		
         <div id="map" class="map">
             <canvas id="windyMap"></canvas>
-        </div>
+        <div class="ol-viewport" data-view="19" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;"><canvas class="ol-unselectable" width="1080" height="600" style="width: 100%; height: 100%; display: block;"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-overlay-container ol-selectable" style="position: absolute; display: none;"><div class="tooltip-one tooltip-measure"></div></div><div class="ol-overlay-container ol-selectable" style="position: absolute; display: none;"><div id="container_timeseries" class="ol-timeseries" ng-hide="sat_timeseries" style="display:none;" aria-hidden="false">
+            <a href="#" id="timeseries-closer" class="ol-timeseries-closer"></a>
+            <div id="content_timeseries"></div>
+        </div></div><div class="ol-overlay-container ol-selectable" style="position: absolute; display: none;"><div id="popup" class="ol-popup" style="max-width: 121px; max-height: 200px;display:none;">
+
+            <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+            <!--        <div id="popup-content-layer-list" ng-show="show_dropdown_list" >-->
+<!--             <div id="popup-content-layer-list"> -->
+<!--                 <md-select aria-label="Aria Label" ng-show="timezone==timezone_local && layer.source.satellite!='Mean Monthly Climatology'" ng-model="selectedLayerTimeseries" ng-change="selectLayerForTimeseries()"> -->
+<!--                     <md-content ng-show="timezone==timezone_local">    <md-option aria-label="Aria Label" ng-value="layer" ng-show="(layer.source.urlprefix || layer.source.urlweather_forecast) && layer.data_type!='satellite_analyzed_winds'" ng-repeat="layer in layers">{{layer.name}}{{layer.dateval_local}}{{layer.timeval_local}}({{layer.satellite}}/{{layer.sensor}}</md-option> -->
+<!--                     </md-content> -->
+<!--                 </md-select>   -->
+<!--                 <md-select aria-label="Aria Label" ng-show="timezone==timezone_gmt && layer.source.satellite!='Mean Monthly Climatology'" ng-model="selectedLayerTimeseries" ng-change="selectLayerForTimeseries()"> -->
+<!--                     <md-option aria-label="Aria Label" ng-value="layer" ng-show="(layer.source.urlprefix || layer.source.urlweather_forecast) && layer.data_type!='satellite_analyzed_winds'" ng-repeat="layer in layers">{{layer.name}}{{layer.dateval}}{{layer.timeval}}({{layer.satellite}}/{{layer.sensor}})</md-option> -->
+<!--                 </md-select>  -->
+
+
+<!--             </div> -->
+            <div id="popup-content" style="width:100%;height:100%;">
+            </div>
+        </div></div><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass" style="transform: rotate(0rad);">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed ol-logo-only"><ul><li style=""><a href="https://openlayers.org/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAHGAAABxgEXwfpGAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAhNQTFRF////AP//AICAgP//AFVVQECA////K1VVSbbbYL/fJ05idsTYJFtbbcjbJllmZszWWMTOIFhoHlNiZszTa9DdUcHNHlNlV8XRIVdiasrUHlZjIVZjaMnVH1RlIFRkH1RkH1ZlasvYasvXVsPQH1VkacnVa8vWIVZjIFRjVMPQa8rXIVVkXsXRsNveIFVkIFZlIVVj3eDeh6GmbMvXH1ZkIFRka8rWbMvXIFVkIFVjIFVkbMvWH1VjbMvWIFVlbcvWIFVla8vVIFVkbMvWbMvVH1VkbMvWIFVlbcvWIFVkbcvVbMvWjNPbIFVkU8LPwMzNIFVkbczWIFVkbsvWbMvXIFVkRnB8bcvW2+TkW8XRIFVkIlZlJVloJlpoKlxrLl9tMmJwOWd0Omh1RXF8TneCT3iDUHiDU8LPVMLPVcLPVcPQVsPPVsPQV8PQWMTQWsTQW8TQXMXSXsXRX4SNX8bSYMfTYcfTYsfTY8jUZcfSZsnUaIqTacrVasrVa8jTa8rWbI2VbMvWbcvWdJObdcvUdszUd8vVeJaee87Yfc3WgJyjhqGnitDYjaarldPZnrK2oNbborW5o9bbo9fbpLa6q9ndrL3ArtndscDDutzfu8fJwN7gwt7gxc/QyuHhy+HizeHi0NfX0+Pj19zb1+Tj2uXk29/e3uLg3+Lh3+bl4uXj4ufl4+fl5Ofl5ufl5ujm5+jmySDnBAAAAFp0Uk5TAAECAgMEBAYHCA0NDg4UGRogIiMmKSssLzU7PkJJT1JTVFliY2hrdHZ3foSFhYeJjY2QkpugqbG1tre5w8zQ09XY3uXn6+zx8vT09vf4+Pj5+fr6/P39/f3+gz7SsAAAAVVJREFUOMtjYKA7EBDnwCPLrObS1BRiLoJLnte6CQy8FLHLCzs2QUG4FjZ5GbcmBDDjxJBXDWxCBrb8aM4zbkIDzpLYnAcE9VXlJSWlZRU13koIeW57mGx5XjoMZEUqwxWYQaQbSzLSkYGfKFSe0QMsX5WbjgY0YS4MBplemI4BdGBW+DQ11eZiymfqQuXZIjqwyadPNoSZ4L+0FVM6e+oGI6g8a9iKNT3o8kVzNkzRg5lgl7p4wyRUL9Yt2jAxVh6mQCogae6GmflI8p0r13VFWTHBQ0rWPW7ahgWVcPm+9cuLoyy4kCJDzCm6d8PSFoh0zvQNC5OjDJhQopPPJqph1doJBUD5tnkbZiUEqaCnB3bTqLTFG1bPn71kw4b+GFdpLElKIzRxxgYgWNYc5SCENVHKeUaltHdXx0dZ8uBI1hJ2UUDgq82CM2MwKeibqAvSO7MCABq0wXEPiqWEAAAAAElFTkSuQmCC"></a></li></ul><button type="button" title="Attributions"><span>i</span></button></div><div class="ol-full-screen ol-unselectable ol-control "><button class="ol-full-screen-false" type="button" title="Toggle full-screen">⤢</button></div><div class="ol-scale-line ol-unselectable"><div class="ol-scale-line-inner" style="width: 108px;">500 km</div></div><div class="ol-mouse-position"></div></div></div></div>
 		 
 		<span id="side_btn" class="sidebar_btn" style="font-size:30px;cursor:pointer">
 			<table style="width: 295px;">
@@ -732,7 +749,13 @@
 
 				<div id="layer_manager_label" class="scrollbar" style="display: none;">
 					<table>
-						<tbody><!-- ngRepeat: layer in layers | orderBy:'$index':true -->
+						<tbody><!-- ngRepeat: layer in layers | orderBy:'$index':true --><tr ng-repeat="layer in layers | orderBy:'$index':true" class="ng-scope">
+<!--							<td ng-if="layer.data_type=='satellite'">	-->
+							<!-- ngIf: layer.satellite -->
+						</tr><!-- end ngRepeat: layer in layers | orderBy:'$index':true --><tr ng-repeat="layer in layers | orderBy:'$index':true" class="ng-scope">
+<!--							<td ng-if="layer.data_type=='satellite'">	-->
+							<!-- ngIf: layer.satellite -->
+						</tr><!-- end ngRepeat: layer in layers | orderBy:'$index':true -->
 					</tbody></table>
 				</div>
 			
@@ -752,7 +775,7 @@
             </td>
             
             <td id="side_btn_extra3" style="display:none;">
-            	<button class="md-fab md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="toggleTimeZone()" uib-tooltip="" tooltip-placement="bottom"><span class="ng-binding ng-scope">local</span></button>
+            	<button class="md-fab md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="toggleTimeZone()" uib-tooltip="GMT+5:30" tooltip-placement="bottom"><span class="ng-binding ng-scope">local</span></button>
             </td>
             
             <td id="side_btn_extra4" style="display:none;">
@@ -818,7 +841,7 @@
 		      <md-dialog layout-padding="" class="layout-padding _md">
 <!-- 		        <h2>Pre-Rendered Dialog</h2> -->
 		        <div>
-                        <input type="text" class="datepicker ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty ng-valid-required ng-valid-date hasDatepicker" style="display: none;" uib-datepicker-popup="" ng-model="date_main" is-open="datepickers.dt" datepicker-options="dateOptionsDt" ng-change="addLayers(false)" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" readonly="" required="required" aria-invalid="false" id="dp1757931435658"><div uib-datepicker-popup-wrap="" ng-model="date" ng-model-options="ngModelOptions" ng-change="dateSelection(date)" template-url="uib/template/datepicker/popup.html" class="ng-not-empty ng-valid" aria-invalid="false">
+                        <input type="text" class="datepicker ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty ng-valid-required ng-valid-date hasDatepicker" style="display: none;" uib-datepicker-popup="" ng-model="date_main" is-open="datepickers.dt" datepicker-options="dateOptionsDt" ng-change="addLayers(false)" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" readonly="" required="required" aria-invalid="false" id="dp1758436446876"><div uib-datepicker-popup-wrap="" ng-model="date" ng-model-options="ngModelOptions" ng-change="dateSelection(date)" template-url="uib/template/datepicker/popup.html" class="ng-not-empty ng-valid" aria-invalid="false">
   <!-- ngIf: isOpen -->
 </div>     
                 </div>
@@ -882,10 +905,310 @@
                     <!-- ngIf: count_overlaylayer!=0 --><div class="layer-display ng-scope" ng-if="count_overlaylayer!=0" style="background-color:grey;">Overlay Layers
                     </div><!-- end ngIf: count_overlaylayer!=0 -->
 
-                    <!-- ngRepeat: layer in layers | orderBy:'$index':true | limitTo:count_overlaylayer:0 -->
+                    <!-- ngRepeat: layer in layers | orderBy:'$index':true | limitTo:count_overlaylayer:0 --><div ng-repeat="layer in layers | orderBy:'$index':true | limitTo:count_overlaylayer:0" class="ng-scope">
+                        <!-- ngIf: !(layer.source.urlaws) && layer.displayname!='animation' --><div layout="row" class="layer-list-row ng-scope layout-row" ng-if="!(layer.source.urlaws) &amp;&amp; layer.displayname!='animation'">
+                            <md-checkbox ng-model="layer.active" ng-change="stateChanged(layer)" flex="80" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false" aria-label="Vector Layers"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><span class="ng-binding ng-scope">Vector Layers</span></div></md-checkbox>
+                            <input flex="20" type="range" min="0" max="1" step="0.01" ng-model="layer.opacity" ng-change="stateChangedOpacity(layer)" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid ng-empty flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1">
+                            <button class="md-icon-button md-primary md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" value="Add vector layers" ng-click="showLegend(layer,'toggle')" uib-tooltip="Add vector layers">
+                                <!-- <md-icon md-svg-src="{{hideDivOverlayIcon()}}"></md-icon> -->
+                                <i class="fa fa-angle-double-down" style="font-size:28px;color:white;font-weight:bold;"></i>
+                            </button>
+                            <label>&nbsp;</label>
+                        </div><!-- end ngIf: !(layer.source.urlaws) && layer.displayname!='animation' -->
+                        <!-- ngIf: (layer.source.urlaws) -->
+<!--                         <div style="width:1200px;" ng-if="(layer.source.urlaws)">   -->
+                        <!-- ngIf: (layer.source.urlaws) -->
+
+
+                        <!-- ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-not-empty md-checked flex-10" aria-checked="true" aria-invalid="false" aria-label="Admin Boundaries"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">Admin Boundaries</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="National Highways"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">National Highways</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="District Roads"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">District Roads</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="Airports"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">Airports</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="Railway Tracks"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">Railway Tracks</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="District Population"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">District Population</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="Rivers"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">Rivers</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="Ports"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">Ports</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="Cyclone Risk Map"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">Cyclone Risk Map</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="Landslide Risk Map"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">Landslide Risk Map</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="Fire Risk Map"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">Fire Risk Map</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers --><!-- ngIf: !(layer.source.urlaws) --><div id="overlayselection" ng-show="showOverlaySelection" ng-if="!(layer.source.urlaws)" ng-repeat="overlaylayer in overlay_layers" class="ng-scope ng-hide" aria-hidden="true">
+                            <div layout="row" class="overlay_selection layout-row" style="width:100%;margin-top:0;margin-bottom:0;"> <md-checkbox ng-model="overlaylayer.active" ng-change="nodeSelectedOverlay(overlaylayer)" flex="10" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty flex-10" aria-checked="false" aria-invalid="false" aria-label="Land Slide"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><label style="width:250px;text-align:left;" class="ng-binding ng-scope">Land Slide</label></div></md-checkbox>
+                            </div>
+                        </div><!-- end ngIf: !(layer.source.urlaws) --><!-- end ngRepeat: overlaylayer in overlay_layers -->
+
+                    </div><!-- end ngRepeat: layer in layers | orderBy:'$index':true | limitTo:count_overlaylayer:0 -->
 
                     <!-- ngIf: count_layer!=0 --><div class="layer-display ng-scope" ng-if="count_layer!=0">Layers</div><!-- end ngIf: count_layer!=0 -->
-                    <!-- ngRepeat: layer in layers | orderBy:'$index':true | limitTo:count_layer:starting_layer_index -->
+                    <!-- ngRepeat: layer in layers | orderBy:'$index':true | limitTo:count_layer:starting_layer_index --><div ng-repeat="layer in layers | orderBy:'$index':true | limitTo:count_layer:starting_layer_index" class="layer_border_div ng-scope">
+                        <!-- ngIf: !(layer.isContour) --><div layout="row" class="layer-list-row ng-scope layout-row" ng-if="!(layer.isContour)"> 
+                            <md-checkbox ng-model="layer.active" ng-change="stateChanged(layer)" flex="80" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false" aria-label="True Marble"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"><span class="ng-binding ng-scope">True Marble</span></div></md-checkbox>
+                            <input aria-label="Aria Label" flex="20" type="range" min="0" max="1" step="0.01" ng-model="layer.opacity" ng-change="stateChangedOpacity(layer)" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid ng-empty flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1">
+                            <!-- ngIf: layer.fix_layer==false -->
+<!--                             <md-button aria-label="Aria Label" class="md-icon-button md-primary"  value="Show Legend"  ng-click="showLegend(layer,'toggle')" uib-tooltip="Legend"> <md-icon aria-label="Aria Label" md-svg-src="img/ic_visibility_black_24px.svg"></md-icon>  </md-button> -->
+<!--                             <md-button aria-label="Aria Label" class="md-icon-button md-primary"  value="Animation" ng-click="addAnimationLayer(layer)" uib-tooltip="Animation">   <md-icon aria-label="Aria Label" md-svg-src="{{layer.animation_control_status}}"></md-icon> </md-button> -->
+                            <button class="md-icon-button md-primary md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" value="Image Settings" ng-click="showImageSettingFun(layer)" uib-tooltip="Image Settings">          <i class="" style="font-size:28px;color:white;font-weight:bold;"></i>  </button>
+                          <!--  <md-button aria-label="Aria Label" class="md-icon-button md-primary"  value="3D" ng-click="show3DInterface(layer)" uib-tooltip="3D">  <font style="color:white;"> 3D </font>  </md-button> -->
+                            <!-- <md-button aria-label="Aria Label" class="md-icon-button md-primary"  value="TGraph" ng-click="showTephigram(layer)" uib-tooltip="Tephigram">  <font style="color:white;"> TG </font>  </md-button> -->
+
+                        </div><!-- end ngIf: !(layer.isContour) -->
+<!--                          <div style="width:1200px;">   -->
+                        <div>
+<!--                             <div class="range_table_one" style="padding-top:5px;padding-bottom:5px;float:left;color:white;width:350px;">    -->
+                            <div class="range_table_one" style="padding-top:5px;padding-bottom:5px;float:left;color:white;width:310px;">
+<!--                                 <table> -->
+<!--                                                                         <td rowspan="2" width="50px;"> -->
+<!-- <!--                                            <div layout="row" ng-if="!(layer.isContour)" style="float:right;">  -->
+<!--                                             <div layout="row" ng-if="!(layer.isContour)" style="float:left;">   --> 
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button"  ng-if="layer.time==true && layer.data_type!='climatology' && layer.data_type!='weather_forecast' && layer.data_type!='satellite_analyzed_winds'" ng-click="showBackDateSelectionFun(layer)">Date</md-button>  -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button" ng-if="layer.time==true && layer.data_type!='satellite_analyzed_winds'" ng-click="showTimeSelectionFun(layer)">Time</md-button>  -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button" ng-if="layer.elevation==true && layer.data_type!='satellite_analyzed_winds'" ng-click="showElevationSelectionFun(layer)">Elevation</md-button> -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button" ng-if="layer.data_type=='satellite'" ng-click="showBandSelectionFun(layer)">Band</md-button> -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button" ng-if="layer.data_type=='geophysical_analyzed_winds'" ng-click="showBandSelectionFun(layer)">Param</md-button> -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button" ng-if="layer.data_type=='weather_forecast' || layer.data_type=='climatology'" ng-click="showBandSelectionFun(layer)">Param</md-button> -->
+                                                <!-- <md-button aria-label="Aria Label" class="range_table_button" ng-click="addAnimationLayer(layer)">Animation</md-button> --> 
+
+<!--                                             </div> -->
+<!--                                         </td>  -->
+<!--                                     </tr> -->
+<!--                                 </table> -->
+                                <table>
+
+                                    <tbody><tr>
+                                        <td style="width:120px;">
+                                            <!--                                        <label ng-if="!(layer.isContour) && timezone==timezone_gmt" style="color:#10A6F7;font-size:12px;"><b>{{layer.dateval}} {{layer.timeval}}</b>&nbsp;&nbsp;</label>
+                                                                                    <label ng-if="!(layer.isContour) && timezone==timezone_local" style="color:#10A6F7;font-size:12px;"><b>{{layer.dateval_local}} {{layer.timeval_local}}</b>&nbsp;&nbsp;</label>
+                                            -->
+                              <!-- ngIf: !(layer.isContour) && timezone==timezone_gmt -->
+                               <!-- ngIf: !(layer.isContour) && timezone==timezone_local --><label ng-if="!(layer.isContour) &amp;&amp; timezone==timezone_local" style="color:#10A6F7;font-size:12px; width:250px;" class="ng-scope"><b class="ng-binding"> </b></label><!-- end ngIf: !(layer.isContour) && timezone==timezone_local -->
+                                            
+                                            <span></span>
+                                        </td>
+                                        
+                                        <!-- ngIf: !(layer.isContour) --><td ng-if="!(layer.isContour)" class="ng-scope">
+                                        
+                                        
+<!--                                         <button class="range_table_button md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layer.time==true &amp;&amp; layer.data_type!='climatology' &amp;&amp; layer.data_type!='weather_forecast' &amp;&amp; layer.data_type!='satellite_analyzed_winds'" ng-click="showBackDateSelectionFun(layer)"> -->
+<!--                                         	<span class="ng-scope">Date</span> -->
+<!--                                         	<div class="md-ripple-container" style=""></div>   -->
+<!--                                         </button> -->
+                                        
+                            				<!-- ngIf: layer.time==true && layer.data_type!='climatology' && layer.data_type!='weather_forecast' && layer.data_type!='satellite_analyzed_winds' -->
+                                        </td><!-- end ngIf: !(layer.isContour) -->
+                                        
+<!--                                         <td rowspan="2" width="50px;"> -->
+<!--                                            <div layout="row" ng-if="!(layer.isContour)" style="float:right;">  -->
+<!--                                             <div layout="row" ng-if="!(layer.isContour)" style="float:left;"> -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button"  ng-if="layer.time==true && layer.data_type!='climatology' && layer.data_type!='weather_forecast' && layer.data_type!='satellite_analyzed_winds'" ng-click="showBackDateSelectionFun(layer)">Date</md-button>  -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button" ng-if="layer.time==true && layer.data_type!='satellite_analyzed_winds'" ng-click="showTimeSelectionFun(layer)">Time</md-button>  -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button" ng-if="layer.elevation==true && layer.data_type!='satellite_analyzed_winds'" ng-click="showElevationSelectionFun(layer)">Elevation</md-button> -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button" ng-if="layer.data_type=='satellite'" ng-click="showBandSelectionFun(layer)">Band</md-button> -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button" ng-if="layer.data_type=='geophysical_analyzed_winds'" ng-click="showBandSelectionFun(layer)">Param</md-button> -->
+<!--                                                 <md-button aria-label="Aria Label" class="range_table_button" ng-if="layer.data_type=='weather_forecast' || layer.data_type=='climatology'" ng-click="showBandSelectionFun(layer)">Param</md-button> -->
+                                                <!-- <md-button aria-label="Aria Label" class="range_table_button" ng-click="addAnimationLayer(layer)">Animation</md-button> --> 
+
+<!--                                             </div> -->
+<!--                                         </td>  -->
+                                    </tr>
+                                    <tr>
+                                        <td width="30%">
+                                            <!-- ngIf: (layer.sensor && !(layer.isContour)) -->                       
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+
+                            </div>
+                            
+                            <!-- Update Starts by jy for migrate md-select, md-option with  select ng-options-->
+<!--                             <div ng-show="layer.showBandSetting" style="float:left;background-color:white;" class="range_selection">    -->
+<!--                                 <md-select ng-show="layer.showBandSetting" aria-label="Aria Label" class="range_select" ng-model="layer.selectedBandSetting" ng-change="updateSelectedLayerBand(layer)"> -->
+<!--                                     <md-content ng-show="layer.showBandSetting">  <md-option ng-value="option" ng-repeat="option in layer.list_band_arr track by $index">{{option.name}}</md-option> -->
+<!--                                     </md-content> -->
+<!--                                 </md-select> -->
+<!--                             </div> -->
+
+<!-- 							<div ng-show="layer.showBandSetting" style="float:left;background-color:white;" class="range_selection">     -->
+<!--                                 <select ng-show="layer.showBandSetting" aria-label="Aria Label" class="range_select" ng-model="layer.selectedBandSetting"  ng-change="updateSelectedLayerBand(layer)"> -->
+<!--                                     <option ng-value="option | json" ng-repeat="option in layer.list_band_arr track by $index">{{option.name}}</option> -->
+<!--                                 </select> -->
+<!--                             </div> -->
+                            
+                            <!-- bef ng-show="layer.showBandSetting" in div and select in below divs,select-->
+                            
+                            <!-- Update Starts for table -->
+                            
+							<table style="width:100%;">
+								<tbody><tr>
+									<td>
+										<!-- ngIf: layer.elevation -->
+									</td>
+									<td>
+	   <!--                             <div ng-if="false" style="float:left;background-color:white;" class="range_selection">      -->
+										<!-- ngIf: layer.elevation -->
+									</td>
+								</tr>
+								
+								<tr>
+									<!-- ngIf: !(layer.isContour) --><td ng-if="!(layer.isContour)" class="ng-scope">
+										<div style="float:left;" class="range_selection">
+            <!-- 								<label style="color: white; margin-top: 0px; margin-bottom: 0px; font-weight: lighter; font-size: 12px;">Band/Param:- </label>      -->
+                                            <select aria-label="Aria Label" class="range_select form-control ng-pristine ng-untouched ng-valid ng-empty" ng-model="layer.selectedBandSetting" ng-value="option" ng-change="updateSelectedLayerBand(layer)" ng-options="option.name for option in layer.list_band_arr" aria-invalid="false"><option value="?" selected="selected"></option></select>
+                                        </div>
+									</td><!-- end ngIf: !(layer.isContour) -->
+									
+									<!-- ngIf: !(layer.isContour) --><td ng-if="!(layer.isContour)" class="ng-scope">
+		<!-- 							<div style="float:left;background-color:white;" class="range_selection" id="datebased_time_listing_id">      -->
+            							<div style="float:left;" class="range_selection" id="datebased_time_listing_id">
+            							
+            <!-- 								<label style="color: white; margin-top: 0px; margin-bottom: 0px; font-weight: lighter; font-size: 12px;">Time :- </label>       -->
+            							      
+                                            <!-- ngIf: timezone==timezone_gmt -->
+                                            <!-- ngIf: timezone==timezone_local --><select class="range_select form-control ng-pristine ng-untouched ng-valid ng-scope ng-empty" aria-label="Aria Label" ng-if="timezone==timezone_local" ng-model="layer.selectedTimeSetting" ng-change="updateSelectedLayerTime(layer)" ng-value="option" ng-options="option.displayname_local for option in layer.list_time_arr" aria-invalid="false"><option value="?" selected="selected"></option></select><!-- end ngIf: timezone==timezone_local -->
+                                        </div>
+            																			
+									</td><!-- end ngIf: !(layer.isContour) -->
+								</tr>
+							</tbody></table>
+							
+							<!-- Update Ends for table  bef it is open div for Band/Param,Time,Elevation as per below three divs-->
+                            
+                            <!-- Previous divs for Band/Param,Time,Elevation Starts -->
+                            
+
+<!--                             <div ng-if="layer.elevation" style="float:left;" class="range_selection">   -->
+                            
+<!--                              	<label style="color: white; margin-top: 0px; margin-bottom: 0px; font-weight: lighter; font-size: 12px;">Elevation :- </label>    -->
+                            
+<!--                                 <select aria-label="Aria Label" class="range_select" ng-model="layer.selectedElevationSetting" ng-change="updateSelectedLayerElevation(layer)" ng-value="option" ng-options="option.substring(0,8) for option in layer.list_elevation_arr"> -->
+
+<!--                                 </select> -->
+<!--                             </div> -->
+                            
+                            
+
+<!-- 							<div style="float:left;" class="range_selection">    -->
+							
+<!-- <!-- 								<label style="color: white; margin-top: 0px; margin-bottom: 0px; font-weight: lighter; font-size: 12px;">Band/Param:- </label>      -->
+							
+<!--                                 <select aria-label="Aria Label" class="range_select" ng-model="layer.selectedBandSetting"  ng-value="option" ng-change="updateSelectedLayerBand(layer)" ng-options="option.name for option in layer.list_band_arr"> -->
+
+<!--                                 </select> -->
+<!--                             </div> -->
+
+
+
+
+                            <!-- Starts ng-show is only in div for gmt and locale time -->
+                                                        
+<!-- 							<div style="float:left;" class="range_selection" id="datebased_time_listing_id">     -->
+							
+<!-- <!-- 								<label style="color: white; margin-top: 0px; margin-bottom: 0px; font-weight: lighter; font-size: 12px;">Time :- </label>       -->
+							      
+<!--                                 <select class="range_select" aria-label="Aria Label" ng-if="timezone==timezone_gmt" ng-model="layer.selectedTimeSetting" ng-change="updateSelectedLayerTime(layer)" ng-value="option" ng-options="option.displayname_gmt for option in layer.list_time_arr"> -->
+
+<!--                                 </select> -->
+<!--                                 <select class="range_select" aria-label="Aria Label" ng-if="timezone==timezone_local" ng-model="layer.selectedTimeSetting" ng-change="updateSelectedLayerTime(layer)" ng-value="option" ng-options="option.displayname_local for option in layer.list_time_arr"> -->
+                                
+<!--                                 </select> -->
+<!--                             </div> -->
+                            
+                            <!-- Ends ng-show is only in div for gmt and locale time -->
+                            
+                            <!-- Previous divs for Band/Param,Time,Elevation Starts -->
+                            
+<!--                             <div ng-show="show_back_date_setting" id="calendar_id" class="calendar_class" aria-hidden="false" style="display: block;">      -->
+
+
+<!--                                 <div class="input-group"> -->
+<!--                                     <input type="text" style="display:none;" class="form-control ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty ng-valid-required ng-valid-date" uib-datepicker-popup="" ng-model="date_main" is-open="datepickers.dt" datepicker-options="dateOptionsDt" ng-change="addLayers(false)" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" readonly="" required="required" aria-invalid="false">     -->
+                                    
+<!--                                     <div uib-datepicker-popup-wrap="" ng-model="date" ng-model-options="ngModelOptions" ng-change="dateSelection(date)" template-url="uib/template/datepicker/popup.html" class="ng-not-empty ng-valid" aria-invalid="false"> -->
+                                    <!-- ngIf: isOpen -->
+<!--                                 	</div> -->
+                                
+<!--                                 </div> -->
+                                
+<!--                                 <span class="input-group-btn"> -->
+<!--                                     <button type="button" class="btn btn-default" ng-click="openCalendar($event, 'dt')"><i class="glyphicon glyphicon-calendar"></i></button> -->
+<!--                                 </span> -->
+                    
+                    
+                                <!--
+<!--                                     <input type="text" aria-label="Aria Label" style="width:150px;" class="form-control" datetime-picker="yyyy-MM-dd" ng-model="date_main" ng-change="addLayers(false)" is-open="open"/> -->
+<!--                                 </div> -->
+<!--                                 <div class="col-lg-1"> -->
+<!--                                     <span class="input-group-btn"><button type="button" aria-label="Aria Label" class="btn btn-default" style="valign:top" ng-click="openCalendar($event)"><i class="fa fa-calendar"></i></button></span> -->
+<!--                                 </div> -->
+<!-- <!--                                --> 
+<!-- 	                        </div> -->
+
+
+                            
+                            
+                            <!-- bef ng-show="layer.showBandSetting" in div and select in above divs,select-->
+                            
+                            <!-- Update Ends by jay for migrate md-select, md-option with  select ng-options-->
+
+
+
+                        </div>
+
+
+
+                        <!-- ngIf: !(layer.isContour) --><div ng-if="!(layer.isContour)" class="ng-scope"> 
+                            <!-- ngIf: layer.selectedImageSetting=='Range' && layer.showImageSetting -->
+							
+<!-- 							<input aria-label="Aria Label" type="text" name="threshold-value1" value="20" size="2" style="color:black; display:none;"/>	     --> <!-- Upadtaed and Added By Jay on 01JAN2020 -->	
+							
+                        </div><!-- end ngIf: !(layer.isContour) -->
+
+
+
+
+<!--                         <div layout="row" ng-show="layer.showLegendVar" style="float:right;" >  -->
+                            <!-- <div style="float:left;">{{layer.selectedPaletteSetting}}</div> -->
+<!--                             <div style="float:right;"><md-button aria-label="Aria Label" ng-click="showPaletteSelectionFun(layer)">{{layer.paletteButtonLabel}}</md-button></div> <br/>     -->
+<!--                         </div> -->
+
+<!--                         <div id="canvas-layout" class="canvas-layout-class" ng-show="layer.showLegendVar" style="background-color:grey;width:600px;position:relative;" >    -->
+
+<!-- <!--                            <div style="float:left;width:340px;"> <canvas id="canvas_{{layer.name}}_{{layer.sensor}}"></canvas></div> --> 
+<!-- <!--                              <div style="float:left;width:340px;"> <canvas id="canvas_{{layer.name}}_{{layer.sensor}}" style="width: 223px; height: 110px;"></canvas></div>  -->
+<!--                             <div ng-show="layer.showPaletteSetting  && layer.param_type=='geophysical'" style="float:left;background-color:white;" class="range_selection">     -->
+<!--                                 <md-select ng-show="layer.showPaletteSetting" aria-label="Aria Label" class="range_select" ng-model="layer.selectedPaletteSetting" ng-change="updateSelectedLayerPalette(layer)"> -->
+<!--                                     <md-content ng-show="layer.showPaletteSetting"> <md-option ng-value="option.name" ng-show="layer.showPaletteSetting" ng-repeat="option in list_palette_arr_geophysical">{{option.displayname}}</md-option> -->
+<!--                                     </md-content> -->
+<!--                                 </md-select> -->
+<!--                             </div> -->
+<!--                             <div ng-show="layer.showPaletteSetting  && layer.param_type!='geophysical'" style="float:left;background-color:white;" class="range_selection">     -->
+<!--                                 <md-select ng-show="layer.showPaletteSetting" aria-label="Aria Label" class="range_select" ng-model="layer.selectedPaletteSetting" ng-change="updateSelectedLayerPalette(layer)"> -->
+<!--                                     <md-content ng-show="layer.showPaletteSetting"> <md-option ng-value="option.name" ng-show="layer.showPaletteSetting" ng-repeat="option in list_palette_arr">{{option.displayname}}</md-option> -->
+<!--                                     </md-content> -->
+<!--                                 </md-select> -->
+<!--                             </div> -->
+<!--                         </div> -->
+                    </div><!-- end ngRepeat: layer in layers | orderBy:'$index':true | limitTo:count_layer:starting_layer_index -->
 
 
 
@@ -904,10 +1227,43 @@
 		<div id="bottom_menu_btn1" class="scrollbarX" style="text-align:center;">
 			<table style="width:100%;">
     			<tbody><tr>
-        			<!-- ngRepeat: item in icon_list -->
+        			<!-- ngRepeat: item in icon_list --><td ng-repeat="item in icon_list" style="width:14.285714286%; padding-left: 6px; padding-right: 6px;" class="ng-cloak ng-scope">
+                        <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Wind (Forecast)">
+                            <img ng-class="{'clickedicon':iconarray.indexOf(item.name) &gt; -1}" id="wind" width="35px" height="32px" ng-src="img/wind.png" class="ng-scope" src="img/wind.png">
+                            <div class="ng-scope">
+                            <label for="windlabel" style="color:white; font-size:9px; font-weight:bold; text-align:center;" class="ng-binding"></label>
+                            </div>
+                        </button> 
+        <!--                <label for="{{item.labelfor}}" style="color:white; font-size:18px; font-weight:bold; float: left; ">{{item.label}}</label> -->
+<!--                        <label for="{{item.labelfor}}" style="color:white; font-size:9px; font-weight:bold; text-align:center; position:absolute; bottom:0; left: 62.2%; transform: translateY(35%);">{{item.label}}</label> -->
+                     </td><!-- end ngRepeat: item in icon_list --><td ng-repeat="item in icon_list" style="width:14.285714286%; padding-left: 6px; padding-right: 6px;" class="ng-cloak ng-scope">
+                        <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Fire &amp; Smoke (Current)">
+                            <img ng-class="{'clickedicon':iconarray.indexOf(item.name) &gt; -1}" id="fire-smoke" width="35px" height="32px" ng-src="img/fire-smoke-icon_new.png" class="ng-scope" src="img/fire-smoke-icon_new.png">
+                            <div class="ng-scope">
+                            <label for="firesmokelabel" style="color:white; font-size:9px; font-weight:bold; text-align:center;" class="ng-binding"></label>
+                            </div>
+                        </button> 
+        <!--                <label for="{{item.labelfor}}" style="color:white; font-size:18px; font-weight:bold; float: left; ">{{item.label}}</label> -->
+<!--                        <label for="{{item.labelfor}}" style="color:white; font-size:9px; font-weight:bold; text-align:center; position:absolute; bottom:0; left: 62.2%; transform: translateY(35%);">{{item.label}}</label> -->
+                     </td><!-- end ngRepeat: item in icon_list --><td ng-repeat="item in icon_list" style="width:14.285714286%; padding-left: 6px; padding-right: 6px;" class="ng-cloak ng-scope">
+                        <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Air Quality Index">
+                            <img ng-class="{'clickedicon':iconarray.indexOf(item.name) &gt; -1}" id="Air Quality Index" width="35px" height="32px" ng-src="img/acqin_icon.png" class="ng-scope" src="img/acqin_icon.png">
+                            <div class="ng-scope">
+                            <label for="Acqinlabel" style="color:white; font-size:9px; font-weight:bold; text-align:center;" class="ng-binding"></label>
+                            </div>
+                        </button> 
+        <!--                <label for="{{item.labelfor}}" style="color:white; font-size:18px; font-weight:bold; float: left; ">{{item.label}}</label> -->
+<!--                        <label for="{{item.labelfor}}" style="color:white; font-size:9px; font-weight:bold; text-align:center; position:absolute; bottom:0; left: 62.2%; transform: translateY(35%);">{{item.label}}</label> -->
+                     </td><!-- end ngRepeat: item in icon_list -->
                  </tr>
                  <tr>
-                 	<!-- ngRepeat: item in icon_list -->
+                 	<!-- ngRepeat: item in icon_list --><td id="wind_quick" ng-repeat="item in icon_list" class="ng-scope">
+                 		
+                 	</td><!-- end ngRepeat: item in icon_list --><td id="fire-smoke_quick" ng-repeat="item in icon_list" class="ng-scope">
+                 		
+                 	</td><!-- end ngRepeat: item in icon_list --><td id="Air Quality Index_quick" ng-repeat="item in icon_list" class="ng-scope">
+                 		
+                 	</td><!-- end ngRepeat: item in icon_list -->
                  </tr>
              </tbody></table>
 		</div>
@@ -955,7 +1311,115 @@
 		<div id="bottom_menu_btn3" class="scrollbarX" style="text-align:center;">
 			<table id="legend_table" style="width:100%;">
 				<tbody><tr>
-					<!-- ngRepeat: layer in layers | orderBy:'$index':true | limitTo:count_layer:starting_layer_index -->
+					<!-- ngRepeat: layer in layers | orderBy:'$index':true | limitTo:count_layer:starting_layer_index --><td ng-repeat="layer in layers | orderBy:'$index':true | limitTo:count_layer:starting_layer_index" class="ng-scope">
+<!--     					<div ng-repeat="layer in layers | orderBy:'$index':true | limitTo:count_layer:starting_layer_index" class="ng-scope"> -->
+<!-- 						<div style="text-align: -webkit-center; top: -36px;  margin-bottom: -45px; position: relative;">      -->
+						<div style="text-align: -webkit-center;">
+    
+    							
+    
+    						<!--  <div layout="row" ng-show="layer.showLegendVar"  class="layout-row_btm" style="/* float:right; */" > -->
+    						
+                                
+                            
+    						<div layout="row" class="layout-row_btm layout-row" style="/* float:right; */">
+                                <!-- <div style="float:left;">{{layer.selectedPaletteSetting}}</div> -->
+                                
+                                <!-- bef ng-show=layer.showPaletteSetting -->
+                                
+<!--                                 <div ng-show="layer.showPaletteSetting  && layer.param_type=='geophysical'" style="padding-top: 7px;" >     -->    
+<!--                                     <select ng-show="layer.showPaletteSetting" aria-label="Aria Label" class="custom_select" ng-model="layer.selectedPaletteSetting" ng-change="updateSelectedLayerPalette(layer)"> -->
+<!--                                          <option ng-value="option.name" ng-show="layer.showPaletteSetting" ng-repeat="option in list_palette_arr_geophysical">{{option.displayname}}</option> -->
+                                        
+<!--                                     </select> -->
+<!--                                 </div> -->
+<!--                                  <div ng-show="layer.showPaletteSetting  && layer.param_type!='geophysical'" style="padding-top: 7px;">     -->      
+<!--                                     <select ng-show="layer.showPaletteSetting" aria-label="Aria Label" class="custom_select" ng-model="layer.selectedPaletteSetting" ng-change="updateSelectedLayerPalette(layer)"> -->
+<!--                                          <option ng-value="option.name" ng-show="layer.showPaletteSetting" ng-repeat="option in list_palette_arr">{{option.displayname}}</option> -->
+                                       
+<!--                                     </select> -->
+<!--                                 </div> -->
+                                
+                                <!-- bef ng-show=layer.showPaletteSetting in div and select-->
+
+                                <!-- Updat Starts by jay for to hide show layer legend based on layer checkbox select hide below divs -->
+
+<!-- 								<div ng-show="layer.param_type=='geophysical'" style="padding-top: 7px;" >      -->        
+<!--                                     <select aria-label="Aria Label" class="custom_select" ng-model="layer.selectedPaletteSetting" ng-change="updateSelectedLayerPalette(layer)" ng-value="option" ng-options="option.name as option.displayname for option in list_palette_arr_geophysical"> -->
+<!-- <!--                                          <option ng-value="option.name" ng-show="layer.showPaletteSetting" ng-repeat="option in list_palette_arr_geophysical">{{option.displayname}}</option>  -->
+                                        
+<!--                                     </select> -->
+<!--                                 </div> -->
+<!--                                  <div ng-show="layer.param_type!='geophysical'" style="padding-top: 7px;">      -->       
+<!--                                     <select aria-label="Aria Label" class="custom_select" ng-model="layer.selectedPaletteSetting" ng-change="updateSelectedLayerPalette(layer)" ng-value="option" ng-options="option.name as option.displayname for option in list_palette_arr"> -->
+<!-- <!--                                          <option ng-value="option.name" ng-show="layer.showPaletteSetting" ng-repeat="option in list_palette_arr">{{option.displayname}}</option> --> 
+                                       
+<!--                                     </select> -->
+<!--                                 </div> -->
+                                
+                                <!-- Updat Starts by jay for to hide show layer legend based on layer checkbox select hide above divs -->
+                                
+                                
+                                
+<!--                                  <div style="/* float:right; */"><md-button aria-label="Aria Label" ng-click="showPaletteSelectionFun(layer)">{{layer.paletteButtonLabel}}</md-button></div> <br/>      -->     
+                                 
+<!--                                 <div style="/* float:right; */"><md-button aria-label="Aria Label" ng-click="showAlert($event,layer)">{{layer.paletteButtonLabel}}</md-button></div> <br/>  -->  
+                                
+                            </div>
+                            
+                            <div id="canvas-layout" class="canvas-layout-class ng-hide" ng-show="layer.showLegendVar" style="background-color:transparent;width:259px;" aria-hidden="true">
+                                <!-- Updat Starts by jay for to hide show layer legend based on layer checkbox select -->
+                                
+<!--                                 <div layout="row"  class="layout-row_btm" style="/* float:right; */">   -->
+                                <div layout="row" class="layout-row_btm layout-row" style="float: left; /*padding-left: 40px;*/ /*padding-left: 22px;*/ padding-left: 77px; left: 0; ">	<!-- Updated By Jay On 30DEC2019 -->
+                                    <div ng-show="layer.param_type=='geophysical'" style="/*padding-top: 7px;*/ position: absolute; top: 110px;" aria-hidden="true" class="ng-hide">	<!-- Updated By Jay On 30DEC2019 -->
+                                        <select aria-label="Aria Label" class="custom_select form-control-legend ng-pristine ng-untouched ng-valid ng-empty" ng-model="layer.selectedPaletteSetting" ng-change="updateSelectedLayerPalette(layer)" ng-value="option" ng-options="option.name as option.displayname for option in list_palette_arr_geophysical" aria-invalid="false"><option value="?" selected="selected"></option><option label="Greyscale" value="string:boxfill/greyscale">Greyscale</option><option label="Redblue" value="string:boxfill/redblue">Redblue</option><option label="Rainbow" value="string:boxfill/rainbow">Rainbow</option><option label="SST_36" value="string:boxfill/sst_36">SST_36</option><option label="Ferret" value="string:boxfill/ferret">Ferret</option><option label="NHC" value="string:boxfill/nhc">NHC</option></select>
+                                    </div>
+                                     <div ng-show="layer.param_type!='geophysical'" style="/*padding-top: 7px;*/ position: absolute; top: 110px;" aria-hidden="false" class="">	<!-- Updated By Jay On 30DEC2019 -->       
+                                        <select aria-label="Aria Label" class="custom_select form-control-legend ng-pristine ng-untouched ng-valid ng-empty" ng-model="layer.selectedPaletteSetting" ng-change="updateSelectedLayerPalette(layer)" ng-value="option" ng-options="option.name as option.displayname for option in list_palette_arr" aria-invalid="false"><option value="?" selected="selected"></option><option label="Greyscale" value="string:boxfill/greyscale">Greyscale</option><option label="Redblue" value="string:boxfill/redblue">Redblue</option><option label="Rainbow" value="string:boxfill/rainbow">Rainbow</option><option label="SST_36" value="string:boxfill/sst_36">SST_36</option><option label="Ferret" value="string:boxfill/ferret">Ferret</option><option label="NHC" value="string:boxfill/nhc">NHC</option></select>
+                                     </div>
+                                </div>
+                                
+                                <!-- Updat Ends by jay for to hide show layer legend based on layer checkbox select -->
+                            
+                            
+                                <div style="/*float:left; width:340px; */"> <canvas id="canvas_True Marble__" style="width: 223px;height: 110px;" width="300" height="100"></canvas></div>
+                                <div ng-show="layer.showPaletteSetting  &amp;&amp; layer.param_type!='geophysical'" style="float:left;background-color:white;" class="range_selection ng-hide" aria-hidden="true"></div>
+                                
+                            </div>
+    
+<!--                             <div id="canvas-layout" class="canvas-layout-class" ng-show="layer.showLegendVar" style="background-color:grey;width:600px;">   -->
+<!--                             <div id="canvas-layout" class="canvas-layout-class" ng-show="layer.showLegendVar" style="background-color:grey;width:600px;">   -->
+<!--                             <div id="canvas-layout" class="canvas-layout-class" ng-show="layer.showLegendVar" style="background-color:transparent;width:259px;">   1 -->
+    
+<!--                                 <div style="/*float:left; width:340px; */"> <canvas id="canvas_{{layer.name}}_{{layer.sensor}}" style="width: 223px;height: 110px;" width="300" height="100"></canvas></div>   1 -->
+                                
+<!--                                 <div ng-show="layer.showLegendVar"  class="layout-row_btm" style="/* float:right; */" >     -->
+                                    <!-- <div style="float:left;">{{layer.selectedPaletteSetting}}</div> -->
+                                	
+<!--                                     <div style="/* float:right; */">    -->
+<!--                                     	<md-button aria-label="Aria Label" ng-click="showPaletteSelectionFun(layer)">{{layer.paletteButtonLabel}}</md-button> -->
+<!--                                     </div> <br/> -->
+                                    
+<!--                             	</div> -->
+                            	
+<!--                                 <div ng-show="layer.showPaletteSetting  && layer.param_type=='geophysical'" style="float:left;background-color:white;" class="range_selection">     -->
+<!--                                     <md-select ng-show="layer.showPaletteSetting" aria-label="Aria Label" class="range_select" ng-model="layer.selectedPaletteSetting" ng-change="updateSelectedLayerPalette(layer)"> -->
+<!--                                         <md-content ng-show="layer.showPaletteSetting"> <md-option ng-value="option.name" ng-show="layer.showPaletteSetting" ng-repeat="option in list_palette_arr_geophysical">{{option.displayname}}</md-option> -->
+<!--                                         </md-content> -->
+<!--                                     </md-select> -->
+<!--                                 </div> -->
+<!--                                 <div ng-show="layer.showPaletteSetting  && layer.param_type!='geophysical'" style="float:left;background-color:white;" class="range_selection">    1 -->
+<!--                                     <md-select ng-show="layer.showPaletteSetting" aria-label="Aria Label" class="range_select" ng-model="layer.selectedPaletteSetting" ng-change="updateSelectedLayerPalette(layer)"> -->
+<!--                                         <md-content ng-show="layer.showPaletteSetting"> <md-option ng-value="option.name" ng-show="layer.showPaletteSetting" ng-repeat="option in list_palette_arr">{{option.displayname}}</md-option> -->
+<!--                                         </md-content> -->
+<!--                                     </md-select> -->
+<!--                                 </div> -->
+                                
+<!--                             </div>     1 -->
+                            
+<!--     					</div>    1 -->
+    				</div></td><!-- end ngRepeat: layer in layers | orderBy:'$index':true | limitTo:count_layer:starting_layer_index -->
 				</tr>
 			</tbody></table>
 		</div>
@@ -1126,30 +1590,10 @@
 <!--         <div id="popup" class="ol-popup" style="min-width:400px;min-height:200px;display:none;">    -->
         
    
-    <div id="popup" class="ol-popup" style="max-width: 121px; max-height: 200px;display:none;">
-
-            <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-            <!--        <div id="popup-content-layer-list" ng-show="show_dropdown_list" >-->
-<!--             <div id="popup-content-layer-list"> -->
-<!--                 <md-select aria-label="Aria Label" ng-show="timezone==timezone_local && layer.source.satellite!='Mean Monthly Climatology'" ng-model="selectedLayerTimeseries" ng-change="selectLayerForTimeseries()"> -->
-<!--                     <md-content ng-show="timezone==timezone_local">    <md-option aria-label="Aria Label" ng-value="layer" ng-show="(layer.source.urlprefix || layer.source.urlweather_forecast) && layer.data_type!='satellite_analyzed_winds'" ng-repeat="layer in layers">{{layer.name}}{{layer.dateval_local}}{{layer.timeval_local}}({{layer.satellite}}/{{layer.sensor}}</md-option> -->
-<!--                     </md-content> -->
-<!--                 </md-select>   -->
-<!--                 <md-select aria-label="Aria Label" ng-show="timezone==timezone_gmt && layer.source.satellite!='Mean Monthly Climatology'" ng-model="selectedLayerTimeseries" ng-change="selectLayerForTimeseries()"> -->
-<!--                     <md-option aria-label="Aria Label" ng-value="layer" ng-show="(layer.source.urlprefix || layer.source.urlweather_forecast) && layer.data_type!='satellite_analyzed_winds'" ng-repeat="layer in layers">{{layer.name}}{{layer.dateval}}{{layer.timeval}}({{layer.satellite}}/{{layer.sensor}})</md-option> -->
-<!--                 </md-select>  -->
+    
 
 
-<!--             </div> -->
-            <div id="popup-content" style="width:100%;height:100%;">
-            </div>
-        </div>
-
-
-        <div id="popup-marker" class="ol-popup" style="width:350px;display:none;">
-            <a href="#" id="popup-closer-marker" class="ol-popup-closer"></a>
-            <div id="popup-content-marker"></div>
-        </div>
+        
         
         
         <div style="visibility: hidden">    
@@ -1318,7 +1762,7 @@
               <md-content class="md-padding ng-scope _md" style="color:white;">
 <!--                 <h1 class="md-display-2">About</h1> -->
                 <md-tab-body layout-padding="true" class="layout-padding">  
-                	<ul class="navigation_listing"> <!-- ngRepeat: category in categories --> </ul>   
+                	<ul class="navigation_listing"> <!-- ngRepeat: category in categories --><!-- ngInclude: folder_name_templates+'/template_satellite.html' --><!-- end ngRepeat: category in categories --><!-- ngInclude: folder_name_templates+'/template_satellite.html' --><!-- end ngRepeat: category in categories --> </ul>   
                 </md-tab-body>    
               </md-content>
             </div><!-- end ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() --> </md-tab-content><!-- end ngIf: tab.hasContent --><!-- end ngRepeat: (index, tab) in $mdTabsCtrl.tabs --><!-- ngIf: tab.hasContent --><md-tab-content id="tab-content-4" class="_md ng-scope md-no-transition md-right md-no-scroll" role="tabpanel" aria-labelledby="tab-item-4" md-swipe-left="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(1)" md-swipe-right="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(-1)" ng-if="tab.hasContent" ng-repeat="(index, tab) in $mdTabsCtrl.tabs" ng-class="{ 'md-no-transition': $mdTabsCtrl.lastSelectedIndex == null, 'md-active':        tab.isActive(), 'md-left':          tab.isLeft(), 'md-right':         tab.isRight(), 'md-no-scroll':     $mdTabsCtrl.dynamicHeight }"> <!-- ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() --><div md-tabs-template="::tab.template" md-connected-if="tab.isActive()" md-scope="::tab.parent" ng-if="$mdTabsCtrl.enableDisconnect || tab.shouldRender()" class="ng-scope ng-isolate-scope">
@@ -1326,7 +1770,7 @@
 <!--                 <h1 class="md-display-2">Disclaimer</h1> -->
                 <md-tab-body layout-padding="true" class="layout-padding">
                             <ul class="navigation_listing">
-                                <!-- ngRepeat: category in ground_observations --> 
+                                <!-- ngRepeat: category in ground_observations --><!-- ngInclude: folder_name_templates+'/template_satellite_aws.html' --><!-- end ngRepeat: category in ground_observations --> 
                             </ul>         
                         </md-tab-body>   
               </md-content>
@@ -1334,7 +1778,7 @@
               <md-content class="md-padding ng-scope _md" style="color:white;">
 <!--                 <h1 class="md-display-2">Credits</h1> -->
                 <md-tab-body layout-padding="true" class="layout-padding">
-                            <ul class="navigation_listing">    <!-- ngRepeat: category in weather_forecast --> 
+                            <ul class="navigation_listing">    <!-- ngRepeat: category in weather_forecast --><!-- ngInclude: folder_name_templates+'/template_weather_forecast.html' --><!-- end ngRepeat: category in weather_forecast --><!-- ngInclude: folder_name_templates+'/template_weather_forecast.html' --><!-- end ngRepeat: category in weather_forecast --><!-- ngInclude: folder_name_templates+'/template_weather_forecast.html' --><!-- end ngRepeat: category in weather_forecast --> 
 
                             </ul>         
                         </md-tab-body> 
@@ -1343,7 +1787,7 @@
               <md-content class="md-padding ng-scope _md" style="color:white;">
 <!--                 <h1 class="md-display-2">Credits</h1> -->
                 <md-tab-body layout-padding="true" class="layout-padding">
-                            <ul class="navigation_listing">    <!-- ngRepeat: category in climatology --> 
+                            <ul class="navigation_listing">    <!-- ngRepeat: category in climatology --><!-- ngInclude: folder_name_templates+'/template_climatology.html' --><!-- end ngRepeat: category in climatology --><!-- ngInclude: folder_name_templates+'/template_climatology.html' --><!-- end ngRepeat: category in climatology --><!-- ngInclude: folder_name_templates+'/template_climatology.html' --><!-- end ngRepeat: category in climatology --> 
 
                             </ul>         
                         </md-tab-body>  
@@ -1352,7 +1796,7 @@
               <md-content class="md-padding ng-scope _md" style="color:white;">
 <!--                 <h1 class="md-display-2">Credits</h1> -->
                 <md-tab-body layout-padding="true" class="layout-padding">
-                    <ul class="navigation_listing">    <!-- ngRepeat: category in anomaly --> 
+                    <ul class="navigation_listing">    <!-- ngRepeat: category in anomaly --><!-- ngInclude: folder_name_templates+'/template_anomaly.html' --><!-- end ngRepeat: category in anomaly --><!-- ngInclude: folder_name_templates+'/template_anomaly.html' --><!-- end ngRepeat: category in anomaly --> 
 
                     </ul>         
                </md-tab-body>  
@@ -1577,7 +2021,22 @@
 
         <div class="iconpanel" style="display:none;">
             <div id="icon_panel_content" ng-class="{class1:checked==1,class2:checked==0}" ng-mouseover="animation_stop()" ng-mouseleave="animation_start()" class="class1">
-                <!-- ngRepeat: item in icon_list -->
+                <!-- ngRepeat: item in icon_list --><div class="iconpanelcontent ng-cloak ng-scope" ng-repeat="item in icon_list">
+                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Wind (Forecast)" style="float:right;">
+                        <img ng-class="{'clickedicon':iconarray.indexOf(item.name) &gt; -1}" id="wind" width="35px" height="32px" ng-src="img/wind.png" class="ng-scope" src="img/wind.png">
+                    </button> 
+                    <label for="windlabel" style="color:white; font-size:18px; font-weight:bold; float: left; " class="ng-binding"></label>
+                </div><!-- end ngRepeat: item in icon_list --><div class="iconpanelcontent ng-cloak ng-scope" ng-repeat="item in icon_list">
+                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Fire &amp; Smoke (Current)" style="float:right;">
+                        <img ng-class="{'clickedicon':iconarray.indexOf(item.name) &gt; -1}" id="fire-smoke" width="35px" height="32px" ng-src="img/fire-smoke-icon_new.png" class="ng-scope" src="img/fire-smoke-icon_new.png">
+                    </button> 
+                    <label for="firesmokelabel" style="color:white; font-size:18px; font-weight:bold; float: left; " class="ng-binding"></label>
+                </div><!-- end ngRepeat: item in icon_list --><div class="iconpanelcontent ng-cloak ng-scope" ng-repeat="item in icon_list">
+                    <button class="md-button md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-click="handleEvent(item)" uib-tooltip="Air Quality Index" style="float:right;">
+                        <img ng-class="{'clickedicon':iconarray.indexOf(item.name) &gt; -1}" id="Air Quality Index" width="35px" height="32px" ng-src="img/acqin_icon.png" class="ng-scope" src="img/acqin_icon.png">
+                    </button> 
+                    <label for="Acqinlabel" style="color:white; font-size:18px; font-weight:bold; float: left; " class="ng-binding"></label>
+                </div><!-- end ngRepeat: item in icon_list -->
             </div>  
 
             <button class="md-button md-ink-ripple ng-not-empty ng-valid" type="button" ng-transclude="" aria-label="Aria Label" value="Slide div" ng-click="slideDiv()" ng-model="checked" aria-invalid="false">

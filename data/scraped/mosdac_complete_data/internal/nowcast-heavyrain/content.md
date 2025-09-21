@@ -1,13 +1,13 @@
 # Heavy Rainfall Alerts over India & Surrounding Regions
 
 **URL:** https://mosdac.gov.in/internal/nowcast-heavyrain
-**Extracted:** 2025-09-15T15:51:40.360854
+**Extracted:** 2025-09-21T12:03:07.194643
 **Quality Score:** 0.550
 
 ![mosdac logo](https://mosdac.gov.in/heavyrain/assets/img/transparent_mosdac_rapid.png)  
 ---  
 Heavy Rainfall Alerts over India & Surrounding Regions   
-HeavyRain Alerts: 15SEP2025 13:15 IST HEM NOWCAST: 15SEP2025 1315 IST |   
+HeavyRain Alerts: IST HEM NOWCAST: 21SEP2025 1045 IST |   
 ---  
   
 
@@ -33,11 +33,6 @@ Airports
 District Roads
 National Highways
 Admin Boundaries
-HeavyRainfall Layers 
-Alerts Areas
-Alert Centroid
-PREVIOUS ALERTS
-Date: 
 Base Layers 
 Selection:-
 Single

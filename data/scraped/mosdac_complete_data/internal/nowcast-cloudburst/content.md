@@ -1,13 +1,13 @@
 # CloudBurst Alerts over Western Himalayan Region
 
 **URL:** https://mosdac.gov.in/internal/nowcast-cloudburst
-**Extracted:** 2025-09-15T15:49:06.599016
+**Extracted:** 2025-09-21T12:03:53.456084
 **Quality Score:** 0.550
 
 ![mosdac logo](https://mosdac.gov.in/cloudburst/assets/img/transparent_mosdac_rapid.png)  
 ---  
 CloudBurst Alerts over Western Himalayan Region   
-Current Forecast: 2025-09-15 12:45 IST |   
+Current Forecast: IST |   
 ---  
   
 
@@ -34,9 +34,6 @@ District Roads
 National Highways
 Taluka Boundaries
 Admin Boundaries
-Cloudburst Layers(Current) 
-Radius Of Influence
-Current Nowcast
 Base Layers 
 Selection:-
 Single

@@ -1,7 +1,7 @@
 # MOSDAC Live
 
 **URL:** https://mosdac.gov.in/internal/varsha
-**Extracted:** 2025-09-15T15:51:33.979155
+**Extracted:** 2025-09-21T12:00:12.640417
 **Quality Score:** 0.700
 
 **X**

@@ -1,8 +1,8 @@
 {
-  "url": "http://mosdac.gov.in/ocean-subsurface",
+  "url": "https://mosdac.gov.in/ocean-subsurface#main-content",
   "title": "Ocean Subsurface | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "http://mosdac.gov.in/ocean-subsurface",
+    "url": "https://mosdac.gov.in/ocean-subsurface#main-content",
     "domain": "mosdac.gov.in",
     "path": "/ocean-subsurface",
     "description": "Satellite data has been used to reconstruct ocean interior density and velocity anomalies in the Bay of Bengal through the “interior + surface Quasigeostrophic” (isQG) method.",
@@ -300,7 +300,7 @@
     }
   ],
   "quality_score": 0.75,
-  "extracted_at": "2025-09-15T15:51:11.738402",
+  "extracted_at": "2025-09-21T12:05:26.214007",
   "content_length": 15098,
   "rag_optimized": true
 }

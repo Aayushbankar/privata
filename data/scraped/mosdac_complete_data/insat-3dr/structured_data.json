@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/insat-3dr",
+  "url": "https://mosdac.gov.in/insat-3dr#top",
   "title": "INSAT-3DR | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/insat-3dr",
+    "url": "https://mosdac.gov.in/insat-3dr#top",
     "domain": "mosdac.gov.in",
     "path": "/insat-3dr",
     "description": "INSAT-3DR is identical to INSAT-3D in terms of Sensors and products. INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue needs of India. Commissioned in 1983, INSAT is the largest domestic communication system in the Asia Pacific",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.6,
-  "extracted_at": "2025-09-15T15:50:39.299571",
+  "extracted_at": "2025-09-21T12:02:50.975183",
   "content_length": 9372,
   "rag_optimized": true
 }

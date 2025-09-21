@@ -1,7 +1,7 @@
 # Events | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** http://mosdac.gov.in/tags/events
-**Extracted:** 2025-09-15T15:49:04.570859
+**Extracted:** 2025-09-21T12:01:58.012740
 **Quality Score:** 0.650
 
 [Skip to main Content](https://mosdac.gov.in/tags/events#main-content "Skip to main Content")
@@ -183,7 +183,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 21 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/tags/events "Previous")[](https://mosdac.gov.in/tags/events "Next")
 [](https://mosdac.gov.in/tags/events)
 [](https://mosdac.gov.in/tags/events "Previous")[](https://mosdac.gov.in/tags/events "Next")

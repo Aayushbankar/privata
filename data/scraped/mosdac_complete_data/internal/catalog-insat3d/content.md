@@ -1,7 +1,7 @@
 # Satellite Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-insat3d
-**Extracted:** 2025-09-15T15:47:03.793005
+**Extracted:** 2025-09-21T12:03:54.172508
 **Quality Score:** 0.470
 
 A- A A+

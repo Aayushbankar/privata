@@ -1,8 +1,8 @@
 {
-  "url": "http://mosdac.gov.in/tags/ocean",
+  "url": "https://mosdac.gov.in/tags/ocean",
   "title": "Ocean | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "http://mosdac.gov.in/tags/ocean",
+    "url": "https://mosdac.gov.in/tags/ocean",
     "domain": "mosdac.gov.in",
     "path": "/tags/ocean",
     "description": "",
@@ -179,7 +179,7 @@
     }
   ],
   "quality_score": 0.6500000000000001,
-  "extracted_at": "2025-09-15T15:50:53.681438",
+  "extracted_at": "2025-09-21T12:05:42.687173",
   "content_length": 11312,
   "rag_optimized": true
 }

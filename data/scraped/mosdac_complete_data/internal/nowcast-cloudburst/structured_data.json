@@ -24,7 +24,7 @@
       ],
       "rows": [
         [
-          "CloudBurst Alerts over Western Himalayan Region\n\nCurrent Forecast: 2025-09-15 12:45 IST",
+          "CloudBurst Alerts over Western Himalayan Region\n\nCurrent Forecast:  IST",
           ""
         ]
       ],
@@ -48,7 +48,7 @@
   ],
   "headings": [],
   "quality_score": 0.55,
-  "extracted_at": "2025-09-15T15:49:06.599016",
-  "content_length": 3865,
+  "extracted_at": "2025-09-21T12:03:53.456084",
+  "content_length": 3784,
   "rag_optimized": true
 }

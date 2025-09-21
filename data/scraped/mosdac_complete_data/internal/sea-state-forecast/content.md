@@ -1,7 +1,7 @@
 # MOSDAC Gallery
 
 **URL:** https://mosdac.gov.in/internal/sea-state-forecast
-**Extracted:** 2025-09-15T15:49:14.646132
+**Extracted:** 2025-09-21T12:02:34.524566
 **Quality Score:** 0.400
 
 ☰

@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/flip-book/demos/wave_atlas.html
-**Extracted:** 2025-09-15T15:50:28.404754
+**Extracted:** 2025-09-21T12:04:52.154324
 **Quality Score:** 0.300
 
 ![](https://mosdac.gov.in/flip-book/demos/wave_atlas/thumb1.jpg)

@@ -24,7 +24,7 @@
       ],
       "rows": [
         [
-          "INSAT3R Intense Heavy Rain Over India\n\nRainfall (mm): 15-SEP-2025 08:15 GMT",
+          "INSAT3R Intense Heavy Rain Over India\n\nRainfall (mm): 21-SEP-2025 05:15 GMT",
           ""
         ]
       ],
@@ -48,7 +48,7 @@
   ],
   "headings": [],
   "quality_score": 0.55,
-  "extracted_at": "2025-09-15T15:49:25.485467",
+  "extracted_at": "2025-09-21T12:02:46.627264",
   "content_length": 2406,
   "rag_optimized": true
 }

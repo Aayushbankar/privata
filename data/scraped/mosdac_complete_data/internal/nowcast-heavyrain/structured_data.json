@@ -24,7 +24,7 @@
       ],
       "rows": [
         [
-          "Heavy Rainfall Alerts over India & Surrounding Regions\n\nHeavyRain Alerts: 15SEP2025 13:15 IST\n\nHEM NOWCAST: 15SEP2025 1315 IST",
+          "Heavy Rainfall Alerts over India & Surrounding Regions\n\nHeavyRain Alerts:  IST\n\nHEM NOWCAST: 21SEP2025 1045 IST",
           ""
         ]
       ],
@@ -50,7 +50,7 @@
   ],
   "headings": [],
   "quality_score": 0.55,
-  "extracted_at": "2025-09-15T15:51:40.360854",
-  "content_length": 4012,
+  "extracted_at": "2025-09-21T12:03:07.194643",
+  "content_length": 3923,
   "rag_optimized": true
 }

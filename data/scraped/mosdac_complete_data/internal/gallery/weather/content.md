@@ -1,21 +1,23 @@
 # MOSDAC Gallery
 
 **URL:** https://mosdac.gov.in/internal/gallery/weather
-**Extracted:** 2025-09-15T15:49:33.199487
-**Quality Score:** 0.400
+**Extracted:** 2025-09-21T12:05:10.260819
+**Quality Score:** 0.500
 
 ☰
+Sun Sep 21 2025 05:30:00 (India Standard Time)
 ×
 ![](https://mosdac.gov.in/gallery/icons/mgallery.png)
-Satellite/Forecast
-Sensor/Model
-Product Type
-Product
+Satellite/Forecast WEATHER FORECAST CONTRAIL FORECAST
+Sensor/Model WRF
+Product Type 5 km
+Product Temperature Relative Humidity Cloud Wind(Surface) Wind(850 hpa) Wind(700 hpa) Wind(500 hpa) Wind(200 hpa) Rain(24 hourly) Rain(3 hourly) Discomfort Index Wind Chill Temperature Ahmedabad Temperature
 AutoLoad 15mins.
 [ __ ](https://mosdac.gov.in/gallery/index.html?ds=weather)
 + -
-0 NaN NaN
-
+![](https://mosdac.gov.in/look/WRF/gallery/2025/21SEP/WRF5K_21SEP2025_0000_TEMP.tif)
+21-09-2025_05:30 24-09-2025_05:30 21-09-2025_05:30
+  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   * 
 
 [ « ](https://mosdac.gov.in/gallery/index.html?ds=weather) [ ▹ ](https://mosdac.gov.in/gallery/index.html?ds=weather) [ ‖ ](https://mosdac.gov.in/gallery/index.html?ds=weather) [ » ](https://mosdac.gov.in/gallery/index.html?ds=weather)
 10

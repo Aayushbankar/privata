@@ -781,7 +781,7 @@
 				
 <!-- 				<label id="layer_manager_label">Layer Manager</label> -->	<!-- Updated By Jay On 06JAN2020 -->
 
-				<div id="layer_manager_label" class="scrollbar" style="display: none;">
+				<div id="layer_manager_label" class="scrollbar" style="display: block;">
 					<table>
 						<tbody><!-- ngRepeat: layer in layers | orderBy:'$index':true --><tr ng-repeat="layer in layers | orderBy:'$index':true" class="ng-scope">
 <!--							<td ng-if="layer.data_type=='satellite'">	-->
@@ -878,7 +878,7 @@
 		      <md-dialog layout-padding="" class="layout-padding _md">
 <!-- 		        <h2>Pre-Rendered Dialog</h2> -->
 		        <div>
-                        <input type="text" class="datepicker ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty ng-valid-required ng-valid-date hasDatepicker" style="display: none;" uib-datepicker-popup="" ng-model="date_main" is-open="datepickers.dt" datepicker-options="dateOptionsDt" ng-change="addLayers(false)" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" readonly="" required="required" aria-invalid="false" id="dp1757931382880"><div uib-datepicker-popup-wrap="" ng-model="date" ng-model-options="ngModelOptions" ng-change="dateSelection(date)" template-url="uib/template/datepicker/popup.html" class="ng-not-empty ng-valid" aria-invalid="false">
+                        <input type="text" class="datepicker ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty ng-valid-required ng-valid-date hasDatepicker" style="display: none;" uib-datepicker-popup="" ng-model="date_main" is-open="datepickers.dt" datepicker-options="dateOptionsDt" ng-change="addLayers(false)" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" readonly="" required="required" aria-invalid="false" id="dp1758436271121"><div uib-datepicker-popup-wrap="" ng-model="date" ng-model-options="ngModelOptions" ng-change="dateSelection(date)" template-url="uib/template/datepicker/popup.html" class="ng-not-empty ng-valid" aria-invalid="false">
   <!-- ngIf: isOpen -->
 </div>     
                 </div>

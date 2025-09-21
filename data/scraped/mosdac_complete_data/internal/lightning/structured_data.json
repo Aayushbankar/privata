@@ -17,8 +17,8 @@
   },
   "tables": [],
   "headings": [],
-  "quality_score": 0.2,
-  "extracted_at": "2025-09-15T15:49:08.913909",
-  "content_length": 222,
+  "quality_score": 0.30000000000000004,
+  "extracted_at": "2025-09-21T12:03:34.992346",
+  "content_length": 577,
   "rag_optimized": true
 }

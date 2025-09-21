@@ -103,26 +103,18 @@
 			<div id="showData">
 				<div id="main_table" ng-show="maintable" aria-hidden="false" class="" style="">
 					<!-- Start satelite data and standing data tables -->
-					<table id="tabledata" class="table display responsive table-striped table-bordered ng-isolate-scope no-footer dtr-inline" datatable="ng" dt-options="dtOptions" style="" aria-describedby="tabledata_info">
+					<div id="tabledata_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="tabledata_length"><label>Show <select name="tabledata_length" aria-controls="tabledata" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="tabledata_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="tabledata"></label></div><table id="tabledata" class="table display responsive table-striped table-bordered ng-isolate-scope no-footer dtr-inline dataTable collapsed" datatable="ng" dt-options="dtOptions" style="width: 970px;" aria-describedby="tabledata_info">
 						<thead style="background: #337ab7; color: white; text-align: left; vertical-align: center" class="ng-scope">
-							<tr>
-								<th class="all" style="width: 50px">Sr.No</th>
-								<th class="all" style="width: 150px; white-space: nowrap;">Product
+							<tr><th class="all sorting sorting_asc" style="width: 50px;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Sr.No: activate to sort column descending">Sr.No</th><th class="all sorting" style="width: 150px; white-space: nowrap;" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Product
+									/Acq Calendar/Version
+								: activate to sort column ascending">Product
 									/<br>Acq Calendar/Version
-								</th>
-								<th class="all">Product Description</th>
-								<th style="width: 50px">Processing Level</th>
-								<th style="width: 80px">Temporal Resolution</th>
-								<th style="width: 50px">Start Date</th>
-								<th style="width: 50px">End Date</th>
-								<th>Processing Status</th>
-								<th>DOI</th>
-
-							</tr>
+								</th><th class="all sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 121px;" aria-label="Product Description: activate to sort column ascending">Product Description</th><th style="width: 76px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Processing Level: activate to sort column ascending">Processing Level</th><th style="width: 80px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Temporal Resolution: activate to sort column ascending">Temporal Resolution</th><th style="width: 50px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="Start Date: activate to sort column ascending">Start Date</th><th style="width: 50px;" class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" aria-label="End Date: activate to sort column ascending">End Date</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 81px;" aria-label="Processing Status: activate to sort column ascending">Processing Status</th><th class="sorting" tabindex="0" aria-controls="tabledata" rowspan="1" colspan="1" style="width: 0px; display: none;" aria-label="DOI: activate to sort column ascending">DOI</th></tr>
 						</thead>
 						<tbody class="ng-scope">
-							<!-- ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope" style="">
-								<td class="ng-binding">1</td>
+							<!-- ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList --><!-- end ngRepeat: allproduct in AllProductList -->
+						<tr ng-repeat="allproduct in AllProductList" class="ng-scope odd" style="">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">1</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
 								<td><b class="ng-binding">SRLGPN</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
@@ -133,9 +125,9 @@
 								<td class="ng-binding">2019-10-07</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPN" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPN">10.19038/SAC/10/SRLGPN</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">2</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPN" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPN">10.19038/SAC/10/SRLGPN</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">2</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
 								<td><b class="ng-binding">SRLGPN_F</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
@@ -146,9 +138,9 @@
 								<td class="ng-binding">2025-07-07</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPN" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPN">10.19038/SAC/10/SRLGPN</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">3</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPN" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPN">10.19038/SAC/10/SRLGPN</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">3</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
 								<td><b class="ng-binding">SRLGPR</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
@@ -159,9 +151,9 @@
 								<td class="ng-binding">2018-10-22</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPR">10.19038/SAC/10/SRLGPR</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">4</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPR">10.19038/SAC/10/SRLGPR</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">4</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
 								<td><b class="ng-binding">SRLGPR_F</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
@@ -172,9 +164,9 @@
 								<td class="ng-binding">2025-07-07</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPR">10.19038/SAC/10/SRLGPR</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">5</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPR">10.19038/SAC/10/SRLGPR</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">5</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
 								<td><b class="ng-binding">SRLGPS</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
@@ -185,9 +177,9 @@
 								<td class="ng-binding">2019-06-24</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPS" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPS">10.19038/SAC/10/SRLGPS</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">6</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPS" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPS">10.19038/SAC/10/SRLGPS</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">6</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
 								<td><b class="ng-binding">SRLGPS_F</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
@@ -198,9 +190,9 @@
 								<td class="ng-binding">2025-07-07</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPS" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPS">10.19038/SAC/10/SRLGPS</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">7</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLGPS" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLGPS">10.19038/SAC/10/SRLGPS</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">7</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
 								<td><b class="ng-binding">SRLIPN</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
@@ -211,9 +203,9 @@
 								<td class="ng-binding">2020-03-07</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLIPN" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLIPN">10.19038/SAC/10/SRLIPN</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">8</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLIPN" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLIPN">10.19038/SAC/10/SRLIPN</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">8</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
 								<td><b class="ng-binding">SRLIPN_F</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
@@ -221,12 +213,12 @@
 								<td class="ng-binding">L2</td>
 								<td class="ng-binding">3 DAYS</td>
 								<td class="ng-binding">2020-02-08</td>
-								<td class="ng-binding">2025-09-13</td>
+								<td class="ng-binding">2025-09-19</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLIPN" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLIPN">10.19038/SAC/10/SRLIPN</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">9</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLIPN" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLIPN">10.19038/SAC/10/SRLIPN</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope odd">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">9</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
 								<td><b class="ng-binding">SRLIPR</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
@@ -237,9 +229,9 @@
 								<td class="ng-binding">2020-03-06</td>
 								<!-- ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLIPR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLIPR">10.19038/SAC/10/SRLIPR</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">10</td>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLIPR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLIPR">10.19038/SAC/10/SRLIPR</a></td>
+							</tr><tr ng-repeat="allproduct in AllProductList" class="ng-scope even">
+								<td class="ng-binding dtr-control sorting_1" tabindex="0">10</td>
 								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
 								<!-- Commented By Jay On 14MAR2022 -->
 								<td><b class="ng-binding">SRLIPR_F</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
@@ -247,94 +239,15 @@
 								<td class="ng-binding">L2</td>
 								<td class="ng-binding">3 DAYS</td>
 								<td class="ng-binding">2020-02-06</td>
-								<td class="ng-binding">2025-09-13</td>
+								<td class="ng-binding">2025-09-19</td>
 								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
 								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLIPR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLIPR">10.19038/SAC/10/SRLIPR</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">11</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">SRLIPS</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Interim Geo physical data record, Sensor product</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">3 DAYS</td>
-								<td class="ng-binding">2013-03-12</td>
-								<td class="ng-binding">2020-01-19</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLIPS" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLIPS">10.19038/SAC/10/SRLIPS</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">12</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">SRLIPS_F</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Interim Geo physical data record, Sensor product</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">3 DAYS</td>
-								<td class="ng-binding">2020-06-14</td>
-								<td class="ng-binding">2025-09-13</td>
-								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLIPS" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLIPS">10.19038/SAC/10/SRLIPS</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">13</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">SRLOPN</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Near Real Time- Native product generated after every 100 minutes</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">100 MINUTES</td>
-								<td class="ng-binding">2013-03-19</td>
-								<td class="ng-binding">2020-03-08</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLOPN" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLOPN">10.19038/SAC/10/SRLOPN</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">14</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">SRLOPN_F</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Near Real Time- Native product generated after every 100 minutes</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">100 MINUTES</td>
-								<td class="ng-binding">2020-02-26</td>
-								<td class="ng-binding">2025-09-15</td>
-								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLOPN" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLOPN">10.19038/SAC/10/SRLOPN</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">15</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">SRLOPR</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Near Real Time- Reduced level2 product generated after every 100 minutes</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">100 MINUTES</td>
-								<td class="ng-binding">2013-03-19</td>
-								<td class="ng-binding">2020-03-08</td>
-								<!-- ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' --><td ng-if="allproduct.actv != 'Active'" style="color: red; font-weight: bold;" class="ng-binding ng-scope">In-Active</td><!-- end ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLOPR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLOPR">10.19038/SAC/10/SRLOPR</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList --><tr ng-repeat="allproduct in AllProductList" class="ng-scope">
-								<td class="ng-binding">16</td>
-								<!-- td><b>{{allproduct.name}}</b><br> <md-icon  ng-click="addItem(allproduct.enddate,allproduct.id)"  class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg"-->
-								<!-- Commented By Jay On 14MAR2022 -->
-								<td><b class="ng-binding">SRLOPR_F</b><br> <md-icon ng-click="addItem(allproduct.enddate,allproduct.id,allproduct)" title="Acquisition Calendar" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/calendar-w.svg" role="button" tabindex="0"></md-icon> <md-icon title="Version Information" ng-click="versioninfo(allproduct.id,allproduct.name)" class="md-datepicker-calendar-icon set-svg ng-scope" md-svg-icon="icons/info.svg" role="button" tabindex="0"></md-icon></td>
-								<td class="ng-binding">Near Real Time- Reduced level2 product generated after every 100 minutes</td>
-								<td class="ng-binding">L2</td>
-								<td class="ng-binding">100 MINUTES</td>
-								<td class="ng-binding">2020-02-26</td>
-								<td class="ng-binding">2025-09-15</td>
-								<!-- ngIf: allproduct.actv == 'Active' --><td ng-if="allproduct.actv == 'Active'" style="color: green; font-weight: bold;" class="ng-binding ng-scope">Active</td><!-- end ngIf: allproduct.actv == 'Active' -->
-								<!-- ngIf: allproduct.actv != 'Active' -->
-								<td><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLOPR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLOPR">10.19038/SAC/10/SRLOPR</a></td>
-							</tr><!-- end ngRepeat: allproduct in AllProductList -->
-						</tbody>
-					</table><h3 class="dt-loading" style="display: none;">Loading...</h3>
+								<td style="display: none;"><a ng-href="https://dx.doi.org/10.19038/SAC/10/SRLIPR" target="_blank" class="ng-binding" href="https://dx.doi.org/10.19038/SAC/10/SRLIPR">10.19038/SAC/10/SRLIPR</a></td>
+							</tr></tbody>
+					</table><div class="dataTables_info" id="tabledata_info" role="status" aria-live="polite">Showing 1 to 10 of 16 entries</div><div class="dataTables_paginate paging_simple_numbers" id="tabledata_paginate"><a class="paginate_button previous disabled" aria-controls="tabledata" data-dt-idx="0" tabindex="-1" id="tabledata_previous">Previous</a><span><a class="paginate_button current" aria-controls="tabledata" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="tabledata" data-dt-idx="2" tabindex="0">2</a></span><a class="paginate_button next" aria-controls="tabledata" data-dt-idx="3" tabindex="0" id="tabledata_next">Next</a></div></div><h3 class="dt-loading" style="display: none;">Loading...</h3>
 
 					<div id="wrapper">
-						<div class="spinner-wrapper" id="loading4" style="margin-right: auto; opacity: 0.999985;">
+						<div class="spinner-wrapper" id="loading4" style="margin-right: auto; opacity: 0.833591;">
 							<div class="spinner"></div>
 							<div class="spinner">
 								<div class="rect1"></div>

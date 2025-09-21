@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/flip-book/demos/moon.html
-**Extracted:** 2025-09-15T15:50:20.109670
+**Extracted:** 2025-09-21T12:01:16.513345
 **Quality Score:** 0.300
 
 ![](https://mosdac.gov.in/flip-book/demos/Moon_English/thumb/Page4.jpg)

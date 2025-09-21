@@ -1,22 +1,53 @@
 # MOSDAC Live
 
 **URL:** https://mosdac.gov.in/internal/urja
-**Extracted:** 2025-09-15T15:47:20.616371
-**Quality Score:** 0.600
+**Extracted:** 2025-09-21T12:04:11.578882
+**Quality Score:** 0.700
 
 **X**
 Enter Keyword |  |  Search  
 ---|---|---  
 [](https://mosdac.gov.in/live/index_one.php?url_name=urja)
-|  |  |  local |  3D  
----|---|---|---|---  
+[](https://mosdac.gov.in/live/index_one.php?url_name=urja)
++−
+⇧
+  * [![](https://mosdac.gov.in/live/index_one.php?url_name=urja)](https://openlayers.org/)
+
+i
+⤢
+500 km  
+|  |  local |  3D  
 **X**
 -->
 Overlay Layers 
+Vector Layers
+Admin Boundaries
+National Highways
+District Roads
+Airports
+Railway Tracks
+District Population
+Rivers
+Ports
+Cyclone Risk Map
+Landslide Risk Map
+Fire Risk Map
+Land Slide
 Layers
-Base Layer  
+True Marble
+|   
+---|---  
+|   
+---|---  
+|   
+Base Layer
+![](https://mosdac.gov.in/live/img/wind.png) |  ![](https://mosdac.gov.in/live/img/fire-smoke-icon_new.png) |  ![](https://mosdac.gov.in/live/img/acqin_icon.png)  
+---|---|---  
+|  |   
 ![](https://mosdac.gov.in/live/img/location-icon.png) |  |  ![](https://mosdac.gov.in/live/img/rss-icon.png) |  ![](https://mosdac.gov.in/live/img/area-icon-small.png) |  ![](https://mosdac.gov.in/live/img/distance-icon-small.png) |  ![](https://mosdac.gov.in/live/img/graticule-icon-small.png)  
 ---|---|---|---|---|---  
+Greyscale Redblue Rainbow SST_36 Ferret NHC Greyscale Redblue Rainbow SST_36 Ferret NHC  
+---  
 ---  
 ![](https://mosdac.gov.in/live/img/point_icon.png) |  ![](https://mosdac.gov.in/live/img/time_series_c.png) |  ![](https://mosdac.gov.in/live/img/t-phi.png) |  |   
 ---|---|---|---|---  
@@ -28,8 +59,6 @@ Base Layer
 Start   
 Quick Layers | Tools | Animation | Analysis | Legends  
 ---|---|---|---|---  
-[](https://mosdac.gov.in/live/index_one.php?url_name=urja)
-[](https://mosdac.gov.in/live/index_one.php?url_name=urja)
 AboutDisclaimerCredits AboutDisclaimerCredits
 MOSDAC-LIVE is a web enabled data and Information visualization and analysis system of MOSDAC, SAC/ISRO. LIVE provides access to Satellite Data Products and Information products derived from Satellite and model forecast in near real time basis.
 The information contained in this website is currently a Beta site under development. Some of the information, layers may not have been completely validated. This information is to be used along with other reliable data sources for interpretation and derivation of weather and oceanographic events. 
@@ -75,6 +104,9 @@ IntensitySurgeCenterTrackLandfallInundationCyclone Centric ImagesShip Avoidance 
 ![](https://mosdac.gov.in/img/cyclone.png)
 ![](https://mosdac.gov.in/img/cyclone.png)
 Close
+![](https://mosdac.gov.in/live/img/wind.png)
+![](https://mosdac.gov.in/live/img/fire-smoke-icon_new.png)
+![](https://mosdac.gov.in/live/img/acqin_icon.png)
 ![](https://mosdac.gov.in/live/img/transparent_mosdac_rapid.png) |  URJA |   
 ---|---|---  
 Click on icon to collapse

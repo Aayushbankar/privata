@@ -1,7 +1,7 @@
 # 
 
 **URL:** https://mosdac.gov.in/flip-book/demos/polar_science.html
-**Extracted:** 2025-09-15T15:44:43.864952
+**Extracted:** 2025-09-21T12:05:00.133403
 **Quality Score:** 0.300
 
 ![](https://mosdac.gov.in/flip-book/demos/Atlas_of_Sea_Ice_Trends/thumb/Page1.jpg)

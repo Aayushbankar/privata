@@ -1,7 +1,7 @@
 # Cold Wave Forecast
 
 **URL:** https://mosdac.gov.in/internal/coldwave
-**Extracted:** 2025-09-15T15:49:27.959515
+**Extracted:** 2025-09-21T12:02:46.746549
 **Quality Score:** 0.200
 
 ![](https://mosdac.gov.in/common_forecast/assets/img/transparent_mosdac_rapid.png) Cold Wave Forecast

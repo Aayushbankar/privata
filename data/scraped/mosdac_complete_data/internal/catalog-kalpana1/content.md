@@ -1,7 +1,7 @@
 # Satellite Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-kalpana1
-**Extracted:** 2025-09-15T15:50:10.449796
+**Extracted:** 2025-09-21T12:01:51.227031
 **Quality Score:** 0.470
 
 A- A A+

@@ -1,7 +1,7 @@
 # SARAL-AltiKa Objectives | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/saral-altika-objectives
-**Extracted:** 2025-09-15T15:51:46.334142
+**Extracted:** 2025-09-21T12:00:19.561213
 **Quality Score:** 0.600
 
 [Skip to main Content](https://mosdac.gov.in/saral-altika-objectives#main-content "Skip to main Content")
@@ -131,7 +131,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 21 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/saral-altika-objectives "Previous")[](https://mosdac.gov.in/saral-altika-objectives "Next")
 [](https://mosdac.gov.in/saral-altika-objectives)
 [](https://mosdac.gov.in/saral-altika-objectives "Previous")[](https://mosdac.gov.in/saral-altika-objectives "Next")

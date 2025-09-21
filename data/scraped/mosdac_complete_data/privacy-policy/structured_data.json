@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/privacy-policy",
+  "url": "http://mosdac.gov.in/privacy-policy",
   "title": "Privacy Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/privacy-policy",
+    "url": "http://mosdac.gov.in/privacy-policy",
     "domain": "mosdac.gov.in",
     "path": "/privacy-policy",
     "description": "This Policy outlines the types of information we gather about you and how we use it. We understand that your personal information is very sensitive, and protecting the privacy of this information is a top priority for us. All the information collected by this site will be kept strictly confidential.",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.6,
-  "extracted_at": "2025-09-15T15:51:24.768750",
+  "extracted_at": "2025-09-21T12:02:53.051234",
   "content_length": 8627,
   "rag_optimized": true
 }

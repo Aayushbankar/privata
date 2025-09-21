@@ -1,20 +1,16 @@
 # Alerts & Forewarning
 
 **URL:** https://mosdac.gov.in/internal/state
-**Extracted:** 2025-09-15T15:45:37.411774
+**Extracted:** 2025-09-21T12:01:59.048275
 **Quality Score:** 0.490
 
+**Usage Guide** Just now
+Click on MAP to get weather forecast for a location or choose a city from side menu
 ![](https://mosdac.gov.in/afs/static/media/MOSDAC_banner.44c7af18.png)Alerts & Forewarning
 Indian States
 All INDIA Andaman and Nicobar Islands Andhra Pradesh Arunachal Pradesh Assam Bihar Chandigarh Chhattisgarh Dadra and Nagar Haveli Daman and Diu Delhi Goa Gujarat Haryana Himachal Pradesh Jammu and Kashmir Jharkhand Karnataka Kerala Lakshadweep Ladakh Madhya Pradesh Maharashtra Manipur Meghalaya Mizoram Nagaland Odisha Puducherry Punjab Rajasthan Sikkim Tamil Nadu Telangana Tripura Uttarakhand Uttar Pradesh West Bengal
 Active AlertsAll Alerts
 Alerts India
-HeavyRain  
-15-09-2025 13:15:00 IST
-CloudBurst  
-15-09-2025 05:45:00 IST
-Cyclone  
-NO-DATA
 ## Base Layers
 Bhuvan  
 OSM  

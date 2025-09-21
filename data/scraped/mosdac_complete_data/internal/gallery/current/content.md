@@ -1,11 +1,11 @@
 # MOSDAC Gallery
 
 **URL:** https://mosdac.gov.in/internal/gallery/current
-**Extracted:** 2025-09-15T15:46:58.887976
+**Extracted:** 2025-09-21T12:03:14.569891
 **Quality Score:** 0.400
 
 ☰
-Sun Sep 07 2025 05:30:00 (India Standard Time)
+Mon Sep 08 2025 05:30:00 (India Standard Time)
 ×
 ![](https://mosdac.gov.in/gallery/icons/mgallery.png)
 Satellite/Forecast OCEAN SURFACE CURRENT
@@ -15,8 +15,8 @@ Product Indian Ocean Bay of Bengal Arabian Sea Pacific Ocean Atlantic Ocean Glob
 AutoLoad 15mins.
 [ __ ](https://mosdac.gov.in/gallery/index.html?ds=current)
 + -
-![](https://mosdac.gov.in/look/SCATCURRENT/gallery/2025/07SEP/E6CUR_07SEP2025_0000_NIO.gif)
-07-09-2025_05:30 14-09-2025_05:30 07-09-2025_05:30
+![](https://mosdac.gov.in/look/SCATCURRENT/gallery/2025/08SEP/E6CUR_08SEP2025_0000_NIO.gif)
+08-09-2025_05:30 15-09-2025_05:30 08-09-2025_05:30
   *   *   *   *   *   *   *   * 
 
 [ « ](https://mosdac.gov.in/gallery/index.html?ds=current) [ ▹ ](https://mosdac.gov.in/gallery/index.html?ds=current) [ ‖ ](https://mosdac.gov.in/gallery/index.html?ds=current) [ » ](https://mosdac.gov.in/gallery/index.html?ds=current)

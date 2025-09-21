@@ -1,6 +1,6 @@
 {
   "url": "https://mosdac.gov.in/internal/monsoon",
-  "title": "",
+  "title": "Monsoon Prediction 2024",
   "metadata": {
     "url": "https://mosdac.gov.in/internal/monsoon",
     "domain": "mosdac.gov.in",
@@ -24,17 +24,33 @@
       ],
       "rows": [
         [
-          "",
+          "Monsoon Prediction 2024",
           ""
         ]
       ],
       "row_count": 1,
       "col_count": 1
+    },
+    {
+      "index": 5,
+      "caption": "",
+      "headers": [
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "row_count": 1,
+      "col_count": 2
     }
   ],
   "headings": [],
-  "quality_score": 0.39999999999999997,
-  "extracted_at": "2025-09-15T15:51:08.283612",
-  "content_length": 1005,
+  "quality_score": 0.55,
+  "extracted_at": "2025-09-21T12:04:45.592528",
+  "content_length": 1759,
   "rag_optimized": true
 }

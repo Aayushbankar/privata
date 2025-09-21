@@ -1,8 +1,8 @@
 {
-  "url": "http://mosdac.gov.in/contact-us",
+  "url": "https://mosdac.gov.in/contact-us",
   "title": "Contact | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "http://mosdac.gov.in/contact-us",
+    "url": "https://mosdac.gov.in/contact-us",
     "domain": "mosdac.gov.in",
     "path": "/contact-us",
     "description": "Space Applications Centre (SAC) is an ISRO Centre located at Ahmedabad, dealing with a wide variety of themes from satellite payload development, operational data reception and processing to societal applications. SAC is responsible for the development, realization and qualification of communication, navigation, earth observation and planetary payloads and related data",
@@ -67,7 +67,7 @@
     }
   ],
   "quality_score": 0.6,
-  "extracted_at": "2025-09-15T15:48:23.138378",
+  "extracted_at": "2025-09-21T12:03:40.966688",
   "content_length": 8548,
   "rag_optimized": true
 }

@@ -1,7 +1,7 @@
 # Radar Catalog
 
 **URL:** https://mosdac.gov.in/internal/catalog-radar
-**Extracted:** 2025-09-15T15:48:38.041521
+**Extracted:** 2025-09-21T12:01:56.020989
 **Quality Score:** 0.470
 
 A- A A+
@@ -20,9 +20,10 @@ Search:
 Sr.No | Product /  
 Acq Calendar | Product Description | Processing Level | Temporal Resolution | Start Date | End Date | Processing Status | DOI  
 ---|---|---|---|---|---|---|---|---  
-No data available in table  
-Showing 0 to 0 of 0 entries
-PreviousNext
+1 |  **RSCHR_L2B_STD**  
+| DWR Data for Cheerapunji | L2B | 10 MINUTES | 2016-05-20 | 2022-11-05 | Active | [](https://dx.doi.org/)  
+Showing 1 to 1 of 1 entries
+Previous1Next
 ### Loading...
 [Feedback](https://mosdac.gov.in/mosdac-feedback)
 [About Us](https://mosdac.gov.in/about-us)

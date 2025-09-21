@@ -98,9 +98,9 @@
 	                <td calss="application-name">
 	    	            <label class="title ng-binding">Heavy Rainfall Alerts over India &amp; Surrounding Regions</label>
 	    	            <br>
-	    	              <!-- ngIf: latest_date2==datetime2 --><lable ng-if="latest_date2==datetime2" class="title ng-binding ng-scope" id="alert1">HeavyRain Alerts: 15SEP2025 13:15 IST</lable><!-- end ngIf: latest_date2==datetime2 -->
+	    	              <!-- ngIf: latest_date2==datetime2 --><lable ng-if="latest_date2==datetime2" class="title ng-binding ng-scope" id="alert1">HeavyRain Alerts:  IST</lable><!-- end ngIf: latest_date2==datetime2 -->
 	    	            <!-- ngIf: latest_date2!=datetime2 --> 
-	    	           <!-- ngIf: latest_date1==datetime1 --><lable ng-if="latest_date1==datetime1" class="title ng-binding ng-scope" id="hem1">HEM NOWCAST: 15SEP2025 1315 IST</lable><!-- end ngIf: latest_date1==datetime1 -->
+	    	           <!-- ngIf: latest_date1==datetime1 --><lable ng-if="latest_date1==datetime1" class="title ng-binding ng-scope" id="hem1">HEM NOWCAST: 21SEP2025 1045 IST</lable><!-- end ngIf: latest_date1==datetime1 -->
 	    	            <!-- ngIf: latest_date1!=datetime1 -->
 	    	           
 	                </td>
@@ -611,101 +611,6 @@
 	        	
 	    		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" style=""><!-- | orderBy:propertyName:reverse -->
 	    			<div class="layer-display ng-scope ng-binding">
-	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed();removeLayer();layerchange();" class="layer-title-checkbox md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="HeavyRainfall Layers" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
-	        			HeavyRainfall Layers	        		
-	        				
-	        				        			
-	        			<span ng-show="layergrps.values_.visible" aria-hidden="false">
-							<!-- ngIf: layergrps.values_.extraparams.collapsable --><button class="collapse-btn md-button ng-scope md-ink-ripple" type="button" ng-transclude="" aria-label="Aria Label" ng-if="layergrps.values_.extraparams.collapsable" ng-click="map.collapseLayers(layergrps)">    
-	                    		<!--md-icon md-svg-src="img/ic_delete_black_24px.svg"></md-icon-->
-	                    		<!-- ngIf: !layergrps.values_.extraparams.collapsestate --><i ng-if="!layergrps.values_.extraparams.collapsestate" class="fa fa-angle-double-up collapseBtn" ng-click="layergrps.values_.extraparams.collapsestate=!layergrps.values_.extraparams.collapsestate" role="button" tabindex="0"></i><!-- end ngIf: !layergrps.values_.extraparams.collapsestate -->
-	                    		<!-- ngIf: layergrps.values_.extraparams.collapsestate -->
-	                    	</button><!-- end ngIf: layergrps.values_.extraparams.collapsable -->
-	        			
-	        				<!-- ngIf: layergrps.values_.extraparams.reset -->
-	                    
-	        				<!-- ngIf: layergrps.values_.extraparams.delete -->
-	                    
-	                    	<!-- ngIf: layergrps.values_.extraparams.slider --><!-- ng-change=layergrps.setOpacity(layergrps.values_.opacity); Can Be Used -->
-	        			</span>
-	    			</div>
-	    			<div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" class="selection-div" ng-class="{'selection-margin':layergrps.values_.title=='Layers'}" aria-hidden="false">
-	    				<!-- ngIf: layergrps.values_.extraparams.radioSelect -->
-	    			</div>
-	        		<!-- ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="false">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox ng-if="layers.values_.extraparams.checkbox" aria-label="Aria Label" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used --> <!-- ng-if="layers.values_.extraparams.checkbox" -->
-	        				<!-- md-checkbox ng-if="((layers.values_.title == 'Current Nowcast') && layers.values_.extraparams.checkbox)" aria-label="Aria Label" ng-model="nowcastVisibility" flex="80" ng-click="nowcastLayerVisibilityToggle()"></md-checkbox--><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Alerts Areas</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            		<span ng-show="layers.values_.visible" aria-hidden="false">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	 
-	                    	 <!-- ngIf: layers.values_.title == 'HEM NOWCAST' -->
-		                   
-		                   <!-- ngIf: layers.values_.title == 'Alert Centroid' -->
-		                   
-	                   
-	            		</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --><div ng-show="layergrps.values_.visible &amp;&amp; !layergrps.values_.extraparams.collapsestate" ng-repeat="layers in layergrps.getLayers().array_" class="color-text ng-scope" ng-class="{'layers-div':layergrps.values_.title=='Layers'}" aria-hidden="false">
-	        			<!-- ngIf: layers.values_.extraparams.sidepanelEntry --><div ng-if="layers.values_.extraparams.sidepanelEntry" class="ng-scope">
-	        				<!-- ngIf: layers.values_.extraparams.checkbox --><md-checkbox ng-if="layers.values_.extraparams.checkbox" aria-label="Aria Label" ng-model="layers.values_.visible" flex="80" ng-click="layers.getSource().changed(); radioSelectCallFunc(layergrps,layers)" tabindex="0" type="checkbox" role="checkbox" class="md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layers.values_.extraparams.checkbox --><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used --> <!-- ng-if="layers.values_.extraparams.checkbox" -->
-	        				<!-- md-checkbox ng-if="((layers.values_.title == 'Current Nowcast') && layers.values_.extraparams.checkbox)" aria-label="Aria Label" ng-model="nowcastVisibility" flex="80" ng-click="nowcastLayerVisibilityToggle()"></md-checkbox--><!-- ng-change=layers.setVisible(layers.values_.visible); Can Be Used -->
-	            			<!-- {{layers.values_.title}}  -->
-	            			<span ng-show="!layers.values_.extraparams.multipleband" class="ng-binding" aria-hidden="false">Alert Centroid</span>
-	            			<select aria-label="Aria Label" class="select-font-box-style select-band-width ng-pristine ng-untouched ng-valid ng-empty ng-hide" ng-show="layers.values_.extraparams.multipleband" ng-model="layers.values_.extraparams.selectedband" ng-change="updateSelectedLayerBand(layers)" ng-options="option.displayname for option in layers.values_.extraparams.bands.list" aria-invalid="false" aria-hidden="true"><option value="?" selected="selected"></option></select>
-	            			
-	            		<span ng-show="layers.values_.visible" aria-hidden="false">
-	            				<!-- ngIf: layers.values_.extraparams.delete -->
-	                    	
-	                    		<!-- ngIf: layers.values_.extraparams.slider --><input flex="20" type="range" min="0" max="1" step="0.01" ng-if="layers.values_.extraparams.slider" ng-model="layers.values_.opacity" ng-change="layers.getSource().changed()" uib-tooltip="Layer Opacity" class="ng-pristine ng-untouched ng-valid slider-bar ng-scope ng-not-empty ng-valid-min ng-valid-max ng-valid-step flex-20" aria-invalid="false" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1"><!-- end ngIf: layers.values_.extraparams.slider --><!-- ng-change=layers.setOpacity(layers.values_.opacity); Can Be Used -->
-	                    	 
-	                    	 <!-- ngIf: layers.values_.title == 'HEM NOWCAST' -->
-		                   
-		                   <!-- ngIf: layers.values_.title == 'Alert Centroid' --><div ng-if="layers.values_.title == 'Alert Centroid'" class="ng-scope">
-		                   	<md-content layout-padding="" layout="column" class="md_content_custom layout-padding _md layout-column" style="border: 0.5px solid #ccc;border-radius: 12px;">
-			
-			<lable style="font-size: 16px;color: rgba(33, 189, 255, 0.87);margin-top: -14px; font-weight: bold; margin-left: 23px;">PREVIOUS ALERTS</lable>
-			
-			
-			   <md-input-container style="margin-left: -8px;margin-top: -59px;" class="md-auto-horizontal-margin md-input-has-placeholder _md-datepicker-floating-label _md-datepicker-has-calendar-icon">
-			   
-				   <div class="input-group layout-row" layout="row" style="margin-top: 75px;">
-					    <label style="color:white;font-size:x-large;font-weight: bolder;left: -4px;" for="sdate"> Date: </label>
-                <md-datepicker ng-model="start_date" md-placeholder="Enter Date" md-max-date="maxDate" md-date-filter="dateFilter" ng-change="gettime(start_date)" md-open-on-focus="" id="sdate" style="width: 158px; text-transform: capitalize; margin-left: 50px; margin-top: -35px; font-style: normal; " class="ng-pristine ng-untouched ng-valid _md-datepicker-has-triangle-icon ng-isolate-scope ng-empty ng-valid-maxdate-add ng-valid-filtered-add ng-valid-valid-add" tabindex="-1" aria-owns="md-date-pane-11" type="date" aria-invalid="false" data-ng-animate="1"><button class="md-datepicker-button md-icon-button md-button md-ink-ripple" type="button" ng-transclude="" tabindex="-1" aria-hidden="true" ng-click="ctrl.openCalendarPane($event)"><md-icon class="md-datepicker-calendar-icon ng-scope" aria-label="md-calendar" md-svg-src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkgM2gtMVYxaC0ydjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTZINVY4aDE0djExek03IDEwaDV2NUg3eiIvPjwvc3ZnPg==" role="img"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"></path></svg></md-icon></button><div class="md-datepicker-input-container" ng-class="{'md-datepicker-focused': ctrl.isFocused}"><input aria-label="Enter Date" class="md-datepicker-input md-input" aria-haspopup="dialog" ng-focus="ctrl.setFocused(true)" ng-blur="ctrl.setFocused(false)" id="input_12" size="3" placeholder="Enter Date"> <button class="md-datepicker-triangle-button md-icon-button md-button" type="button" ng-transclude="" md-no-ink="" ng-click="ctrl.openCalendarPane($event)" aria-label="Open calendar"><div class="md-datepicker-expand-triangle ng-scope"></div></button></div><div class="md-datepicker-calendar-pane md-whiteframe-z1" id="md-date-pane-11"><div class="md-datepicker-input-mask"><div class="md-datepicker-input-mask-opaque"></div></div><div class="md-datepicker-calendar"><!-- ngIf: ctrl.isCalendarOpen --></div></div></md-datepicker><div><div class="md-errors-spacer"></div></div></div>
-
-				   <!--<datepicker date-format="yyyy-MM-dd"   selector="form-control"  date-max-limit="{{dateformate}}" button-prev-title="previous month" button-next-title="next month">
-				   <div class="input-group" layout="row" style="margin-top: 75px;">
-				  
-				 <label style="color:white;font-size:x-large;font-weight: bolder;left: -4px;"> Date: </label>
-	<input style="width: 158px; text-transform: capitalize; margin-left: 50px; margin-top: -35px; font-style: normal;  background-color: rgb(255, 255, 255);
-	    color: rgb(0, 0, 0);" ng-model="start_date" class="form-control" placeholder="Choose date" id="sdate" ng-change="gettime(start_date)" readOnly="true"/> 
-	                   </div>
-				   </datepicker> -->
-	           </md-input-container>
-	           
-			    <!-- ngIf: timeshow -->
-						         		
-			</md-content>  
-			
-		                   </div><!-- end ngIf: layers.values_.title == 'Alert Centroid' -->
-		                   
-	                   
-	            		</span>
-	            			
-	            			
-	        			</div><!-- end ngIf: layers.values_.extraparams.sidepanelEntry -->
-	        		</div><!-- end ngRepeat: layers in layergrps.getLayers().array_ --> 
-	        	
-	    		</div><!-- end ngIf: layergrps.values_.extraparams.sidepanelEntry --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.extraparams.sidepanelEntry --><div ng-if="layergrps.values_.extraparams.sidepanelEntry" ng-repeat="layergrps in map.getLayers().array_ | orderBy:layergrps:true" class="first_side_menu_div ng-scope" style=""><!-- | orderBy:propertyName:reverse -->
-	    			<div class="layer-display ng-scope ng-binding">
 	        			<!-- ngIf: layergrps.values_.extraparams.checkbox --><md-checkbox ng-if="layergrps.values_.extraparams.checkbox" ng-model="layergrps.values_.visible" flex="80" ng-click="layergrps.changed();removeLayer();layerchange();" class="layer-title-checkbox md-auto-horizontal-margin ng-pristine ng-untouched ng-valid ng-scope ng-not-empty md-checked flex-80" aria-label="Base Layers" tabindex="0" type="checkbox" role="checkbox" aria-checked="true" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label"></div></md-checkbox><!-- end ngIf: layergrps.values_.extraparams.checkbox --><!-- ng-change=layergrps.setVisible(layergrps.values_.visible); Can Be Used-->
 	        			Base Layers	        		
 	        				
@@ -1041,7 +946,7 @@
 	<div id="legends" class="legends scrollbarX">
 		<table>
 			<tbody><tr>
-				<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title =='HEM NOWCAST Layers' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title =='HEM NOWCAST Layers' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title =='HEM NOWCAST Layers' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title =='HEM NOWCAST Layers' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true -->
+				<!-- ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title =='HEM NOWCAST Layers' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title =='HEM NOWCAST Layers' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true --><!-- ngIf: layergrps.values_.title =='HEM NOWCAST Layers' --><!-- end ngRepeat: layergrps in map.getLayers().array_ | orderBy:layergrps:true -->
 			</tr>
 		</tbody></table>
 	</div>

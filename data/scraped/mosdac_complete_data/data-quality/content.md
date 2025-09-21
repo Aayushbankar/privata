@@ -1,7 +1,7 @@
 # Data Quality | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/data-quality?sort=desc&order=Display%20name
-**Extracted:** 2025-09-15T15:49:22.508168
+**Extracted:** 2025-09-21T12:05:31.072621
 **Quality Score:** 0.600
 
 [Skip to main Content](https://mosdac.gov.in/data-quality?sort=desc&order=Display%20name#main-content "Skip to main Content")
@@ -83,9 +83,9 @@ Space Applications Centre, ISRO
 ---|---|---  
 | [Display name![sort ascending](https://mosdac.gov.in/misc/arrow-asc.png)](https://mosdac.gov.in/data-quality?sort=asc&order=Display%20name "sort by Display name") | [modified](https://mosdac.gov.in/data-quality?sort=asc&order=modified "sort by modified")  
 ---|---|---  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [INSAT-3D](https://mosdac.gov.in/node/483/229?sort=desc&order=Display%2Bname) | Mon, 2017-03-27 11:18  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [INSAT-3DR](https://mosdac.gov.in/node/483/230?sort=desc&order=Display%2Bname) | Mon, 2017-03-27 11:18  
-![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [SCATSAT1](https://mosdac.gov.in/node/483/231?sort=desc&order=Display%2Bname) | Thu, 2017-04-06 15:31  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [INSAT-3D](https://mosdac.gov.in/node/483/17?sort=desc&order=Display%2Bname) | Mon, 2017-03-27 11:18  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [INSAT-3DR](https://mosdac.gov.in/node/483/18?sort=desc&order=Display%2Bname) | Mon, 2017-03-27 11:18  
+![alt text](https://mosdac.gov.in/sites/all/modules/filebrowser/icons/folder.png) | [SCATSAT1](https://mosdac.gov.in/node/483/19?sort=desc&order=Display%2Bname) | Thu, 2017-04-06 15:31  
 3 folders
 ## Search
 Search 
@@ -119,7 +119,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 21 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/data-quality?sort=desc&order=Display%20name "Previous")[](https://mosdac.gov.in/data-quality?sort=desc&order=Display%20name "Next")
 [](https://mosdac.gov.in/data-quality?sort=desc&order=Display%20name)
 [](https://mosdac.gov.in/data-quality?sort=desc&order=Display%20name "Previous")[](https://mosdac.gov.in/data-quality?sort=desc&order=Display%20name "Next")

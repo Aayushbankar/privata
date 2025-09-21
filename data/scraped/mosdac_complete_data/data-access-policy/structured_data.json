@@ -1,8 +1,8 @@
 {
-  "url": "https://mosdac.gov.in/data-access-policy",
+  "url": "http://mosdac.gov.in/data-access-policy",
   "title": "Data Access Policy | Meteorological & Oceanographic Satellite Data Archival Centre",
   "metadata": {
-    "url": "https://mosdac.gov.in/data-access-policy",
+    "url": "http://mosdac.gov.in/data-access-policy",
     "domain": "mosdac.gov.in",
     "path": "/data-access-policy",
     "description": "Access ProfileDatasetsLatencyRegistered General UsersAccess to limitedLatency of 3 daysRegistered Privileged UsersAccess to all dataNRT AccessAnonymous UsersAccess to metadata/image and Open DataNRT AccessData access will be provided as per above policies (all that applies).Data Access Guidelines (Bilingual; Size:415KB Format:PDF Tool:PDFViewer) /(English; Size:323KB",
@@ -96,7 +96,7 @@
     }
   ],
   "quality_score": 0.65,
-  "extracted_at": "2025-09-15T15:49:47.736259",
+  "extracted_at": "2025-09-21T12:02:58.772623",
   "content_length": 8278,
   "rag_optimized": true
 }

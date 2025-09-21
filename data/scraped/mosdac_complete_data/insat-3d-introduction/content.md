@@ -1,7 +1,7 @@
 # INSAT-3D Introduction | Meteorological & Oceanographic Satellite Data Archival Centre
 
 **URL:** https://mosdac.gov.in/insat-3d-introduction
-**Extracted:** 2025-09-15T15:47:29.145875
+**Extracted:** 2025-09-21T12:00:24.227871
 **Quality Score:** 0.600
 
 [Skip to main Content](https://mosdac.gov.in/insat-3d-introduction#main-content "Skip to main Content")
@@ -130,7 +130,7 @@ Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space 
   * [![DataPortal](https://mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB)](http://data.gov.in)
 
 
-"Ver 3.0; Last reviewed and updated on 15 Sep, 2025& Served By: Web-Srv-Pri
+"Ver 3.0; Last reviewed and updated on 21 Sep, 2025& Served By: Web-Srv-Pri
 [](https://mosdac.gov.in/insat-3d-introduction "Previous")[](https://mosdac.gov.in/insat-3d-introduction "Next")
 [](https://mosdac.gov.in/insat-3d-introduction)
 [](https://mosdac.gov.in/insat-3d-introduction "Previous")[](https://mosdac.gov.in/insat-3d-introduction "Next")
