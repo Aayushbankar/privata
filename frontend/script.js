@@ -472,10 +472,33 @@ class LEOChatBot {
             `;
         }
 
+        // Build sources/links section for bot messages
+        let sourcesHTML = '';
+        if (type === 'bot' && sources && sources.length > 0) {
+            const validSources = sources.filter(s => s.url && s.url.startsWith('http') && s.title);
+            if (validSources.length > 0) {
+                sourcesHTML = `
+                    <div class="message-sources">
+                        <h4>📚 Useful Links:</h4>
+                        <ul>
+                            ${validSources.map(source => `
+                                <li>
+                                    <a href="${source.url}" target="_blank" rel="noopener noreferrer">
+                                        📄 ${source.title}
+                                    </a>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+        }
+
         messageDiv.innerHTML = `
             ${avatarHTML}
             <div class="message-content">
                 <p>${this.escapeHtml(content)}</p>
+                ${sourcesHTML}
                 <span class="timestamp">Time: ${timestamp}</span>
             </div>
         `;

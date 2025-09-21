@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MOSDAC AI Help Bot - Main Entry Point
+MOSDAC AI Help Bot - Main Entry Point ---CLI-VERSION
 =====================================
 
 This is the main entry point for the MOSDAC AI Help Bot.

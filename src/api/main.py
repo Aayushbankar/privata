@@ -49,7 +49,17 @@ app = FastAPI(
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, restrict to specific origins
+    allow_origins=[
+        "*",  # Allow all origins for development
+        "http://localhost:3000",
+        "http://localhost:8000",
+        "http://127.0.0.1:3000",
+        "http://127.0.0.1:8000",
+        "file://",  # Allow file:// protocol for development
+        "http://0.0.0.0:3000",  # Allow requests from 0.0.0.0
+        "http://localhost:8001",  # Allow additional ports
+        "http://127.0.0.1:8001",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
