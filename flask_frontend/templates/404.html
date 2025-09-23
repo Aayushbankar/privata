@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}Page Not Found - MOSDAC AI Help Bot{% endblock %}
+
+{% block body_class %}error-page{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/error.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="error-container">
+    <div class="error-content">
+        <div class="error-animation">
+            <div class="satellite-lost">
+                <i class="fas fa-satellite"></i>
+            </div>
+            <div class="signal-waves">
+                <div class="wave wave-1"></div>
+                <div class="wave wave-2"></div>
+                <div class="wave wave-3"></div>
+            </div>
+        </div>
+        
+        <div class="error-text">
+            <h1 class="error-code">404</h1>
+            <h2 class="error-title">Signal Lost</h2>
+            <p class="error-description">
+                The page you're looking for seems to have drifted out of orbit. 
+                Our satellites are working to reestablish the connection.
+            </p>
+        </div>
+        
+        <div class="error-actions">
+            <a href="{{ url_for('index') }}" class="btn btn-primary">
+                <i class="fas fa-home"></i>
+                Return to Mission Control
+            </a>
+            <button class="btn btn-secondary" onclick="history.back()">
+                <i class="fas fa-arrow-left"></i>
+                Go Back
+            </button>
+            <button class="btn btn-secondary" id="reportIssue">
+                <i class="fas fa-bug"></i>
+                Report Issue
+            </button>
+        </div>
+        
+        <div class="error-suggestions">
+            <h3>Try these alternatives:</h3>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Start a conversation with LEO Assistant</a></li>
+                <li><a href="{{ url_for('analytics') }}">View system analytics</a></li>
+                <li><a href="https://www.mosdac.gov.in" target="_blank">Visit MOSDAC Portal</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById('reportIssue').addEventListener('click', function() {
+    // Open feedback modal or redirect to support
+    window.open('mailto:support@mosdac.gov.in?subject=404 Error Report&body=Page not found: ' + encodeURIComponent(window.location.href), '_blank');
+});
+</script>
+{% endblock %}

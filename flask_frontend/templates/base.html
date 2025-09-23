@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MOSDAC AI Help Bot - Your intelligent assistant for satellite data and space technology information">
+    <meta name="keywords" content="MOSDAC, satellite data, space technology, AI assistant, ISRO">
+    <meta name="author" content="ISRO - Space Applications Centre">
+    
+    <title>{% block title %}MOSDAC AI Help Bot{% endblock %}</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+    
+    {% block extra_css %}{% endblock %}
+    
+    <!-- Meta tags for social sharing -->
+    <meta property="og:title" content="MOSDAC AI Help Bot">
+    <meta property="og:description" content="Your intelligent assistant for satellite data and space technology information">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.url }}">
+    <meta property="og:image" content="{{ url_for('static', filename='images/og-image.jpg', _external=True) }}">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MOSDAC AI Help Bot">
+    <meta name="twitter:description" content="Your intelligent assistant for satellite data and space technology information">
+    <meta name="twitter:image" content="{{ url_for('static', filename='images/og-image.jpg', _external=True) }}">
+</head>
+<body class="{% block body_class %}{% endblock %}">
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <i class="fas fa-satellite"></i>
+            </div>
+            <div class="loading-text">
+                <h3>MOSDAC AI Help Bot</h3>
+                <p>Initializing your space data assistant...</p>
+            </div>
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="{{ url_for('index') }}" class="brand-link">
+                    <div class="brand-icon">
+                        <i class="fas fa-satellite"></i>
+                    </div>
+                    <div class="brand-text">
+                        <span class="brand-name">MOSDAC</span>
+                        <span class="brand-subtitle">AI Help Bot</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="{{ url_for('index') }}" class="nav-link {% if request.endpoint == 'index' %}active{% endif %}">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="{{ url_for('analytics') }}" class="nav-link {% if request.endpoint == 'analytics' %}active{% endif %}">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Analytics</span>
+                </a>
+                <a href="{{ url_for('admin') }}" class="nav-link {% if request.endpoint == 'admin' %}active{% endif %}">
+                    <i class="fas fa-cog"></i>
+                    <span>Admin</span>
+                </a>
+                <div class="nav-divider"></div>
+                <div class="nav-status" id="systemStatus">
+                    <div class="status-indicator" id="statusIndicator">
+                        <div class="status-dot"></div>
+                        <span class="status-text">Checking...</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Confirmation Modal -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="confirmTitle">Confirm Action</h3>
+                <button class="modal-close" id="confirmClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="confirmMessage">Are you sure you want to proceed?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="confirmCancel">Cancel</button>
+                <button class="btn btn-primary" id="confirmOk">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Error Boundary -->
+    <div id="errorBoundary" class="error-boundary hidden">
+        <div class="error-content">
+            <div class="error-icon">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <h3>Something went wrong</h3>
+            <p id="errorMessage">An unexpected error occurred. Please refresh the page and try again.</p>
+            <div class="error-actions">
+                <button class="btn btn-primary" onclick="location.reload()">
+                    <i class="fas fa-refresh"></i>
+                    Refresh Page
+                </button>
+                <button class="btn btn-secondary" id="dismissError">
+                    <i class="fas fa-times"></i>
+                    Dismiss
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>MOSDAC AI Help Bot</h4>
+                <p>Your intelligent assistant for satellite data and space technology information from ISRO's Space Applications Centre.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="https://www.mosdac.gov.in" target="_blank">MOSDAC Portal</a></li>
+                    <li><a href="https://www.isro.gov.in" target="_blank">ISRO</a></li>
+                    <li><a href="https://www.sac.gov.in" target="_blank">Space Applications Centre</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#" onclick="showHelp()">Help & FAQ</a></li>
+                    <li><a href="#" onclick="showFeedback()">Feedback</a></li>
+                    <li><a href="#" onclick="showContact()">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>System Status</h4>
+                <div class="system-status-footer">
+                    <div class="status-item">
+                        <span class="status-label">API:</span>
+                        <span class="status-value" id="apiStatus">Checking...</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Cache:</span>
+                        <span class="status-value" id="cacheStatus">Checking...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Indian Space Research Organisation (ISRO). All rights reserved.</p>
+            <p>Developed for SSIP 2025 - Problem Statement PS000007</p>
+        </div>
+    </footer>
+
+    <!-- Core JavaScript -->
+    <script src="{{ url_for('static', filename='js/utils.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/api-client.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/components.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    
+    {% block extra_js %}{% endblock %}
+
+    <!-- Initialize Application -->
+    <script>
+        // Global configuration
+        window.MOSDAC_CONFIG = {
+            API_BASE_URL: '{{ url_for("index", _external=True) }}api',
+            SESSION_ID: '{{ session.get("session_id", "") }}',
+            CSRF_TOKEN: '{{ csrf_token() if csrf_token else "" }}',
+            DEBUG: {{ 'true' if config.DEBUG else 'false' }},
+            LANGUAGES: {
+                'en': '🇺🇸 English',
+                'hi': '🇮🇳 हिंदी',
+                'ta': '🇮🇳 தமிழ்',
+                'te': '🇮🇳 తెలుగు',
+                'bn': '🇮🇳 বাংলা',
+                'mr': '🇮🇳 मराठी',
+                'gu': '🇮🇳 ગુજરાતી',
+                'kn': '🇮🇳 ಕನ್ನಡ',
+                'ml': '🇮🇳 മലയാളം',
+                'pa': '🇮🇳 ਪੰਜਾਬੀ'
+            }
+        };
+
+        // Initialize application when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize main application
+            if (typeof MOSDACApp !== 'undefined') {
+                window.app = new MOSDACApp();
+                window.app.init();
+            }
+
+            // Hide loading screen
+            setTimeout(() => {
+                const loadingScreen = document.getElementById('loadingScreen');
+                if (loadingScreen) {
+                    loadingScreen.classList.add('fade-out');
+                    setTimeout(() => {
+                        loadingScreen.style.display = 'none';
+                    }, 500);
+                }
+            }, 1000);
+        });
+
+        // Global error handler
+        window.addEventListener('error', function(event) {
+            console.error('Global error:', event.error);
+            if (window.app && window.app.handleError) {
+                window.app.handleError(event.error);
+            }
+        });
+
+        // Unhandled promise rejection handler
+        window.addEventListener('unhandledrejection', function(event) {
+            console.error('Unhandled promise rejection:', event.reason);
+            if (window.app && window.app.handleError) {
+                window.app.handleError(event.reason);
+            }
+        });
+    </script>
+</body>
+</html>
