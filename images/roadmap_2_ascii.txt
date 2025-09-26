@@ -1,0 +1,93 @@
++-----------------------------------------------------------------------------------------+
+|                                   CHAT FLOW (RAG + LLM)                                 |
+|                               MOSDAC AI HELP BOT (PS000007)                              |
++-----------------------------------------------------------------------------------------+
+
+User (any language)
+    |
+    | 1) Types query in Frontend (HTML/JS)
+    v
++-------------------------------------------+
+| Frontend                                  |
+| - Maintains session_id                    |
+| - Selected language (dropdown)            |
+| - Sends JSON to /api/v1/chat              |
++---------------------------+---------------+
+                            |
+                            | 2) POST /api/v1/chat {query, session_id, language}
+                            v
++--------------------------------------------------------------+
+| FastAPI Backend (Chat Route)                                 |
+| - Validate input (Pydantic)                                  |
+| - Start timer, attach metadata                               |
+| - Forward to Chat Service (RAG pipeline)                     |
++----------------------------+---------------------------------+
+                             |
+                             | 3) Retrieval Stage
+                             v
++--------------------------------------------------------------+
+| Retriever (Vector DB: ChromaDB)                              |
+| - Embed query (Sentence-Transformers all-MiniLM-L6-v2)       |
+| - Similarity search (top_k*N)                                |
+| - Return candidate chunks + scores                           |
++----------------------------+---------------------------------+
+                             |
+                             | 4) Reranking/Scoring
+                             v
++--------------------------------------------------------------+
+| Reranker / Score Clamping                                    |
+| - Optional cross-encoder rerank (as per config)              |
+| - Clamp scores to [0..1]                                     |
+| - Deduplicate, select final top_k                            |
++----------------------------+---------------------------------+
+                             |
+                             | 5) Context Assembly
+                             v
++--------------------------------------------------------------+
+| Context Builder                                              |
+| - Truncate chunks (max length)                               |
+| - Attach metadata (source file/URL)                          |
+| - Build citations list                                       |
++----------------------------+---------------------------------+
+                             |
+                             | 6) Prompting with Language Enforcement
+                             v
++--------------------------------------------------------------+
+| LLM Layer                                                    |
+| - Providers: Gemini API / Ollama local                       |
+| - Prompt includes:                                           |
+|     * Context (top chunks with citations)                    |
+|     * Strict language instruction (selected language)        |
+|     * Answer rules (factual, cite sources, plain text)       |
+| - Generate response in enforced language                     |
++----------------------------+---------------------------------+
+                             |
+                             | 7) Response Packaging
+                             v
++--------------------------------------------------------------+
+| FastAPI Backend (Chat Route)                                 |
+| - Attach sources, timings, session metadata                  |
+| - Return JSON {response, sources, metadata}                  |
++----------------------------+---------------------------------+
+                             |
+                             | 8) Render in Frontend
+                             v
++--------------------------------------------------------------+
+| Frontend                                                     |
+| - Display answer (chosen language)                           |
+| - Show citations/sources                                     |
+| - Show feedback controls (stars + comment)                   |
++----------------------------+---------------------------------+
+                             |
+                             | 9) Optional Feedback Submission
+                             v
++--------------------------------------------------------------+
+| Feedback API (/api/v1/feedback/submit)                       |
+| - Store in SQLite (data/feedback.db)                         |
+| - Aggregated analytics (rating distribution, issues)         |
++--------------------------------------------------------------+
+
+Operational Notes:
+- Health: /health, /api/v1/status
+- Admin: /api/v1/admin/config (scheduler, limits)
+- Auto-Scrape/Ingest: every 48h updates the Vector DB

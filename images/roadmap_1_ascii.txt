@@ -1,0 +1,89 @@
++-----------------------------------------------------------------------------------------+
+|                                     SYSTEM OVERVIEW                                     |
+|                               MOSDAC AI HELP BOT (PS000007)                              |
++-----------------------------------------------------------------------------------------+
+
+              ┌────────────────────────┐                      ┌────────────────────────┐
+              │        Users           │                      │      Admin/Operators   │
+              │  (Citizens, Agencies)  │                      │ (Monitoring & Control) │
+              └──────────┬─────────────┘                      └──────────┬─────────────┘
+                         │                                               │
+                         │ HTTP(S)                                       │ HTTP(S)
+                         │                                               │
+                 ┌───────▼────────────────────────────────────────────────▼───────┐
+                 │                        Frontend (HTML/JS)                       │
+                 │  - Chat UI (messages, sources)                                  │
+                 │  - Language selector (10 Indian languages + English)            │
+                 │  - Feedback UI (stars + comments)                               │
+                 │  - Branding (ISRO/MOSDAC)                                       │
+                 └──────────┬──────────────────────────────────────────────────────┘
+                            │  REST API calls (JSON)
+                            │
+         ┌──────────────────▼───────────────────┐
+         │           FastAPI Backend            │
+         │          /api/v1 (Uvicorn)           │
+         │  - Chat Endpoints                    │
+         │  - Navigation Endpoints              │
+         │  - Data Jobs (scrape/ingest)         │
+         │  - Status/Health                     │
+         │  - Admin/Config                      │
+         │  Cross-cutting:                      │
+         │   • CORS • Rate Limit • Logging      │
+         │   • Error Handling • Monitoring      │
+         └─────┬───────────┬──────────┬────────┘
+               │           │          │
+               │           │          │
+               │           │          │
+   ┌───────────▼───┐  ┌────▼─────────▼─────┐            ┌───────────────────────────┐
+   │ Navigation     │  │   Chat (RAG+LLM)   │            │ Background Scheduler       │
+   │ Assistant      │  │ - Retrieval (VecDB)│            │ (APScheduler)             │
+   │ - Intent detect│  │ - Rerank + Cite    │            │ - Auto-scrape every 48h   │
+   │ - Site mapping │  │ - Language enforce │            │ - Auto-ingest after scrape│
+   │ - Step guidance│  │ - Session memory   │            │ - Health/metrics jobs      │
+   └──────┬─────────┘  └──────────┬─────────┘            └──────────┬────────────────┘
+          │                        │                                │
+          │                        │                                │ triggers
+          │                        │                          ┌─────▼─────────────────┐
+          │                        │                          │  Crawl4AI Scraper     │
+          │                        │                          │  - URL discovery      │
+          │                        │                          │  - Async fetch/retry  │
+          │                        │                          │  - Quality scoring    │
+          │                        │                          └─────────┬─────────────┘
+          │                        │                                    │ writes
+          │                        │                           ┌─────────▼───────────┐
+          │                        │                           │ Scraped Data Repo   │
+          │                        │                           │ data/scraped/...    │
+          │                        │                           └─────────┬───────────┘
+          │                        │                                     │
+          │                        │                           ┌─────────▼───────────┐
+          │                        │                           │ Ingestion Pipeline  │
+          │                        │                           │ - Semantic chunking │
+          │                        │                           │ - Embeddings (ST)   │
+          │                        │                           │ - Metadata enrich   │
+          │                        │                           └─────────┬───────────┘
+          │                        │                                     │ upserts
+          │                 ┌───────▼──────────┐                ┌────────▼────────────┐
+          │                 │  Vector Database  │                │ Feedback Database   │
+          │                 │   (ChromaDB)      │                │ SQLite data/feedback│
+          │                 │ - Similarity search│               │ - Ratings/comments  │
+          │                 │ - Metadata filter │                │ - Analytics         │
+          │                 └─────────┬─────────┘                └────────┬───────────┘
+          │                           │                                   │
+          │                  ┌────────▼────────┐                          │
+          │                  │ Embedding Model │                          │
+          │                  │ all-MiniLM-L6-v2│                          │
+          │                  └────────┬────────┘                          │
+          │                           │                                   │
+          │                  ┌────────▼────────────┐                       │
+          │                  │   LLM Providers     │                       │
+          │                  │ - Gemini (API)      │                       │
+          │                  │ - Ollama (local)    │                       │
+          │                  └─────────────────────┘                       │
+          │                                                                │
+          └────────────────────────────────────────────────────────────────┘
+
+Notes:
+- Health: /health, /api/v1/status
+- Admin/Config: /api/v1/admin/config
+- Jobs: /api/v1/data/scrape, /api/v1/data/ingest
+- Security: CORS, rate limiting, error handling, monitoring
